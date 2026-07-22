@@ -1,0 +1,452 @@
+[
+  {
+    "id": "st01",
+    "minWeek": 1,
+    "mission": "Greet your speaker in Georgian, introduce yourself with 'მე ვარ ...', and ask how they are. Report back how they answered.",
+    "phrases": [
+      { "ka": "გამარჯობა, როგორ ხართ?", "en": "Hello, how are you?" },
+      { "ka": "მე ვარ სალომე.", "en": "I am Salome." },
+      { "ka": "კარგად ვარ, გმადლობთ.", "en": "I am fine, thank you." }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ როგორ ხარ?", "en": "And how are you?" },
+      { "ka": "რა გქვია?", "en": "What is your name?" }
+    ],
+    "tags": ["present-be", "greetings"]
+  },
+  {
+    "id": "st02",
+    "minWeek": 1,
+    "mission": "Ask your speaker their name and where they are from, even if you already know — it is practice! Report back their answers in Georgian.",
+    "phrases": [
+      { "ka": "რა გქვიათ?", "en": "What is your name? (formal)" },
+      { "ka": "საიდან ხართ?", "en": "Where are you from?" },
+      { "ka": "სასიამოვნოა თქვენი გაცნობა.", "en": "Nice to meet you." }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ საიდან ხარ?", "en": "Where are you from?" },
+      { "ka": "სად ცხოვრობ?", "en": "Where do you live?" }
+    ],
+    "tags": ["questions", "introductions"]
+  },
+  {
+    "id": "st03",
+    "minWeek": 2,
+    "mission": "Ask whether your speaker has brothers or sisters and how many. Report back using მყავს/ჰყავს forms.",
+    "phrases": [
+      { "ka": "ძმა ან და გყავთ?", "en": "Do you have a brother or a sister?" },
+      { "ka": "მე მყავს ერთი ძმა.", "en": "I have one brother." },
+      { "ka": "რამდენი შვილი გყავთ?", "en": "How many children do you have?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ გყავს და?", "en": "Do you have a sister?" },
+      { "ka": "რამდენი წლის არიან?", "en": "How old are they?" }
+    ],
+    "tags": ["have", "family"]
+  },
+  {
+    "id": "st04",
+    "minWeek": 2,
+    "mission": "Find out your speaker's favorite Georgian dish and tell them one food you love using მიყვარს. Report back what they said.",
+    "phrases": [
+      { "ka": "რა საჭმელი გიყვართ?", "en": "What food do you like?" },
+      { "ka": "მე მიყვარს ხინკალი.", "en": "I love khinkali." },
+      { "ka": "ხაჭაპური ძალიან გემრიელია.", "en": "Khachapuri is very tasty." }
+    ],
+    "theyMayAsk": [
+      { "ka": "ქართული საჭმელი გიყვარს?", "en": "Do you like Georgian food?" },
+      { "ka": "რა არ გიყვარს?", "en": "What don't you like?" }
+    ],
+    "tags": ["indirect-verbs", "food"]
+  },
+  {
+    "id": "st05",
+    "minWeek": 3,
+    "mission": "Ask about the size of your speaker's family and where everyone lives. Report back at least two facts you learned.",
+    "phrases": [
+      { "ka": "დიდი ოჯახი გყავთ?", "en": "Do you have a big family?" },
+      { "ka": "სად ცხოვრობს თქვენი ოჯახი?", "en": "Where does your family live?" },
+      { "ka": "ვინ არიან თქვენი ოჯახის წევრები?", "en": "Who are the members of your family?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენი ოჯახი დიდია?", "en": "Is your family big?" },
+      { "ka": "მშობლები სად ცხოვრობენ?", "en": "Where do your parents live?" }
+    ],
+    "tags": ["questions", "family"]
+  },
+  {
+    "id": "st06",
+    "minWeek": 3,
+    "mission": "Ask what your speaker loves doing in their free time and share one hobby of yours. Report back their favorite activity.",
+    "phrases": [
+      { "ka": "რისი კეთება გიყვართ?", "en": "What do you like doing?" },
+      { "ka": "მე მიყვარს კითხვა.", "en": "I love reading." },
+      { "ka": "მუსიკა გიყვართ?", "en": "Do you like music?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "რა მუსიკა გიყვარს?", "en": "What music do you like?" },
+      { "ka": "სპორტი გიყვარს?", "en": "Do you like sports?" }
+    ],
+    "tags": ["masdar", "hobbies"]
+  },
+  {
+    "id": "st07",
+    "minWeek": 4,
+    "mission": "Tell your speaker you want to learn Georgian well and ask whether they think it is hard. Report back their encouragement (or warnings!).",
+    "phrases": [
+      { "ka": "მინდა ქართული კარგად ვისწავლო.", "en": "I want to learn Georgian well." },
+      { "ka": "ქართული ძნელია?", "en": "Is Georgian hard?" },
+      { "ka": "ცოტა ქართული ვიცი.", "en": "I know a little Georgian." }
+    ],
+    "theyMayAsk": [
+      { "ka": "რატომ სწავლობ ქართულს?", "en": "Why are you learning Georgian?" },
+      { "ka": "სხვა ენა იცი?", "en": "Do you know another language?" }
+    ],
+    "tags": ["want-know", "language-learning"]
+  },
+  {
+    "id": "st08",
+    "minWeek": 4,
+    "mission": "Point at three objects around you and ask 'ეს რა არის?' for each. Report back the three new words you collected.",
+    "phrases": [
+      { "ka": "ეს რა არის?", "en": "What is this?" },
+      { "ka": "ის რა არის?", "en": "What is that?" },
+      { "ka": "ქართულად როგორ იქნება?", "en": "How would it be in Georgian?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "ეს იცი რა არის?", "en": "Do you know what this is?" },
+      { "ka": "გაიგე?", "en": "Did you get it?" }
+    ],
+    "tags": ["deixis", "objects"]
+  },
+  {
+    "id": "st09",
+    "minWeek": 5,
+    "mission": "Ask where your speaker works and whether they like their job. Report back one detail about their work.",
+    "phrases": [
+      { "ka": "სად მუშაობთ?", "en": "Where do you work?" },
+      { "ka": "მე ვმუშაობ ოფისში.", "en": "I work in an office." },
+      { "ka": "მოგწონთ თქვენი სამსახური?", "en": "Do you like your job?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ სად მუშაობ?", "en": "Where do you work?" },
+      { "ka": "რას აკეთებ სამსახურში?", "en": "What do you do at work?" }
+    ],
+    "tags": ["present-conj", "work"]
+  },
+  {
+    "id": "st10",
+    "minWeek": 6,
+    "mission": "Ask about your speaker's morning routine — when they get up and what they drink. Report back their schedule.",
+    "phrases": [
+      { "ka": "როდის დგებით დილით?", "en": "When do you get up in the morning?" },
+      { "ka": "მე შვიდ საათზე ვდგები.", "en": "I get up at seven o'clock." },
+      { "ka": "ყავას სვამთ დილით?", "en": "Do you drink coffee in the morning?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ როდის დგები?", "en": "When do you get up?" },
+      { "ka": "ყავა გიყვარს თუ ჩაი?", "en": "Do you like coffee or tea?" }
+    ],
+    "tags": ["present-conj", "daily-routine"]
+  },
+  {
+    "id": "st11",
+    "minWeek": 7,
+    "mission": "Ask where your speaker buys bread and whether the shop is near their home. Report back using a postposition like -თან or ახლოს.",
+    "phrases": [
+      { "ka": "პურს სად ყიდულობთ?", "en": "Where do you buy bread?" },
+      { "ka": "სად არის უახლოესი მაღაზია?", "en": "Where is the nearest shop?" },
+      { "ka": "სახლთან ახლოს არის?", "en": "Is it near the house?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენთან ახლოს რა არის?", "en": "What is near your place?" },
+      { "ka": "ბაზარში დადიხარ?", "en": "Do you go to the market?" }
+    ],
+    "tags": ["postpositions", "places"]
+  },
+  {
+    "id": "st12",
+    "minWeek": 8,
+    "mission": "Ask your speaker to teach you one new word, and ask them to repeat it until you can say it. Report back the word and its meaning.",
+    "phrases": [
+      { "ka": "ერთი ახალი სიტყვა მასწავლეთ.", "en": "Teach me one new word." },
+      { "ka": "გამიმეორეთ, თუ შეიძლება.", "en": "Repeat it for me, please." },
+      { "ka": "ეს სიტყვა რას ნიშნავს?", "en": "What does this word mean?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "ეს სიტყვა იცი?", "en": "Do you know this word?" },
+      { "ka": "გაიმეორებ?", "en": "Will you repeat it?" }
+    ],
+    "tags": ["object-markers", "vocabulary"]
+  },
+  {
+    "id": "st13",
+    "minWeek": 9,
+    "mission": "Ask the names of two of your speaker's family members using genitive forms. Report back with phrases like 'მისი დის სახელია ...'.",
+    "phrases": [
+      { "ka": "თქვენს დედას რა ჰქვია?", "en": "What is your mother's name?" },
+      { "ka": "ჩემი მეუღლის სახელია ...", "en": "My spouse's name is ..." },
+      { "ka": "ეს ვისი ფოტოა?", "en": "Whose photo is this?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "დედაშენს რა ჰქვია?", "en": "What is your mother's name?" },
+      { "ka": "ეს ჩემი შვილიშვილია, ხომ ლამაზია?", "en": "This is my grandchild, isn't he/she pretty?" }
+    ],
+    "tags": ["genitive", "family"]
+  },
+  {
+    "id": "st14",
+    "minWeek": 10,
+    "mission": "Ask your speaker how their day is going and whether they are tired. Report back one thing happening in their day.",
+    "phrases": [
+      { "ka": "როგორ მიდის დღე?", "en": "How is the day going?" },
+      { "ka": "დღეს რას აკეთებთ?", "en": "What are you doing today?" },
+      { "ka": "დაღლილი ხართ?", "en": "Are you tired?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენი დღე როგორ იყო?", "en": "How was your day?" },
+      { "ka": "რას აკეთებ ახლა?", "en": "What are you doing now?" }
+    ],
+    "tags": ["questions", "daily-life"]
+  },
+  {
+    "id": "st15",
+    "minWeek": 11,
+    "mission": "Ask what your speaker will do this weekend and share one plan of yours in the future tense. Report back their plans.",
+    "phrases": [
+      { "ka": "შაბათ-კვირას რას გააკეთებთ?", "en": "What will you do on the weekend?" },
+      { "ka": "მე ვაპირებ სეირნობას.", "en": "I am planning to go for a walk." },
+      { "ka": "სად წახვალთ ზაფხულში?", "en": "Where will you go in the summer?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ რას აპირებ?", "en": "What are you planning?" },
+      { "ka": "ჩვენთან მოხვალ?", "en": "Will you come to our place?" }
+    ],
+    "tags": ["future", "plans"]
+  },
+  {
+    "id": "st16",
+    "minWeek": 12,
+    "mission": "Invite your speaker for coffee or a walk next week and agree on a time. Report back when you will meet.",
+    "phrases": [
+      { "ka": "მომავალ კვირას ყავაზე წამოხვალთ?", "en": "Will you come for coffee next week?" },
+      { "ka": "როდის გექნებათ დრო?", "en": "When will you have time?" },
+      { "ka": "მე მოვამზადებ ვახშამს.", "en": "I will prepare dinner." }
+    ],
+    "theyMayAsk": [
+      { "ka": "რომელ საათზე?", "en": "At what time?" },
+      { "ka": "რა მოვიტანო?", "en": "What should I bring?" }
+    ],
+    "tags": ["future", "invitations"]
+  },
+  {
+    "id": "st17",
+    "minWeek": 13,
+    "mission": "Ask your speaker whom in the family you should address as შენ and whom as თქვენ. Report back the rules they gave you.",
+    "phrases": [
+      { "ka": "როგორ მოგმართოთ — „შენ“ თუ „თქვენ“?", "en": "How should I address you — shen or tkven?" },
+      { "ka": "ბებიას „თქვენ“ უნდა ვუთხრა?", "en": "Should I say tkven to grandma?" },
+      { "ka": "უცნობებს ყოველთვის „თქვენ“ ვეუბნები.", "en": "I always say tkven to strangers." }
+    ],
+    "theyMayAsk": [
+      { "ka": "ჩვენ შეგვიძლია „შენ“-ზე გადავიდეთ?", "en": "Can we switch to shen?" },
+      { "ka": "ინგლისურში ეს განსხვავება არის?", "en": "Does this distinction exist in English?" }
+    ],
+    "tags": ["register", "politeness"]
+  },
+  {
+    "id": "st18",
+    "minWeek": 14,
+    "mission": "Ask what your speaker ate yesterday. Report back in the third person with 'მან ჭამა ...'.",
+    "phrases": [
+      { "ka": "გუშინ რა ჭამეთ?", "en": "What did you eat yesterday?" },
+      { "ka": "მე ვჭამე ხინკალი.", "en": "I ate khinkali." },
+      { "ka": "გემრიელი იყო?", "en": "Was it tasty?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ რა ჭამე?", "en": "What did you eat?" },
+      { "ka": "ვინ მოამზადა?", "en": "Who cooked it?" }
+    ],
+    "tags": ["aorist", "food"]
+  },
+  {
+    "id": "st19",
+    "minWeek": 15,
+    "mission": "Ask what your speaker did last weekend and where they went. Report back two things using the aorist.",
+    "phrases": [
+      { "ka": "შაბათ-კვირას რა გააკეთეთ?", "en": "What did you do on the weekend?" },
+      { "ka": "სად წახვედით?", "en": "Where did you go?" },
+      { "ka": "მე სახლში დავრჩი.", "en": "I stayed home." }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ რა გააკეთე?", "en": "What did you do?" },
+      { "ka": "კარგად დაისვენე?", "en": "Did you rest well?" }
+    ],
+    "tags": ["aorist", "weekend"]
+  },
+  {
+    "id": "st20",
+    "minWeek": 16,
+    "mission": "Ask where your speaker was born and when they came to their current city. Report back a mini biography in two sentences.",
+    "phrases": [
+      { "ka": "სად დაიბადეთ?", "en": "Where were you born?" },
+      { "ka": "როდის გადმოხვედით თბილისში?", "en": "When did you move to Tbilisi?" },
+      { "ka": "ბავშვობაში სად ცხოვრობდით?", "en": "Where did you live in your childhood?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ სად გაიზარდე?", "en": "Where did you grow up?" },
+      { "ka": "შენი ქალაქი მოგწონს?", "en": "Do you like your city?" }
+    ],
+    "tags": ["aorist", "biography"]
+  },
+  {
+    "id": "st21",
+    "minWeek": 17,
+    "mission": "Ask your speaker how a favorite dish is made and what is needed for it. Report back at least two steps of the recipe.",
+    "phrases": [
+      { "ka": "როგორ მზადდება ხაჭაპური?", "en": "How is khachapuri made?" },
+      { "ka": "რა არის საჭირო ამისთვის?", "en": "What is needed for it?" },
+      { "ka": "მასწავლით მომზადებას?", "en": "Will you teach me how to make it?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ რას ამზადებ ხოლმე?", "en": "What do you usually cook?" },
+      { "ka": "გინდა ერთად მოვამზადოთ?", "en": "Do you want us to cook it together?" }
+    ],
+    "tags": ["masdar", "cooking"]
+  },
+  {
+    "id": "st22",
+    "minWeek": 18,
+    "mission": "Ask your speaker what you should see in Georgia and where you should go first. Report back their top recommendation.",
+    "phrases": [
+      { "ka": "რა უნდა ვნახო საქართველოში?", "en": "What should I see in Georgia?" },
+      { "ka": "სად უნდა წავიდე პირველად?", "en": "Where should I go first?" },
+      { "ka": "ღირს კახეთში წასვლა?", "en": "Is it worth going to Kakheti?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "მთები გიყვარს თუ ზღვა?", "en": "Do you like the mountains or the sea?" },
+      { "ka": "რამდენი დღე გაქვს?", "en": "How many days do you have?" }
+    ],
+    "tags": ["should", "travel"]
+  },
+  {
+    "id": "st23",
+    "minWeek": 19,
+    "mission": "Call your speaker on the phone (or simulate a call) and manage the greeting, one question, and the goodbye entirely in Georgian. Report back how long you lasted.",
+    "phrases": [
+      { "ka": "ალო, გამარჯობა, ხომ არ გაწუხებთ?", "en": "Hello, am I disturbing you?" },
+      { "ka": "მოგვიანებით დაგირეკავთ.", "en": "I will call you back later." },
+      { "ka": "უკაცრავად, ხმა კარგად არ ისმის.", "en": "Sorry, the sound is not coming through well." }
+    ],
+    "theyMayAsk": [
+      { "ka": "ვინ ბრძანდებით?", "en": "Who is speaking? (formal)" },
+      { "ka": "უფრო ხმამაღლა შეიძლება?", "en": "Can you speak a bit louder?" }
+    ],
+    "tags": ["object-markers", "phone"]
+  },
+  {
+    "id": "st24",
+    "minWeek": 20,
+    "mission": "Ask what your speaker would do if they won a million. Share what you would do using the conditional. Report back their answer.",
+    "phrases": [
+      { "ka": "მილიონი რომ მოიგოთ, რას იზამდით?", "en": "If you won a million, what would you do?" },
+      { "ka": "მე ვიმოგზაურებდი მთელ მსოფლიოში.", "en": "I would travel the whole world." },
+      { "ka": "სხვა ქვეყანაში იცხოვრებდით?", "en": "Would you live in another country?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ რას იზამდი?", "en": "What would you do?" },
+      { "ka": "სად წახვიდოდი?", "en": "Where would you go?" }
+    ],
+    "tags": ["conditional", "hypotheticals"]
+  },
+  {
+    "id": "st25",
+    "minWeek": 21,
+    "mission": "Ask whether your speaker has ever been abroad and where. Report back with perfect forms like 'ის ყოფილა ...'.",
+    "phrases": [
+      { "ka": "ოდესმე ყოფილხართ საზღვარგარეთ?", "en": "Have you ever been abroad?" },
+      { "ka": "მე ვყოფილვარ ესპანეთში.", "en": "I have been to Spain." },
+      { "ka": "რა გინახავთ იქ?", "en": "What have you seen there?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ სად ყოფილხარ?", "en": "Where have you been?" },
+      { "ka": "საქართველოში რა გინახავს?", "en": "What have you seen in Georgia?" }
+    ],
+    "tags": ["perfect", "travel"]
+  },
+  {
+    "id": "st26",
+    "minWeek": 22,
+    "mission": "Ask how your speaker is feeling and what makes them happiest. Report back using indirect verbs like უხარია.",
+    "phrases": [
+      { "ka": "როგორ გრძნობთ თავს?", "en": "How are you feeling?" },
+      { "ka": "რა გახარებთ ყველაზე მეტად?", "en": "What makes you happiest?" },
+      { "ka": "მე მიხარია, როცა ოჯახს ვხედავ.", "en": "I am happy when I see family." }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ რა გახარებს?", "en": "What makes you happy?" },
+      { "ka": "რამე ხომ არ გაწუხებს?", "en": "Is anything bothering you?" }
+    ],
+    "tags": ["indirect-verbs", "feelings"]
+  },
+  {
+    "id": "st27",
+    "minWeek": 23,
+    "mission": "Ask your speaker's opinion: is life better in the city or in the village, and why. Report back their argument in one sentence.",
+    "phrases": [
+      { "ka": "თქვენი აზრით, სად ჯობია ცხოვრება — ქალაქში თუ სოფელში?", "en": "In your opinion, where is life better — in the city or in the village?" },
+      { "ka": "მე ვფიქრობ, რომ ...", "en": "I think that ..." },
+      { "ka": "რატომ ფიქრობთ ასე?", "en": "Why do you think so?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "შენ როგორ ფიქრობ?", "en": "What do you think?" },
+      { "ka": "შენს ქვეყანაში როგორ არის?", "en": "How is it in your country?" }
+    ],
+    "tags": ["questions", "opinions"]
+  },
+  {
+    "id": "st28",
+    "minWeek": 24,
+    "mission": "Ask whether your speaker has ever tried a dish from your country and offer to make it. Report back their answer with perfect forms.",
+    "phrases": [
+      { "ka": "ოდესმე გაგისინჯავთ სუში?", "en": "Have you ever tried sushi?" },
+      { "ka": "მე ჯერ არ გამისინჯავს ჭაჭა.", "en": "I have not yet tried chacha." },
+      { "ka": "რომელი უფრო მოგწონთ?", "en": "Which do you like more?" }
+    ],
+    "theyMayAsk": [
+      { "ka": "ქართული ღვინო გაგისინჯავს?", "en": "Have you tried Georgian wine?" },
+      { "ka": "მოგეწონა?", "en": "Did you like it?" }
+    ],
+    "tags": ["perfect", "food"]
+  },
+  {
+    "id": "st29",
+    "minWeek": 25,
+    "mission": "Prepare a short toast and deliver it at the table (or over tea). Report back how the family reacted.",
+    "phrases": [
+      { "ka": "მინდა სადღეგრძელო ვთქვა.", "en": "I want to say a toast." },
+      { "ka": "გაუმარჯოს ამ ოჯახს!", "en": "To this family!" },
+      { "ka": "თქვენ გაგიმარჯოთ!", "en": "And here's to you! (reply to a toast)" }
+    ],
+    "theyMayAsk": [
+      { "ka": "სადღეგრძელოს ხომ იტყვი?", "en": "You will say a toast, won't you?" },
+      { "ka": "იცი, რა არის თამადა?", "en": "Do you know what a tamada is?" }
+    ],
+    "tags": ["register", "supra"]
+  },
+  {
+    "id": "st30",
+    "minWeek": 26,
+    "mission": "Ask what your speaker is most proud of, and thank them for their patience with your Georgian. Report back what they said — this is your graduation mission.",
+    "phrases": [
+      { "ka": "რით ამაყობთ ყველაზე მეტად?", "en": "What are you most proud of?" },
+      { "ka": "ბევრი რამ მისწავლია თქვენგან.", "en": "I have learned a lot from you." },
+      { "ka": "მადლობა მოთმინებისთვის.", "en": "Thank you for your patience." }
+    ],
+    "theyMayAsk": [
+      { "ka": "რა იყო ყველაზე ძნელი?", "en": "What was the hardest part?" },
+      { "ka": "გააგრძელებ სწავლას?", "en": "Will you continue learning?" }
+    ],
+    "tags": ["perfect", "reflection"]
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "id": "kv01",
+    "masdar": "ყოფნა",
+    "en": "to be",
+    "type": "stative",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვარ", "ხარ", "არის", "ვართ", "ხართ", "არიან"],
+      "future": ["ვიქნები", "იქნები", "იქნება", "ვიქნებით", "იქნებით", "იქნებიან"],
+      "aorist": ["ვიყავი", "იყავი", "იყო", "ვიყავით", "იყავით", "იყვნენ"],
+      "perfect": ["ვყოფილვარ", "ყოფილხარ", "ყოფილა", "ვყოფილვართ", "ყოფილხართ", "ყოფილან"]
+    },
+    "notes": "Irregular copula. 3sg present არის is often shortened to არი or the clitic -ა in speech (კარგია = კარგი არის).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv02",
+    "masdar": "ქონა",
+    "en": "to have (inanimate things)",
+    "type": "indirect",
+    "preverb": null,
+    "screeves": {
+      "present": ["მაქვს", "გაქვს", "აქვს", "გვაქვს", "გაქვთ", "აქვთ"],
+      "future": ["მექნება", "გექნება", "ექნება", "გვექნება", "გექნებათ", "ექნებათ"],
+      "aorist": ["მქონდა", "გქონდა", "ჰქონდა", "გვქონდა", "გქონდათ", "ჰქონდათ"],
+      "perfect": ["მქონია", "გქონია", "ჰქონია", "გვქონია", "გქონიათ", "ჰქონიათ"]
+    },
+    "notes": "Indirect verb: the possessor is marked by the m-/g-/0- prefixes (მე მაქვს, შენ გაქვს, მას აქვს...). Used only for inanimate possessions; the past row is the imperfect-type მქონდა, which is what Georgians actually use as the past tense.",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv03",
+    "masdar": "ყოლა",
+    "en": "to have (people, animals)",
+    "type": "indirect",
+    "preverb": null,
+    "screeves": {
+      "present": ["მყავს", "გყავს", "ჰყავს", "გვყავს", "გყავთ", "ჰყავთ"],
+      "future": ["მეყოლება", "გეყოლება", "ეყოლება", "გვეყოლება", "გეყოლებათ", "ეყოლებათ"],
+      "aorist": ["მყავდა", "გყავდა", "ჰყავდა", "გვყავდა", "გყავდათ", "ჰყავდათ"],
+      "perfect": ["მყოლია", "გყოლია", "ჰყოლია", "გვყოლია", "გყოლიათ", "ჰყოლიათ"]
+    },
+    "notes": "Indirect verb; persons shown are the possessor (მე მყავს, შენ გყავს...). Used for animate possessions (family, pets); the past row is the imperfect-type მყავდა, the normal spoken past.",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv04",
+    "masdar": "ნდომა",
+    "en": "to want",
+    "type": "indirect",
+    "preverb": "მო-",
+    "screeves": {
+      "present": ["მინდა", "გინდა", "უნდა", "გვინდა", "გინდათ", "უნდათ"],
+      "future": ["მომინდება", "მოგინდება", "მოუნდება", "მოგვინდება", "მოგინდებათ", "მოუნდებათ"],
+      "aorist": ["მინდოდა", "გინდოდა", "უნდოდა", "გვინდოდა", "გინდოდათ", "უნდოდათ"],
+      "perfect": null
+    },
+    "notes": "Indirect verb: persons are the wanter (მე მინდა, შენ გინდა, მას უნდა, ჩვენ გვინდა, თქვენ გინდათ, მათ უნდათ). Past row is the imperfect მინდოდა (the normal past 'wanted'); the future მომინდება means 'will come to want / will feel like'. The perfect is rare — colloquially say მინდოდა თურმე instead.",
+    "objNotes": null,
+    "verify": ["future"]
+  },
+  {
+    "id": "kv05",
+    "masdar": "ცოდნა",
+    "en": "to know (facts, languages)",
+    "type": "stative",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვიცი", "იცი", "იცის", "ვიცით", "იცით", "იციან"],
+      "future": ["მეცოდინება", "გეცოდინება", "ეცოდინება", "გვეცოდინება", "გეცოდინებათ", "ეცოდინებათ"],
+      "aorist": ["ვიცოდი", "იცოდი", "იცოდა", "ვიცოდით", "იცოდით", "იცოდნენ"],
+      "perfect": ["მცოდნია", "გცოდნია", "სცოდნია", "გვცოდნია", "გცოდნიათ", "სცოდნიათ"]
+    },
+    "notes": "Mixed verb: present and past conjugate with subject prefixes (ვიცი, ვიცოდი), but the future flips to the indirect pattern (მე მეცოდინება 'I will know'). Past row is the imperfect ვიცოდი, the normal past for a state of knowing.",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv06",
+    "masdar": "შეძლება",
+    "en": "can, to be able",
+    "type": "indirect",
+    "preverb": "შე-",
+    "screeves": {
+      "present": ["შემიძლია", "შეგიძლია", "შეუძლია", "შეგვიძლია", "შეგიძლიათ", "შეუძლიათ"],
+      "future": ["შევძლებ", "შეძლებ", "შეძლებს", "შევძლებთ", "შეძლებთ", "შეძლებენ"],
+      "aorist": ["შევძელი", "შეძელი", "შეძლო", "შევძელით", "შეძელით", "შეძლეს"],
+      "perfect": null
+    },
+    "notes": "Present is indirect: persons are the able person (მე შემიძლია, შენ შეგიძლია, მას შეუძლია...). The future and aorist switch to direct conjugation (შევძლებ 'I will manage', შევძელი 'I managed'); for a past ongoing ability use შემეძლო ('I could'). A perfect is rarely used colloquially, hence null.",
+    "objNotes": null,
+    "verify": ["aorist"]
+  },
+  {
+    "id": "kv07",
+    "masdar": "კეთება",
+    "en": "to do, to make",
+    "type": "transitive",
+    "preverb": "გა-",
+    "screeves": {
+      "present": ["ვაკეთებ", "აკეთებ", "აკეთებს", "ვაკეთებთ", "აკეთებთ", "აკეთებენ"],
+      "future": ["გავაკეთებ", "გააკეთებ", "გააკეთებს", "გავაკეთებთ", "გააკეთებთ", "გააკეთებენ"],
+      "aorist": ["გავაკეთე", "გააკეთე", "გააკეთა", "გავაკეთეთ", "გააკეთეთ", "გააკეთეს"],
+      "perfect": ["გამიკეთებია", "გაგიკეთებია", "გაუკეთებია", "გაგვიკეთებია", "გაგიკეთებიათ", "გაუკეთებიათ"]
+    },
+    "notes": "Regular transitive workhorse verb. In the aorist the subject takes the ergative -მა (მან გააკეთა 'he/she did it').",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv08",
+    "masdar": "თქმა",
+    "en": "to say",
+    "type": "transitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვამბობ", "ამბობ", "ამბობს", "ვამბობთ", "ამბობთ", "ამბობენ"],
+      "future": ["ვიტყვი", "იტყვი", "იტყვის", "ვიტყვით", "იტყვით", "იტყვიან"],
+      "aorist": ["ვთქვი", "თქვი", "თქვა", "ვთქვით", "თქვით", "თქვეს"],
+      "perfect": ["მითქვამს", "გითქვამს", "უთქვამს", "გვითქვამს", "გითქვამთ", "უთქვამთ"]
+    },
+    "notes": "Fully suppletive: three different roots — ამბობ- (present), -ტყვ- (future), თქვ- (aorist/perfect). Aorist subject is ergative (მან თქვა 'he/she said').",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv09",
+    "masdar": "ლაპარაკი",
+    "en": "to speak, to talk",
+    "type": "intransitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვლაპარაკობ", "ლაპარაკობ", "ლაპარაკობს", "ვლაპარაკობთ", "ლაპარაკობთ", "ლაპარაკობენ"],
+      "future": ["ვილაპარაკებ", "ილაპარაკებ", "ილაპარაკებს", "ვილაპარაკებთ", "ილაპარაკებთ", "ილაპარაკებენ"],
+      "aorist": ["ვილაპარაკე", "ილაპარაკე", "ილაპარაკა", "ვილაპარაკეთ", "ილაპარაკეთ", "ილაპარაკეს"],
+      "perfect": ["მილაპარაკია", "გილაპარაკია", "ულაპარაკია", "გვილაპარაკია", "გილაპარაკიათ", "ულაპარაკიათ"]
+    },
+    "notes": "Medial (activity) verb: intransitive in meaning, but the aorist subject still takes the ergative -მა (ბავშვმა ილაპარაკა). Future/aorist use the ი- prefix instead of a preverb.",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv10",
+    "masdar": "ჭამა",
+    "en": "to eat",
+    "type": "transitive",
+    "preverb": "შე-",
+    "screeves": {
+      "present": ["ვჭამ", "ჭამ", "ჭამს", "ვჭამთ", "ჭამთ", "ჭამენ"],
+      "future": ["შევჭამ", "შეჭამ", "შეჭამს", "შევჭამთ", "შეჭამთ", "შეჭამენ"],
+      "aorist": ["შევჭამე", "შეჭამე", "შეჭამა", "შევჭამეთ", "შეჭამეთ", "შეჭამეს"],
+      "perfect": ["შემიჭამია", "შეგიჭამია", "შეუჭამია", "შეგვიჭამია", "შეგიჭამიათ", "შეუჭამიათ"]
+    },
+    "notes": "Preverb შე- makes it perfective ('eat up'). Aorist subject is ergative (კაცმა შეჭამა). Without a specific object, ვჭამე (no preverb) is also common for 'I ate'.",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv11",
+    "masdar": "სმა",
+    "en": "to drink",
+    "type": "transitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ვსვამ", "სვამ", "სვამს", "ვსვამთ", "სვამთ", "სვამენ"],
+      "future": ["დავლევ", "დალევ", "დალევს", "დავლევთ", "დალევთ", "დალევენ"],
+      "aorist": ["დავლიე", "დალიე", "დალია", "დავლიეთ", "დალიეთ", "დალიეს"],
+      "perfect": ["დამილევია", "დაგილევია", "დაულევია", "დაგვილევია", "დაგილევიათ", "დაულევიათ"]
+    },
+    "notes": "Suppletive: present uses the სვამ- root, future/aorist/perfect switch to -ლევ/-ლი (დავლევ 'I will drink', დავლიე 'I drank'). Aorist subject is ergative (მან დალია).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv12",
+    "masdar": "წასვლა",
+    "en": "to go (set off)",
+    "type": "motion",
+    "preverb": "წა-",
+    "screeves": {
+      "present": ["მივდივარ", "მიდიხარ", "მიდის", "მივდივართ", "მიდიხართ", "მიდიან"],
+      "future": ["წავალ", "წახვალ", "წავა", "წავალთ", "წახვალთ", "წავლენ"],
+      "aorist": ["წავედი", "წახვედი", "წავიდა", "წავედით", "წახვედით", "წავიდნენ"],
+      "perfect": ["წავსულვარ", "წასულხარ", "წასულა", "წავსულვართ", "წასულხართ", "წასულან"]
+    },
+    "notes": "Irregular motion verb. Present row is 'am going (there)' (მივდივარ); the წა- forms mean 'go away / set off'. Subject stays nominative in all series (no ergative for motion verbs).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv13",
+    "masdar": "მოსვლა",
+    "en": "to come",
+    "type": "motion",
+    "preverb": "მო-",
+    "screeves": {
+      "present": ["მოვდივარ", "მოდიხარ", "მოდის", "მოვდივართ", "მოდიხართ", "მოდიან"],
+      "future": ["მოვალ", "მოხვალ", "მოვა", "მოვალთ", "მოხვალთ", "მოვლენ"],
+      "aorist": ["მოვედი", "მოხვედი", "მოვიდა", "მოვედით", "მოხვედით", "მოვიდნენ"],
+      "perfect": ["მოვსულვარ", "მოსულხარ", "მოსულა", "მოვსულვართ", "მოსულხართ", "მოსულან"]
+    },
+    "notes": "Same irregular paradigm as წასვლა but with მო- 'toward the speaker'. No ergative in the aorist (ის მოვიდა 'he/she came').",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv14",
+    "masdar": "სიარული",
+    "en": "to walk, to go (habitually)",
+    "type": "motion",
+    "preverb": null,
+    "screeves": {
+      "present": ["დავდივარ", "დადიხარ", "დადის", "დავდივართ", "დადიხართ", "დადიან"],
+      "future": ["ვივლი", "ივლი", "ივლის", "ვივლით", "ივლით", "ივლიან"],
+      "aorist": ["ვიარე", "იარე", "იარა", "ვიარეთ", "იარეთ", "იარეს"],
+      "perfect": ["მივლია", "გივლია", "უვლია", "გვივლია", "გივლიათ", "უვლიათ"]
+    },
+    "notes": "Habitual/multidirectional motion: სკოლაში დავდივარ 'I go to school (regularly)'. Unlike one-way motion verbs, the aorist subject is ergative (მან ბევრი იარა 'he/she walked a lot').",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv15",
+    "masdar": "ნახვა",
+    "en": "to see",
+    "type": "transitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვხედავ", "ხედავ", "ხედავს", "ვხედავთ", "ხედავთ", "ხედავენ"],
+      "future": ["ვნახავ", "ნახავ", "ნახავს", "ვნახავთ", "ნახავთ", "ნახავენ"],
+      "aorist": ["ვნახე", "ნახე", "ნახა", "ვნახეთ", "ნახეთ", "ნახეს"],
+      "perfect": ["მინახავს", "გინახავს", "უნახავს", "გვინახავს", "გინახავთ", "უნახავთ"]
+    },
+    "notes": "Suppletive pair: present uses the ხედ- root ('I see'), future/aorist/perfect use ნახ- ('catch sight of, see'). Aorist subject is ergative (მან ნახა).",
+    "objNotes": "Object markers: გნახავ — I will see you; გნახე — I saw you; მნახა — he/she saw me.",
+    "verify": []
+  },
+  {
+    "id": "kv16",
+    "masdar": "ყურება",
+    "en": "to watch",
+    "type": "transitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვუყურებ", "უყურებ", "უყურებს", "ვუყურებთ", "უყურებთ", "უყურებენ"],
+      "future": ["ვუყურებ", "უყურებ", "უყურებს", "ვუყურებთ", "უყურებთ", "უყურებენ"],
+      "aorist": ["ვუყურე", "უყურე", "უყურა", "ვუყურეთ", "უყურეთ", "უყურეს"],
+      "perfect": ["მიყურებია", "გიყურებია", "უყურებია", "გვიყურებია", "გიყურებიათ", "უყურებიათ"]
+    },
+    "notes": "Takes its object in the dative via the უ- marker (ტელევიზორს ვუყურებ). It has no distinct future form: in Tbilisi speech the present doubles as the future (ხვალ ფილმს ვუყურებ), so the future row repeats the present. Aorist subject is ergative (მან უყურა).",
+    "objNotes": null,
+    "verify": ["future", "perfect"]
+  },
+  {
+    "id": "kv17",
+    "masdar": "მოსმენა",
+    "en": "to listen",
+    "type": "transitive",
+    "preverb": "მო-",
+    "screeves": {
+      "present": ["ვუსმენ", "უსმენ", "უსმენს", "ვუსმენთ", "უსმენთ", "უსმენენ"],
+      "future": ["მოვუსმენ", "მოუსმენ", "მოუსმენს", "მოვუსმენთ", "მოუსმენთ", "მოუსმენენ"],
+      "aorist": ["მოვუსმინე", "მოუსმინე", "მოუსმინა", "მოვუსმინეთ", "მოუსმინეთ", "მოუსმინეს"],
+      "perfect": ["მომისმენია", "მოგისმენია", "მოუსმენია", "მოგვისმენია", "მოგისმენიათ", "მოუსმენიათ"]
+    },
+    "notes": "The thing/person listened to is a dative object marked with უ- (მუსიკას ვუსმენ). Aorist subject is ergative (მან მოუსმინა).",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv18",
+    "masdar": "გაგება",
+    "en": "to understand, to find out",
+    "type": "transitive",
+    "preverb": "გა-",
+    "screeves": {
+      "present": ["ვიგებ", "იგებ", "იგებს", "ვიგებთ", "იგებთ", "იგებენ"],
+      "future": ["გავიგებ", "გაიგებ", "გაიგებს", "გავიგებთ", "გაიგებთ", "გაიგებენ"],
+      "aorist": ["გავიგე", "გაიგე", "გაიგო", "გავიგეთ", "გაიგეთ", "გაიგეს"],
+      "perfect": ["გამიგია", "გაგიგია", "გაუგია", "გაგვიგია", "გაგიგიათ", "გაუგიათ"]
+    },
+    "notes": "გავიგე = 'I understood / found out'. For ongoing comprehension ('I understand you') Georgians normally use the indirect verb მესმის instead of the present row. Aorist subject is ergative (მან გაიგო).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv19",
+    "masdar": "სწავლა",
+    "en": "to learn, to study",
+    "type": "transitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვსწავლობ", "სწავლობ", "სწავლობს", "ვსწავლობთ", "სწავლობთ", "სწავლობენ"],
+      "future": ["ვისწავლი", "ისწავლი", "ისწავლის", "ვისწავლით", "ისწავლით", "ისწავლიან"],
+      "aorist": ["ვისწავლე", "ისწავლე", "ისწავლა", "ვისწავლეთ", "ისწავლეთ", "ისწავლეს"],
+      "perfect": ["მისწავლია", "გისწავლია", "უსწავლია", "გვისწავლია", "გისწავლიათ", "უსწავლიათ"]
+    },
+    "notes": "Future/aorist use the ი- prefix rather than a preverb (ვისწავლი 'I will learn it'). Aorist subject is ergative (სტუდენტმა ისწავლა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv20",
+    "masdar": "მუშაობა",
+    "en": "to work",
+    "type": "intransitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვმუშაობ", "მუშაობ", "მუშაობს", "ვმუშაობთ", "მუშაობთ", "მუშაობენ"],
+      "future": ["ვიმუშავებ", "იმუშავებ", "იმუშავებს", "ვიმუშავებთ", "იმუშავებთ", "იმუშავებენ"],
+      "aorist": ["ვიმუშავე", "იმუშავე", "იმუშავა", "ვიმუშავეთ", "იმუშავეთ", "იმუშავეს"],
+      "perfect": ["მიმუშავია", "გიმუშავია", "უმუშავია", "გვიმუშავია", "გიმუშავიათ", "უმუშავიათ"]
+    },
+    "notes": "Medial verb: note the ო→ა stem change in the future/aorist (მუშაობ- → იმუშავ-). Although intransitive in meaning, the aorist subject takes ergative -მა (მან იმუშავა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv21",
+    "masdar": "ცხოვრება",
+    "en": "to live",
+    "type": "intransitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვცხოვრობ", "ცხოვრობ", "ცხოვრობს", "ვცხოვრობთ", "ცხოვრობთ", "ცხოვრობენ"],
+      "future": ["ვიცხოვრებ", "იცხოვრებ", "იცხოვრებს", "ვიცხოვრებთ", "იცხოვრებთ", "იცხოვრებენ"],
+      "aorist": ["ვიცხოვრე", "იცხოვრე", "იცხოვრა", "ვიცხოვრეთ", "იცხოვრეთ", "იცხოვრეს"],
+      "perfect": ["მიცხოვრია", "გიცხოვრია", "უცხოვრია", "გვიცხოვრია", "გიცხოვრიათ", "უცხოვრიათ"]
+    },
+    "notes": "Medial verb: თბილისში ვცხოვრობ 'I live in Tbilisi'. Aorist subject is ergative despite the intransitive meaning (მან იქ იცხოვრა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv22",
+    "masdar": "ყიდვა",
+    "en": "to buy",
+    "type": "transitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვყიდულობ", "ყიდულობ", "ყიდულობს", "ვყიდულობთ", "ყიდულობთ", "ყიდულობენ"],
+      "future": ["ვიყიდი", "იყიდი", "იყიდის", "ვიყიდით", "იყიდით", "იყიდიან"],
+      "aorist": ["ვიყიდე", "იყიდე", "იყიდა", "ვიყიდეთ", "იყიდეთ", "იყიდეს"],
+      "perfect": ["მიყიდია", "გიყიდია", "უყიდია", "გვიყიდია", "გიყიდიათ", "უყიდიათ"]
+    },
+    "notes": "'Buy' uses the ი- (self-benefactive) version in future/aorist: ვიყიდი 'I will buy (for myself)'. Careful: ვყიდი without ი- means 'I am selling'. Aorist subject is ergative (მან იყიდა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv23",
+    "masdar": "გაყიდვა",
+    "en": "to sell",
+    "type": "transitive",
+    "preverb": "გა-",
+    "screeves": {
+      "present": ["ვყიდი", "ყიდი", "ყიდის", "ვყიდით", "ყიდით", "ყიდიან"],
+      "future": ["გავყიდი", "გაყიდი", "გაყიდის", "გავყიდით", "გაყიდით", "გაყიდიან"],
+      "aorist": ["გავყიდე", "გაყიდე", "გაყიდა", "გავყიდეთ", "გაყიდეთ", "გაყიდეს"],
+      "perfect": ["გამიყიდია", "გაგიყიდია", "გაუყიდია", "გაგვიყიდია", "გაგიყიდიათ", "გაუყიდიათ"]
+    },
+    "notes": "Same root as ყიდვა but with preverb გა- = 'sell'. Present ვყიდი 'I am selling' contrasts with ვიყიდი 'I will buy'. Aorist subject is ergative (მან გაყიდა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv24",
+    "masdar": "მიცემა",
+    "en": "to give",
+    "type": "transitive",
+    "preverb": "მი-",
+    "screeves": {
+      "present": ["ვაძლევ", "აძლევ", "აძლევს", "ვაძლევთ", "აძლევთ", "აძლევენ"],
+      "future": ["მივცემ", "მისცემ", "მისცემს", "მივცემთ", "მისცემთ", "მისცემენ"],
+      "aorist": ["მივეცი", "მიეცი", "მისცა", "მივეცით", "მიეცით", "მისცეს"],
+      "perfect": ["მიმიცია", "მიგიცია", "მიუცია", "მიგვიცია", "მიგიციათ", "მიუციათ"]
+    },
+    "notes": "Suppletive: present uses -ძლევ, future/aorist use -ცემ/-ეც. The preverb switches to მო- when giving toward the speaker (მომცემს 'he will give me'). Aorist subject is ergative (მან მისცა).",
+    "objNotes": "Object markers: მომეცი — give me (it)!; მოგცემ — I will give you (it); მივეცი — I gave (it) to him/her.",
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv25",
+    "masdar": "აღება",
+    "en": "to take",
+    "type": "transitive",
+    "preverb": "ა-",
+    "screeves": {
+      "present": ["ვიღებ", "იღებ", "იღებს", "ვიღებთ", "იღებთ", "იღებენ"],
+      "future": ["ავიღებ", "აიღებ", "აიღებს", "ავიღებთ", "აიღებთ", "აიღებენ"],
+      "aorist": ["ავიღე", "აიღე", "აიღო", "ავიღეთ", "აიღეთ", "აიღეს"],
+      "perfect": ["ამიღია", "აგიღია", "აუღია", "აგვიღია", "აგიღიათ", "აუღიათ"]
+    },
+    "notes": "ვიღებ also serves as the present of მიღება 'receive'; with preverb ა- it means 'pick up, take'. Aorist subject is ergative (მან აიღო).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv26",
+    "masdar": "წერა",
+    "en": "to write",
+    "type": "transitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ვწერ", "წერ", "წერს", "ვწერთ", "წერთ", "წერენ"],
+      "future": ["დავწერ", "დაწერ", "დაწერს", "დავწერთ", "დაწერთ", "დაწერენ"],
+      "aorist": ["დავწერე", "დაწერე", "დაწერა", "დავწერეთ", "დაწერეთ", "დაწერეს"],
+      "perfect": ["დამიწერია", "დაგიწერია", "დაუწერია", "დაგვიწერია", "დაგიწერიათ", "დაუწერიათ"]
+    },
+    "notes": "Textbook regular transitive verb. Aorist subject is ergative (მან წერილი დაწერა 'he/she wrote a letter'). For writing TO someone use მივწერ/მოვწერ.",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv27",
+    "masdar": "კითხვა",
+    "en": "to read",
+    "type": "transitive",
+    "preverb": "წა-",
+    "screeves": {
+      "present": ["ვკითხულობ", "კითხულობ", "კითხულობს", "ვკითხულობთ", "კითხულობთ", "კითხულობენ"],
+      "future": ["წავიკითხავ", "წაიკითხავ", "წაიკითხავს", "წავიკითხავთ", "წაიკითხავთ", "წაიკითხავენ"],
+      "aorist": ["წავიკითხე", "წაიკითხე", "წაიკითხა", "წავიკითხეთ", "წაიკითხეთ", "წაიკითხეს"],
+      "perfect": ["წამიკითხავს", "წაგიკითხავს", "წაუკითხავს", "წაგვიკითხავს", "წაგიკითხავთ", "წაუკითხავთ"]
+    },
+    "notes": "The same masdar also means 'to ask', which conjugates differently (ვეკითხები / ვკითხე მას); this table is only 'read'. Aorist subject is ergative (მან წაიკითხა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv28",
+    "masdar": "დაწყება",
+    "en": "to begin, to start",
+    "type": "transitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ვიწყებ", "იწყებ", "იწყებს", "ვიწყებთ", "იწყებთ", "იწყებენ"],
+      "future": ["დავიწყებ", "დაიწყებ", "დაიწყებს", "დავიწყებთ", "დაიწყებთ", "დაიწყებენ"],
+      "aorist": ["დავიწყე", "დაიწყე", "დაიწყო", "დავიწყეთ", "დაიწყეთ", "დაიწყეს"],
+      "perfect": ["დამიწყია", "დაგიწყია", "დაუწყია", "დაგვიწყია", "დაგიწყიათ", "დაუწყიათ"]
+    },
+    "notes": "Transitive 'start something' (მუშაობას ვიწყებ). For 'something begins' use the passive იწყება/დაიწყება. Aorist subject is ergative (მან დაიწყო).",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv29",
+    "masdar": "დამთავრება",
+    "en": "to finish",
+    "type": "transitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ვამთავრებ", "ამთავრებ", "ამთავრებს", "ვამთავრებთ", "ამთავრებთ", "ამთავრებენ"],
+      "future": ["დავამთავრებ", "დაამთავრებ", "დაამთავრებს", "დავამთავრებთ", "დაამთავრებთ", "დაამთავრებენ"],
+      "aorist": ["დავამთავრე", "დაამთავრე", "დაამთავრა", "დავამთავრეთ", "დაამთავრეთ", "დაამთავრეს"],
+      "perfect": ["დამიმთავრებია", "დაგიმთავრებია", "დაუმთავრებია", "დაგვიმთავრებია", "დაგიმთავრებიათ", "დაუმთავრებიათ"]
+    },
+    "notes": "Transitive 'finish something' (უნივერსიტეტი დავამთავრე 'I graduated'). For 'it ends' use მთავრდება/დამთავრდება. Aorist subject is ergative (მან დაამთავრა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv30",
+    "masdar": "ლოდინი",
+    "en": "to wait",
+    "type": "intransitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ველოდები", "ელოდები", "ელოდება", "ველოდებით", "ელოდებით", "ელოდებიან"],
+      "future": ["დაველოდები", "დაელოდები", "დაელოდება", "დაველოდებით", "დაელოდებით", "დაელოდებიან"],
+      "aorist": ["დაველოდე", "დაელოდე", "დაელოდა", "დაველოდეთ", "დაელოდეთ", "დაელოდნენ"],
+      "perfect": ["დავლოდებივარ", "დალოდებიხარ", "დალოდებია", "დავლოდებივართ", "დალოდებიხართ", "დალოდებიან"]
+    },
+    "notes": "Relative passive-type verb: the person/thing awaited is a dative object built in with ე- (ავტობუსს ველოდები). Subject stays nominative in the aorist (ის დაელოდა). A shorter synonym ველი also exists.",
+    "objNotes": "Object markers: გელოდები — I am waiting for you; დამელოდე — wait for me!; გელოდებით — we are waiting for you / I am waiting for you (pl).",
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv31",
+    "masdar": "დახმარება",
+    "en": "to help",
+    "type": "intransitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ვეხმარები", "ეხმარები", "ეხმარება", "ვეხმარებით", "ეხმარებით", "ეხმარებიან"],
+      "future": ["დავეხმარები", "დაეხმარები", "დაეხმარება", "დავეხმარებით", "დაეხმარებით", "დაეხმარებიან"],
+      "aorist": ["დავეხმარე", "დაეხმარე", "დაეხმარა", "დავეხმარეთ", "დაეხმარეთ", "დაეხმარნენ"],
+      "perfect": ["დავხმარებივარ", "დახმარებიხარ", "დახმარებია", "დავხმარებივართ", "დახმარებიხართ", "დახმარებიან"]
+    },
+    "notes": "The person helped is a dative object marked inside the verb with ე- (დედას ვეხმარები 'I help mother'). Subject stays nominative in the aorist (ის დაეხმარა).",
+    "objNotes": "Object markers: მეხმარები — you are helping me; დამეხმარე — help me!; დაგეხმარები — I will help you.",
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv32",
+    "masdar": "შეხვედრა",
+    "en": "to meet",
+    "type": "intransitive",
+    "preverb": "შე-",
+    "screeves": {
+      "present": ["ვხვდები", "ხვდები", "ხვდება", "ვხვდებით", "ხვდებით", "ხვდებიან"],
+      "future": ["შევხვდები", "შეხვდები", "შეხვდება", "შევხვდებით", "შეხვდებით", "შეხვდებიან"],
+      "aorist": ["შევხვდი", "შეხვდი", "შეხვდა", "შევხვდით", "შეხვდით", "შეხვდნენ"],
+      "perfect": ["შევხვედრივარ", "შეხვედრიხარ", "შეხვედრია", "შევხვედრივართ", "შეხვედრიხართ", "შეხვედრიან"]
+    },
+    "notes": "The person met is a dative object (მეგობარს შევხვდი 'I met a friend'). Careful: without შე-, ხვდება usually means 'realizes/gets it' (მიხვდა). Subject stays nominative in the aorist.",
+    "objNotes": "Object markers: შეგხვდები — I will meet you; შემხვდა — he/she ran into me; ხვალ შევხვდეთ — let's meet tomorrow.",
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv33",
+    "masdar": "დარეკვა",
+    "en": "to call (by phone)",
+    "type": "transitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ვრეკავ", "რეკავ", "რეკავს", "ვრეკავთ", "რეკავთ", "რეკავენ"],
+      "future": ["დავრეკავ", "დარეკავ", "დარეკავს", "დავრეკავთ", "დარეკავთ", "დარეკავენ"],
+      "aorist": ["დავრეკე", "დარეკე", "დარეკა", "დავრეკეთ", "დარეკეთ", "დარეკეს"],
+      "perfect": ["დამირეკავს", "დაგირეკავს", "დაურეკავს", "დაგვირეკავს", "დაგირეკავთ", "დაურეკავთ"]
+    },
+    "notes": "The person called is an indirect (dative) object: მას დავურეკავ 'I will call him/her'. Aorist subject is ergative (მან დარეკა). The bare forms here mean 'ring / make a call'.",
+    "objNotes": "Object markers: დამირეკე — call me!; დაგირეკავ — I will call you; დამირეკა — he/she called me.",
+    "verify": []
+  },
+  {
+    "id": "kv34",
+    "masdar": "თამაში",
+    "en": "to play",
+    "type": "intransitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვთამაშობ", "თამაშობ", "თამაშობს", "ვთამაშობთ", "თამაშობთ", "თამაშობენ"],
+      "future": ["ვითამაშებ", "ითამაშებ", "ითამაშებს", "ვითამაშებთ", "ითამაშებთ", "ითამაშებენ"],
+      "aorist": ["ვითამაშე", "ითამაშე", "ითამაშა", "ვითამაშეთ", "ითამაშეთ", "ითამაშეს"],
+      "perfect": ["მითამაშია", "გითამაშია", "უთამაშია", "გვითამაშია", "გითამაშიათ", "უთამაშიათ"]
+    },
+    "notes": "Medial verb (ფეხბურთს ვთამაშობ 'I play football'). Aorist subject takes ergative -მა even though the verb feels intransitive (ბავშვმა ითამაშა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv35",
+    "masdar": "ფიქრი",
+    "en": "to think",
+    "type": "intransitive",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვფიქრობ", "ფიქრობ", "ფიქრობს", "ვფიქრობთ", "ფიქრობთ", "ფიქრობენ"],
+      "future": ["ვიფიქრებ", "იფიქრებ", "იფიქრებს", "ვიფიქრებთ", "იფიქრებთ", "იფიქრებენ"],
+      "aorist": ["ვიფიქრე", "იფიქრე", "იფიქრა", "ვიფიქრეთ", "იფიქრეთ", "იფიქრეს"],
+      "perfect": ["მიფიქრია", "გიფიქრია", "უფიქრია", "გვიფიქრია", "გიფიქრიათ", "უფიქრიათ"]
+    },
+    "notes": "Medial verb: 'think about' = -ზე ვფიქრობ (შენზე ვფიქრობ). Aorist subject is ergative (მან იფიქრა).",
+    "objNotes": null,
+    "verify": []
+  },
+  {
+    "id": "kv36",
+    "masdar": "ძილი",
+    "en": "to sleep",
+    "type": "indirect",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["მძინავს", "გძინავს", "სძინავს", "გვძინავს", "გძინავთ", "სძინავთ"],
+      "future": ["დავიძინებ", "დაიძინებ", "დაიძინებს", "დავიძინებთ", "დაიძინებთ", "დაიძინებენ"],
+      "aorist": ["დავიძინე", "დაიძინე", "დაიძინა", "დავიძინეთ", "დაიძინეთ", "დაიძინეს"],
+      "perfect": ["დამიძინია", "დაგიძინია", "დაუძინია", "დაგვიძინია", "დაგიძინიათ", "დაუძინიათ"]
+    },
+    "notes": "Mixed paradigm: present is indirect — persons are the sleeper (მე მძინავს, შენ გძინავს, მას სძინავს...). Future/aorist switch to direct დაიძინებ- 'fall asleep / get some sleep'. For 'was sleeping' use the indirect past მეძინა (მას ეძინა).",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv37",
+    "masdar": "ადგომა",
+    "en": "to get up, to stand up",
+    "type": "intransitive",
+    "preverb": "ა-",
+    "screeves": {
+      "present": ["ვდგები", "დგები", "დგება", "ვდგებით", "დგებით", "დგებიან"],
+      "future": ["ავდგები", "ადგები", "ადგება", "ავდგებით", "ადგებით", "ადგებიან"],
+      "aorist": ["ავდექი", "ადექი", "ადგა", "ავდექით", "ადექით", "ადგნენ"],
+      "perfect": ["ავმდგარვარ", "ამდგარხარ", "ამდგარა", "ავმდგარვართ", "ამდგარხართ", "ამდგარან"]
+    },
+    "notes": "Change-of-state intransitive: დილით ადრე ვდგები 'I get up early'. Irregular aorist ავდექი/ადგა; subject stays nominative (ის ადგა).",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv38",
+    "masdar": "ჯდომა",
+    "en": "to sit down / to be sitting",
+    "type": "intransitive",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["ვზივარ", "ზიხარ", "ზის", "ვსხედვართ", "სხედხართ", "სხედან"],
+      "future": ["დავჯდები", "დაჯდები", "დაჯდება", "დავჯდებით", "დაჯდებით", "დაჯდებიან"],
+      "aorist": ["დავჯექი", "დაჯექი", "დაჯდა", "დავჯექით", "დაჯექით", "დასხდნენ"],
+      "perfect": ["დავმჯდარვარ", "დამჯდარხარ", "დამჯდარა", "დავმჯდარვართ", "დამჯდარხართ", "დამსხდარან"]
+    },
+    "notes": "Two paradigms combined, as learners actually use them: the present row is the stative 'be sitting' (ვზივარ; plural is suppletive ვსხედვართ — colloquial Tbilisi ვზივართ is common but nonstandard), while future/aorist are the dynamic 'sit down' (დავჯდები/დავჯექი, from ვჯდები). Plural subjects use the სხდ- root in the aorist (ისინი დასხდნენ).",
+    "objNotes": null,
+    "verify": ["perfect"]
+  },
+  {
+    "id": "kv39",
+    "masdar": "დგომა",
+    "en": "to stand, to be standing",
+    "type": "stative",
+    "preverb": null,
+    "screeves": {
+      "present": ["ვდგავარ", "დგახარ", "დგას", "ვდგავართ", "დგახართ", "დგანან"],
+      "future": ["ვიდგები", "იდგები", "იდგება", "ვიდგებით", "იდგებით", "იდგებიან"],
+      "aorist": ["ვიდექი", "იდექი", "იდგა", "ვიდექით", "იდექით", "იდგნენ"],
+      "perfect": ["ვმდგარვარ", "მდგარხარ", "მდგარა", "ვმდგარვართ", "მდგარხართ", "მდგარან"]
+    },
+    "notes": "Stative posture verb 'be standing' (კარებთან ვდგავარ). Future ვიდგები = 'will be standing'; for 'will take a stand somewhere' use დავდგები. Subject stays nominative in the aorist (ის იდგა 'he/she stood').",
+    "objNotes": null,
+    "verify": ["future", "perfect"]
+  },
+  {
+    "id": "kv40",
+    "masdar": "სჭირდება",
+    "en": "to need",
+    "type": "indirect",
+    "preverb": "და-",
+    "screeves": {
+      "present": ["მჭირდება", "გჭირდება", "სჭირდება", "გვჭირდება", "გჭირდებათ", "სჭირდებათ"],
+      "future": ["დამჭირდება", "დაგჭირდება", "დასჭირდება", "დაგვჭირდება", "დაგჭირდებათ", "დასჭირდებათ"],
+      "aorist": ["დამჭირდა", "დაგჭირდა", "დასჭირდა", "დაგვჭირდა", "დაგჭირდათ", "დასჭირდათ"],
+      "perfect": ["დამჭირვებია", "დაგჭირვებია", "დასჭირვებია", "დაგვჭირვებია", "დაგჭირვებიათ", "დასჭირვებიათ"]
+    },
+    "notes": "Indirect verb: persons are the one who needs (მე მჭირდება, შენ გჭირდება, მას სჭირდება, ჩვენ გვჭირდება, თქვენ გჭირდებათ, მათ სჭირდებათ). The thing needed is the nominative subject grammatically (ფული მჭირდება 'I need money').",
+    "objNotes": null,
+    "verify": ["perfect"]
+  }
+]

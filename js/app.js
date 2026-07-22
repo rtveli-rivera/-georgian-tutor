@@ -1,0 +1,64 @@
+// app.js — shell: load data, init voice, route between views.
+import { loadData, DATA } from './data.js';
+import { voicesReady, hasKaVoice, NO_VOICE_MSG } from './tts.js';
+import { el, clear } from './ui.js';
+import { getStreak } from './lesson.js';
+import { renderTodayView } from './views/today.js';
+import { renderReviewView } from './views/review.js';
+import { renderPracticeView } from './views/practice.js';
+import { renderPronView } from './views/pronunciation.js';
+import { renderSpeakView } from './views/speak.js';
+import { renderProgressView } from './views/progress.js';
+import { renderLibraryView } from './views/library.js';
+import { renderSettingsView } from './views/settings.js';
+
+const VIEWS = {
+  today: renderTodayView,
+  review: renderReviewView,
+  practice: renderPracticeView,
+  pron: renderPronView,
+  speak: renderSpeakView,
+  progress: renderProgressView,
+  library: renderLibraryView,
+  settings: renderSettingsView,
+};
+
+const main = document.getElementById('view');
+
+async function boot() {
+  main.append(el('div', { class: 'card' }, el('p', { class: 'muted' }, 'იტვირთება… loading…')));
+  await Promise.all([loadData(), voicesReady()]);
+
+  const banner = document.getElementById('tts-banner');
+  if (!hasKaVoice()) {
+    banner.textContent = '🔇 ' + NO_VOICE_MSG;
+    banner.classList.remove('hidden');
+  }
+  if (DATA.loadErrors.length) {
+    const b = document.getElementById('tts-banner');
+    b.classList.remove('hidden');
+    b.textContent = (b.textContent ? b.textContent + '  ' : '') +
+      `⚠ Some seed files failed to load: ${DATA.loadErrors.join('; ')}`;
+  }
+
+  const streak = await getStreak();
+  document.getElementById('streak-chip').textContent = `🔥 ${streak.count}`;
+
+  document.querySelectorAll('#nav button').forEach(btn => {
+    btn.addEventListener('click', () => show(btn.dataset.view));
+  });
+  show('today');
+}
+
+async function show(name) {
+  document.querySelectorAll('#nav button').forEach(b => b.classList.toggle('active', b.dataset.view === name));
+  clear(main);
+  try {
+    await VIEWS[name](main);
+  } catch (e) {
+    console.error(e);
+    main.append(el('div', { class: 'banner' }, `Something broke rendering “${name}”: ${e.message}`));
+  }
+}
+
+boot();

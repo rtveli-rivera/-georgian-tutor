@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "kartuli",
+      "runtimeExecutable": "py",
+      "runtimeArgs": ["-m", "http.server", "8144", "--bind", "127.0.0.1"],
+      "port": 8144
+    }
+  ]
+}

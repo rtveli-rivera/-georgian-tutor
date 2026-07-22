@@ -1,0 +1,414 @@
+[
+  {
+    "id": "d01",
+    "week": 1,
+    "scene": "café",
+    "title_ka": "ყავა კაფეში",
+    "title_en": "Coffee at a café",
+    "grammar": ["present-be"],
+    "lines": [
+      {"sp": "გიორგი", "ka": "გამარჯობა, ნინო!", "en": "Hello, Nino!"},
+      {"sp": "ნინო", "ka": "გამარჯობა! როგორ ხარ?", "en": "Hello! How are you?"},
+      {"sp": "გიორგი", "ka": "კარგად ვარ, გმადლობ. შენ როგორ ხარ?", "en": "I'm fine, thanks. How are you?"},
+      {"sp": "ნინო", "ka": "მეც კარგად ვარ.", "en": "I'm fine too."},
+      {"sp": "გიორგი", "ka": "ეს კაფე ძალიან კარგია.", "en": "This café is very good."},
+      {"sp": "ნინო", "ka": "კი, ყავა აქ მაგარია.", "en": "Yes, the coffee here is great."},
+      {"sp": "გიორგი", "ka": "შენ სტუდენტი ხარ?", "en": "Are you a student?"},
+      {"sp": "ნინო", "ka": "კი, სტუდენტი ვარ.", "en": "Yes, I'm a student."}
+    ],
+    "note": "Between friends and peers Georgians use the informal შენ; მაგარია (literally 'it's strong') is everyday slang for 'it's great'.",
+    "verify": false
+  },
+  {
+    "id": "d02",
+    "week": 1,
+    "scene": "meeting the in-laws",
+    "title_ka": "ოჯახის გაცნობა",
+    "title_en": "Meeting the family",
+    "grammar": ["present-be"],
+    "lines": [
+      {"sp": "ეკა", "ka": "გამარჯობათ! მე ეკა ვარ.", "en": "Hello! I am Eka."},
+      {"sp": "თამარი", "ka": "გამარჯობა! მე თამარი ვარ. ძალიან სასიამოვნოა.", "en": "Hello! I am Tamari. Very nice to meet you."},
+      {"sp": "ეკა", "ka": "თქვენ ძალიან კეთილი ხართ.", "en": "You are very kind."},
+      {"sp": "თამარი", "ka": "შენ ძალიან ლამაზი ხარ, შვილო.", "en": "You are very pretty, dear."},
+      {"sp": "ეკა", "ka": "გმადლობთ. სახლი ძალიან ლამაზია.", "en": "Thank you. The house is very beautiful."},
+      {"sp": "თამარი", "ka": "გმადლობ. დათო კარგი ბიჭია, არა?", "en": "Thanks. Dato is a good boy, isn't he?"},
+      {"sp": "ეკა", "ka": "კი, ძალიან კარგი ბიჭია.", "en": "Yes, he's a very good boy."},
+      {"sp": "თამარი", "ka": "ჩვენ ძალიან ბედნიერი ვართ.", "en": "We are very happy."}
+    ],
+    "note": "Use formal თქვენ with in-laws and elders; they will likely address you with შენ and warm words like შვილო ('my child') right away.",
+    "verify": false
+  },
+  {
+    "id": "d03",
+    "week": 2,
+    "scene": "at home",
+    "title_ka": "რა გაქვს, ვინ გყავს?",
+    "title_en": "What do you have, who do you have?",
+    "grammar": ["have"],
+    "lines": [
+      {"sp": "ლევანი", "ka": "მარიამ, შენ ძაღლი გყავს?", "en": "Mariam, do you have a dog?"},
+      {"sp": "მარიამი", "ka": "კი, ერთი ძაღლი მყავს.", "en": "Yes, I have one dog."},
+      {"sp": "ლევანი", "ka": "მე კატა მყავს.", "en": "I have a cat."},
+      {"sp": "მარიამი", "ka": "მე კატა არ მყავს.", "en": "I don't have a cat."},
+      {"sp": "ლევანი", "ka": "მანქანა გაქვს?", "en": "Do you have a car?"},
+      {"sp": "მარიამი", "ka": "არა, მანქანა არ მაქვს. ველოსიპედი მაქვს.", "en": "No, I don't have a car. I have a bicycle."},
+      {"sp": "ლევანი", "ka": "მე დიდი ოჯახი მყავს.", "en": "I have a big family."},
+      {"sp": "მარიამი", "ka": "მეც. ორი ძმა მყავს.", "en": "Me too. I have two brothers."}
+    ],
+    "note": "Georgian splits 'to have' by animacy: მყავს for people and animals, მაქვს for things — mixing them up sounds comical to native ears.",
+    "verify": false
+  },
+  {
+    "id": "d04",
+    "week": 2,
+    "scene": "guesthouse",
+    "title_ka": "ოთახი გაქვთ?",
+    "title_en": "Do you have a room?",
+    "grammar": ["have"],
+    "lines": [
+      {"sp": "ზურა", "ka": "გამარჯობათ! ოთახი გაქვთ?", "en": "Hello! Do you have a room?"},
+      {"sp": "ნინო", "ka": "გამარჯობა! კი, გვაქვს.", "en": "Hello! Yes, we have one."},
+      {"sp": "ზურა", "ka": "ოთახს აივანი აქვს?", "en": "Does the room have a balcony?"},
+      {"sp": "ნინო", "ka": "კი, აივანი აქვს.", "en": "Yes, it has a balcony."},
+      {"sp": "ზურა", "ka": "თქვენ ძაღლი გყავთ?", "en": "Do you have a dog?"},
+      {"sp": "ნინო", "ka": "კი, ერთი ძაღლი გვყავს. კარგი ძაღლია.", "en": "Yes, we have one dog. It's a good dog."},
+      {"sp": "ზურა", "ka": "მე შვილი მყავს. პრობლემა არ არის?", "en": "I have a child. Is that not a problem?"},
+      {"sp": "ნინო", "ka": "არა, პრობლემა არ არის!", "en": "No, that's no problem!"}
+    ],
+    "note": "Georgian guesthouses are usually family-run, and hosts tend to treat guests — especially children — like their own relatives.",
+    "verify": false
+  },
+  {
+    "id": "d05",
+    "week": 3,
+    "scene": "khinkali restaurant",
+    "title_ka": "ხინკალი მინდა!",
+    "title_en": "I want khinkali!",
+    "grammar": ["want-know"],
+    "lines": [
+      {"sp": "გიორგი", "ka": "ეკა, ხინკალი გინდა?", "en": "Eka, do you want khinkali?"},
+      {"sp": "ეკა", "ka": "კი, ძალიან მინდა!", "en": "Yes, I really want some!"},
+      {"sp": "გიორგი", "ka": "მე ხაჭაპურიც მინდა.", "en": "I also want khachapuri."},
+      {"sp": "ეკა", "ka": "ეს რესტორანი იცი?", "en": "Do you know this restaurant?"},
+      {"sp": "გიორგი", "ka": "კი, ვიცი. ხინკალი აქ ძალიან გემრიელია.", "en": "Yes, I know it. The khinkali here is very tasty."},
+      {"sp": "ეკა", "ka": "წყალიც მინდა.", "en": "I also want water."},
+      {"sp": "გიორგი", "ka": "მეც. ღვინო არ მინდა დღეს.", "en": "Me too. I don't want wine today."},
+      {"sp": "ეკა", "ka": "კარგი.", "en": "Okay."}
+    ],
+    "note": "Khinkali are eaten by hand, and it's completely normal to leave the doughy top knots piled on your plate.",
+    "verify": false
+  },
+  {
+    "id": "d06",
+    "week": 3,
+    "scene": "pharmacy",
+    "title_ka": "აფთიაქში",
+    "title_en": "At the pharmacy",
+    "grammar": ["want-know"],
+    "lines": [
+      {"sp": "მარიამი", "ka": "გამარჯობათ. წამალი მინდა.", "en": "Hello. I want some medicine."},
+      {"sp": "ლევანი", "ka": "გამარჯობა. რა გინდათ?", "en": "Hello. What would you like?"},
+      {"sp": "მარიამი", "ka": "ასპირინი მინდა.", "en": "I want aspirin."},
+      {"sp": "ლევანი", "ka": "კარგი. ვიტამინიც გინდათ?", "en": "Okay. Do you also want vitamins?"},
+      {"sp": "მარიამი", "ka": "არა, გმადლობთ. ეს წამალი კარგია?", "en": "No, thank you. Is this medicine good?"},
+      {"sp": "ლევანი", "ka": "კი, ძალიან კარგია.", "en": "Yes, it's very good."},
+      {"sp": "მარიამი", "ka": "მადლობა. წყალიც მინდა, პატარა ბოთლი.", "en": "Thanks. I also want water, a small bottle."},
+      {"sp": "ლევანი", "ka": "აი, ბატონო.", "en": "Here you are."}
+    ],
+    "note": "Pharmacies (აფთიაქი) are on nearly every Tbilisi corner, and ბატონო is a polite address used with everyone regardless of gender.",
+    "verify": false
+  },
+  {
+    "id": "d07",
+    "week": 4,
+    "scene": "taxi",
+    "title_ka": "რა ღირს ტაქსი?",
+    "title_en": "How much is the taxi?",
+    "grammar": ["questions"],
+    "lines": [
+      {"sp": "თამარი", "ka": "გამარჯობათ! თავისუფალი ხართ?", "en": "Hello! Are you free?"},
+      {"sp": "დათო", "ka": "გამარჯობა! კი. სად?", "en": "Hello! Yes. Where to?"},
+      {"sp": "თამარი", "ka": "მეტრო რუსთაველი. რა ღირს?", "en": "Metro Rustaveli. How much does it cost?"},
+      {"sp": "დათო", "ka": "რვა ლარი.", "en": "Eight lari."},
+      {"sp": "თამარი", "ka": "რვა ლარი? რატომ? ეს ახლოს არის!", "en": "Eight lari? Why? It's close!"},
+      {"sp": "დათო", "ka": "კარგი, ექვსი ლარი.", "en": "Okay, six lari."},
+      {"sp": "თამარი", "ka": "ხუთი?", "en": "Five?"},
+      {"sp": "დათო", "ka": "კარგი, ხუთი. როდის გინდათ? ახლა?", "en": "Fine, five. When do you want to go? Now?"},
+      {"sp": "თამარი", "ka": "კი, ახლა. გმადლობთ!", "en": "Yes, now. Thanks!"}
+    ],
+    "note": "With street taxis the price is agreed before the ride starts, and a little friendly bargaining is expected.",
+    "verify": false
+  },
+  {
+    "id": "d08",
+    "week": 4,
+    "scene": "bazaar haggling",
+    "title_ka": "რამდენი ღირს სულგუნი?",
+    "title_en": "How much is the sulguni?",
+    "grammar": ["questions"],
+    "lines": [
+      {"sp": "ეკა", "ka": "გამარჯობათ! ეს რა არის?", "en": "Hello! What is this?"},
+      {"sp": "ზურა", "ka": "ეს სულგუნია. ძალიან გემრიელია.", "en": "This is sulguni. It's very tasty."},
+      {"sp": "ეკა", "ka": "რამდენი ღირს?", "en": "How much does it cost?"},
+      {"sp": "ზურა", "ka": "კილო თხუთმეტი ლარი.", "en": "Fifteen lari a kilo."},
+      {"sp": "ეკა", "ka": "ოჰ, ძვირია!", "en": "Oh, that's expensive!"},
+      {"sp": "ზურა", "ka": "რატომ? კარგი ყველია!", "en": "Why? It's good cheese!"},
+      {"sp": "ეკა", "ka": "თორმეტი ლარი, კარგი?", "en": "Twelve lari, okay?"},
+      {"sp": "ზურა", "ka": "კარგი. რამდენი გინდათ?", "en": "Fine. How much do you want?"},
+      {"sp": "ეკა", "ka": "ერთი კილო. გმადლობთ!", "en": "One kilo. Thanks!"}
+    ],
+    "note": "At the bazaar gentle haggling is part of the ritual, and vendors will happily let you taste the cheese before you buy.",
+    "verify": false
+  },
+  {
+    "id": "d09",
+    "week": 5,
+    "scene": "phone call",
+    "title_ka": "რას აკეთებ?",
+    "title_en": "What are you doing?",
+    "grammar": ["present-conj"],
+    "lines": [
+      {"sp": "გიორგი", "ka": "ალო, ლევან! რას აკეთებ?", "en": "Hello, Levan! What are you doing?"},
+      {"sp": "ლევანი", "ka": "გამარჯობა! ვმუშაობ. შენ?", "en": "Hi! I'm working. You?"},
+      {"sp": "გიორგი", "ka": "მე ქართულს ვსწავლობ.", "en": "I'm studying Georgian."},
+      {"sp": "ლევანი", "ka": "ყოჩაღ! როგორ სწავლობ?", "en": "Well done! How do you study?"},
+      {"sp": "გიორგი", "ka": "ონლაინ ვსწავლობ. ვწერ და ვკითხულობ.", "en": "I study online. I write and I read."},
+      {"sp": "ლევანი", "ka": "მაგარია! მე დღეს ბევრს ვმუშაობ.", "en": "Great! I'm working a lot today."},
+      {"sp": "გიორგი", "ka": "ხვალ ერთად ვსადილობთ?", "en": "Shall we have lunch together tomorrow?"},
+      {"sp": "ლევანი", "ka": "კი, კარგი იდეაა!", "en": "Yes, good idea!"}
+    ],
+    "note": "ალო is the standard way to answer the phone, and ყოჩაღ is a warm 'well done!' used constantly with learners.",
+    "verify": false
+  },
+  {
+    "id": "d10",
+    "week": 5,
+    "scene": "at home",
+    "title_ka": "ვხატავ და ვწერ",
+    "title_en": "I draw and I write",
+    "grammar": ["present-conj"],
+    "lines": [
+      {"sp": "ნინო", "ka": "რას აკეთებ, მარიამ?", "en": "What are you doing, Mariam?"},
+      {"sp": "მარიამი", "ka": "ვხატავ. სურათს ვხატავ.", "en": "I'm drawing. I'm drawing a picture."},
+      {"sp": "ნინო", "ka": "ლამაზია! შენ კარგად ხატავ.", "en": "It's beautiful! You draw well."},
+      {"sp": "მარიამი", "ka": "გმადლობ. შენ რას აკეთებ?", "en": "Thanks. What are you doing?"},
+      {"sp": "ნინო", "ka": "მე ვწერ. წიგნს ვწერ.", "en": "I'm writing. I'm writing a book."},
+      {"sp": "მარიამი", "ka": "მართლა? საინტერესოა!", "en": "Really? How interesting!"},
+      {"sp": "ნინო", "ka": "კი, ყოველ დღე ვწერ.", "en": "Yes, I write every day."},
+      {"sp": "მარიამი", "ka": "ყოჩაღ! მეც ყოველ დღე ვხატავ.", "en": "Well done! I also draw every day."}
+    ],
+    "note": "Georgians compliment freely and sincerely; the graceful response is a simple გმადლობ rather than deflecting the praise.",
+    "verify": false
+  },
+  {
+    "id": "d11",
+    "week": 6,
+    "scene": "marshutka",
+    "title_ka": "დილა და საღამო",
+    "title_en": "Morning and evening",
+    "grammar": ["present-conj"],
+    "lines": [
+      {"sp": "ზურა", "ka": "დათო, ადრე დგები ხოლმე?", "en": "Dato, do you usually get up early?"},
+      {"sp": "დათო", "ka": "კი, ძალიან ადრე ვდგები. შენ?", "en": "Yes, I get up very early. You?"},
+      {"sp": "ზურა", "ka": "მე გვიან ვიღვიძებ.", "en": "I wake up late."},
+      {"sp": "დათო", "ka": "მერე რას აკეთებ?", "en": "Then what do you do?"},
+      {"sp": "ზურა", "ka": "ვსაუზმობ და ვმუშაობ.", "en": "I have breakfast and I work."},
+      {"sp": "დათო", "ka": "საღამოს ისვენებ?", "en": "Do you rest in the evening?"},
+      {"sp": "ზურა", "ka": "კი, ვისვენებ და ტელევიზორს ვუყურებ.", "en": "Yes, I rest and watch TV."},
+      {"sp": "დათო", "ka": "მე ადრე ვწვები.", "en": "I go to bed early."}
+    ],
+    "note": "On a marshutka (shared minibus) you pay the driver directly and small talk with strangers is perfectly normal.",
+    "verify": false
+  },
+  {
+    "id": "d12",
+    "week": 6,
+    "scene": "supra with toasts",
+    "title_ka": "გაუმარჯოს!",
+    "title_en": "Cheers!",
+    "grammar": ["present-conj"],
+    "lines": [
+      {"sp": "ლევანი", "ka": "გიორგი, ღვინოს სვამ?", "en": "Giorgi, do you drink wine?"},
+      {"sp": "გიორგი", "ka": "კი, ცოტას ვსვამ.", "en": "Yes, I drink a little."},
+      {"sp": "ლევანი", "ka": "გაუმარჯოს მეგობრობას!", "en": "To friendship!"},
+      {"sp": "გიორგი", "ka": "გაუმარჯოს!", "en": "Cheers!"},
+      {"sp": "ლევანი", "ka": "მწვადს ჭამ?", "en": "Are you having some mtsvadi?"},
+      {"sp": "გიორგი", "ka": "კი, ვჭამ. ძალიან გემრიელია.", "en": "Yes, I am. It's very tasty."},
+      {"sp": "ლევანი", "ka": "ახლა ვმღერით!", "en": "Now we sing!"},
+      {"sp": "გიორგი", "ka": "მე ცუდად ვმღერი!", "en": "I sing badly!"},
+      {"sp": "ლევანი", "ka": "არა უშავს, ყველა მღერის!", "en": "No matter, everyone sings!"}
+    ],
+    "note": "At a supra the tamada (toastmaster) leads the toasts, and გაუმარჯოს — 'may it be victorious' — is the classic toast formula.",
+    "verify": false
+  },
+  {
+    "id": "d13",
+    "week": 7,
+    "scene": "phone call",
+    "title_ka": "გელოდები!",
+    "title_en": "I'm waiting for you!",
+    "grammar": ["object-markers"],
+    "lines": [
+      {"sp": "ეკა", "ka": "ალო, თამარ! გირეკავ და არ მპასუხობ!", "en": "Hello, Tamar! I keep calling you and you don't answer me!"},
+      {"sp": "თამარი", "ka": "მაპატიე! ვმუშაობ. რა ხდება?", "en": "Forgive me! I'm working. What's going on?"},
+      {"sp": "ეკა", "ka": "დახმარება მინდა. ხვალ მეხმარები?", "en": "I need help. Will you help me tomorrow?"},
+      {"sp": "თამარი", "ka": "რა თქმა უნდა გეხმარები! რა გინდა?", "en": "Of course I'll help you! What do you need?"},
+      {"sp": "ეკა", "ka": "ავეჯი მაქვს და ძალიან მძიმეა.", "en": "I have furniture and it's very heavy."},
+      {"sp": "თამარი", "ka": "კარგი. ზურაც მოდის, ის გვეხმარება.", "en": "Okay. Zura is coming too, he'll help us."},
+      {"sp": "ეკა", "ka": "მაგარია! ძალიან მიხარია.", "en": "Great! I'm really glad."},
+      {"sp": "თამარი", "ka": "ხვალ ადრე გელოდები, კარგი?", "en": "I'll be waiting for you early tomorrow, okay?"},
+      {"sp": "ეკა", "ka": "კარგი! გკოცნი!", "en": "Okay! Kisses!"}
+    ],
+    "note": "Friends — especially women — often end phone calls with გკოცნი ('I kiss you'), the Georgian equivalent of 'kisses, bye'.",
+    "verify": true
+  },
+  {
+    "id": "d14",
+    "week": 7,
+    "scene": "street",
+    "title_ka": "მიცნობ?",
+    "title_en": "Do you recognize me?",
+    "grammar": ["object-markers"],
+    "lines": [
+      {"sp": "ზურა", "ka": "ნინო! გამარჯობა! მიცნობ?", "en": "Nino! Hello! Do you recognize me?"},
+      {"sp": "ნინო", "ka": "ვაიმე, ზურა! რა თქმა უნდა გიცნობ!", "en": "Oh my, Zura! Of course I recognize you!"},
+      {"sp": "ზურა", "ka": "ძალიან მიხარია! როგორ ხარ?", "en": "I'm so glad! How are you?"},
+      {"sp": "ნინო", "ka": "კარგად! შენ არ იცვლები!", "en": "I'm well! You never change!"},
+      {"sp": "ზურა", "ka": "შენც! მარიამი გახსოვს?", "en": "Neither do you! Do you remember Mariami?"},
+      {"sp": "ნინო", "ka": "კი, მახსოვს! სად არის ახლა?", "en": "Yes, I remember her! Where is she now?"},
+      {"sp": "ზურა", "ka": "აქ არის, გველოდება!", "en": "She's here, she's waiting for us!"},
+      {"sp": "ნინო", "ka": "მართლა? წავიდეთ!", "en": "Really? Let's go!"}
+    ],
+    "note": "Chance street encounters in Tbilisi routinely turn into spontaneous coffee — refusing to join, even briefly, can feel cold.",
+    "verify": false
+  },
+  {
+    "id": "d15",
+    "week": 8,
+    "scene": "street directions",
+    "title_ka": "სად არის აფთიაქი?",
+    "title_en": "Where is the pharmacy?",
+    "grammar": ["postpositions"],
+    "lines": [
+      {"sp": "გიორგი", "ka": "უკაცრავად, სად არის აფთიაქი?", "en": "Excuse me, where is the pharmacy?"},
+      {"sp": "მარიამი", "ka": "აფთიაქი რუსთაველზეა.", "en": "The pharmacy is on Rustaveli."},
+      {"sp": "გიორგი", "ka": "რუსთაველზე? ეს შორს არის?", "en": "On Rustaveli? Is that far?"},
+      {"sp": "მარიამი", "ka": "არა, ახლოს. ამ ქუჩაზეა, იქ, მარჯვნივ.", "en": "No, it's close. It's on this street, over there, on the right."},
+      {"sp": "გიორგი", "ka": "გმადლობთ! მეტროც არის აქ?", "en": "Thank you! Is there also a metro here?"},
+      {"sp": "მარიამი", "ka": "კი, მეტრო მოედანზეა.", "en": "Yes, the metro is on the square."},
+      {"sp": "გიორგი", "ka": "მე სასტუმროში ვცხოვრობ, ვაკეში.", "en": "I'm staying in a hotel, in Vake."},
+      {"sp": "მარიამი", "ka": "ვაკეში? კარგი უბანია! ავტობუსი იქ ჩერდება, მოედანზე.", "en": "In Vake? Nice neighborhood! The bus stops there, on the square."},
+      {"sp": "გიორგი", "ka": "დიდი მადლობა!", "en": "Thank you very much!"}
+    ],
+    "note": "Tbilisians give directions by landmarks and metro stations rather than street numbers, and Rustaveli Avenue is the city's main axis.",
+    "verify": false
+  },
+  {
+    "id": "d16",
+    "week": 8,
+    "scene": "café",
+    "title_ka": "საღამოს კინოში",
+    "title_en": "To the cinema tonight",
+    "grammar": ["postpositions"],
+    "lines": [
+      {"sp": "დათო", "ka": "ეკა, დღეს რას აკეთებ?", "en": "Eka, what are you doing today?"},
+      {"sp": "ეკა", "ka": "დილას ბაზარში მივდივარ.", "en": "In the morning I'm going to the bazaar."},
+      {"sp": "დათო", "ka": "მერე?", "en": "And then?"},
+      {"sp": "ეკა", "ka": "მერე ბანკში მივდივარ და საღამოს კინოში.", "en": "Then I'm going to the bank, and in the evening to the cinema."},
+      {"sp": "დათო", "ka": "მეც მინდა კინოში! რა გადის?", "en": "I want to go to the cinema too! What's playing?"},
+      {"sp": "ეკა", "ka": "ქართული ფილმი. კინო რუსთაველზეა.", "en": "A Georgian film. The cinema is on Rustaveli."},
+      {"sp": "დათო", "ka": "მაგარია. სად ვხვდებით?", "en": "Great. Where shall we meet?"},
+      {"sp": "ეკა", "ka": "მოედანზე, რვა საათზე.", "en": "On the square, at eight o'clock."},
+      {"sp": "დათო", "ka": "კარგი, მოედანზე!", "en": "Okay, on the square!"}
+    ],
+    "note": "Evening plans in Tbilisi are made casually and run late — 'at eight' comfortably stretches to quarter past.",
+    "verify": false
+  },
+  {
+    "id": "d17",
+    "week": 9,
+    "scene": "at home",
+    "title_ka": "ბებიის სახლი",
+    "title_en": "Grandma's house",
+    "grammar": ["genitive"],
+    "lines": [
+      {"sp": "ნინო", "ka": "ლევან, ხვალ სად მიდიხარ?", "en": "Levan, where are you going tomorrow?"},
+      {"sp": "ლევანი", "ka": "ბებიასთან მივდივარ.", "en": "I'm going to my grandma's."},
+      {"sp": "ნინო", "ka": "ბებიის სახლი სად არის?", "en": "Where is your grandma's house?"},
+      {"sp": "ლევანი", "ka": "მთაწმინდაზე. ბებიის სახლი ძველია, მაგრამ ლამაზი.", "en": "On Mtatsminda. Grandma's house is old but beautiful."},
+      {"sp": "ნინო", "ka": "კარგია! ჩემი ბებია სოფელში ცხოვრობს.", "en": "Nice! My grandma lives in a village."},
+      {"sp": "ლევანი", "ka": "ბებიასთან ხშირად ხარ?", "en": "Are you often at your grandma's?"},
+      {"sp": "ნინო", "ka": "კი, ზაფხულში. ბებიის ბაღი ძალიან დიდია.", "en": "Yes, in summer. Grandma's garden is very big."},
+      {"sp": "ლევანი", "ka": "კვირას მეგობრის სახლში ვართ. მოდი შენც!", "en": "On Sunday we'll be at a friend's house. You come too!"},
+      {"sp": "ნინო", "ka": "კარგი, მოვალ!", "en": "Okay, I'll come!"}
+    ],
+    "note": "Spending the summer at grandmother's village house is a cherished ritual for generations of Georgian families.",
+    "verify": true
+  },
+  {
+    "id": "d18",
+    "week": 9,
+    "scene": "at home",
+    "title_ka": "ვისი ფოტოა?",
+    "title_en": "Whose photo is it?",
+    "grammar": ["genitive"],
+    "lines": [
+      {"sp": "თამარი", "ka": "ზურა, ეს ვისი ფოტოა?", "en": "Zura, whose photo is this?"},
+      {"sp": "ზურა", "ka": "ეს ჩემი დის ფოტოა.", "en": "This is my sister's photo."},
+      {"sp": "თამარი", "ka": "შენი და ლამაზია! სად ცხოვრობს?", "en": "Your sister is pretty! Where does she live?"},
+      {"sp": "ზურა", "ka": "ქუთაისში, ქმართან ერთად.", "en": "In Kutaisi, together with her husband."},
+      {"sp": "თამარი", "ka": "ეს კიდევ ვინ არის?", "en": "And who is this?"},
+      {"sp": "ზურა", "ka": "ეს მამის ძმაა, ბიძაჩემი.", "en": "That's my father's brother, my uncle."},
+      {"sp": "თამარი", "ka": "ის ჩვენთან ახლოს ცხოვრობს, არა?", "en": "He lives near us, doesn't he?"},
+      {"sp": "ზურა", "ka": "კი! ბიძაჩემის სახლი ჩვენს ქუჩაზეა.", "en": "Yes! My uncle's house is on our street."},
+      {"sp": "თამარი", "ka": "დიდი ოჯახი გყავს!", "en": "You have a big family!"}
+    ],
+    "note": "Georgian kinship words are wonderfully precise — ბიძაჩემი fuses 'uncle' and 'my' into a single everyday word.",
+    "verify": false
+  },
+  {
+    "id": "d19",
+    "week": 10,
+    "scene": "bazaar haggling",
+    "title_ka": "ბაზარში ვაჭრობა",
+    "title_en": "Haggling at the bazaar",
+    "grammar": ["review-1"],
+    "lines": [
+      {"sp": "მარიამი", "ka": "გამარჯობათ! პომიდორი რა ღირს?", "en": "Hello! How much are the tomatoes?"},
+      {"sp": "გიორგი", "ka": "გამარჯობა, ქალბატონო! კილო ოთხი ლარი.", "en": "Hello, madam! Four lari a kilo."},
+      {"sp": "მარიამი", "ka": "ოთხი? იქით სამი ლარია!", "en": "Four? Over there it's three lari!"},
+      {"sp": "გიორგი", "ka": "ეს სოფლის პომიდორია, ძალიან გემრიელია!", "en": "These are village tomatoes, very tasty!"},
+      {"sp": "მარიამი", "ka": "კარგი. ორი კილო მინდა. შვიდი ლარი, კარგი?", "en": "Fine. I want two kilos. Seven lari, okay?"},
+      {"sp": "გიორგი", "ka": "კარგი, შვიდი ლარი. კიდევ რა გინდათ?", "en": "Okay, seven lari. What else would you like?"},
+      {"sp": "მარიამი", "ka": "ქინძი გაქვთ?", "en": "Do you have coriander?"},
+      {"sp": "გიორგი", "ka": "კი, ქინძიც მაქვს და ტარხუნაც. ერთი ლარი.", "en": "Yes, I have coriander and tarragon too. One lari."},
+      {"sp": "მარიამი", "ka": "კარგი. სულ რვა ლარი, ხომ?", "en": "Okay. Eight lari in total, right?"},
+      {"sp": "გიორგი", "ka": "კი. გმადლობთ, ქალბატონო!", "en": "Yes. Thank you, madam!"}
+    ],
+    "note": "Vendors address women as ქალბატონო and men as ბატონო, and calling produce 'from the village' (სოფლის) is the ultimate selling point.",
+    "verify": false
+  },
+  {
+    "id": "d20",
+    "week": 10,
+    "scene": "supra with toasts",
+    "title_ka": "სუფრა და ღვინო",
+    "title_en": "Supra and wine",
+    "grammar": ["review-1"],
+    "lines": [
+      {"sp": "ლევანი", "ka": "ეკა, ღვინო გინდა თუ ლიმონათი?", "en": "Eka, do you want wine or lemonade?"},
+      {"sp": "ეკა", "ka": "ცოტა ღვინო მინდა, გმადლობთ.", "en": "I'd like a little wine, thank you."},
+      {"sp": "ლევანი", "ka": "ეს ბაბუის ღვინოა. ჩვენ სოფელში ვაკეთებთ.", "en": "This is grandpa's wine. We make it in our village."},
+      {"sp": "ეკა", "ka": "ძალიან გემრიელია! რამდენ ღვინოს აკეთებთ?", "en": "It's very tasty! How much wine do you make?"},
+      {"sp": "ლევანი", "ka": "ას ლიტრს! ყოველ წელს.", "en": "A hundred liters! Every year."},
+      {"sp": "ეკა", "ka": "ოჰო! ეს ძალიან ბევრია!", "en": "Oho! That's a lot!"},
+      {"sp": "ლევანი", "ka": "გაუმარჯოს ჩვენს სტუმარს!", "en": "To our guest!"},
+      {"sp": "ეკა", "ka": "გმადლობთ! გაუმარჯოს თქვენს ოჯახს!", "en": "Thank you! To your family!"},
+      {"sp": "ლევანი", "ka": "შენ უკვე კარგად ლაპარაკობ ქართულად!", "en": "You already speak Georgian well!"},
+      {"sp": "ეკა", "ka": "ვსწავლობ! ქართული ენა ძალიან მიყვარს.", "en": "I'm learning! I love the Georgian language very much."}
+    ],
+    "note": "Homemade wine from the family village is a point of deep pride, and a toast to the guest is a fixed moment of every supra.",
+    "verify": false
+  }
+]

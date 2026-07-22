@@ -1,0 +1,64 @@
+{
+  "contrasts": [
+    {
+      "id": "ts",
+      "pair": "წ / ც",
+      "note": "წ is the ejective ts' — a tight pop from the throat, no puff of air. ც is aspirated ts with a puff.",
+      "ejective": ["წელი", "წიგნი", "წითელი", "წამი", "წვიმა", "წყალი"],
+      "aspirate": ["ცა", "ცივი", "ცოტა", "ცეკვა", "ცხრა", "ცხოვრება"],
+      "minimal": [{"a": "წელი", "b": "ცელი", "enA": "year", "enB": "scythe"}]
+    },
+    {
+      "id": "ch",
+      "pair": "ჭ / ჩ",
+      "note": "ჭ is the ejective ch' — sharp, no air. ჩ is the breathy ch of English 'church'.",
+      "ejective": ["ჭამა", "ჭიქა", "ჭკვიანი", "ჭირი", "ჭაჭა"],
+      "aspirate": ["ჩაი", "ჩანთა", "ჩიტი", "ჩემი", "ჩუმად"],
+      "minimal": [{"a": "ჭერი", "b": "ჩერი", "enA": "ceiling", "enB": "(nonce syllable — focus on the pop)"}]
+    },
+    {
+      "id": "k",
+      "pair": "კ / ქ",
+      "note": "კ is the ejective k' — throat-popped. ქ is English-style breathy k.",
+      "ejective": ["კაცი", "კარი", "კარგი", "კბილი", "კატა"],
+      "aspirate": ["ქალი", "ქარი", "ქუჩა", "ქვა", "ქართული"],
+      "minimal": [{"a": "კარი", "b": "ქარი", "enA": "door", "enB": "wind"}]
+    },
+    {
+      "id": "p",
+      "pair": "პ / ფ",
+      "note": "პ is the ejective p' — lips pop with zero breath. ფ is breathy like English p in 'pot'.",
+      "ejective": ["პური", "პატარა", "პირი", "პასუხი"],
+      "aspirate": ["ფული", "ფანჯარა", "ფეხი", "ფერი"],
+      "minimal": [{"a": "პირი", "b": "ფირი", "enA": "mouth", "enB": "tape/film"}]
+    },
+    {
+      "id": "t",
+      "pair": "ტ / თ",
+      "note": "ტ is the ejective t' — crisp click, no air. თ is breathy like English t in 'top'.",
+      "ejective": ["ტკბილი", "ტანი", "ტყე", "ტაქსი"],
+      "aspirate": ["თევზი", "თავი", "თბილი", "თეთრი"],
+      "minimal": [{"a": "ტარი", "b": "თარი", "enA": "handle", "enB": "tari (instrument)"}]
+    },
+    {
+      "id": "q",
+      "pair": "ყ / ხ",
+      "note": "ყ is the deep throat-stop q' — made far back, like a tiny cough sealed and popped. ხ is a soft throat friction like Scottish 'loch'.",
+      "ejective": ["ყავა", "ყველი", "ყვავილი", "ყური", "ყველაფერი"],
+      "aspirate": ["ხელი", "ხვალ", "ხაჭაპური", "ხალხი", "ხიდი"],
+      "minimal": [{"a": "ყელი", "b": "ხელი", "enA": "throat", "enB": "hand"}]
+    }
+  ],
+  "ladders": [
+    {"id": "l1", "name": "წყ", "steps": ["წყ", "წყალი", "წყარო", "წყურვილი"], "en": "water · spring · thirst"},
+    {"id": "l2", "name": "მწ", "steps": ["მწ", "მწარე", "მწვანე", "მწვადი"], "en": "bitter · green · mtsvadi (shashlik)"},
+    {"id": "l3", "name": "ბრწყ", "steps": ["წყ", "რწყ", "ბრწყ", "ბრწყინვალე"], "en": "…brilliant!"},
+    {"id": "l4", "name": "გვ", "steps": ["გვ", "გვიან", "გვერდი", "გვახსოვს"], "en": "late · side/page · we remember"},
+    {"id": "l5", "name": "დღ", "steps": ["დღ", "დღე", "დღეს", "დღესასწაული"], "en": "day · today · holiday"},
+    {"id": "l6", "name": "ტკ", "steps": ["ტკ", "ტკბილი", "ტკივილი", "მტკივა"], "en": "sweet · pain · it hurts me"},
+    {"id": "l7", "name": "მტკ", "steps": ["ტკ", "მტკ", "მტკვარი"], "en": "…the Mtkvari river"},
+    {"id": "l8", "name": "ღვ", "steps": ["ღვ", "ღვინო", "გაღვიძება"], "en": "wine · waking up"},
+    {"id": "l9", "name": "ცხ", "steps": ["ცხ", "ცხრა", "ცხელი", "ცხოვრება"], "en": "nine · hot · life"},
+    {"id": "l10", "name": "სწ", "steps": ["სწ", "სწავლა", "ვსწავლობ", "ვისწავლი"], "en": "studying · I study · I will learn"}
+  ]
+}
