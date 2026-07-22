@@ -1,0 +1,4665 @@
+[
+  {
+    "id": "v401",
+    "rank": 401,
+    "ka": "სათვალე",
+    "en": "glasses, eyeglasses",
+    "pos": "noun",
+    "week": 34,
+    "tags": [
+      "health",
+      "object"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სათვალის გარეშე ვერ ვკითხულობ.",
+        "en": "I can't read without glasses."
+      },
+      {
+        "ka": "ახალი სათვალე მჭირდება.",
+        "en": "I need new glasses."
+      }
+    ]
+  },
+  {
+    "id": "v402",
+    "rank": 402,
+    "ka": "ექთანი",
+    "en": "nurse",
+    "pos": "noun",
+    "week": 34,
+    "tags": [
+      "health",
+      "profession"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ექთანმა წნევა გამიზომა.",
+        "en": "The nurse measured my blood pressure."
+      },
+      {
+        "ka": "ექთანი ძალიან თბილი ადამიანია.",
+        "en": "The nurse is a very warm person."
+      }
+    ]
+  },
+  {
+    "id": "v403",
+    "rank": 403,
+    "ka": "აბი",
+    "en": "pill",
+    "pos": "noun",
+    "week": 34,
+    "tags": [
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს აბი ჭამის მერე დალიე.",
+        "en": "Take this pill after eating."
+      },
+      {
+        "ka": "თავის ტკივილის აბი გაქვს?",
+        "en": "Do you have a headache pill?"
+      }
+    ]
+  },
+  {
+    "id": "v404",
+    "rank": 404,
+    "ka": "ტკივილი",
+    "en": "pain",
+    "pos": "noun",
+    "week": 34,
+    "tags": [
+      "health"
+    ],
+    "pron": "ejectives t', k': t'k'ivili",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ზურგში ძლიერი ტკივილი მაქვს.",
+        "en": "I have a strong pain in my back."
+      },
+      {
+        "ka": "ტკივილი წამალმა მოხსნა.",
+        "en": "The medicine took away the pain."
+      }
+    ]
+  },
+  {
+    "id": "v405",
+    "rank": 405,
+    "ka": "მტკივა",
+    "en": "it hurts (me)",
+    "pos": "verb",
+    "week": 34,
+    "tags": [
+      "health"
+    ],
+    "pron": "ejectives t', k': mt'k'iva",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "თავი მტკივა დილიდან.",
+        "en": "My head has been hurting since morning."
+      },
+      {
+        "ka": "ბავშვს მუცელი სტკივა.",
+        "en": "The child's stomach hurts."
+      }
+    ]
+  },
+  {
+    "id": "v406",
+    "rank": 406,
+    "ka": "სიცხე",
+    "en": "fever; heat",
+    "pos": "noun",
+    "week": 34,
+    "tags": [
+      "health",
+      "weather"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სიცხე მაქვს და ვხველავ.",
+        "en": "I have a fever and I am coughing."
+      },
+      {
+        "ka": "ბავშვს წუხელიდან სიცხე აქვს.",
+        "en": "The child has had a fever since last night."
+      }
+    ]
+  },
+  {
+    "id": "v407",
+    "rank": 407,
+    "ka": "ხველა",
+    "en": "cough",
+    "pos": "noun",
+    "week": 34,
+    "tags": [
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ღამით ხველა მაწუხებს.",
+        "en": "A cough bothers me at night."
+      },
+      {
+        "ka": "ხველისთვის სიროფი მომეცი.",
+        "en": "Give me syrup for the cough."
+      }
+    ]
+  },
+  {
+    "id": "v408",
+    "rank": 408,
+    "ka": "გაციება",
+    "en": "a cold (illness)",
+    "pos": "noun",
+    "week": 34,
+    "tags": [
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მგონი გაციება მაქვს.",
+        "en": "I think I have a cold."
+      },
+      {
+        "ka": "გაციების დროს ბევრი ჩაი დალიე.",
+        "en": "Drink a lot of tea when you have a cold."
+      }
+    ]
+  },
+  {
+    "id": "v409",
+    "rank": 409,
+    "ka": "ჯანმრთელობა",
+    "en": "health",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჯანმრთელობა ყველაფერზე მთავარია.",
+        "en": "Health is the most important thing of all."
+      },
+      {
+        "ka": "შენს ჯანმრთელობას გაუფრთხილდი.",
+        "en": "Take care of your health."
+      }
+    ]
+  },
+  {
+    "id": "v410",
+    "rank": 410,
+    "ka": "რიგი",
+    "en": "queue, line; turn",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "daily life",
+      "city"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "აფთიაქში დიდი რიგია.",
+        "en": "There is a long queue at the pharmacy."
+      },
+      {
+        "ka": "რიგში ერთი საათი ვიდექი.",
+        "en": "I stood in line for an hour."
+      }
+    ]
+  },
+  {
+    "id": "v411",
+    "rank": 411,
+    "ka": "ავად",
+    "en": "sick, ill",
+    "pos": "adv",
+    "week": 35,
+    "tags": [
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ავად ვარ, სახლში ვრჩები.",
+        "en": "I am sick, I am staying home."
+      },
+      {
+        "ka": "ბავშვი ავად გახდა წუხელ.",
+        "en": "The child got sick last night."
+      }
+    ]
+  },
+  {
+    "id": "v412",
+    "rank": 412,
+    "ka": "წნევა",
+    "en": "blood pressure",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health"
+    ],
+    "pron": "ejective ts': ts'neva",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "წნევა ისევ ამიწია.",
+        "en": "My blood pressure went up again."
+      },
+      {
+        "ka": "ბებიას მაღალი წნევა აქვს.",
+        "en": "Grandma has high blood pressure."
+      }
+    ]
+  },
+  {
+    "id": "v413",
+    "rank": 413,
+    "ka": "ყელი",
+    "en": "throat",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health",
+      "body"
+    ],
+    "pron": "q' is a deep throaty stop: q'eli",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ყელი მტკივა და ხმა ჩამიჯდა.",
+        "en": "My throat hurts and my voice is hoarse."
+      },
+      {
+        "ka": "ყელი გამიშრა, წყალი მომეცი.",
+        "en": "My throat is dry, give me water."
+      }
+    ]
+  },
+  {
+    "id": "v414",
+    "rank": 414,
+    "ka": "ძლიერი",
+    "en": "strong",
+    "pos": "adj",
+    "week": 35,
+    "tags": [
+      "adjective",
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ძლიერი თავის ტკივილი მაქვს.",
+        "en": "I have a strong headache."
+      },
+      {
+        "ka": "ის ძალიან ძლიერი კაცია.",
+        "en": "He is a very strong man."
+      }
+    ]
+  },
+  {
+    "id": "v415",
+    "rank": 415,
+    "ka": "ალერგია",
+    "en": "allergy",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ყვავილებზე ალერგია მაქვს.",
+        "en": "I am allergic to flowers."
+      },
+      {
+        "ka": "ალერგია გაზაფხულზე მემართება.",
+        "en": "I get allergies in spring."
+      }
+    ]
+  },
+  {
+    "id": "v416",
+    "rank": 416,
+    "ka": "მკურნალობა",
+    "en": "treatment",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health"
+    ],
+    "pron": "ejective k': mk'urnaloba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მკურნალობა ორი კვირა გრძელდება.",
+        "en": "The treatment lasts two weeks."
+      },
+      {
+        "ka": "ექიმმა მკურნალობა დამინიშნა.",
+        "en": "The doctor prescribed me a treatment."
+      }
+    ]
+  },
+  {
+    "id": "v417",
+    "rank": 417,
+    "ka": "რეცეპტი",
+    "en": "prescription; recipe",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health",
+      "cooking"
+    ],
+    "pron": "ejectives p', t': retsep't'i",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ექიმმა რეცეპტი გამომიწერა.",
+        "en": "The doctor wrote me a prescription."
+      },
+      {
+        "ka": "ამ ნამცხვრის რეცეპტი მომეცი.",
+        "en": "Give me the recipe for this cake."
+      }
+    ]
+  },
+  {
+    "id": "v418",
+    "rank": 418,
+    "ka": "დაზღვევა",
+    "en": "insurance",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health",
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მანქანის დაზღვევა მაქვს.",
+        "en": "I have car insurance."
+      },
+      {
+        "ka": "დაზღვევა წამლებსაც ფარავს.",
+        "en": "The insurance also covers medicines."
+      }
+    ]
+  },
+  {
+    "id": "v419",
+    "rank": 419,
+    "ka": "ვარჯიში",
+    "en": "exercise, workout",
+    "pos": "noun",
+    "week": 35,
+    "tags": [
+      "health"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დილით ვარჯიში მიყვარს.",
+        "en": "I love morning exercise."
+      },
+      {
+        "ka": "ვარჯიშის მერე თავს კარგად ვგრძნობ.",
+        "en": "I feel good after a workout."
+      }
+    ]
+  },
+  {
+    "id": "v420",
+    "rank": 420,
+    "ka": "მიხარია",
+    "en": "I am glad",
+    "pos": "verb",
+    "week": 35,
+    "tags": [
+      "emotion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შენი ნახვა ძალიან მიხარია.",
+        "en": "I am very glad to see you."
+      },
+      {
+        "ka": "მიხარია, რომ მოხვედი.",
+        "en": "I am glad that you came."
+      }
+    ]
+  },
+  {
+    "id": "v421",
+    "rank": 421,
+    "ka": "მეშინია",
+    "en": "I am afraid",
+    "pos": "verb",
+    "week": 36,
+    "tags": [
+      "emotion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ძაღლების მეშინია ბავშვობიდან.",
+        "en": "I have been afraid of dogs since childhood."
+      },
+      {
+        "ka": "ნუ გეშინია, აქ ვარ.",
+        "en": "Don't be afraid, I am here."
+      }
+    ]
+  },
+  {
+    "id": "v422",
+    "rank": 422,
+    "ka": "მრცხვენია",
+    "en": "I am embarrassed, ashamed",
+    "pos": "verb",
+    "week": 36,
+    "tags": [
+      "emotion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ცოტა მრცხვენია, ცუდად ვმღერი.",
+        "en": "I am a little embarrassed, I sing badly."
+      },
+      {
+        "ka": "არ გრცხვენია? ისევ დააგვიანე!",
+        "en": "Aren't you ashamed? You were late again!"
+      }
+    ]
+  },
+  {
+    "id": "v423",
+    "rank": 423,
+    "ka": "მგონია",
+    "en": "it seems to me, I think",
+    "pos": "verb",
+    "week": 36,
+    "tags": [
+      "opinion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს კარგი გეგმა მგონია.",
+        "en": "I think this is a good plan."
+      },
+      {
+        "ka": "მგონია, სიმართლეს არ ამბობს.",
+        "en": "It seems to me he is not telling the truth."
+      }
+    ]
+  },
+  {
+    "id": "v424",
+    "rank": 424,
+    "ka": "სიცილი",
+    "en": "laughter",
+    "pos": "noun",
+    "week": 36,
+    "tags": [
+      "emotion",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სიცილი ჯანმრთელობისთვის კარგია.",
+        "en": "Laughter is good for your health."
+      },
+      {
+        "ka": "მისი სიცილი შორიდან ისმის.",
+        "en": "Her laughter can be heard from afar."
+      }
+    ]
+  },
+  {
+    "id": "v425",
+    "rank": 425,
+    "ka": "მოწყენილი",
+    "en": "sad, bored",
+    "pos": "adj",
+    "week": 36,
+    "tags": [
+      "emotion"
+    ],
+    "pron": "ejectives ts', q': mots'q'enili",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "რატომ ხარ ასე მოწყენილი?",
+        "en": "Why are you so sad?"
+      },
+      {
+        "ka": "მოწყენილი ვარ, არაფერი ხდება.",
+        "en": "I am bored, nothing is happening."
+      }
+    ]
+  },
+  {
+    "id": "v426",
+    "rank": 426,
+    "ka": "მოთმინება",
+    "en": "patience",
+    "pos": "noun",
+    "week": 36,
+    "tags": [
+      "emotion",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მოთმინება ცოტა მაკლია.",
+        "en": "I lack a bit of patience."
+      },
+      {
+        "ka": "ბავშვებთან მოთმინება გჭირდება.",
+        "en": "You need patience with children."
+      }
+    ]
+  },
+  {
+    "id": "v427",
+    "rank": 427,
+    "ka": "ნერვიულობა",
+    "en": "to worry, be nervous",
+    "pos": "verb",
+    "week": 36,
+    "tags": [
+      "emotion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ნუ ნერვიულობ, ყველაფერი კარგად იქნება.",
+        "en": "Don't worry, everything will be fine."
+      },
+      {
+        "ka": "გამოცდაზე ყოველთვის ვნერვიულობ.",
+        "en": "I always get nervous at exams."
+      }
+    ]
+  },
+  {
+    "id": "v428",
+    "rank": 428,
+    "ka": "განწყობა",
+    "en": "mood",
+    "pos": "noun",
+    "week": 36,
+    "tags": [
+      "emotion"
+    ],
+    "pron": "ejectives ts', q': gants'q'oba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დღეს კარგი განწყობა მაქვს.",
+        "en": "I am in a good mood today."
+      },
+      {
+        "ka": "წვიმამ განწყობა გამიფუჭა.",
+        "en": "The rain ruined my mood."
+      }
+    ]
+  },
+  {
+    "id": "v429",
+    "rank": 429,
+    "ka": "იმედი",
+    "en": "hope",
+    "pos": "noun",
+    "week": 36,
+    "tags": [
+      "emotion",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "იმედი მაქვს, მალე გამოჯანმრთელდები.",
+        "en": "I hope you get well soon."
+      },
+      {
+        "ka": "იმედს ნუ დაკარგავ.",
+        "en": "Don't lose hope."
+      }
+    ]
+  },
+  {
+    "id": "v430",
+    "rank": 430,
+    "ka": "ოცნება",
+    "en": "dream (wish)",
+    "pos": "noun",
+    "week": 36,
+    "tags": [
+      "emotion",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჩემი ოცნება საკუთარი სახლია.",
+        "en": "My dream is my own house."
+      },
+      {
+        "ka": "ზღვასთან ცხოვრება ოცნებაა.",
+        "en": "Living by the sea is a dream."
+      }
+    ]
+  },
+  {
+    "id": "v431",
+    "rank": 431,
+    "ka": "სიზმარი",
+    "en": "dream (in sleep)",
+    "pos": "noun",
+    "week": 36,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "წუხელ უცნაური სიზმარი ვნახე.",
+        "en": "I had a strange dream last night."
+      },
+      {
+        "ka": "სიზმარში სოფელში ვიყავი.",
+        "en": "In my dream I was in the village."
+      }
+    ]
+  },
+  {
+    "id": "v432",
+    "rank": 432,
+    "ka": "ეჭვი",
+    "en": "doubt, suspicion",
+    "pos": "noun",
+    "week": 36,
+    "tags": [
+      "opinion",
+      "abstract"
+    ],
+    "pron": "ejective ch': ech'vi",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეჭვი მაქვს, ტყუილს ამბობს.",
+        "en": "I suspect he is lying."
+      },
+      {
+        "ka": "ამ საქმეზე ეჭვები გამიჩნდა.",
+        "en": "I started having doubts about this matter."
+      }
+    ]
+  },
+  {
+    "id": "v433",
+    "rank": 433,
+    "ka": "ფიქრი",
+    "en": "thought",
+    "pos": "noun",
+    "week": 37,
+    "tags": [
+      "opinion",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ფიქრი მოსვენებას არ მაძლევს.",
+        "en": "This thought gives me no rest."
+      },
+      {
+        "ka": "ცუდ ფიქრებს თავი დაანებე.",
+        "en": "Let go of bad thoughts."
+      }
+    ]
+  },
+  {
+    "id": "v434",
+    "rank": 434,
+    "ka": "აზრი",
+    "en": "opinion; idea",
+    "pos": "noun",
+    "week": 37,
+    "tags": [
+      "opinion",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შენი აზრი მაინტერესებს.",
+        "en": "I am interested in your opinion."
+      },
+      {
+        "ka": "კარგი აზრი მოგივიდა!",
+        "en": "You got a good idea!"
+      }
+    ]
+  },
+  {
+    "id": "v435",
+    "rank": 435,
+    "ka": "ვეთანხმები",
+    "en": "I agree",
+    "pos": "verb",
+    "week": 37,
+    "tags": [
+      "opinion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შენს აზრს სრულად ვეთანხმები.",
+        "en": "I fully agree with your opinion."
+      },
+      {
+        "ka": "ამაში ვერ გეთანხმები.",
+        "en": "I cannot agree with you on this."
+      }
+    ]
+  },
+  {
+    "id": "v436",
+    "rank": 436,
+    "ka": "შეცდომა",
+    "en": "mistake",
+    "pos": "noun",
+    "week": 37,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შეცდომა დავუშვი, ბოდიში.",
+        "en": "I made a mistake, sorry."
+      },
+      {
+        "ka": "ჩვენ შეცდომებზე ვსწავლობთ.",
+        "en": "We learn from mistakes."
+      }
+    ]
+  },
+  {
+    "id": "v437",
+    "rank": 437,
+    "ka": "სიმართლე",
+    "en": "truth",
+    "pos": "noun",
+    "week": 37,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სიმართლე მითხარი, რა მოხდა?",
+        "en": "Tell me the truth, what happened?"
+      },
+      {
+        "ka": "სიმართლე მალე გამოჩნდება.",
+        "en": "The truth will come out soon."
+      }
+    ]
+  },
+  {
+    "id": "v438",
+    "rank": 438,
+    "ka": "ტყუილი",
+    "en": "lie",
+    "pos": "noun",
+    "week": 37,
+    "tags": [
+      "abstract"
+    ],
+    "pron": "ejectives t', q': t'q'uili",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ტყუილია, ნუ დაიჯერებ.",
+        "en": "That is a lie, don't believe it."
+      },
+      {
+        "ka": "ბიჭმა ტყუილი თქვა და გაწითლდა.",
+        "en": "The boy told a lie and blushed."
+      }
+    ]
+  },
+  {
+    "id": "v439",
+    "rank": 439,
+    "ka": "სიამოვნებით",
+    "en": "with pleasure, gladly",
+    "pos": "adv",
+    "week": 37,
+    "tags": [
+      "emotion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მე სიამოვნებით დაგეხმარები.",
+        "en": "I will gladly help you."
+      },
+      {
+        "ka": "სიამოვნებით მოვალ ხვალ.",
+        "en": "I will gladly come tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v440",
+    "rank": 440,
+    "ka": "ნამდვილად",
+    "en": "really, truly",
+    "pos": "adv",
+    "week": 37,
+    "tags": [
+      "opinion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ნამდვილად კარგი ამბავია.",
+        "en": "This is really good news."
+      },
+      {
+        "ka": "ნამდვილად არ ვიცი, სად არის.",
+        "en": "I really don't know where it is."
+      }
+    ]
+  },
+  {
+    "id": "v441",
+    "rank": 441,
+    "ka": "მშვიდი",
+    "en": "calm, quiet",
+    "pos": "adj",
+    "week": 37,
+    "tags": [
+      "emotion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "აქ ძალიან მშვიდი ადგილია.",
+        "en": "This is a very calm place."
+      },
+      {
+        "ka": "ზღვა დღეს მშვიდია.",
+        "en": "The sea is calm today."
+      }
+    ]
+  },
+  {
+    "id": "v442",
+    "rank": 442,
+    "ka": "დაკავებული",
+    "en": "busy",
+    "pos": "adj",
+    "week": 37,
+    "tags": [
+      "work"
+    ],
+    "pron": "ejective k': dak'avebuli",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხვალ დაკავებული ვარ, ბოდიში.",
+        "en": "I am busy tomorrow, sorry."
+      },
+      {
+        "ka": "ხაზი ისევ დაკავებულია.",
+        "en": "The line is busy again."
+      }
+    ]
+  },
+  {
+    "id": "v443",
+    "rank": 443,
+    "ka": "თავისუფალი",
+    "en": "free, available",
+    "pos": "adj",
+    "week": 37,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხვალ თავისუფალი დღე მაქვს.",
+        "en": "I have a free day tomorrow."
+      },
+      {
+        "ka": "ეს ადგილი თავისუფალია?",
+        "en": "Is this seat free?"
+      }
+    ]
+  },
+  {
+    "id": "v444",
+    "rank": 444,
+    "ka": "გზა",
+    "en": "road, way",
+    "pos": "noun",
+    "week": 37,
+    "tags": [
+      "place",
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს გზა სოფლისკენ მიდის.",
+        "en": "This road leads to the village."
+      },
+      {
+        "ka": "გზაში ორი საათი ვიყავით.",
+        "en": "We were on the road for two hours."
+      }
+    ]
+  },
+  {
+    "id": "v445",
+    "rank": 445,
+    "ka": "კლდე",
+    "en": "cliff, rock",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature",
+      "place"
+    ],
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "კლდეზე ლამაზი ეკლესია დგას.",
+        "en": "A beautiful church stands on the cliff."
+      },
+      {
+        "ka": "კლდესთან ფრთხილად იყავი.",
+        "en": "Be careful near the cliff."
+      }
+    ]
+  },
+  {
+    "id": "v446",
+    "rank": 446,
+    "ka": "ჩანჩქერი",
+    "en": "waterfall",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature",
+      "place"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მთაში დიდი ჩანჩქერი ვნახეთ.",
+        "en": "We saw a big waterfall in the mountains."
+      },
+      {
+        "ka": "ჩანჩქერთან ბევრი ტურისტია.",
+        "en": "There are many tourists at the waterfall."
+      }
+    ]
+  },
+  {
+    "id": "v447",
+    "rank": 447,
+    "ka": "ტყე",
+    "en": "forest",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": "ejectives t', q': t'q'e",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ტყეში სოკო მოვკრიფეთ.",
+        "en": "We picked mushrooms in the forest."
+      },
+      {
+        "ka": "ტყე შემოდგომაზე ლამაზია.",
+        "en": "The forest is beautiful in autumn."
+      }
+    ]
+  },
+  {
+    "id": "v448",
+    "rank": 448,
+    "ka": "მდინარე",
+    "en": "river",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მდინარეში ბავშვები ბანაობენ.",
+        "en": "Children are swimming in the river."
+      },
+      {
+        "ka": "ეს მდინარე ძალიან ცივია.",
+        "en": "This river is very cold."
+      }
+    ]
+  },
+  {
+    "id": "v449",
+    "rank": 449,
+    "ka": "ტბა",
+    "en": "lake",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": "ejective t': t'ba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ტბაზე სათევზაოდ წავედით.",
+        "en": "We went to the lake to fish."
+      },
+      {
+        "ka": "ტბა ზამთარში იყინება.",
+        "en": "The lake freezes in winter."
+      }
+    ]
+  },
+  {
+    "id": "v450",
+    "rank": 450,
+    "ka": "ბუნება",
+    "en": "nature",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "საქართველოს ბუნება მშვენიერია.",
+        "en": "Georgia's nature is wonderful."
+      },
+      {
+        "ka": "ბუნებაში დასვენება მიყვარს.",
+        "en": "I love relaxing in nature."
+      }
+    ]
+  },
+  {
+    "id": "v451",
+    "rank": 451,
+    "ka": "ჰაერი",
+    "en": "air",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მთის ჰაერი სუფთაა.",
+        "en": "Mountain air is clean."
+      },
+      {
+        "ka": "სუფთა ჰაერზე გავისეირნოთ.",
+        "en": "Let's take a walk in the fresh air."
+      }
+    ]
+  },
+  {
+    "id": "v452",
+    "rank": 452,
+    "ka": "მიწა",
+    "en": "earth, soil, land",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": "ejective ts': mits'a",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს მიწა ჩვენი ოჯახისაა.",
+        "en": "This land belongs to our family."
+      },
+      {
+        "ka": "წვიმის მერე მიწა სველია.",
+        "en": "After the rain the soil is wet."
+      }
+    ]
+  },
+  {
+    "id": "v453",
+    "rank": 453,
+    "ka": "ქვა",
+    "en": "stone",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბავშვმა ქვა წყალში გადააგდო.",
+        "en": "The child threw a stone into the water."
+      },
+      {
+        "ka": "გზა ქვებით არის სავსე.",
+        "en": "The road is full of stones."
+      }
+    ]
+  },
+  {
+    "id": "v454",
+    "rank": 454,
+    "ka": "ხე",
+    "en": "tree",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეზოში დიდი ხე დგას.",
+        "en": "A big tree stands in the yard."
+      },
+      {
+        "ka": "ხეები შემოდგომაზე ყვითლდება.",
+        "en": "The trees turn yellow in autumn."
+      }
+    ]
+  },
+  {
+    "id": "v455",
+    "rank": 455,
+    "ka": "ფოთოლი",
+    "en": "leaf",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature",
+      "plant"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შემოდგომაზე ფოთოლი ყვითლდება.",
+        "en": "In autumn the leaves turn yellow."
+      },
+      {
+        "ka": "ხიდან ფოთოლი ჩამოვარდა.",
+        "en": "A leaf fell from the tree."
+      }
+    ]
+  },
+  {
+    "id": "v456",
+    "rank": 456,
+    "ka": "ბალახი",
+    "en": "grass",
+    "pos": "noun",
+    "week": 38,
+    "tags": [
+      "nature"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "რბილ ბალახზე დავსხედით.",
+        "en": "We sat down on the soft grass."
+      },
+      {
+        "ka": "ძროხა ბალახს ძოვს.",
+        "en": "The cow is grazing on grass."
+      }
+    ]
+  },
+  {
+    "id": "v457",
+    "rank": 457,
+    "ka": "ეზო",
+    "en": "yard",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "nature",
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბავშვები ეზოში თამაშობენ.",
+        "en": "The children are playing in the yard."
+      },
+      {
+        "ka": "ეზო ყვავილებით სავსეა.",
+        "en": "The yard is full of flowers."
+      }
+    ]
+  },
+  {
+    "id": "v458",
+    "rank": 458,
+    "ka": "ბოსტანი",
+    "en": "vegetable garden",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "nature",
+      "food"
+    ],
+    "pron": "ejective t': bost'ani",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბებიას დიდი ბოსტანი აქვს.",
+        "en": "Grandma has a big vegetable garden."
+      },
+      {
+        "ka": "ბოსტანში პომიდორი მოვიყვანეთ.",
+        "en": "We grew tomatoes in the vegetable garden."
+      }
+    ]
+  },
+  {
+    "id": "v459",
+    "rank": 459,
+    "ka": "ვენახი",
+    "en": "vineyard",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "nature",
+      "tradition"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბაბუას ვენახი კახეთშია.",
+        "en": "Grandpa's vineyard is in Kakheti."
+      },
+      {
+        "ka": "ვენახში ყურძენი დავკრიფეთ.",
+        "en": "We picked grapes in the vineyard."
+      }
+    ]
+  },
+  {
+    "id": "v460",
+    "rank": 460,
+    "ka": "ძროხა",
+    "en": "cow",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "nature",
+      "animal"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბებიას ორი ძროხა ჰყავს.",
+        "en": "Grandma has two cows."
+      },
+      {
+        "ka": "ძროხა რძეს გვაძლევს.",
+        "en": "The cow gives us milk."
+      }
+    ]
+  },
+  {
+    "id": "v461",
+    "rank": 461,
+    "ka": "ცხენი",
+    "en": "horse",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "nature",
+      "animal"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ცხენით სეირნობა მინდა.",
+        "en": "I want to go horseback riding."
+      },
+      {
+        "ka": "ბაბუას სოფელში ცხენი ჰყავდა.",
+        "en": "Grandpa had a horse in the village."
+      }
+    ]
+  },
+  {
+    "id": "v462",
+    "rank": 462,
+    "ka": "სანაპირო",
+    "en": "coast, beach",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "nature",
+      "travel"
+    ],
+    "pron": "ejective p': sanap'iro",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "საღამოს სანაპიროზე ვსეირნობთ.",
+        "en": "In the evening we stroll on the beach."
+      },
+      {
+        "ka": "სანაპირო ზაფხულში ხალხით ივსება.",
+        "en": "The beach fills with people in summer."
+      }
+    ]
+  },
+  {
+    "id": "v463",
+    "rank": 463,
+    "ka": "ხედი",
+    "en": "view",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "travel",
+      "nature"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "აივნიდან ლამაზი ხედი იშლება.",
+        "en": "A beautiful view opens from the balcony."
+      },
+      {
+        "ka": "ამ ოთახს ზღვის ხედი აქვს.",
+        "en": "This room has a sea view."
+      }
+    ]
+  },
+  {
+    "id": "v464",
+    "rank": 464,
+    "ka": "ღრუბელი",
+    "en": "cloud",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "weather"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ცაზე შავი ღრუბლები გამოჩნდა.",
+        "en": "Black clouds appeared in the sky."
+      },
+      {
+        "ka": "ერთი ღრუბელიც არ არის.",
+        "en": "There is not a single cloud."
+      }
+    ]
+  },
+  {
+    "id": "v465",
+    "rank": 465,
+    "ka": "ცა",
+    "en": "sky",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "nature",
+      "weather"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დღეს ცა სულ ლურჯია.",
+        "en": "Today the sky is all blue."
+      },
+      {
+        "ka": "ღამით ცაზე ვარსკვლავები ჩანს.",
+        "en": "At night stars are visible in the sky."
+      }
+    ]
+  },
+  {
+    "id": "v466",
+    "rank": 466,
+    "ka": "ნისლი",
+    "en": "fog",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "weather"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დილით გზაზე ნისლი იყო.",
+        "en": "There was fog on the road in the morning."
+      },
+      {
+        "ka": "ნისლის გამო ვერაფერს ვხედავ.",
+        "en": "I can't see anything because of the fog."
+      }
+    ]
+  },
+  {
+    "id": "v467",
+    "rank": 467,
+    "ka": "ყინვა",
+    "en": "frost",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "weather"
+    ],
+    "pron": "q' is a deep throaty stop: q'inva",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ღამით ყინვა იქნება.",
+        "en": "There will be frost at night."
+      },
+      {
+        "ka": "ყინვამ ყვავილები დააზიანა.",
+        "en": "The frost damaged the flowers."
+      }
+    ]
+  },
+  {
+    "id": "v468",
+    "rank": 468,
+    "ka": "სეტყვა",
+    "en": "hail",
+    "pos": "noun",
+    "week": 39,
+    "tags": [
+      "weather"
+    ],
+    "pron": "ejectives t', q': set'q'va",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "წვიმას სეტყვაც მოჰყვა.",
+        "en": "Hail followed the rain."
+      },
+      {
+        "ka": "სეტყვა მოვიდა და ვენახი დაზიანდა.",
+        "en": "Hail came and the vineyard was damaged."
+      }
+    ]
+  },
+  {
+    "id": "v469",
+    "rank": 469,
+    "ka": "ელჭექი",
+    "en": "thunderstorm",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "weather"
+    ],
+    "pron": "ejective ch': elch'eki",
+    "verify": true,
+    "sentences": [
+      {
+        "ka": "ღამით ძლიერი ელჭექი იყო.",
+        "en": "There was a strong thunderstorm at night."
+      },
+      {
+        "ka": "ელჭექის დროს სახლში დარჩი.",
+        "en": "Stay home during a thunderstorm."
+      }
+    ]
+  },
+  {
+    "id": "v470",
+    "rank": 470,
+    "ka": "პროგნოზი",
+    "en": "forecast",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "weather"
+    ],
+    "pron": "ejective p': p'rognozi",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ამინდის პროგნოზი ნახე.",
+        "en": "Check the weather forecast."
+      },
+      {
+        "ka": "პროგნოზით ხვალ იწვიმებს.",
+        "en": "According to the forecast it will rain tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v471",
+    "rank": 471,
+    "ka": "მზიანი",
+    "en": "sunny",
+    "pos": "adj",
+    "week": 40,
+    "tags": [
+      "weather"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დღეს მზიანი ამინდია.",
+        "en": "The weather is sunny today."
+      },
+      {
+        "ka": "კვირას მზიანი დილა იყო.",
+        "en": "On Sunday the morning was sunny."
+      }
+    ]
+  },
+  {
+    "id": "v472",
+    "rank": 472,
+    "ka": "დაბადების დღე",
+    "en": "birthday",
+    "pos": "phrase",
+    "week": 40,
+    "tags": [
+      "holiday"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხვალ ჩემი დაბადების დღეა.",
+        "en": "Tomorrow is my birthday."
+      },
+      {
+        "ka": "დაბადების დღეზე ტორტი ვიყიდე.",
+        "en": "I bought a cake for the birthday."
+      }
+    ]
+  },
+  {
+    "id": "v473",
+    "rank": 473,
+    "ka": "აღდგომა",
+    "en": "Easter",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "holiday",
+      "tradition"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "აღდგომას სოფელში ვხვდებით.",
+        "en": "We celebrate Easter in the village."
+      },
+      {
+        "ka": "აღდგომაზე კვერცხებს ვღებავთ.",
+        "en": "At Easter we dye eggs."
+      }
+    ]
+  },
+  {
+    "id": "v474",
+    "rank": 474,
+    "ka": "შობა",
+    "en": "Christmas",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "holiday",
+      "tradition"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შობას მთელი ოჯახი იკრიბება.",
+        "en": "The whole family gathers at Christmas."
+      },
+      {
+        "ka": "შობის ღამეს ეკლესიაში მივდივართ.",
+        "en": "On Christmas night we go to church."
+      }
+    ]
+  },
+  {
+    "id": "v475",
+    "rank": 475,
+    "ka": "ახალი წელი",
+    "en": "New Year",
+    "pos": "phrase",
+    "week": 40,
+    "tags": [
+      "holiday"
+    ],
+    "pron": "ejective ts': akhali ts'eli",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ახალ წელს თბილისში ვხვდები.",
+        "en": "I am celebrating New Year in Tbilisi."
+      },
+      {
+        "ka": "გილოცავ ახალ წელს!",
+        "en": "Happy New Year!"
+      }
+    ]
+  },
+  {
+    "id": "v476",
+    "rank": 476,
+    "ka": "გილოცავ",
+    "en": "congratulations (I congratulate you)",
+    "pos": "verb",
+    "week": 40,
+    "tags": [
+      "holiday",
+      "phrase"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "გილოცავ დაბადების დღეს!",
+        "en": "Happy birthday!"
+      },
+      {
+        "ka": "გილოცავთ ახალ სამსახურს!",
+        "en": "Congratulations on the new job!"
+      }
+    ]
+  },
+  {
+    "id": "v477",
+    "rank": 477,
+    "ka": "ტორტი",
+    "en": "cake",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "food",
+      "celebration"
+    ],
+    "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დაბადების დღისთვის ტორტი გამოვაცხვე.",
+        "en": "I baked a cake for the birthday."
+      },
+      {
+        "ka": "ეს ტორტი ძალიან გემრიელია.",
+        "en": "This cake is very tasty."
+      }
+    ]
+  },
+  {
+    "id": "v478",
+    "rank": 478,
+    "ka": "სანთელი",
+    "en": "candle",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "celebration",
+      "object"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ტორტზე ათი სანთელი იყო.",
+        "en": "There were ten candles on the cake."
+      },
+      {
+        "ka": "ეკლესიაში სანთელი დავანთე.",
+        "en": "I lit a candle in the church."
+      }
+    ]
+  },
+  {
+    "id": "v479",
+    "rank": 479,
+    "ka": "მუსიკა",
+    "en": "music",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "art",
+      "celebration"
+    ],
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ქართული მუსიკა ძალიან მიყვარს.",
+        "en": "I love Georgian music very much."
+      },
+      {
+        "ka": "ქორწილში მუსიკა დილამდე უკრავდა.",
+        "en": "At the wedding the music played until morning."
+      }
+    ]
+  },
+  {
+    "id": "v480",
+    "rank": 480,
+    "ka": "კონცერტი",
+    "en": "concert",
+    "pos": "noun",
+    "week": 40,
+    "tags": [
+      "art",
+      "celebration"
+    ],
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხვალ კონცერტზე მივდივართ.",
+        "en": "Tomorrow we are going to a concert."
+      },
+      {
+        "ka": "კონცერტი ცხრა საათზე იწყება.",
+        "en": "The concert starts at nine."
+      }
+    ]
+  },
+  {
+    "id": "v481",
+    "rank": 481,
+    "ka": "თეატრი",
+    "en": "theater",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "art",
+      "place"
+    ],
+    "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "თეატრში იშვიათად დავდივარ.",
+        "en": "I rarely go to the theater."
+      },
+      {
+        "ka": "რუსთაველის თეატრი ძალიან ლამაზია.",
+        "en": "The Rustaveli Theater is very beautiful."
+      }
+    ]
+  },
+  {
+    "id": "v482",
+    "rank": 482,
+    "ka": "მუზეუმი",
+    "en": "museum",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "art",
+      "place"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მუზეუმი ორშაბათს დაკეტილია.",
+        "en": "The museum is closed on Mondays."
+      },
+      {
+        "ka": "სტუმრები მუზეუმში წავიყვანე.",
+        "en": "I took the guests to the museum."
+      }
+    ]
+  },
+  {
+    "id": "v483",
+    "rank": 483,
+    "ka": "ტრადიცია",
+    "en": "tradition",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "tradition"
+    ],
+    "pron": "ejective t': t'raditsia",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ძველი ქართული ტრადიციაა.",
+        "en": "This is an old Georgian tradition."
+      },
+      {
+        "ka": "ოჯახის ტრადიციებს ვინახავთ.",
+        "en": "We keep the family traditions."
+      }
+    ]
+  },
+  {
+    "id": "v484",
+    "rank": 484,
+    "ka": "დღესასწაული",
+    "en": "holiday, festival",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "holiday"
+    ],
+    "pron": "ejective ts': dghesasts'auli",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხვალ დიდი დღესასწაულია.",
+        "en": "Tomorrow is a big holiday."
+      },
+      {
+        "ka": "დღესასწაულზე მთელი სოფელი იკრიბება.",
+        "en": "The whole village gathers for the festival."
+      }
+    ]
+  },
+  {
+    "id": "v485",
+    "rank": 485,
+    "ka": "აღნიშვნა",
+    "en": "to celebrate, to mark (an occasion)",
+    "pos": "verb",
+    "week": 41,
+    "tags": [
+      "celebration",
+      "verb"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დაბადების დღეს სახლში აღვნიშნავთ.",
+        "en": "We will celebrate the birthday at home."
+      },
+      {
+        "ka": "გამარჯვება ერთად აღვნიშნოთ.",
+        "en": "Let's celebrate the victory together."
+      }
+    ]
+  },
+  {
+    "id": "v486",
+    "rank": 486,
+    "ka": "ქორწილი",
+    "en": "wedding",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "family",
+      "tradition"
+    ],
+    "pron": "ejective ts': korts'ili",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ზაფხულში ქორწილი გვაქვს.",
+        "en": "We have a wedding in the summer."
+      },
+      {
+        "ka": "ქორწილში ორასი სტუმარი იყო.",
+        "en": "There were two hundred guests at the wedding."
+      }
+    ]
+  },
+  {
+    "id": "v487",
+    "rank": 487,
+    "ka": "პატარძალი",
+    "en": "bride",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "family",
+      "tradition"
+    ],
+    "pron": "ejectives p', t': p'at'ardzali",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "პატარძალი ძალიან ლამაზი იყო.",
+        "en": "The bride was very beautiful."
+      },
+      {
+        "ka": "პატარძალმა ცეკვა დაიწყო.",
+        "en": "The bride began to dance."
+      }
+    ]
+  },
+  {
+    "id": "v488",
+    "rank": 488,
+    "ka": "სიძე",
+    "en": "groom; son-in-law",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სიძე კარგი ბიჭია.",
+        "en": "The groom is a good guy."
+      },
+      {
+        "ka": "სიძემ სადღეგრძელო თქვა.",
+        "en": "The son-in-law gave a toast."
+      }
+    ]
+  },
+  {
+    "id": "v489",
+    "rank": 489,
+    "ka": "რძალი",
+    "en": "daughter-in-law; bride",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჩვენი რძალი ექიმად მუშაობს.",
+        "en": "Our daughter-in-law works as a doctor."
+      },
+      {
+        "ka": "რძალი ძალიან გვიყვარს.",
+        "en": "We love our daughter-in-law very much."
+      }
+    ]
+  },
+  {
+    "id": "v490",
+    "rank": 490,
+    "ka": "სიმამრი",
+    "en": "father-in-law (wife's father)",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სიმამრი სოფელში ცხოვრობს.",
+        "en": "My father-in-law lives in the village."
+      },
+      {
+        "ka": "სიმამრმა ღვინო ჩამოასხა.",
+        "en": "My father-in-law poured the wine."
+      }
+    ]
+  },
+  {
+    "id": "v491",
+    "rank": 491,
+    "ka": "სიდედრი",
+    "en": "mother-in-law (wife's mother)",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სიდედრი ხვალ გვესტუმრება.",
+        "en": "My mother-in-law is visiting us tomorrow."
+      },
+      {
+        "ka": "სიდედრთან კარგი ურთიერთობა მაქვს.",
+        "en": "I have a good relationship with my mother-in-law."
+      }
+    ]
+  },
+  {
+    "id": "v492",
+    "rank": 492,
+    "ka": "დედამთილი",
+    "en": "mother-in-law (husband's mother)",
+    "pos": "noun",
+    "week": 41,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დედამთილთან ერთად ვცხოვრობთ.",
+        "en": "We live together with my mother-in-law."
+      },
+      {
+        "ka": "დედამთილმა ნამცხვარი გამოაცხო.",
+        "en": "My mother-in-law baked a cake."
+      }
+    ]
+  },
+  {
+    "id": "v493",
+    "rank": 493,
+    "ka": "მამამთილი",
+    "en": "father-in-law (husband's father)",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მამამთილი კეთილი კაცია.",
+        "en": "My father-in-law is a kind man."
+      },
+      {
+        "ka": "მამამთილს ხშირად ვესტუმრებით.",
+        "en": "We often visit my father-in-law."
+      }
+    ]
+  },
+  {
+    "id": "v494",
+    "rank": 494,
+    "ka": "ნათესავი",
+    "en": "relative",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სოფელში ბევრი ნათესავი გვყავს.",
+        "en": "We have many relatives in the village."
+      },
+      {
+        "ka": "ნათესავები ქორწილში შეიკრიბნენ.",
+        "en": "The relatives gathered at the wedding."
+      }
+    ]
+  },
+  {
+    "id": "v495",
+    "rank": 495,
+    "ka": "ბიძაშვილი",
+    "en": "cousin",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "family"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჩემი ბიძაშვილი თბილისში სწავლობს.",
+        "en": "My cousin studies in Tbilisi."
+      },
+      {
+        "ka": "ბიძაშვილთან ერთად გავიზარდე.",
+        "en": "I grew up together with my cousin."
+      }
+    ]
+  },
+  {
+    "id": "v496",
+    "rank": 496,
+    "ka": "დაქორწინება",
+    "en": "to get married",
+    "pos": "verb",
+    "week": 42,
+    "tags": [
+      "family"
+    ],
+    "pron": "ejective ts': dakorts'ineba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ისინი გასულ წელს დაქორწინდნენ.",
+        "en": "They got married last year."
+      },
+      {
+        "ka": "ჩემი ძმა გაისად დაქორწინდება.",
+        "en": "My brother is getting married next year."
+      }
+    ]
+  },
+  {
+    "id": "v497",
+    "rank": 497,
+    "ka": "ურთიერთობა",
+    "en": "relationship",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "family",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "კოლეგებთან კარგი ურთიერთობა მაქვს.",
+        "en": "I have a good relationship with my colleagues."
+      },
+      {
+        "ka": "მათი ურთიერთობა გაფუჭდა.",
+        "en": "Their relationship went bad."
+      }
+    ]
+  },
+  {
+    "id": "v498",
+    "rank": 498,
+    "ka": "ცოცხი",
+    "en": "broom",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "home",
+      "cleaning"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ცოცხი აივანზე დგას.",
+        "en": "The broom is on the balcony."
+      },
+      {
+        "ka": "ცოცხით ეზო დავგავე.",
+        "en": "I swept the yard with the broom."
+      }
+    ]
+  },
+  {
+    "id": "v499",
+    "rank": 499,
+    "ka": "ავეჯი",
+    "en": "furniture",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "home",
+      "furniture"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბინისთვის ახალი ავეჯი ვიყიდეთ.",
+        "en": "We bought new furniture for the apartment."
+      },
+      {
+        "ka": "ეს ავეჯი ძველია, მაგრამ მაგარია.",
+        "en": "This furniture is old, but it's great."
+      }
+    ]
+  },
+  {
+    "id": "v500",
+    "rank": 500,
+    "ka": "ჭურჭელი",
+    "en": "dishes",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "household"
+    ],
+    "pron": "both ch' are ejective: ch'urch'eli",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჭურჭელი დარეცხე, გეთაყვა.",
+        "en": "Wash the dishes, please."
+      },
+      {
+        "ka": "სუფთა ჭურჭელი კარადაშია.",
+        "en": "The clean dishes are in the cupboard."
+      }
+    ]
+  },
+  {
+    "id": "v501",
+    "rank": 501,
+    "ka": "სარეცხი მანქანა",
+    "en": "washing machine",
+    "pos": "phrase",
+    "week": 42,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სარეცხი მანქანა გაფუჭდა.",
+        "en": "The washing machine broke down."
+      },
+      {
+        "ka": "ახალი სარეცხი მანქანა ვიყიდეთ.",
+        "en": "We bought a new washing machine."
+      }
+    ]
+  },
+  {
+    "id": "v502",
+    "rank": 502,
+    "ka": "უთო",
+    "en": "iron (for clothes)",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "უთო ცხელია, ფრთხილად!",
+        "en": "The iron is hot, careful!"
+      },
+      {
+        "ka": "პერანგისთვის უთო მჭირდება.",
+        "en": "I need an iron for the shirt."
+      }
+    ]
+  },
+  {
+    "id": "v503",
+    "rank": 503,
+    "ka": "მტვერი",
+    "en": "dust",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "household"
+    ],
+    "pron": "ejective t': mt'veri",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "თაროებზე მტვერი დაგროვდა.",
+        "en": "Dust has collected on the shelves."
+      },
+      {
+        "ka": "მტვერი დილით გადავწმინდე.",
+        "en": "I wiped the dust in the morning."
+      }
+    ]
+  },
+  {
+    "id": "v504",
+    "rank": 504,
+    "ka": "ნაგავი",
+    "en": "trash, garbage",
+    "pos": "noun",
+    "week": 42,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ნაგავი გაიტანე, გეთაყვა.",
+        "en": "Take out the trash, please."
+      },
+      {
+        "ka": "ნაგავი ყუთში ჩააგდე.",
+        "en": "Throw the trash in the bin."
+      }
+    ]
+  },
+  {
+    "id": "v505",
+    "rank": 505,
+    "ka": "საპონი",
+    "en": "soap",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": "ejective p': sap'oni",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხელები საპნით დაიბანე.",
+        "en": "Wash your hands with soap."
+      },
+      {
+        "ka": "საპონი აბაზანაში დევს.",
+        "en": "The soap is in the bathroom."
+      }
+    ]
+  },
+  {
+    "id": "v506",
+    "rank": 506,
+    "ka": "პირსახოცი",
+    "en": "towel",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": "ejective p': p'irsakhotsi",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სუფთა პირსახოცი მომეცი.",
+        "en": "Give me a clean towel."
+      },
+      {
+        "ka": "პირსახოცი აივანზე შრება.",
+        "en": "The towel is drying on the balcony."
+      }
+    ]
+  },
+  {
+    "id": "v507",
+    "rank": 507,
+    "ka": "საბანი",
+    "en": "blanket",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ცივა, თბილი საბანი მომეცი.",
+        "en": "It's cold, give me a warm blanket."
+      },
+      {
+        "ka": "ბავშვს საბანი დავახურე.",
+        "en": "I covered the child with a blanket."
+      }
+    ]
+  },
+  {
+    "id": "v508",
+    "rank": 508,
+    "ka": "ბალიში",
+    "en": "pillow",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household",
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ბალიში ძალიან რბილია.",
+        "en": "This pillow is very soft."
+      },
+      {
+        "ka": "ორი ბალიში მინდა, თუ შეიძლება.",
+        "en": "I would like two pillows, please."
+      }
+    ]
+  },
+  {
+    "id": "v509",
+    "rank": 509,
+    "ka": "რემონტი",
+    "en": "renovation, repairs",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": "ejective t': remont'i",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სამზარეულოში რემონტი დავიწყეთ.",
+        "en": "We started renovating the kitchen."
+      },
+      {
+        "ka": "რემონტი ძვირი დაჯდა.",
+        "en": "The renovation turned out expensive."
+      }
+    ]
+  },
+  {
+    "id": "v510",
+    "rank": 510,
+    "ka": "შეკეთება",
+    "en": "to repair, fix",
+    "pos": "verb",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": "ejective k': shek'eteba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მამამ ონკანი შეაკეთა.",
+        "en": "Dad fixed the faucet."
+      },
+      {
+        "ka": "ველოსიპედს ხვალ შევაკეთებ.",
+        "en": "I will fix the bicycle tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v511",
+    "rank": 511,
+    "ka": "დენი",
+    "en": "electricity, power",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დენი წავიდა მთელ უბანში.",
+        "en": "The power went out in the whole neighborhood."
+      },
+      {
+        "ka": "დენი ბოლოს მოვიდა!",
+        "en": "The power finally came back!"
+      }
+    ]
+  },
+  {
+    "id": "v512",
+    "rank": 512,
+    "ka": "გათბობა",
+    "en": "heating",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "გათბობა ჩართე, ცივა.",
+        "en": "Turn on the heating, it's cold."
+      },
+      {
+        "ka": "ამ ბინას კარგი გათბობა აქვს.",
+        "en": "This apartment has good heating."
+      }
+    ]
+  },
+  {
+    "id": "v513",
+    "rank": 513,
+    "ka": "აივანი",
+    "en": "balcony",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "აივანზე ყავას ვსვამ ხოლმე.",
+        "en": "I usually drink coffee on the balcony."
+      },
+      {
+        "ka": "აივნიდან მთები ჩანს.",
+        "en": "The mountains are visible from the balcony."
+      }
+    ]
+  },
+  {
+    "id": "v514",
+    "rank": 514,
+    "ka": "ფარდა",
+    "en": "curtain",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "home",
+      "object"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ფანჯარას ფარდა სჭირდება.",
+        "en": "The window needs a curtain."
+      },
+      {
+        "ka": "ფარდა დილით გავწიე.",
+        "en": "I drew the curtain open in the morning."
+      }
+    ]
+  },
+  {
+    "id": "v515",
+    "rank": 515,
+    "ka": "ხმაური",
+    "en": "noise",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "გარეთ დიდი ხმაურია.",
+        "en": "There is a lot of noise outside."
+      },
+      {
+        "ka": "ხმაურმა ბავშვი გააღვიძა.",
+        "en": "The noise woke the child."
+      }
+    ]
+  },
+  {
+    "id": "v516",
+    "rank": 516,
+    "ka": "ქირა",
+    "en": "rent",
+    "pos": "noun",
+    "week": 43,
+    "tags": [
+      "household",
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბინის ქირა გაძვირდა.",
+        "en": "The apartment rent went up."
+      },
+      {
+        "ka": "ქირას თვის ბოლოს ვიხდი.",
+        "en": "I pay the rent at the end of the month."
+      }
+    ]
+  },
+  {
+    "id": "v517",
+    "rank": 517,
+    "ka": "განრიგი",
+    "en": "schedule, timetable",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work",
+      "time"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხვალინდელი განრიგი უკვე ვიცი.",
+        "en": "I already know tomorrow's schedule."
+      },
+      {
+        "ka": "ავტობუსის განრიგი შეიცვალა.",
+        "en": "The bus timetable has changed."
+      }
+    ]
+  },
+  {
+    "id": "v518",
+    "rank": 518,
+    "ka": "ხელფასი",
+    "en": "salary",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work",
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხელფასს ხუთ რიცხვში ვიღებ.",
+        "en": "I get my salary on the fifth."
+      },
+      {
+        "ka": "ხელფასი ცოტათი მომიმატეს.",
+        "en": "They raised my salary a little."
+      }
+    ]
+  },
+  {
+    "id": "v519",
+    "rank": 519,
+    "ka": "უფროსი",
+    "en": "boss",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "უფროსმა შეხვედრა დანიშნა.",
+        "en": "The boss scheduled a meeting."
+      },
+      {
+        "ka": "ჩემი უფროსი მკაცრია.",
+        "en": "My boss is strict."
+      }
+    ]
+  },
+  {
+    "id": "v520",
+    "rank": 520,
+    "ka": "კოლეგა",
+    "en": "colleague",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": "ejective k': k'olega",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "კოლეგებთან სადილზე მივდივარ.",
+        "en": "I am going to lunch with colleagues."
+      },
+      {
+        "ka": "ახალი კოლეგა გვყავს.",
+        "en": "We have a new colleague."
+      }
+    ]
+  },
+  {
+    "id": "v521",
+    "rank": 521,
+    "ka": "ოფისი",
+    "en": "office",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work",
+      "place"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჩვენი ოფისი ცენტრშია.",
+        "en": "Our office is in the center."
+      },
+      {
+        "ka": "ოფისი ცხრაზე იხსნება.",
+        "en": "The office opens at nine."
+      }
+    ]
+  },
+  {
+    "id": "v522",
+    "rank": 522,
+    "ka": "შეხვედრა",
+    "en": "meeting",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შეხვედრა სამ საათზე იწყება.",
+        "en": "The meeting starts at three o'clock."
+      },
+      {
+        "ka": "ხვალ მნიშვნელოვანი შეხვედრა მაქვს.",
+        "en": "I have an important meeting tomorrow."
+      }
+    ]
+  },
+  {
+    "id": "v523",
+    "rank": 523,
+    "ka": "შვებულება",
+    "en": "vacation (from work)",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "აგვისტოში შვებულება მაქვს.",
+        "en": "I have vacation in August."
+      },
+      {
+        "ka": "შვებულებას ზღვაზე გავატარებ.",
+        "en": "I will spend my vacation at the sea."
+      }
+    ]
+  },
+  {
+    "id": "v524",
+    "rank": 524,
+    "ka": "პროფესია",
+    "en": "profession",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": "ejective p': p'ropesia",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "რა პროფესია გაქვს?",
+        "en": "What is your profession?"
+      },
+      {
+        "ka": "ჩემი პროფესია მასწავლებლობაა.",
+        "en": "My profession is teaching."
+      }
+    ]
+  },
+  {
+    "id": "v525",
+    "rank": 525,
+    "ka": "გამოცდილება",
+    "en": "experience",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work",
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ამ საქმეში გამოცდილება მაქვს.",
+        "en": "I have experience in this work."
+      },
+      {
+        "ka": "გამოცდილება წლებთან ერთად მოდის.",
+        "en": "Experience comes with the years."
+      }
+    ]
+  },
+  {
+    "id": "v526",
+    "rank": 526,
+    "ka": "გასაუბრება",
+    "en": "(job) interview",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხვალ ბანკში გასაუბრება მაქვს.",
+        "en": "I have an interview at the bank tomorrow."
+      },
+      {
+        "ka": "გასაუბრებამ კარგად ჩაიარა.",
+        "en": "The interview went well."
+      }
+    ]
+  },
+  {
+    "id": "v527",
+    "rank": 527,
+    "ka": "განცხადება",
+    "en": "application; announcement",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": null,
+    "verify": true,
+    "sentences": [
+      {
+        "ka": "განცხადება უკვე გავაგზავნე.",
+        "en": "I already sent the application."
+      },
+      {
+        "ka": "საიტზე განცხადება დავდე.",
+        "en": "I posted an ad on the website."
+      }
+    ]
+  },
+  {
+    "id": "v528",
+    "rank": 528,
+    "ka": "ხელშეკრულება",
+    "en": "contract",
+    "pos": "noun",
+    "week": 44,
+    "tags": [
+      "work"
+    ],
+    "pron": "ejective k': khelshek'ruleba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხელშეკრულებას ხვალ მოვაწერთ ხელს.",
+        "en": "We will sign the contract tomorrow."
+      },
+      {
+        "ka": "ხელშეკრულება ყურადღებით წაიკითხე.",
+        "en": "Read the contract carefully."
+      }
+    ]
+  },
+  {
+    "id": "v529",
+    "rank": 529,
+    "ka": "დოკუმენტი",
+    "en": "document",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "work"
+    ],
+    "pron": "ejectives k', t': dok'ument'i",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დოკუმენტები თან იქონიე.",
+        "en": "Have your documents with you."
+      },
+      {
+        "ka": "ეს დოკუმენტი ბანკს სჭირდება.",
+        "en": "The bank needs this document."
+      }
+    ]
+  },
+  {
+    "id": "v530",
+    "rank": 530,
+    "ka": "ვალუტა",
+    "en": "currency",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money",
+      "bank"
+    ],
+    "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ვალუტა სად გადავცვალო?",
+        "en": "Where can I exchange currency?"
+      },
+      {
+        "ka": "ბანკში ვალუტის კურსი კარგია.",
+        "en": "The exchange rate at the bank is good."
+      }
+    ]
+  },
+  {
+    "id": "v531",
+    "rank": 531,
+    "ka": "ბარათი",
+    "en": "card (bank card)",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბარათით გადავიხდი, შეიძლება?",
+        "en": "I will pay by card, is that okay?"
+      },
+      {
+        "ka": "ბარათი მანქანაში დამრჩა.",
+        "en": "I left my card in the car."
+      }
+    ]
+  },
+  {
+    "id": "v532",
+    "rank": 532,
+    "ka": "ანგარიში",
+    "en": "account; bill",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ანგარიში მოგვიტანეთ, თუ შეიძლება.",
+        "en": "Bring us the bill, please."
+      },
+      {
+        "ka": "ბანკში ახალი ანგარიში გავხსენი.",
+        "en": "I opened a new account at the bank."
+      }
+    ]
+  },
+  {
+    "id": "v533",
+    "rank": 533,
+    "ka": "სესხი",
+    "en": "loan",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბანკიდან სესხი ავიღე.",
+        "en": "I took a loan from the bank."
+      },
+      {
+        "ka": "სესხს ნელ-ნელა ვფარავ.",
+        "en": "I am slowly paying off the loan."
+      }
+    ]
+  },
+  {
+    "id": "v534",
+    "rank": 534,
+    "ka": "ვალი",
+    "en": "debt",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მეგობარს ვალი დავუბრუნე.",
+        "en": "I returned the debt to my friend."
+      },
+      {
+        "ka": "ვალი ბოლომდე გადავიხადე.",
+        "en": "I paid the debt in full."
+      }
+    ]
+  },
+  {
+    "id": "v535",
+    "rank": 535,
+    "ka": "ქვითარი",
+    "en": "receipt",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money",
+      "shopping"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ქვითარი შეინახე, დაგჭირდება.",
+        "en": "Keep the receipt, you will need it."
+      },
+      {
+        "ka": "გამყიდველმა ქვითარი მომცა.",
+        "en": "The seller gave me a receipt."
+      }
+    ]
+  },
+  {
+    "id": "v536",
+    "rank": 536,
+    "ka": "ნაღდი ფული",
+    "en": "cash",
+    "pos": "phrase",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ნაღდი ფული გაქვს თან?",
+        "en": "Do you have cash on you?"
+      },
+      {
+        "ka": "ნაღდი ფულით გადავიხადე.",
+        "en": "I paid in cash."
+      }
+    ]
+  },
+  {
+    "id": "v537",
+    "rank": 537,
+    "ka": "ბანკომატი",
+    "en": "ATM",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": "ejectives k', t': bank'omat'i",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბანკომატი აქვე არის, კუთხეში.",
+        "en": "The ATM is right here, at the corner."
+      },
+      {
+        "ka": "ბანკომატმა ბარათი გადაყლაპა.",
+        "en": "The ATM swallowed my card."
+      }
+    ]
+  },
+  {
+    "id": "v538",
+    "rank": 538,
+    "ka": "გადარიცხვა",
+    "en": "(bank) transfer",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "თანხა დილით გადავრიცხე.",
+        "en": "I transferred the money in the morning."
+      },
+      {
+        "ka": "გადარიცხვა მაშინვე მივიდა.",
+        "en": "The transfer went through immediately."
+      }
+    ]
+  },
+  {
+    "id": "v539",
+    "rank": 539,
+    "ka": "გადასახადი",
+    "en": "tax",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "გადასახადები დროულად გადაიხადე.",
+        "en": "Pay your taxes on time."
+      },
+      {
+        "ka": "ეს გადასახადი ძალიან მაღალია.",
+        "en": "This tax is very high."
+      }
+    ]
+  },
+  {
+    "id": "v540",
+    "rank": 540,
+    "ka": "ფასდაკლება",
+    "en": "discount",
+    "pos": "noun",
+    "week": 45,
+    "tags": [
+      "money",
+      "shopping"
+    ],
+    "pron": "ejective k': pasdak'leba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მაღაზიაში დიდი ფასდაკლებაა.",
+        "en": "There is a big discount at the store."
+      },
+      {
+        "ka": "ეს ფეხსაცმელი ფასდაკლებით ვიყიდე.",
+        "en": "I bought these shoes at a discount."
+      }
+    ]
+  },
+  {
+    "id": "v541",
+    "rank": 541,
+    "ka": "ინტერნეტი",
+    "en": "internet",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "internet"
+    ],
+    "pron": "both t' are ejective: int'ernet'i",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ინტერნეტი ისევ გაითიშა.",
+        "en": "The internet went down again."
+      },
+      {
+        "ka": "სოფელში ინტერნეტი სუსტია.",
+        "en": "The internet is weak in the village."
+      }
+    ]
+  },
+  {
+    "id": "v542",
+    "rank": 542,
+    "ka": "ზარი",
+    "en": "(phone) call",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "phone"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "გამოტოვებული ზარი მაქვს.",
+        "en": "I have a missed call."
+      },
+      {
+        "ka": "ერთი ზარი მაქვს გასაკეთებელი.",
+        "en": "I have one call to make."
+      }
+    ]
+  },
+  {
+    "id": "v543",
+    "rank": 543,
+    "ka": "შეტყობინება",
+    "en": "message",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "phone"
+    ],
+    "pron": "ejectives t', q': shet'q'obineba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შეტყობინება გამოგიგზავნე, ნახე.",
+        "en": "I sent you a message, look."
+      },
+      {
+        "ka": "შენი შეტყობინება ახლა წავიკითხე.",
+        "en": "I just read your message."
+      }
+    ]
+  },
+  {
+    "id": "v544",
+    "rank": 544,
+    "ka": "ელფოსტა",
+    "en": "email",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "internet"
+    ],
+    "pron": "ejective t': elpost'a",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ელფოსტა გადაამოწმე, გეთაყვა.",
+        "en": "Check your email, please."
+      },
+      {
+        "ka": "ელფოსტაზე პასუხი მოვიდა.",
+        "en": "A reply came to the email."
+      }
+    ]
+  },
+  {
+    "id": "v545",
+    "rank": 545,
+    "ka": "პაროლი",
+    "en": "password",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "internet"
+    ],
+    "pron": "ejective p': p'aroli",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ვაიფაის პაროლი რა არის?",
+        "en": "What is the wifi password?"
+      },
+      {
+        "ka": "პაროლი ისევ დამავიწყდა.",
+        "en": "I forgot the password again."
+      }
+    ]
+  },
+  {
+    "id": "v546",
+    "rank": 546,
+    "ka": "ეკრანი",
+    "en": "screen",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "phone"
+    ],
+    "pron": "ejective k': ek'rani",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ტელეფონის ეკრანი გამიტყდა.",
+        "en": "My phone screen broke."
+      },
+      {
+        "ka": "ეკრანი ღამით ძალიან ანათებს.",
+        "en": "The screen shines very brightly at night."
+      }
+    ]
+  },
+  {
+    "id": "v547",
+    "rank": 547,
+    "ka": "დამტენი",
+    "en": "charger",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "phone"
+    ],
+    "pron": "ejective t': damt'eni",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დამტენი მათხოვე, გეთაყვა.",
+        "en": "Lend me a charger, please."
+      },
+      {
+        "ka": "ეს დამტენი არ მუშაობს.",
+        "en": "This charger doesn't work."
+      }
+    ]
+  },
+  {
+    "id": "v548",
+    "rank": 548,
+    "ka": "საიტი",
+    "en": "website",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "internet"
+    ],
+    "pron": "ejective t': sait'i",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს საიტი არ იხსნება.",
+        "en": "This website won't open."
+      },
+      {
+        "ka": "ბილეთები საიტზე ვიყიდე.",
+        "en": "I bought the tickets on the website."
+      }
+    ]
+  },
+  {
+    "id": "v549",
+    "rank": 549,
+    "ka": "ქსელი",
+    "en": "network, signal",
+    "pos": "noun",
+    "week": 46,
+    "tags": [
+      "phone"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ქსელი აქ არ იჭერს.",
+        "en": "There is no signal here."
+      },
+      {
+        "ka": "მთაში ქსელი გაქრა.",
+        "en": "In the mountains the signal disappeared."
+      }
+    ]
+  },
+  {
+    "id": "v550",
+    "rank": 550,
+    "ka": "ჩართვა",
+    "en": "to turn on",
+    "pos": "verb",
+    "week": 46,
+    "tags": [
+      "household",
+      "phone"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ტელევიზორი ჩართე, ამბები იწყება.",
+        "en": "Turn on the TV, the news is starting."
+      },
+      {
+        "ka": "ოთახში შუქი ჩავრთე.",
+        "en": "I turned on the light in the room."
+      }
+    ]
+  },
+  {
+    "id": "v551",
+    "rank": 551,
+    "ka": "გამორთვა",
+    "en": "to turn off",
+    "pos": "verb",
+    "week": 46,
+    "tags": [
+      "household",
+      "phone"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ტელეფონი ღამით გამორთე.",
+        "en": "Turn off your phone at night."
+      },
+      {
+        "ka": "უთო გამოვრთე, არ ინერვიულო.",
+        "en": "I turned off the iron, don't worry."
+      }
+    ]
+  },
+  {
+    "id": "v552",
+    "rank": 552,
+    "ka": "ჩამოტვირთვა",
+    "en": "to download",
+    "pos": "verb",
+    "week": 46,
+    "tags": [
+      "internet"
+    ],
+    "pron": "ejective t': chamot'virtva",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს აპლიკაცია ჩამოტვირთე.",
+        "en": "Download this app."
+      },
+      {
+        "ka": "ფილმი საღამოსთვის ჩამოვტვირთე.",
+        "en": "I downloaded a movie for the evening."
+      }
+    ]
+  },
+  {
+    "id": "v553",
+    "rank": 553,
+    "ka": "მოგზაურობა",
+    "en": "trip, travel",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "მოგზაურობა ძალიან მიყვარს.",
+        "en": "I love traveling very much."
+      },
+      {
+        "ka": "ეს მოგზაურობა დაუვიწყარი იყო.",
+        "en": "This trip was unforgettable."
+      }
+    ]
+  },
+  {
+    "id": "v554",
+    "rank": 554,
+    "ka": "აეროპორტი",
+    "en": "airport",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel",
+      "place"
+    ],
+    "pron": "პ = ejective p' (tight throat), unlike aspirated ფ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "აეროპორტში ტაქსით წავედი.",
+        "en": "I went to the airport by taxi."
+      },
+      {
+        "ka": "აეროპორტი ქალაქიდან შორს არის.",
+        "en": "The airport is far from the city."
+      }
+    ]
+  },
+  {
+    "id": "v555",
+    "rank": 555,
+    "ka": "დაჯავშნა",
+    "en": "to book, reserve",
+    "pos": "verb",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ოთახი წინასწარ დავჯავშნე.",
+        "en": "I booked the room in advance."
+      },
+      {
+        "ka": "მაგიდა ოთხზე დავჯავშნოთ?",
+        "en": "Shall we book a table for four?"
+      }
+    ]
+  },
+  {
+    "id": "v556",
+    "rank": 556,
+    "ka": "ჩემოდანი",
+    "en": "suitcase",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჩემოდანი უკვე ჩავალაგე.",
+        "en": "I already packed the suitcase."
+      },
+      {
+        "ka": "ჩემოდანი ძალიან მძიმეა.",
+        "en": "The suitcase is very heavy."
+      }
+    ]
+  },
+  {
+    "id": "v557",
+    "rank": 557,
+    "ka": "ზურგჩანთა",
+    "en": "backpack",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ზურგჩანთით ვმოგზაურობ ხოლმე.",
+        "en": "I usually travel with a backpack."
+      },
+      {
+        "ka": "წყალი ზურგჩანთაში ჩადე.",
+        "en": "Put the water in the backpack."
+      }
+    ]
+  },
+  {
+    "id": "v558",
+    "rank": 558,
+    "ka": "პასპორტი",
+    "en": "passport",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": "ejectives p' (twice), t': p'asp'ort'i",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "პასპორტი თან იქონიე.",
+        "en": "Have your passport with you."
+      },
+      {
+        "ka": "პასპორტის ვადა გამივიდა.",
+        "en": "My passport expired."
+      }
+    ]
+  },
+  {
+    "id": "v559",
+    "rank": 559,
+    "ka": "საზღვარი",
+    "en": "border",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "საზღვარი ღამით გადავკვეთეთ.",
+        "en": "We crossed the border at night."
+      },
+      {
+        "ka": "საზღვართან დიდი რიგი იყო.",
+        "en": "There was a long line at the border."
+      }
+    ]
+  },
+  {
+    "id": "v560",
+    "rank": 560,
+    "ka": "უცხოელი",
+    "en": "foreigner",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ზაფხულში ბევრი უცხოელი ჩამოდის.",
+        "en": "Many foreigners come in summer."
+      },
+      {
+        "ka": "უცხოელს გზა ავუხსენი.",
+        "en": "I explained the way to a foreigner."
+      }
+    ]
+  },
+  {
+    "id": "v561",
+    "rank": 561,
+    "ka": "ადგილობრივი",
+    "en": "local",
+    "pos": "adj",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ადგილობრივი ღვინო გავსინჯეთ.",
+        "en": "We tried the local wine."
+      },
+      {
+        "ka": "ადგილობრივებმა გზა გვასწავლეს.",
+        "en": "The locals showed us the way."
+      }
+    ]
+  },
+  {
+    "id": "v562",
+    "rank": 562,
+    "ka": "გიდი",
+    "en": "guide",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "გიდმა ძველი ციხე გვაჩვენა.",
+        "en": "The guide showed us an old fortress."
+      },
+      {
+        "ka": "ჩვენი გიდი ინგლისურად ლაპარაკობს.",
+        "en": "Our guide speaks English."
+      }
+    ]
+  },
+  {
+    "id": "v563",
+    "rank": 563,
+    "ka": "ეკლესია",
+    "en": "church",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel",
+      "tradition"
+    ],
+    "pron": "ejective k': ek'lesia",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ეკლესია მეექვსე საუკუნისაა.",
+        "en": "This church is from the sixth century."
+      },
+      {
+        "ka": "ბებია კვირაობით ეკლესიაში დადის.",
+        "en": "Grandma goes to church on Sundays."
+      }
+    ]
+  },
+  {
+    "id": "v564",
+    "rank": 564,
+    "ka": "ციხე",
+    "en": "fortress; prison",
+    "pos": "noun",
+    "week": 47,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": true,
+    "sentences": [
+      {
+        "ka": "გორაზე ძველი ციხე დგას.",
+        "en": "An old fortress stands on the hill."
+      },
+      {
+        "ka": "ამ ციხეს ტურისტები ათვალიერებენ.",
+        "en": "Tourists are touring this fortress."
+      }
+    ]
+  },
+  {
+    "id": "v565",
+    "rank": 565,
+    "ka": "გადაღება",
+    "en": "to take photos, film",
+    "pos": "verb",
+    "week": 48,
+    "tags": [
+      "travel"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ფოტოების გადაღება მიყვარს.",
+        "en": "I love taking photos."
+      },
+      {
+        "ka": "აქ ლამაზი კადრი გადავიღე.",
+        "en": "I took a beautiful shot here."
+      }
+    ]
+  },
+  {
+    "id": "v566",
+    "rank": 566,
+    "ka": "ტაფა",
+    "en": "frying pan",
+    "pos": "noun",
+    "week": 48,
+    "tags": [
+      "kitchen",
+      "cooking"
+    ],
+    "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ტაფაზე კვერცხი შევწვი.",
+        "en": "I fried an egg in the pan."
+      },
+      {
+        "ka": "ტაფა ჯერ კარგად გაახურე.",
+        "en": "First heat the pan up well."
+      }
+    ]
+  },
+  {
+    "id": "v567",
+    "rank": 567,
+    "ka": "მოხარშვა",
+    "en": "to boil",
+    "pos": "verb",
+    "week": 48,
+    "tags": [
+      "cooking"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "კარტოფილი ოც წუთში მოიხარშება.",
+        "en": "The potatoes will boil in twenty minutes."
+      },
+      {
+        "ka": "სუპისთვის ხორცი მოვხარშე.",
+        "en": "I boiled meat for the soup."
+      }
+    ]
+  },
+  {
+    "id": "v568",
+    "rank": 568,
+    "ka": "შეწვა",
+    "en": "to fry",
+    "pos": "verb",
+    "week": 48,
+    "tags": [
+      "cooking"
+    ],
+    "pron": "ejective ts': shets'va",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "თევზი შევწვათ ვახშმად?",
+        "en": "Shall we fry fish for dinner?"
+      },
+      {
+        "ka": "დედამ ქათამი შეწვა.",
+        "en": "Mom fried a chicken."
+      }
+    ]
+  },
+  {
+    "id": "v569",
+    "rank": 569,
+    "ka": "გამოცხობა",
+    "en": "to bake",
+    "pos": "verb",
+    "week": 48,
+    "tags": [
+      "cooking"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბებიამ ხაჭაპური გამოაცხო.",
+        "en": "Grandma baked khachapuri."
+      },
+      {
+        "ka": "პური სახლში გამოვაცხვე.",
+        "en": "I baked bread at home."
+      }
+    ]
+  },
+  {
+    "id": "v570",
+    "rank": 570,
+    "ka": "დაჭრა",
+    "en": "to cut, chop",
+    "pos": "verb",
+    "week": 48,
+    "tags": [
+      "cooking"
+    ],
+    "pron": "ejective ch': dach'ra",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ხახვი წვრილად დაჭერი.",
+        "en": "Chop the onion finely."
+      },
+      {
+        "ka": "პომიდორი სალათისთვის დავჭერი.",
+        "en": "I cut tomatoes for the salad."
+      }
+    ]
+  },
+  {
+    "id": "v571",
+    "rank": 571,
+    "ka": "არევა",
+    "en": "to mix, stir",
+    "pos": "verb",
+    "week": 48,
+    "tags": [
+      "cooking"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სალათა კარგად აურიე.",
+        "en": "Mix the salad well."
+      },
+      {
+        "ka": "ცომი კოვზით ავურიე.",
+        "en": "I stirred the dough with a spoon."
+      }
+    ]
+  },
+  {
+    "id": "v572",
+    "rank": 572,
+    "ka": "გემო",
+    "en": "taste",
+    "pos": "noun",
+    "week": 48,
+    "tags": [
+      "cooking",
+      "food"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ამ სუპს კარგი გემო აქვს.",
+        "en": "This soup has a good taste."
+      },
+      {
+        "ka": "გემო გასინჯე, მარილი ხომ არ აკლია?",
+        "en": "Taste it, is it missing salt?"
+      }
+    ]
+  },
+  {
+    "id": "v573",
+    "rank": 573,
+    "ka": "სუნი",
+    "en": "smell",
+    "pos": "noun",
+    "week": 48,
+    "tags": [
+      "cooking"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სამზარეულოდან კარგი სუნი მოდის.",
+        "en": "A good smell is coming from the kitchen."
+      },
+      {
+        "ka": "ამ ყვავილს ტკბილი სუნი აქვს.",
+        "en": "This flower has a sweet smell."
+      }
+    ]
+  },
+  {
+    "id": "v574",
+    "rank": 574,
+    "ka": "ამბავი",
+    "en": "news, story",
+    "pos": "noun",
+    "week": 48,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "რა ამბავია სოფელში?",
+        "en": "What's the news in the village?"
+      },
+      {
+        "ka": "შენთვის კარგი ამბავი მაქვს.",
+        "en": "I have good news for you."
+      }
+    ]
+  },
+  {
+    "id": "v575",
+    "rank": 575,
+    "ka": "საქმე",
+    "en": "matter, business, task",
+    "pos": "noun",
+    "week": 48,
+    "tags": [
+      "abstract",
+      "work"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დღეს ბევრი საქმე მაქვს.",
+        "en": "I have a lot to do today."
+      },
+      {
+        "ka": "საქმეები კარგად მიდის.",
+        "en": "Things are going well."
+      }
+    ]
+  },
+  {
+    "id": "v576",
+    "rank": 576,
+    "ka": "მიზეზი",
+    "en": "reason, cause",
+    "pos": "noun",
+    "week": 48,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "დაგვიანების მიზეზი რა იყო?",
+        "en": "What was the reason for the delay?"
+      },
+      {
+        "ka": "ამის მიზეზი არ ვიცი.",
+        "en": "I don't know the reason for this."
+      }
+    ]
+  },
+  {
+    "id": "v577",
+    "rank": 577,
+    "ka": "მიზანი",
+    "en": "goal, aim",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ჩემი მიზანი ქართულის სწავლაა.",
+        "en": "My goal is learning Georgian."
+      },
+      {
+        "ka": "მიზანს აუცილებლად მივაღწევ.",
+        "en": "I will definitely reach my goal."
+      }
+    ]
+  },
+  {
+    "id": "v578",
+    "rank": 578,
+    "ka": "რჩევა",
+    "en": "advice",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ერთი რჩევა მომეცი.",
+        "en": "Give me one piece of advice."
+      },
+      {
+        "ka": "შენი რჩევა ძალიან გამომადგა.",
+        "en": "Your advice was very useful to me."
+      }
+    ]
+  },
+  {
+    "id": "v579",
+    "rank": 579,
+    "ka": "გადაწყვეტილება",
+    "en": "decision",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": "ejectives ts', q', t': gadats'q'vet'ileba",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს რთული გადაწყვეტილება იყო.",
+        "en": "It was a difficult decision."
+      },
+      {
+        "ka": "გადაწყვეტილება უკვე მივიღე.",
+        "en": "I have already made the decision."
+      }
+    ]
+  },
+  {
+    "id": "v580",
+    "rank": 580,
+    "ka": "მნიშვნელობა",
+    "en": "meaning; importance",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ამას დიდი მნიშვნელობა აქვს.",
+        "en": "This is very important."
+      },
+      {
+        "ka": "ამ სიტყვის მნიშვნელობა არ ვიცი.",
+        "en": "I don't know the meaning of this word."
+      }
+    ]
+  },
+  {
+    "id": "v581",
+    "rank": 581,
+    "ka": "განსხვავება",
+    "en": "difference",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "რა განსხვავებაა ამ ორ სიტყვას შორის?",
+        "en": "What is the difference between these two words?"
+      },
+      {
+        "ka": "დიდი განსხვავება ვერ დავინახე.",
+        "en": "I didn't see a big difference."
+      }
+    ]
+  },
+  {
+    "id": "v582",
+    "rank": 582,
+    "ka": "მაგალითი",
+    "en": "example",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ერთი მაგალითი მომიყვანე.",
+        "en": "Give me one example."
+      },
+      {
+        "ka": "ეს ძალიან კარგი მაგალითია.",
+        "en": "This is a very good example."
+      }
+    ]
+  },
+  {
+    "id": "v583",
+    "rank": 583,
+    "ka": "წესი",
+    "en": "rule",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": "ejective ts': ts'esi",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ამ სახლის წესია.",
+        "en": "That is the rule of this house."
+      },
+      {
+        "ka": "წესები ყველამ უნდა დაიცვას.",
+        "en": "Everyone must follow the rules."
+      }
+    ]
+  },
+  {
+    "id": "v584",
+    "rank": 584,
+    "ka": "მახსოვს",
+    "en": "I remember",
+    "pos": "verb",
+    "week": 49,
+    "tags": [
+      "abstract"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "შენი სახე კარგად მახსოვს.",
+        "en": "I remember your face well."
+      },
+      {
+        "ka": "ის დღე დღემდე მახსოვს.",
+        "en": "I remember that day to this day."
+      }
+    ]
+  },
+  {
+    "id": "v585",
+    "rank": 585,
+    "ka": "მოგონება",
+    "en": "memory, recollection",
+    "pos": "noun",
+    "week": 49,
+    "tags": [
+      "abstract",
+      "emotion"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ჩემი საყვარელი მოგონებაა.",
+        "en": "This is my favorite memory."
+      },
+      {
+        "ka": "ზღვაზე კარგი მოგონებები დამრჩა.",
+        "en": "I have good memories left from the sea."
+      }
+    ]
+  },
+  {
+    "id": "v586",
+    "rank": 586,
+    "ka": "დაგვიანება",
+    "en": "to be late",
+    "pos": "verb",
+    "week": 49,
+    "tags": [
+      "time"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ბოდიში, ცოტა დავაგვიანე.",
+        "en": "Sorry, I was a little late."
+      },
+      {
+        "ka": "ავტობუსი დღეს აგვიანებს.",
+        "en": "The bus is running late today."
+      }
+    ]
+  },
+  {
+    "id": "v587",
+    "rank": 587,
+    "ka": "მზად",
+    "en": "ready",
+    "pos": "adv",
+    "week": 49,
+    "tags": [
+      "daily"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ვახშამი მზად არის.",
+        "en": "Dinner is ready."
+      },
+      {
+        "ka": "მზად ხარ? წავედით!",
+        "en": "Are you ready? Let's go!"
+      }
+    ]
+  },
+  {
+    "id": "v588",
+    "rank": 588,
+    "ka": "თუმცა",
+    "en": "although, though",
+    "pos": "conj",
+    "week": 49,
+    "tags": [
+      "connector"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ცივა, თუმცა მზე ანათებს.",
+        "en": "It is cold, although the sun is shining."
+      },
+      {
+        "ka": "დაღლილი ვარ, თუმცა ბედნიერი.",
+        "en": "I am tired, although happy."
+      }
+    ]
+  },
+  {
+    "id": "v589",
+    "rank": 589,
+    "ka": "ამიტომ",
+    "en": "therefore, that's why",
+    "pos": "conj",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": "ejective t': amit'om",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "წვიმდა, ამიტომ სახლში დავრჩით.",
+        "en": "It was raining, so we stayed home."
+      },
+      {
+        "ka": "ავად ვარ, ამიტომ ვერ მოვალ.",
+        "en": "I am sick, that's why I can't come."
+      }
+    ]
+  },
+  {
+    "id": "v590",
+    "rank": 590,
+    "ka": "მაინც",
+    "en": "still, anyway",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ცივა, მაგრამ მაინც გავისეირნებ.",
+        "en": "It's cold, but I will take a walk anyway."
+      },
+      {
+        "ka": "მაინც არ დამიჯერა.",
+        "en": "He still didn't believe me."
+      }
+    ]
+  },
+  {
+    "id": "v591",
+    "rank": 591,
+    "ka": "თითქმის",
+    "en": "almost",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ვახშამი თითქმის მზადაა.",
+        "en": "Dinner is almost ready."
+      },
+      {
+        "ka": "თითქმის ყოველდღე ვვარჯიშობ.",
+        "en": "I exercise almost every day."
+      }
+    ]
+  },
+  {
+    "id": "v592",
+    "rank": 592,
+    "ka": "უბრალოდ",
+    "en": "just, simply",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "უბრალოდ დავიღალე, სხვა არაფერი.",
+        "en": "I am just tired, nothing else."
+      },
+      {
+        "ka": "უბრალოდ ხუმრობა იყო.",
+        "en": "It was just a joke."
+      }
+    ]
+  },
+  {
+    "id": "v593",
+    "rank": 593,
+    "ka": "ზუსტად",
+    "en": "exactly",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": "ejective t': zust'ad",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ზუსტად ხუთ საათზე მოდი.",
+        "en": "Come at exactly five o'clock."
+      },
+      {
+        "ka": "ზუსტად არ ვიცი, ვიკითხავ.",
+        "en": "I don't know exactly, I will ask."
+      }
+    ]
+  },
+  {
+    "id": "v594",
+    "rank": 594,
+    "ka": "სამწუხაროდ",
+    "en": "unfortunately",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": "ejective ts': samts'ukharod",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "სამწუხაროდ, ხვალ ვერ მოვალ.",
+        "en": "Unfortunately, I can't come tomorrow."
+      },
+      {
+        "ka": "სამწუხაროდ, ბილეთები გაიყიდა.",
+        "en": "Unfortunately, the tickets sold out."
+      }
+    ]
+  },
+  {
+    "id": "v595",
+    "rank": 595,
+    "ka": "იქნებ",
+    "en": "maybe, perhaps",
+    "pos": "particle",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "იქნებ ერთად წავიდეთ?",
+        "en": "Maybe we could go together?"
+      },
+      {
+        "ka": "იქნებ ცოტა დამეხმარო?",
+        "en": "Maybe you could help me a little?"
+      }
+    ]
+  },
+  {
+    "id": "v596",
+    "rank": 596,
+    "ka": "განსაკუთრებით",
+    "en": "especially",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": "ejective k': gansak'utrebit",
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "განსაკუთრებით შემოდგომა მიყვარს.",
+        "en": "I especially love autumn."
+      },
+      {
+        "ka": "დღეს განსაკუთრებით ცივა.",
+        "en": "It is especially cold today."
+      }
+    ]
+  },
+  {
+    "id": "v597",
+    "rank": 597,
+    "ka": "საერთოდ",
+    "en": "at all; in general",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "საერთოდ არ მშია.",
+        "en": "I am not hungry at all."
+      },
+      {
+        "ka": "ის საერთოდ არ ნერვიულობს.",
+        "en": "He doesn't worry at all."
+      }
+    ]
+  },
+  {
+    "id": "v598",
+    "rank": 598,
+    "ka": "ჯერ",
+    "en": "first; yet",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "connector",
+      "time"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ავტობუსი ჯერ არ მოსულა.",
+        "en": "The bus hasn't come yet."
+      },
+      {
+        "ka": "ჯერ ხელები დაიბანე.",
+        "en": "First wash your hands."
+      }
+    ]
+  },
+  {
+    "id": "v599",
+    "rank": 599,
+    "ka": "უცებ",
+    "en": "suddenly",
+    "pos": "adv",
+    "week": 50,
+    "tags": [
+      "adverb",
+      "time"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "უცებ წვიმა წამოვიდა.",
+        "en": "Suddenly it started to rain."
+      },
+      {
+        "ka": "უცებ შუქი ჩაქრა.",
+        "en": "Suddenly the light went out."
+      }
+    ]
+  },
+  {
+    "id": "v600",
+    "rank": 600,
+    "ka": "ჩვევა",
+    "en": "habit",
+    "pos": "noun",
+    "week": 50,
+    "tags": [
+      "abstract",
+      "daily life"
+    ],
+    "pron": null,
+    "verify": false,
+    "sentences": [
+      {
+        "ka": "ეს ცუდი ჩვევაა, იცოდე.",
+        "en": "That's a bad habit, you know."
+      },
+      {
+        "ka": "დილის ვარჯიში კარგი ჩვევაა.",
+        "en": "Morning exercise is a good habit."
+      }
+    ]
+  }
+]

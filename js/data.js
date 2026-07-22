@@ -38,13 +38,15 @@ export async function loadData() {
     fetchJson('data/pronunciation.json'),
   ]);
 
-  // vocab: merge seed + custom, dedupe on the Georgian headword (keep lowest rank)
+  // vocab: merge seed + custom, dedupe on headword+meaning (keep lowest rank).
+  // Keying on meaning too lets true homographs coexist (და = "and" AND "sister").
   const custom = await getAll('customVocab').catch(() => []);
   const raw = [...(v1 || []), ...(v2 || []), ...(v3 || []), ...custom];
   const seen = new Map();
   for (const item of raw) {
-    const key = (item.ka || '').trim();
-    if (!key) continue;
+    const ka = (item.ka || '').trim();
+    if (!ka) continue;
+    const key = ka + '|' + (item.en || '').toLowerCase().replace(/[^a-z]/g, '').slice(0, 6);
     if (!seen.has(key) || (item.rank || 9999) < (seen.get(key).rank || 9999)) seen.set(key, item);
   }
   DATA.vocab = [...seen.values()].sort((a, b) => (a.rank || 9999) - (b.rank || 9999));

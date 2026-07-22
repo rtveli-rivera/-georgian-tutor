@@ -2,24 +2,24 @@
   {
     "id": "v201",
     "rank": 201,
-    "ka": "ბაზარი",
-    "en": "market, bazaar",
+    "ka": "კოვზი",
+    "en": "spoon",
     "pos": "noun",
     "week": 17,
     "tags": [
-      "bazaar",
-      "place"
+      "kitchen",
+      "food"
     ],
-    "pron": null,
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ბაზარი სახლთან ახლოს არის.",
-        "en": "The bazaar is close to the house."
+        "ka": "ერთი კოვზი შაქარი მინდა.",
+        "en": "I want one spoon of sugar."
       },
       {
-        "ka": "ბაზარში ხილს ვყიდულობ ხოლმე.",
-        "en": "I usually buy fruit at the bazaar."
+        "ka": "კოვზი მაგიდაზე დევს.",
+        "en": "The spoon is on the table."
       }
     ]
   },
@@ -98,46 +98,48 @@
   {
     "id": "v205",
     "rank": 205,
-    "ka": "ძვირი",
-    "en": "expensive",
-    "pos": "adj",
+    "ka": "ჩანგალი",
+    "en": "fork",
+    "pos": "noun",
     "week": 18,
     "tags": [
-      "shopping"
+      "kitchen",
+      "food"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ეს რესტორანი ცოტა ძვირია.",
-        "en": "This restaurant is a bit expensive."
+        "ka": "ჩანგალი არ მაქვს, მომიტანე.",
+        "en": "I don't have a fork, bring me one."
       },
       {
-        "ka": "ტაქსი ღამით უფრო ძვირია.",
-        "en": "A taxi is more expensive at night."
+        "ka": "ხინკალს ჩანგლით ნუ ჭამ!",
+        "en": "Don't eat khinkali with a fork!"
       }
     ]
   },
   {
     "id": "v206",
     "rank": 206,
-    "ka": "იაფი",
-    "en": "cheap",
-    "pos": "adj",
+    "ka": "დანა",
+    "en": "knife",
+    "pos": "noun",
     "week": 18,
     "tags": [
-      "shopping"
+      "kitchen",
+      "tool"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ბაზარში ბოსტნეული იაფია.",
-        "en": "Vegetables are cheap at the bazaar."
+        "ka": "დანა ძალიან ბასრია, ფრთხილად.",
+        "en": "The knife is very sharp, careful."
       },
       {
-        "ka": "იაფი ბილეთი ვიპოვე.",
-        "en": "I found a cheap ticket."
+        "ka": "დანით პური დავჭერი.",
+        "en": "I cut the bread with a knife."
       }
     ]
   },
@@ -286,24 +288,24 @@
   {
     "id": "v213",
     "rank": 213,
-    "ka": "ხილი",
-    "en": "fruit",
+    "ka": "თეფში",
+    "en": "plate",
     "pos": "noun",
     "week": 18,
     "tags": [
-      "food",
-      "bazaar"
+      "kitchen",
+      "home"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ბაზარში ახალი ხილი იყიდება.",
-        "en": "Fresh fruit is sold at the bazaar."
+        "ka": "თეფში გატყდა, ბოდიში.",
+        "en": "The plate broke, sorry."
       },
       {
-        "ka": "ხილი ყოველდღე უნდა ჭამო.",
-        "en": "You should eat fruit every day."
+        "ka": "სუფთა თეფში მომეცი.",
+        "en": "Give me a clean plate."
       }
     ]
   },
@@ -334,24 +336,24 @@
   {
     "id": "v215",
     "rank": 215,
-    "ka": "ვაშლი",
-    "en": "apple",
+    "ka": "ბოთლი",
+    "en": "bottle",
     "pos": "noun",
     "week": 18,
     "tags": [
       "food",
-      "bazaar"
+      "shopping"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "წითელი ვაშლი მიყვარს.",
-        "en": "I love red apples."
+        "ka": "ერთი ბოთლი წყალი ვიყიდე.",
+        "en": "I bought a bottle of water."
       },
       {
-        "ka": "ერთი ვაშლი ხომ არ გინდა?",
-        "en": "Don't you want an apple?"
+        "ka": "ბოთლი მაცივარში დგას.",
+        "en": "The bottle is in the fridge."
       }
     ]
   },
@@ -478,23 +480,24 @@
   {
     "id": "v221",
     "rank": 221,
-    "ka": "ყველი",
-    "en": "cheese",
+    "ka": "ხახვი",
+    "en": "onion",
     "pos": "noun",
     "week": 19,
     "tags": [
-      "food"
+      "food",
+      "vegetable"
     ],
-    "pron": "q'veli — ყ (q') is a deep, throaty pop",
+    "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ქართული ყველი ძალიან გემრიელია.",
-        "en": "Georgian cheese is very tasty."
+        "ka": "ხახვი საერთოდ არ მიყვარს.",
+        "en": "I don't like onion at all."
       },
       {
-        "ka": "პური და ყველი ვიყიდე.",
-        "en": "I bought bread and cheese."
+        "ka": "ბაზარში ხახვი ვიყიდე.",
+        "en": "I bought onions at the bazaar."
       }
     ]
   },
@@ -524,46 +527,48 @@
   {
     "id": "v223",
     "rank": 223,
-    "ka": "ხორცი",
-    "en": "meat",
+    "ka": "ნიორი",
+    "en": "garlic",
     "pos": "noun",
     "week": 19,
     "tags": [
-      "food"
+      "food",
+      "vegetable"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ხორცს ბაზარში ვყიდულობთ.",
-        "en": "We buy meat at the bazaar."
+        "ka": "ქართულ საჭმელში ბევრი ნიორია.",
+        "en": "There is a lot of garlic in Georgian food."
       },
       {
-        "ka": "ეს ხორცი ძალიან რბილია.",
-        "en": "This meat is very tender."
+        "ka": "ნიორი დაამატე, უფრო გემრიელი იქნება.",
+        "en": "Add garlic, it will be tastier."
       }
     ]
   },
   {
     "id": "v224",
     "rank": 224,
-    "ka": "თევზი",
-    "en": "fish",
+    "ka": "სტაფილო",
+    "en": "carrot",
     "pos": "noun",
     "week": 19,
     "tags": [
-      "food"
+      "food",
+      "vegetable"
     ],
-    "pron": null,
+    "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ზღვასთან ახალი თევზი ვჭამეთ.",
-        "en": "We ate fresh fish by the sea."
+        "ka": "სტაფილო თვალებისთვის კარგია.",
+        "en": "Carrot is good for the eyes."
       },
       {
-        "ka": "თევზი ჯანმრთელობისთვის კარგია.",
-        "en": "Fish is good for your health."
+        "ka": "სალათისთვის სტაფილო დავჭერი.",
+        "en": "I chopped a carrot for the salad."
       }
     ]
   },
@@ -641,24 +646,24 @@
   {
     "id": "v228",
     "rank": 228,
-    "ka": "ხაჭაპური",
-    "en": "khachapuri (cheese bread)",
+    "ka": "ფქვილი",
+    "en": "flour",
     "pos": "noun",
     "week": 19,
     "tags": [
       "food",
-      "restaurant"
+      "baking"
     ],
-    "pron": "khach'ap'uri — ჭ (ch') and პ (p') are ejectives",
+    "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "აჭარული ხაჭაპური ყველაზე მიყვარს.",
-        "en": "I love Adjarian khachapuri most of all."
+        "ka": "ფქვილი გვაქვს კიდევ?",
+        "en": "Do we still have flour?"
       },
       {
-        "ka": "ბებიამ ცხელი ხაჭაპური გამოაცხო.",
-        "en": "Grandma baked a hot khachapuri."
+        "ka": "ხაჭაპურისთვის ფქვილი მჭირდება.",
+        "en": "I need flour for khachapuri."
       }
     ]
   },
@@ -735,47 +740,48 @@
   {
     "id": "v232",
     "rank": 232,
-    "ka": "გემრიელი",
-    "en": "tasty, delicious",
-    "pos": "adj",
+    "ka": "ზეთი",
+    "en": "oil (cooking)",
+    "pos": "noun",
     "week": 20,
     "tags": [
-      "food"
+      "food",
+      "cooking"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ეს ხაჭაპური ძალიან გემრიელია.",
-        "en": "This khachapuri is very tasty."
+        "ka": "ცოტა ზეთი დაასხი.",
+        "en": "Pour in a little oil."
       },
       {
-        "ka": "ბებია გემრიელ საჭმელს ამზადებს.",
-        "en": "Grandma makes delicious food."
+        "ka": "ზეთი აღარ გვაქვს, ვიყიდოთ.",
+        "en": "We are out of oil, let's buy some."
       }
     ]
   },
   {
     "id": "v233",
     "rank": 233,
-    "ka": "რესტორანი",
-    "en": "restaurant",
+    "ka": "კარაქი",
+    "en": "butter",
     "pos": "noun",
     "week": 20,
     "tags": [
-      "restaurant",
-      "place"
+      "food",
+      "breakfast"
     ],
-    "pron": "rest'orani — t' is an ejective t",
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ამ რესტორანში ხინკალი საუკეთესოა.",
-        "en": "The khinkali in this restaurant is the best."
+        "ka": "პურზე კარაქი წავუსვი.",
+        "en": "I spread butter on the bread."
       },
       {
-        "ka": "რესტორანი შუადღემდე დაკეტილია.",
-        "en": "The restaurant is closed until noon."
+        "ka": "კარაქი მაცივარში დევს.",
+        "en": "The butter is in the fridge."
       }
     ]
   },
@@ -877,71 +883,72 @@
   {
     "id": "v238",
     "rank": 238,
-    "ka": "ყავა",
-    "en": "coffee",
+    "ka": "პილპილი",
+    "en": "pepper (spice)",
     "pos": "noun",
     "week": 20,
     "tags": [
-      "drink",
-      "cafe"
+      "food",
+      "spice"
     ],
-    "pron": "q'ava — ყ (q') is a deep, throaty pop",
+    "pron": "პ = ejective p' (tight throat), unlike aspirated ფ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ერთი ყავა, გთხოვთ.",
-        "en": "One coffee, please."
+        "ka": "ცოტა პილპილი მოაყარე.",
+        "en": "Sprinkle a little pepper on it."
       },
       {
-        "ka": "დილით ყავას ვსვამ ხოლმე.",
-        "en": "I usually drink coffee in the morning."
+        "ka": "შავი პილპილი გაქვთ?",
+        "en": "Do you have black pepper?"
       }
     ]
   },
   {
     "id": "v239",
     "rank": 239,
-    "ka": "წვენი",
-    "en": "juice",
+    "ka": "ცომი",
+    "en": "dough",
     "pos": "noun",
     "week": 20,
     "tags": [
-      "drink"
+      "food",
+      "baking"
     ],
-    "pron": "ts'veni — წ (ts') is an ejective ts",
+    "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ბავშვს ფორთოხლის წვენი უყვარს.",
-        "en": "The child loves orange juice."
+        "ka": "ცომი უკვე მზად არის.",
+        "en": "The dough is already ready."
       },
       {
-        "ka": "ცივი წვენი ხომ არ გინდა?",
-        "en": "Don't you want some cold juice?"
+        "ka": "ბებია ცომს ზელს.",
+        "en": "Grandma is kneading the dough."
       }
     ]
   },
   {
     "id": "v240",
     "rank": 240,
-    "ka": "ღვინო",
-    "en": "wine",
+    "ka": "ლიმონი",
+    "en": "lemon",
     "pos": "noun",
     "week": 20,
     "tags": [
-      "drink",
-      "supra"
+      "food",
+      "fruit"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ქართული ღვინო მთელ მსოფლიოშია ცნობილი.",
-        "en": "Georgian wine is famous all over the world."
+        "ka": "ჩაიში ლიმონი გინდა?",
+        "en": "Do you want lemon in your tea?"
       },
       {
-        "ka": "სუფრაზე წითელი ღვინო დგას.",
-        "en": "There is red wine on the table."
+        "ka": "ლიმონი ძალიან მჟავეა.",
+        "en": "Lemon is very sour."
       }
     ]
   },
@@ -1304,23 +1311,24 @@
   {
     "id": "v256",
     "rank": 256,
-    "ka": "ავტობუსი",
-    "en": "bus",
+    "ka": "ხიდი",
+    "en": "bridge",
     "pos": "noun",
     "week": 22,
     "tags": [
-      "transport"
+      "city",
+      "place"
     ],
-    "pron": "avt'obusi — t' is an ejective t",
+    "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ავტობუსი ყოველ ათ წუთში მოდის.",
-        "en": "The bus comes every ten minutes."
+        "ka": "ხიდზე ფეხით გადავიდეთ.",
+        "en": "Let's cross the bridge on foot."
       },
       {
-        "ka": "ავტობუსში ადგილი არ იყო.",
-        "en": "There was no room on the bus."
+        "ka": "ეს ხიდი ღამით ლამაზია.",
+        "en": "This bridge is beautiful at night."
       }
     ]
   },
@@ -1350,23 +1358,24 @@
   {
     "id": "v258",
     "rank": 258,
-    "ka": "მანქანა",
-    "en": "car",
+    "ka": "მოედანი",
+    "en": "square (in a city)",
     "pos": "noun",
     "week": 22,
     "tags": [
-      "transport"
+      "city",
+      "place"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "მანქანა სახლთან გავაჩერე.",
-        "en": "I parked the car by the house."
+        "ka": "თავისუფლების მოედანზე შევხვდეთ.",
+        "en": "Let's meet at Freedom Square."
       },
       {
-        "ka": "მეზობლებმა ახალი მანქანა იყიდეს.",
-        "en": "The neighbors bought a new car."
+        "ka": "მოედანი ხალხით სავსეა.",
+        "en": "The square is full of people."
       }
     ]
   },
@@ -1445,48 +1454,48 @@
   {
     "id": "v262",
     "rank": 262,
-    "ka": "ქუჩა",
-    "en": "street",
+    "ka": "კუთხე",
+    "en": "corner",
     "pos": "noun",
     "week": 22,
     "tags": [
       "city",
       "place"
     ],
-    "pron": null,
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ეს ქუჩა ძალიან ხმაურიანია.",
-        "en": "This street is very noisy."
+        "ka": "კუთხეში პატარა კაფეა.",
+        "en": "There is a small cafe on the corner."
       },
       {
-        "ka": "ჩვენს ქუჩაზე ახალი კაფე გაიხსნა.",
-        "en": "A new café opened on our street."
+        "ka": "კუთხესთან დამელოდე, მოვალ.",
+        "en": "Wait for me at the corner, I'll come."
       }
     ]
   },
   {
     "id": "v263",
     "rank": 263,
-    "ka": "პარკი",
-    "en": "park",
+    "ka": "ლიფტი",
+    "en": "elevator, lift",
     "pos": "noun",
     "week": 22,
     "tags": [
-      "city",
-      "place"
+      "building",
+      "city"
     ],
-    "pron": "p'ark'i — p' and k' are ejectives",
+    "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
     "verify": false,
     "sentences": [
       {
-        "ka": "საღამოს პარკში ვსეირნობთ.",
-        "en": "In the evening we stroll in the park."
+        "ka": "ლიფტი დღეს არ მუშაობს.",
+        "en": "The elevator is not working today."
       },
       {
-        "ka": "ბავშვები პარკში თამაშობენ.",
-        "en": "The children are playing in the park."
+        "ka": "ლიფტით ავიდეთ მეხუთეზე.",
+        "en": "Let's take the elevator to the fifth floor."
       }
     ]
   },
@@ -1589,24 +1598,24 @@
   {
     "id": "v268",
     "rank": 268,
-    "ka": "სასტუმრო",
-    "en": "hotel",
+    "ka": "კიბე",
+    "en": "stairs, staircase",
     "pos": "noun",
     "week": 23,
     "tags": [
-      "city",
-      "travel"
+      "building",
+      "home"
     ],
-    "pron": "sast'umro — t' is an ejective t",
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
     "verify": false,
     "sentences": [
       {
-        "ka": "სასტუმრო ზღვასთან ახლოსაა.",
-        "en": "The hotel is close to the sea."
+        "ka": "კიბეზე ფრთხილად ადი.",
+        "en": "Go up the stairs carefully."
       },
       {
-        "ka": "ორი ღამით სასტუმროში დავრჩებით.",
-        "en": "We'll stay two nights at the hotel."
+        "ka": "ლიფტი გაფუჭდა, კიბით ავედი.",
+        "en": "The elevator broke, I went up the stairs."
       }
     ]
   },
@@ -1636,23 +1645,24 @@
   {
     "id": "v270",
     "rank": 270,
-    "ka": "ოთახი",
-    "en": "room",
+    "ka": "სარდაფი",
+    "en": "basement, cellar",
     "pos": "noun",
     "week": 23,
     "tags": [
+      "building",
       "home"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ეს ოთახი ნათელი და თბილია.",
-        "en": "This room is bright and warm."
+        "ka": "ღვინო სარდაფში გვაქვს.",
+        "en": "We keep the wine in the cellar."
       },
       {
-        "ka": "შენი ოთახი დაალაგე!",
-        "en": "Tidy up your room!"
+        "ka": "სარდაფი ცივი და ბნელია.",
+        "en": "The basement is cold and dark."
       }
     ]
   },
@@ -2519,48 +2529,48 @@
   {
     "id": "v308",
     "rank": 308,
-    "ka": "ცხელი",
-    "en": "hot",
+    "ka": "სველი",
+    "en": "wet",
     "pos": "adj",
     "week": 26,
     "tags": [
       "weather",
-      "food"
+      "adjective"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ცხელი ხაჭაპური მომიტანეს.",
-        "en": "They brought me hot khachapuri."
+        "ka": "ქუჩა სველია, ფრთხილად იარე.",
+        "en": "The street is wet, walk carefully."
       },
       {
-        "ka": "ყავა ჯერ ცხელია, დაიცადე.",
-        "en": "The coffee is still hot, wait."
+        "ka": "თმა ჯერ სველი მაქვს.",
+        "en": "My hair is still wet."
       }
     ]
   },
   {
     "id": "v309",
     "rank": 309,
-    "ka": "ცივი",
-    "en": "cold",
+    "ka": "მშრალი",
+    "en": "dry",
     "pos": "adj",
     "week": 26,
     "tags": [
       "weather",
-      "food"
+      "adjective"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ცივი წყალი დალიე.",
-        "en": "Drink some cold water."
+        "ka": "ტანსაცმელი უკვე მშრალია.",
+        "en": "The clothes are already dry."
       },
       {
-        "ka": "ზამთარში ოთახი ცივია.",
-        "en": "In winter the room is cold."
+        "ka": "ზაფხულში ჰაერი აქ მშრალია.",
+        "en": "In summer the air here is dry."
       }
     ]
   },
@@ -2638,48 +2648,48 @@
   {
     "id": "v313",
     "rank": 313,
-    "ka": "ზღვა",
-    "en": "sea",
-    "pos": "noun",
+    "ka": "ბნელი",
+    "en": "dark",
+    "pos": "adj",
     "week": 27,
     "tags": [
-      "nature",
-      "travel"
+      "adjective",
+      "home"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ზღვა დღეს მშვიდია.",
-        "en": "The sea is calm today."
+        "ka": "ოთახი ძალიან ბნელია.",
+        "en": "The room is very dark."
       },
       {
-        "ka": "ზაფხულში ზღვაზე დავისვენებთ.",
-        "en": "In summer we'll vacation at the sea."
+        "ka": "ბნელ ქუჩაზე მარტო ნუ დადიხარ.",
+        "en": "Don't walk alone on a dark street."
       }
     ]
   },
   {
     "id": "v314",
     "rank": 314,
-    "ka": "მთა",
-    "en": "mountain",
-    "pos": "noun",
+    "ka": "ნათელი",
+    "en": "bright, light (not dark)",
+    "pos": "adj",
     "week": 27,
     "tags": [
-      "nature",
-      "travel"
+      "adjective",
+      "home"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "საქართველოში ლამაზი მთებია.",
-        "en": "There are beautiful mountains in Georgia."
+        "ka": "ეს ოთახი ნათელი და თბილია.",
+        "en": "This room is bright and warm."
       },
       {
-        "ka": "მთაში სუფთა ჰაერია.",
-        "en": "The air is clean in the mountains."
+        "ka": "ნათელი ფერები მომწონს.",
+        "en": "I like bright colors."
       }
     ]
   },
@@ -2733,23 +2743,24 @@
   {
     "id": "v317",
     "rank": 317,
-    "ka": "სოფელი",
-    "en": "village",
+    "ka": "ქოლგა",
+    "en": "umbrella",
     "pos": "noun",
     "week": 27,
     "tags": [
-      "place"
+      "weather",
+      "object"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ზაფხულს სოფელში ვატარებთ.",
-        "en": "We spend the summer in the village."
+        "ka": "ქოლგა წამოიღე, წვიმს.",
+        "en": "Take an umbrella, it's raining."
       },
       {
-        "ka": "ბებია სოფელში ცხოვრობს.",
-        "en": "Grandma lives in the village."
+        "ka": "ქოლგა სახლში დამრჩა.",
+        "en": "I left my umbrella at home."
       }
     ]
   },
@@ -2779,69 +2790,72 @@
   {
     "id": "v319",
     "rank": 319,
-    "ka": "დილა",
-    "en": "morning",
+    "ka": "ჩექმა",
+    "en": "boot",
     "pos": "noun",
     "week": 27,
     "tags": [
-      "time"
+      "clothes",
+      "winter"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "დილა მშვენიერია დღეს.",
-        "en": "The morning is beautiful today."
+        "ka": "ზამთარში ჩექმა მჭირდება.",
+        "en": "I need boots in winter."
       },
       {
-        "ka": "დილით ყავას ვსვამ.",
-        "en": "In the morning I drink coffee."
+        "ka": "ახალი ჩექმა ვიყიდე გუშინ.",
+        "en": "I bought new boots yesterday."
       }
     ]
   },
   {
     "id": "v320",
     "rank": 320,
-    "ka": "საღამო",
-    "en": "evening",
+    "ka": "ქუდი",
+    "en": "hat",
     "pos": "noun",
     "week": 27,
     "tags": [
-      "time"
+      "clothes",
+      "winter"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "საღამო ერთად გავატაროთ.",
-        "en": "Let's spend the evening together."
+        "ka": "ქუდი დაიხურე, ცივა.",
+        "en": "Put on a hat, it's cold."
       },
       {
-        "ka": "ეს საღამო დაუვიწყარია.",
-        "en": "This evening is unforgettable."
+        "ka": "ეს ქუდი ძალიან გიხდება.",
+        "en": "This hat really suits you."
       }
     ]
   },
   {
     "id": "v321",
     "rank": 321,
-    "ka": "ღამე",
-    "en": "night",
+    "ka": "წინდა",
+    "en": "sock",
     "pos": "noun",
     "week": 27,
     "tags": [
-      "time"
+      "clothes",
+      "home"
     ],
-    "pron": null,
+    "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
     "verify": false,
     "sentences": [
       {
-        "ka": "ღამე გრძელია ზამთარში.",
-        "en": "The night is long in winter."
+        "ka": "ერთი წინდა დამეკარგა.",
+        "en": "I lost one sock."
       },
       {
-        "ka": "მთელი ღამე არ მეძინა.",
-        "en": "I didn't sleep all night."
+        "ka": "თბილი წინდები ჩაიცვი.",
+        "en": "Put on warm socks."
       }
     ]
   },
@@ -2871,23 +2885,24 @@
   {
     "id": "v323",
     "rank": 323,
-    "ka": "ხვალ",
-    "en": "tomorrow",
-    "pos": "adv",
+    "ka": "შარფი",
+    "en": "scarf",
+    "pos": "noun",
     "week": 27,
     "tags": [
-      "time"
+      "clothes",
+      "winter"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ხვალ ბაზარში წავალ.",
-        "en": "Tomorrow I'll go to the bazaar."
+        "ka": "შარფი მოიხვიე, გარეთ ცივა.",
+        "en": "Wrap a scarf on, it's cold outside."
       },
       {
-        "ka": "ხვალ ამინდი კარგი იქნება.",
-        "en": "Tomorrow the weather will be good."
+        "ka": "ეს შარფი დედამ მაჩუქა.",
+        "en": "My mom gave me this scarf."
       }
     ]
   },
@@ -2917,23 +2932,24 @@
   {
     "id": "v325",
     "rank": 325,
-    "ka": "გუშინ",
-    "en": "yesterday",
-    "pos": "adv",
+    "ka": "ხელთათმანი",
+    "en": "glove",
+    "pos": "noun",
     "week": 28,
     "tags": [
-      "time"
+      "clothes",
+      "winter"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "გუშინ კინოში ვიყავით.",
-        "en": "Yesterday we were at the movies."
+        "ka": "ხელთათმანი ავტობუსში დამრჩა.",
+        "en": "I left my gloves on the bus."
       },
       {
-        "ka": "გუშინ მთელი დღე წვიმდა.",
-        "en": "Yesterday it rained all day."
+        "ka": "ზამთარში ხელთათმანის გარეშე ცივა.",
+        "en": "In winter it's cold without gloves."
       }
     ]
   },
@@ -2986,71 +3002,72 @@
   {
     "id": "v328",
     "rank": 328,
-    "ka": "მალე",
-    "en": "soon",
+    "ka": "მარჯვნივ",
+    "en": "to the right",
     "pos": "adv",
     "week": 28,
     "tags": [
-      "time"
+      "direction",
+      "city"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "მალე გაზაფხული მოვა.",
-        "en": "Spring will come soon."
+        "ka": "მარჯვნივ გაუხვიე, მერე პირდაპირ.",
+        "en": "Turn right, then go straight."
       },
       {
-        "ka": "მალე გნახავ, კარგად იყავი.",
-        "en": "See you soon, take care."
+        "ka": "ბანკი მარჯვნივ არის.",
+        "en": "The bank is on the right."
       }
     ]
   },
   {
     "id": "v329",
     "rank": 329,
-    "ka": "ხშირად",
-    "en": "often",
+    "ka": "მარცხნივ",
+    "en": "to the left",
     "pos": "adv",
     "week": 28,
     "tags": [
-      "time",
-      "frequency"
+      "direction",
+      "city"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ბებიას ხშირად ვურეკავ.",
-        "en": "I call grandma often."
+        "ka": "მარცხნივ პატარა ქუჩაა.",
+        "en": "On the left there is a small street."
       },
       {
-        "ka": "ამ კაფეში ხშირად დავდივართ.",
-        "en": "We often go to this café."
+        "ka": "აქ მარცხნივ შეუხვიე.",
+        "en": "Turn left here."
       }
     ]
   },
   {
     "id": "v330",
     "rank": 330,
-    "ka": "ზოგჯერ",
-    "en": "sometimes",
+    "ka": "პირდაპირ",
+    "en": "straight ahead",
     "pos": "adv",
     "week": 28,
     "tags": [
-      "time",
-      "frequency"
+      "direction",
+      "city"
     ],
-    "pron": null,
+    "pron": "პ = ejective p' (tight throat), unlike aspirated ფ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ზოგჯერ მარტო ყოფნა მიყვარს.",
-        "en": "Sometimes I like being alone."
+        "ka": "პირდაპირ იარე ხუთი წუთი.",
+        "en": "Walk straight ahead for five minutes."
       },
       {
-        "ka": "ზოგჯერ მეტროთი დავდივარ.",
-        "en": "Sometimes I take the metro."
+        "ka": "მეტრო პირდაპირ არის, ახლოსაა.",
+        "en": "The metro is straight ahead, it's close."
       }
     ]
   },
@@ -3081,48 +3098,48 @@
   {
     "id": "v332",
     "rank": 332,
-    "ka": "ყოველთვის",
-    "en": "always",
-    "pos": "adv",
+    "ka": "კედელი",
+    "en": "wall",
+    "pos": "noun",
     "week": 28,
     "tags": [
-      "time",
-      "frequency"
+      "home",
+      "building"
     ],
-    "pron": "q'oveltvis — ყ (q') is a deep, throaty pop",
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ის ყოველთვის აგვიანებს.",
-        "en": "He is always late."
+        "ka": "კედელზე ლამაზი სურათი კიდია.",
+        "en": "A beautiful picture hangs on the wall."
       },
       {
-        "ka": "ყოველთვის შენს გვერდით ვარ.",
-        "en": "I am always by your side."
+        "ka": "ეს კედელი თეთრად შევღებოთ.",
+        "en": "Let's paint this wall white."
       }
     ]
   },
   {
     "id": "v333",
     "rank": 333,
-    "ka": "არასდროს",
-    "en": "never",
-    "pos": "adv",
+    "ka": "ჭერი",
+    "en": "ceiling",
+    "pos": "noun",
     "week": 28,
     "tags": [
-      "time",
-      "frequency"
+      "home",
+      "building"
     ],
-    "pron": null,
+    "pron": "ჭ = ejective ch' (tight throat), unlike aspirated ჩ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ტაქსით არასდროს დავდივარ.",
-        "en": "I never take taxis."
+        "ka": "ჭერიდან წყალი ჩამოდის.",
+        "en": "Water is coming down from the ceiling."
       },
       {
-        "ka": "ამას არასდროს დავივიწყებ.",
-        "en": "I will never forget this."
+        "ka": "ძველ სახლებში ჭერი მაღალია.",
+        "en": "In old houses the ceiling is high."
       }
     ]
   },
@@ -3153,23 +3170,24 @@
   {
     "id": "v335",
     "rank": 335,
-    "ka": "ერთად",
-    "en": "together",
-    "pos": "adv",
+    "ka": "იატაკი",
+    "en": "floor (of a room)",
+    "pos": "noun",
     "week": 28,
     "tags": [
-      "social"
+      "home",
+      "building"
     ],
-    "pron": null,
+    "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ერთად ვისადილოთ ხვალ?",
-        "en": "Shall we have lunch together tomorrow?"
+        "ka": "იატაკი სველია, ფრთხილად.",
+        "en": "The floor is wet, careful."
       },
       {
-        "ka": "მეგობრებთან ერთად ვმოგზაურობ.",
-        "en": "I travel together with friends."
+        "ka": "ბავშვი იატაკზე თამაშობს.",
+        "en": "The child is playing on the floor."
       }
     ]
   },
@@ -3317,92 +3335,96 @@
   {
     "id": "v342",
     "rank": 342,
-    "ka": "ბებია",
-    "en": "grandmother",
+    "ka": "სარკე",
+    "en": "mirror",
     "pos": "noun",
     "week": 29,
     "tags": [
-      "family"
+      "home",
+      "object"
     ],
-    "pron": null,
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ბებია სოფელში გველოდება.",
-        "en": "Grandma is waiting for us in the village."
+        "ka": "სარკეში დილას ჩავიხედე.",
+        "en": "I looked in the mirror in the morning."
       },
       {
-        "ka": "ბებიამ სადილი მოამზადა.",
-        "en": "Grandma made lunch."
+        "ka": "აბაზანაში დიდი სარკეა.",
+        "en": "There is a big mirror in the bathroom."
       }
     ]
   },
   {
     "id": "v343",
     "rank": 343,
-    "ka": "ქმარი",
-    "en": "husband",
+    "ka": "კარადა",
+    "en": "wardrobe, cupboard",
     "pos": "noun",
     "week": 29,
     "tags": [
-      "family"
+      "home",
+      "furniture"
     ],
-    "pron": null,
+    "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
     "verify": false,
     "sentences": [
       {
-        "ka": "ჩემი ქმარი მზარეულია.",
-        "en": "My husband is a cook."
+        "ka": "ტანსაცმელი კარადაში შეინახე.",
+        "en": "Put the clothes away in the wardrobe."
       },
       {
-        "ka": "ქმარმა ყვავილები მაჩუქა.",
-        "en": "My husband gave me flowers."
+        "ka": "ბინისთვის ახალი კარადა ვიყიდეთ.",
+        "en": "We bought a new wardrobe for the apartment."
       }
     ]
   },
   {
     "id": "v344",
     "rank": 344,
-    "ka": "ცოლი",
-    "en": "wife",
+    "ka": "დივანი",
+    "en": "sofa, couch",
     "pos": "noun",
     "week": 29,
     "tags": [
-      "family"
+      "home",
+      "furniture"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ჩემი ცოლი ექიმია.",
-        "en": "My wife is a doctor."
+        "ka": "დივანზე დაჯექი, დაისვენე.",
+        "en": "Sit on the sofa, have a rest."
       },
       {
-        "ka": "ისინი ცოლ-ქმარი არიან.",
-        "en": "They are husband and wife."
+        "ka": "კატას დივანზე სძინავს.",
+        "en": "The cat is sleeping on the sofa."
       }
     ]
   },
   {
     "id": "v345",
     "rank": 345,
-    "ka": "სამსახური",
-    "en": "job, work(place)",
+    "ka": "ხალიჩა",
+    "en": "carpet, rug",
     "pos": "noun",
     "week": 29,
     "tags": [
-      "work"
+      "home",
+      "object"
     ],
     "pron": null,
     "verify": false,
     "sentences": [
       {
-        "ka": "ახალი სამსახური ვიპოვე.",
-        "en": "I found a new job."
+        "ka": "ეს ხალიჩა ბებიას საჩუქარია.",
+        "en": "This carpet is a gift from grandma."
       },
       {
-        "ka": "სამსახური ცხრაზე იწყება.",
-        "en": "Work starts at nine."
+        "ka": "ხალიჩაზე ყავა დავღვარე.",
+        "en": "I spilled coffee on the carpet."
       }
     ]
   },

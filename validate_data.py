@@ -34,11 +34,13 @@ if vocab:
         problems.append('vocab: duplicate ids')
     kas = {}
     for v in vocab:
-        kas.setdefault(v['ka'].strip(), []).append(v['id'])
+        # Same key the app uses: headword + meaning-stub, so homographs are OK.
+        en_stub = ''.join(c for c in v.get('en', '').lower() if c.isalpha())[:6]
+        kas.setdefault(v['ka'].strip() + '|' + en_stub, []).append(v['id'])
     dupes = {k: xs for k, xs in kas.items() if len(xs) > 1}
     if dupes:
-        info.append(f'vocab: {len(dupes)} duplicate headwords (app dedupes, keeps lowest rank): ' +
-                    ', '.join(f"{k}({'/'.join(x)})" for k, x in list(dupes.items())[:15]))
+        info.append(f'vocab: {len(dupes)} duplicate word+meaning pairs (app keeps lowest rank): ' +
+                    ', '.join(f"{k.split('|')[0]}({'/'.join(x)})" for k, x in list(dupes.items())[:60]))
     for v in vocab:
         if len(v.get('sentences', [])) < 2:
             problems.append(f"vocab {v['id']} ({v['ka']}): fewer than 2 sentences")
