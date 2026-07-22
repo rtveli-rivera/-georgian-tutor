@@ -172,11 +172,23 @@ export async function renderTodayView(container) {
     } else {
       spec = generate(plan.production, plan.week, rng);
     }
+    let advanced = false;
     renderExercise(inner, spec, (r) => {
+      if (advanced) return;
+      advanced = true;
       stats.production = r;
       host.append(el('div', { class: 'row', style: 'margin-top:12px' },
         el('button', { class: 'btn', onclick: next }, 'Next → Speaker mission')));
     });
+    host.append(el('div', { style: 'margin-top:8px' },
+      el('button', {
+        class: 'btn secondary small', onclick: () => {
+          if (advanced) return;
+          advanced = true;
+          stats.production = { ok: null, skipped: true };
+          next();
+        },
+      }, 'Skip this one →')));
   }
 
   // --- 5. Speaker task ---

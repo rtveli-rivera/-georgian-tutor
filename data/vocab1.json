@@ -1,0 +1,4682 @@
+[
+ {
+  "id": "v001",
+  "rank": 1,
+  "ka": "და",
+  "en": "and",
+  "pos": "conj",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დედა და მამა სახლში არიან.",
+    "en": "Mom and dad are at home."
+   },
+   {
+    "ka": "მე და შენ მეგობრები ვართ.",
+    "en": "You and I are friends."
+   }
+  ]
+ },
+ {
+  "id": "v002",
+  "rank": 2,
+  "ka": "ვარ",
+  "en": "I am",
+  "pos": "verb",
+  "week": 1,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მე სახლში ვარ.",
+    "en": "I am at home."
+   },
+   {
+    "ka": "კარგად ვარ, გმადლობთ.",
+    "en": "I'm well, thank you."
+   }
+  ]
+ },
+ {
+  "id": "v003",
+  "rank": 3,
+  "ka": "მე",
+  "en": "I, me",
+  "pos": "pron",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მე თბილისში ვცხოვრობ.",
+    "en": "I live in Tbilisi."
+   },
+   {
+    "ka": "მე გიორგი ვარ.",
+    "en": "I am Giorgi."
+   }
+  ]
+ },
+ {
+  "id": "v004",
+  "rank": 4,
+  "ka": "შენ",
+  "en": "you (singular, informal)",
+  "pos": "pron",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "შენ სად ხარ?",
+    "en": "Where are you?"
+   },
+   {
+    "ka": "შენ რა გქვია?",
+    "en": "What's your name?"
+   }
+  ]
+ },
+ {
+  "id": "v005",
+  "rank": 5,
+  "ka": "ეს",
+  "en": "this",
+  "pos": "pron",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ჩემი წიგნია.",
+    "en": "This is my book."
+   },
+   {
+    "ka": "ეს ვინ არის?",
+    "en": "Who is this?"
+   }
+  ]
+ },
+ {
+  "id": "v006",
+  "rank": 6,
+  "ka": "ის",
+  "en": "he, she, it; that",
+  "pos": "pron",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის ჩემი მეგობარია.",
+    "en": "He is my friend."
+   },
+   {
+    "ka": "ის ახლა მუშაობს.",
+    "en": "She is working now."
+   }
+  ]
+ },
+ {
+  "id": "v007",
+  "rank": 7,
+  "ka": "რა",
+  "en": "what",
+  "pos": "pron",
+  "week": 1,
+  "tags": [
+   "question",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს რა არის?",
+    "en": "What is this?"
+   },
+   {
+    "ka": "რა ღირს ეს?",
+    "en": "How much does this cost?"
+   }
+  ]
+ },
+ {
+  "id": "v008",
+  "rank": 8,
+  "ka": "არა",
+  "en": "no",
+  "pos": "particle",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "არა, არ მინდა.",
+    "en": "No, I don't want it."
+   },
+   {
+    "ka": "არა, ის აქ არ არის.",
+    "en": "No, he isn't here."
+   }
+  ]
+ },
+ {
+  "id": "v009",
+  "rank": 9,
+  "ka": "კი",
+  "en": "yes (informal)",
+  "pos": "particle",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "კი, ძალიან მინდა.",
+    "en": "Yes, I really want to."
+   },
+   {
+    "ka": "კი, ეს კარგი აზრია.",
+    "en": "Yes, that's a good idea."
+   }
+  ]
+ },
+ {
+  "id": "v010",
+  "rank": 10,
+  "ka": "არ",
+  "en": "not",
+  "pos": "particle",
+  "week": 1,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მე ეს არ მინდა.",
+    "en": "I don't want this."
+   },
+   {
+    "ka": "ის დღეს არ მუშაობს.",
+    "en": "He isn't working today."
+   }
+  ]
+ },
+ {
+  "id": "v011",
+  "rank": 11,
+  "ka": "არის",
+  "en": "is (he/she/it is)",
+  "pos": "verb",
+  "week": 1,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სად არის ბაზარი?",
+    "en": "Where is the market?"
+   },
+   {
+    "ka": "ის სახლში არის.",
+    "en": "She is at home."
+   }
+  ]
+ },
+ {
+  "id": "v012",
+  "rank": 12,
+  "ka": "მაქვს",
+  "en": "I have (things)",
+  "pos": "verb",
+  "week": 1,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დღეს დრო არ მაქვს.",
+    "en": "I don't have time today."
+   },
+   {
+    "ka": "ორი ბილეთი მაქვს.",
+    "en": "I have two tickets."
+   }
+  ]
+ },
+ {
+  "id": "v013",
+  "rank": 13,
+  "ka": "მყავს",
+  "en": "I have (people, animals)",
+  "pos": "verb",
+  "week": 2,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": "ყ = uvular ejective q', made deep in the throat",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ერთი ძმა მყავს.",
+    "en": "I have one brother."
+   },
+   {
+    "ka": "სახლში ძაღლი მყავს.",
+    "en": "I have a dog at home."
+   }
+  ]
+ },
+ {
+  "id": "v014",
+  "rank": 14,
+  "ka": "მინდა",
+  "en": "I want",
+  "pos": "verb",
+  "week": 2,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ახლა ყავა მინდა.",
+    "en": "I want coffee now."
+   },
+   {
+    "ka": "სახლში წასვლა მინდა.",
+    "en": "I want to go home."
+   }
+  ]
+ },
+ {
+  "id": "v015",
+  "rank": 15,
+  "ka": "ვიცი",
+  "en": "I know (facts)",
+  "pos": "verb",
+  "week": 2,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "არ ვიცი, სად არის.",
+    "en": "I don't know where it is."
+   },
+   {
+    "ka": "ცოტა ქართული ვიცი.",
+    "en": "I know a little Georgian."
+   }
+  ]
+ },
+ {
+  "id": "v016",
+  "rank": 16,
+  "ka": "კარგი",
+  "en": "good",
+  "pos": "adj",
+  "week": 2,
+  "tags": [
+   "core"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დღეს კარგი ამინდია.",
+    "en": "The weather is good today."
+   },
+   {
+    "ka": "ეს კარგი წიგნია.",
+    "en": "This is a good book."
+   }
+  ]
+ },
+ {
+  "id": "v017",
+  "rank": 17,
+  "ka": "გამარჯობა",
+  "en": "hello",
+  "pos": "interj",
+  "week": 2,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "გამარჯობა, როგორ ხარ?",
+    "en": "Hello, how are you?"
+   },
+   {
+    "ka": "გამარჯობა, მე ნინო ვარ.",
+    "en": "Hello, I'm Nino."
+   }
+  ]
+ },
+ {
+  "id": "v018",
+  "rank": 18,
+  "ka": "გმადლობთ",
+  "en": "thank you (formal)",
+  "pos": "interj",
+  "week": 2,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "გმადლობთ, ძალიან გემრიელია.",
+    "en": "Thank you, it's very tasty."
+   },
+   {
+    "ka": "გმადლობთ დახმარებისთვის.",
+    "en": "Thank you for the help."
+   }
+  ]
+ },
+ {
+  "id": "v019",
+  "rank": 19,
+  "ka": "მადლობა",
+  "en": "thanks",
+  "pos": "interj",
+  "week": 2,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მადლობა, ჩემო მეგობარო!",
+    "en": "Thanks, my friend!"
+   },
+   {
+    "ka": "დიდი მადლობა ყველაფრისთვის.",
+    "en": "Thanks a lot for everything."
+   }
+  ]
+ },
+ {
+  "id": "v020",
+  "rank": 20,
+  "ka": "გთხოვთ",
+  "en": "please (formal)",
+  "pos": "interj",
+  "week": 2,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ერთი ლუდი, გთხოვთ.",
+    "en": "One beer, please."
+   },
+   {
+    "ka": "გთხოვთ, ერთი წუთით.",
+    "en": "One moment, please."
+   }
+  ]
+ },
+ {
+  "id": "v021",
+  "rank": 21,
+  "ka": "ბოდიში",
+  "en": "sorry, excuse me",
+  "pos": "interj",
+  "week": 2,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბოდიში, სად არის მეტრო?",
+    "en": "Excuse me, where is the metro?"
+   },
+   {
+    "ka": "ბოდიში, ცოტა ვაგვიანებ.",
+    "en": "Sorry, I'm running a bit late."
+   }
+  ]
+ },
+ {
+  "id": "v022",
+  "rank": 22,
+  "ka": "დიახ",
+  "en": "yes (formal)",
+  "pos": "interj",
+  "week": 2,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დიახ, რა თქმა უნდა.",
+    "en": "Yes, of course."
+   },
+   {
+    "ka": "დიახ, ეს ჩემი მანქანაა.",
+    "en": "Yes, this is my car."
+   }
+  ]
+ },
+ {
+  "id": "v023",
+  "rank": 23,
+  "ka": "ნახვამდის",
+  "en": "goodbye",
+  "pos": "interj",
+  "week": 2,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "კარგი, ნახვამდის, ხვალამდე!",
+    "en": "Okay, goodbye, see you tomorrow!"
+   },
+   {
+    "ka": "ნახვამდის, კარგ დღეს გისურვებთ!",
+    "en": "Goodbye, have a good day!"
+   }
+  ]
+ },
+ {
+  "id": "v024",
+  "rank": 24,
+  "ka": "როგორ",
+  "en": "how",
+  "pos": "adv",
+  "week": 2,
+  "tags": [
+   "question",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "როგორ ხარ დღეს?",
+    "en": "How are you today?"
+   },
+   {
+    "ka": "ეს როგორ მუშაობს?",
+    "en": "How does this work?"
+   }
+  ]
+ },
+ {
+  "id": "v025",
+  "rank": 25,
+  "ka": "სად",
+  "en": "where",
+  "pos": "adv",
+  "week": 3,
+  "tags": [
+   "question",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "შენ სად ცხოვრობ?",
+    "en": "Where do you live?"
+   },
+   {
+    "ka": "სად არის მეტრო?",
+    "en": "Where is the metro?"
+   }
+  ]
+ },
+ {
+  "id": "v026",
+  "rank": 26,
+  "ka": "ვინ",
+  "en": "who",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "question",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის ვინ არის?",
+    "en": "Who is that?"
+   },
+   {
+    "ka": "ვინ იცის, სად არის ის.",
+    "en": "Who knows where he is."
+   }
+  ]
+ },
+ {
+  "id": "v027",
+  "rank": 27,
+  "ka": "როდის",
+  "en": "when",
+  "pos": "adv",
+  "week": 3,
+  "tags": [
+   "question",
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "როდის მოდიხარ სახლში?",
+    "en": "When are you coming home?"
+   },
+   {
+    "ka": "ფილმი როდის იწყება?",
+    "en": "When does the movie start?"
+   }
+  ]
+ },
+ {
+  "id": "v028",
+  "rank": 28,
+  "ka": "რატომ",
+  "en": "why",
+  "pos": "adv",
+  "week": 3,
+  "tags": [
+   "question",
+   "core"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რატომ არ ჭამ?",
+    "en": "Why aren't you eating?"
+   },
+   {
+    "ka": "რატომ სწავლობ ქართულს?",
+    "en": "Why are you learning Georgian?"
+   }
+  ]
+ },
+ {
+  "id": "v029",
+  "rank": 29,
+  "ka": "რომელი",
+  "en": "which",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "question",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რომელი გინდა შენ?",
+    "en": "Which one do you want?"
+   },
+   {
+    "ka": "რომელი წიგნი მოგწონს?",
+    "en": "Which book do you like?"
+   }
+  ]
+ },
+ {
+  "id": "v030",
+  "rank": 30,
+  "ka": "რამდენი",
+  "en": "how much, how many",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "question",
+   "bazaar"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს რამდენი ღირს?",
+    "en": "How much does this cost?"
+   },
+   {
+    "ka": "რამდენი წლის ხარ?",
+    "en": "How old are you?"
+   }
+  ]
+ },
+ {
+  "id": "v031",
+  "rank": 31,
+  "ka": "ჩვენ",
+  "en": "we, us",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩვენ თბილისში ვცხოვრობთ.",
+    "en": "We live in Tbilisi."
+   },
+   {
+    "ka": "ჩვენ ერთად ვმუშაობთ.",
+    "en": "We work together."
+   }
+  ]
+ },
+ {
+  "id": "v032",
+  "rank": 32,
+  "ka": "თქვენ",
+  "en": "you (plural or formal)",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "core",
+   "politeness"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თქვენ სად ცხოვრობთ?",
+    "en": "Where do you live?"
+   },
+   {
+    "ka": "თქვენ ქართული იცით?",
+    "en": "Do you know Georgian?"
+   }
+  ]
+ },
+ {
+  "id": "v033",
+  "rank": 33,
+  "ka": "ისინი",
+  "en": "they",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ისინი ჩემი მეგობრები არიან.",
+    "en": "They are my friends."
+   },
+   {
+    "ka": "ისინი ახლა სახლში არიან.",
+    "en": "They are at home now."
+   }
+  ]
+ },
+ {
+  "id": "v034",
+  "rank": 34,
+  "ka": "ჩემი",
+  "en": "my, mine",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ჩემი დედაა.",
+    "en": "This is my mother."
+   },
+   {
+    "ka": "ჩემი სახლი ახლოს არის.",
+    "en": "My house is nearby."
+   }
+  ]
+ },
+ {
+  "id": "v035",
+  "rank": 35,
+  "ka": "შენი",
+  "en": "your, yours (singular)",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს შენი წიგნია?",
+    "en": "Is this your book?"
+   },
+   {
+    "ka": "შენი და ლამაზია.",
+    "en": "Your sister is beautiful."
+   }
+  ]
+ },
+ {
+  "id": "v036",
+  "rank": 36,
+  "ka": "მისი",
+  "en": "his, her, its",
+  "pos": "pron",
+  "week": 3,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს მისი მანქანაა.",
+    "en": "This is his car."
+   },
+   {
+    "ka": "მისი სახელი ნინოა.",
+    "en": "Her name is Nino."
+   }
+  ]
+ },
+ {
+  "id": "v037",
+  "rank": 37,
+  "ka": "აქ",
+  "en": "here",
+  "pos": "adv",
+  "week": 4,
+  "tags": [
+   "core",
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "აქ ძალიან კარგია.",
+    "en": "It's very nice here."
+   },
+   {
+    "ka": "ის აქ არ არის.",
+    "en": "He is not here."
+   }
+  ]
+ },
+ {
+  "id": "v038",
+  "rank": 38,
+  "ka": "იქ",
+  "en": "there",
+  "pos": "adv",
+  "week": 4,
+  "tags": [
+   "core",
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბაზარი იქ არის.",
+    "en": "The market is over there."
+   },
+   {
+    "ka": "იქ ვინ არის?",
+    "en": "Who is there?"
+   }
+  ]
+ },
+ {
+  "id": "v039",
+  "rank": 39,
+  "ka": "ახლა",
+  "en": "now",
+  "pos": "adv",
+  "week": 4,
+  "tags": [
+   "time",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ახლა სად ხარ?",
+    "en": "Where are you now?"
+   },
+   {
+    "ka": "ახლა დრო არ მაქვს.",
+    "en": "I don't have time right now."
+   }
+  ]
+ },
+ {
+  "id": "v040",
+  "rank": 40,
+  "ka": "დღეს",
+  "en": "today",
+  "pos": "adv",
+  "week": 4,
+  "tags": [
+   "time",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დღეს კარგი ამინდია.",
+    "en": "The weather is nice today."
+   },
+   {
+    "ka": "დღეს არ ვმუშაობ.",
+    "en": "I'm not working today."
+   }
+  ]
+ },
+ {
+  "id": "v041",
+  "rank": 41,
+  "ka": "ხვალ",
+  "en": "tomorrow",
+  "pos": "adv",
+  "week": 4,
+  "tags": [
+   "time",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ხვალ შაბათია.",
+    "en": "Tomorrow is Saturday."
+   },
+   {
+    "ka": "ხვალ ბაზარში მივდივარ.",
+    "en": "I'm going to the market tomorrow."
+   }
+  ]
+ },
+ {
+  "id": "v042",
+  "rank": 42,
+  "ka": "ცივი",
+  "en": "cold",
+  "pos": "adj",
+  "week": 4,
+  "tags": [
+   "core",
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცივი წყალი მინდა.",
+    "en": "I want cold water."
+   },
+   {
+    "ka": "ლუდი ცივია?",
+    "en": "Is the beer cold?"
+   }
+  ]
+ },
+ {
+  "id": "v043",
+  "rank": 43,
+  "ka": "დღე",
+  "en": "day",
+  "pos": "noun",
+  "week": 4,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რა ლამაზი დღეა!",
+    "en": "What a beautiful day!"
+   },
+   {
+    "ka": "დღეს კარგი დღეა.",
+    "en": "Today is a good day."
+   }
+  ]
+ },
+ {
+  "id": "v044",
+  "rank": 44,
+  "ka": "დილა",
+  "en": "morning",
+  "pos": "noun",
+  "week": 4,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დილა მშვიდობისა, როგორ ხართ?",
+    "en": "Good morning, how are you?"
+   },
+   {
+    "ka": "დილას ყავას ვსვამ.",
+    "en": "In the morning I drink coffee."
+   }
+  ]
+ },
+ {
+  "id": "v045",
+  "rank": 45,
+  "ka": "საღამო",
+  "en": "evening",
+  "pos": "noun",
+  "week": 4,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "საღამო მშვიდობისა, ჩემო მეგობარო!",
+    "en": "Good evening, my friend!"
+   },
+   {
+    "ka": "საღამოს სად ხარ?",
+    "en": "Where are you in the evening?"
+   }
+  ]
+ },
+ {
+  "id": "v046",
+  "rank": 46,
+  "ka": "ღამე",
+  "en": "night",
+  "pos": "noun",
+  "week": 4,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ღამე მშვიდობისა, ტკბილი სიზმრები!",
+    "en": "Good night, sweet dreams!"
+   },
+   {
+    "ka": "ღამით კარგად ვიძინებ.",
+    "en": "I sleep well at night."
+   }
+  ]
+ },
+ {
+  "id": "v047",
+  "rank": 47,
+  "ka": "კვირა",
+  "en": "week; Sunday",
+  "pos": "noun",
+  "week": 4,
+  "tags": [
+   "time"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "კვირას არ ვმუშაობ.",
+    "en": "I don't work on Sundays."
+   },
+   {
+    "ka": "ერთი კვირაა თბილისში ვარ.",
+    "en": "I've been in Tbilisi for a week."
+   }
+  ]
+ },
+ {
+  "id": "v048",
+  "rank": 48,
+  "ka": "თვე",
+  "en": "month",
+  "pos": "noun",
+  "week": 4,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რომელი თვეა ახლა?",
+    "en": "Which month is it now?"
+   },
+   {
+    "ka": "ერთი თვეა საქართველოში ვარ.",
+    "en": "I've been in Georgia for a month."
+   }
+  ]
+ },
+ {
+  "id": "v049",
+  "rank": 49,
+  "ka": "წელი",
+  "en": "year",
+  "pos": "noun",
+  "week": 5,
+  "tags": [
+   "time"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ახალი წელი ძალიან მიყვარს.",
+    "en": "I really love New Year."
+   },
+   {
+    "ka": "ოცი წლის ვარ.",
+    "en": "I am twenty years old."
+   }
+  ]
+ },
+ {
+  "id": "v050",
+  "rank": 50,
+  "ka": "დრო",
+  "en": "time",
+  "pos": "noun",
+  "week": 5,
+  "tags": [
+   "time",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ახლა დრო არ მაქვს.",
+    "en": "I don't have time now."
+   },
+   {
+    "ka": "თავისუფალი დრო მაქვს დღეს.",
+    "en": "I have free time today."
+   }
+  ]
+ },
+ {
+  "id": "v051",
+  "rank": 51,
+  "ka": "საათი",
+  "en": "hour; clock, o'clock",
+  "pos": "noun",
+  "week": 5,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რომელი საათია?",
+    "en": "What time is it?"
+   },
+   {
+    "ka": "ფილმი შვიდ საათზე იწყება.",
+    "en": "The movie starts at seven o'clock."
+   }
+  ]
+ },
+ {
+  "id": "v052",
+  "rank": 52,
+  "ka": "წუთი",
+  "en": "minute",
+  "pos": "noun",
+  "week": 5,
+  "tags": [
+   "time"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ერთი წუთით, გთხოვთ.",
+    "en": "One minute, please."
+   },
+   {
+    "ka": "ხუთ წუთში მოვდივარ.",
+    "en": "I'm coming in five minutes."
+   }
+  ]
+ },
+ {
+  "id": "v053",
+  "rank": 53,
+  "ka": "ერთი",
+  "en": "one",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ერთი ყავა, გთხოვთ.",
+    "en": "One coffee, please."
+   },
+   {
+    "ka": "მხოლოდ ერთი ლარი მაქვს.",
+    "en": "I only have one lari."
+   }
+  ]
+ },
+ {
+  "id": "v054",
+  "rank": 54,
+  "ka": "ორი",
+  "en": "two",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ორი ჩაი, გთხოვთ.",
+    "en": "Two teas, please."
+   },
+   {
+    "ka": "ორი ძმა მყავს.",
+    "en": "I have two brothers."
+   }
+  ]
+ },
+ {
+  "id": "v055",
+  "rank": 55,
+  "ka": "სამი",
+  "en": "three",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სამი წიგნი მაქვს.",
+    "en": "I have three books."
+   },
+   {
+    "ka": "სამ საათზე სახლში ვარ.",
+    "en": "I'm home at three o'clock."
+   }
+  ]
+ },
+ {
+  "id": "v056",
+  "rank": 56,
+  "ka": "ოთხი",
+  "en": "four",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ოთხი ლარი ღირს.",
+    "en": "It costs four lari."
+   },
+   {
+    "ka": "ოთხი კატა მყავს.",
+    "en": "I have four cats."
+   }
+  ]
+ },
+ {
+  "id": "v057",
+  "rank": 57,
+  "ka": "ხუთი",
+  "en": "five",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ხუთი წუთი მაქვს.",
+    "en": "I have five minutes."
+   },
+   {
+    "ka": "ეს ხუთი ლარი ღირს.",
+    "en": "This costs five lari."
+   }
+  ]
+ },
+ {
+  "id": "v058",
+  "rank": 58,
+  "ka": "ექვსი",
+  "en": "six",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ექვს საათზე ვიღვიძებ.",
+    "en": "I wake up at six o'clock."
+   },
+   {
+    "ka": "ექვსი ლარი მაქვს.",
+    "en": "I have six lari."
+   }
+  ]
+ },
+ {
+  "id": "v059",
+  "rank": 59,
+  "ka": "შვიდი",
+  "en": "seven",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "კვირაში შვიდი დღეა.",
+    "en": "There are seven days in a week."
+   },
+   {
+    "ka": "შვიდ საათზე სახლში ვარ.",
+    "en": "I'm home at seven o'clock."
+   }
+  ]
+ },
+ {
+  "id": "v060",
+  "rank": 60,
+  "ka": "რვა",
+  "en": "eight",
+  "pos": "num",
+  "week": 5,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ახლა რვა საათია.",
+    "en": "It's eight o'clock now."
+   },
+   {
+    "ka": "რვა ლარი ღირს ეს.",
+    "en": "This costs eight lari."
+   }
+  ]
+ },
+ {
+  "id": "v061",
+  "rank": 61,
+  "ka": "ცხრა",
+  "en": "nine",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცხრა საათზე ვიწყებ მუშაობას.",
+    "en": "I start work at nine o'clock."
+   },
+   {
+    "ka": "ჩემი შვილი ცხრა წლისაა.",
+    "en": "My child is nine years old."
+   }
+  ]
+ },
+ {
+  "id": "v062",
+  "rank": 62,
+  "ka": "ათი",
+  "en": "ten",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ათი ლარი მაქვს.",
+    "en": "I have ten lari."
+   },
+   {
+    "ka": "ათ საათზე ვიძინებ.",
+    "en": "I go to sleep at ten."
+   }
+  ]
+ },
+ {
+  "id": "v063",
+  "rank": 63,
+  "ka": "თერთმეტი",
+  "en": "eleven",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თერთმეტი ლარი ღირს.",
+    "en": "It costs eleven lari."
+   },
+   {
+    "ka": "თერთმეტ საათზე სახლში ვარ.",
+    "en": "I'm home at eleven."
+   }
+  ]
+ },
+ {
+  "id": "v064",
+  "rank": 64,
+  "ka": "თორმეტი",
+  "en": "twelve",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "წელიწადში თორმეტი თვეა.",
+    "en": "There are twelve months in a year."
+   },
+   {
+    "ka": "თორმეტ საათზე ვსადილობ.",
+    "en": "I have lunch at twelve."
+   }
+  ]
+ },
+ {
+  "id": "v065",
+  "rank": 65,
+  "ka": "ცამეტი",
+  "en": "thirteen",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცამეტი ლარი მაქვს.",
+    "en": "I have thirteen lari."
+   },
+   {
+    "ka": "ჩემი ძმა ცამეტი წლისაა.",
+    "en": "My brother is thirteen years old."
+   }
+  ]
+ },
+ {
+  "id": "v066",
+  "rank": 66,
+  "ka": "თოთხმეტი",
+  "en": "fourteen",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის თოთხმეტი წლისაა.",
+    "en": "She is fourteen years old."
+   },
+   {
+    "ka": "თოთხმეტი ლარი ღირს.",
+    "en": "It costs fourteen lari."
+   }
+  ]
+ },
+ {
+  "id": "v067",
+  "rank": 67,
+  "ka": "თხუთმეტი",
+  "en": "fifteen",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თხუთმეტი წუთი მაქვს.",
+    "en": "I have fifteen minutes."
+   },
+   {
+    "ka": "თხუთმეტი ლარი ღირს ეს.",
+    "en": "This costs fifteen lari."
+   }
+  ]
+ },
+ {
+  "id": "v068",
+  "rank": 68,
+  "ka": "თექვსმეტი",
+  "en": "sixteen",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩემი და თექვსმეტი წლისაა.",
+    "en": "My sister is sixteen years old."
+   },
+   {
+    "ka": "თექვსმეტი ლარი მაქვს.",
+    "en": "I have sixteen lari."
+   }
+  ]
+ },
+ {
+  "id": "v069",
+  "rank": 69,
+  "ka": "ჩვიდმეტი",
+  "en": "seventeen",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის ჩვიდმეტი წლისაა.",
+    "en": "He is seventeen years old."
+   },
+   {
+    "ka": "ჩვიდმეტი ლარი ღირს.",
+    "en": "It costs seventeen lari."
+   }
+  ]
+ },
+ {
+  "id": "v070",
+  "rank": 70,
+  "ka": "თვრამეტი",
+  "en": "eighteen",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩემი ბიჭი თვრამეტი წლისაა.",
+    "en": "My boy is eighteen years old."
+   },
+   {
+    "ka": "თვრამეტი ლარი მაქვს.",
+    "en": "I have eighteen lari."
+   }
+  ]
+ },
+ {
+  "id": "v071",
+  "rank": 71,
+  "ka": "ცხრამეტი",
+  "en": "nineteen",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცხრამეტი წლის ვარ.",
+    "en": "I am nineteen years old."
+   },
+   {
+    "ka": "ცხრამეტი ლარი ღირს ეს.",
+    "en": "This costs nineteen lari."
+   }
+  ]
+ },
+ {
+  "id": "v072",
+  "rank": 72,
+  "ka": "ოცი",
+  "en": "twenty",
+  "pos": "num",
+  "week": 6,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ოცი წლის ვარ.",
+    "en": "I am twenty years old."
+   },
+   {
+    "ka": "ოცი ლარი მაქვს.",
+    "en": "I have twenty lari."
+   }
+  ]
+ },
+ {
+  "id": "v073",
+  "rank": 73,
+  "ka": "ასი",
+  "en": "one hundred",
+  "pos": "num",
+  "week": 7,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ასი ლარი მაქვს.",
+    "en": "I have a hundred lari."
+   },
+   {
+    "ka": "ეს ასი ლარი ღირს.",
+    "en": "This costs a hundred lari."
+   }
+  ]
+ },
+ {
+  "id": "v074",
+  "rank": 74,
+  "ka": "ათასი",
+  "en": "one thousand",
+  "pos": "num",
+  "week": 7,
+  "tags": [
+   "number"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ათასი ლარი ბევრია.",
+    "en": "A thousand lari is a lot."
+   },
+   {
+    "ka": "ეს ათას ლარზე მეტი ღირს.",
+    "en": "This costs more than a thousand lari."
+   }
+  ]
+ },
+ {
+  "id": "v075",
+  "rank": 75,
+  "ka": "ოჯახი",
+  "en": "family",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩემი ოჯახი დიდია.",
+    "en": "My family is big."
+   },
+   {
+    "ka": "ოჯახი სოფელში მყავს.",
+    "en": "I have family in the village."
+   }
+  ]
+ },
+ {
+  "id": "v076",
+  "rank": 76,
+  "ka": "დედა",
+  "en": "mother, mom",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დედა სახლში არის.",
+    "en": "Mom is at home."
+   },
+   {
+    "ka": "ჩემი დედა ექიმია.",
+    "en": "My mother is a doctor."
+   }
+  ]
+ },
+ {
+  "id": "v077",
+  "rank": 77,
+  "ka": "მამა",
+  "en": "father, dad",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მამა ახლა მუშაობს.",
+    "en": "Dad is working now."
+   },
+   {
+    "ka": "ჩემი მამა კარგი კაცია.",
+    "en": "My father is a good man."
+   }
+  ]
+ },
+ {
+  "id": "v078",
+  "rank": 78,
+  "ka": "ძმა",
+  "en": "brother",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩემი ძმა სკოლაში სწავლობს.",
+    "en": "My brother studies at school."
+   },
+   {
+    "ka": "ერთი ძმა და ერთი და მყავს.",
+    "en": "I have one brother and one sister."
+   }
+  ]
+ },
+ {
+  "id": "v079",
+  "rank": 79,
+  "ka": "და",
+  "en": "sister",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ერთი და მყავს.",
+    "en": "I have one sister."
+   },
+   {
+    "ka": "ჩემი და თბილისში ცხოვრობს.",
+    "en": "My sister lives in Tbilisi."
+   }
+  ]
+ },
+ {
+  "id": "v080",
+  "rank": 80,
+  "ka": "შვილი",
+  "en": "child (son or daughter)",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ორი შვილი მყავს.",
+    "en": "I have two children."
+   },
+   {
+    "ka": "ჩემი შვილი ჯერ პატარაა.",
+    "en": "My child is still little."
+   }
+  ]
+ },
+ {
+  "id": "v081",
+  "rank": 81,
+  "ka": "ბავშვი",
+  "en": "child, kid",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბავშვი ეზოში თამაშობს.",
+    "en": "The child is playing in the yard."
+   },
+   {
+    "ka": "ბავშვს ხილი უყვარს.",
+    "en": "The child loves fruit."
+   }
+  ]
+ },
+ {
+  "id": "v082",
+  "rank": 82,
+  "ka": "ცოლი",
+  "en": "wife",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცოლი და შვილი მყავს.",
+    "en": "I have a wife and a child."
+   },
+   {
+    "ka": "ჩემი ცოლი მასწავლებელია.",
+    "en": "My wife is a teacher."
+   }
+  ]
+ },
+ {
+  "id": "v083",
+  "rank": 83,
+  "ka": "ქმარი",
+  "en": "husband",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მისი ქმარი ბანკში მუშაობს.",
+    "en": "Her husband works at a bank."
+   },
+   {
+    "ka": "ჩემი ქმარი კარგი კაცია.",
+    "en": "My husband is a good man."
+   }
+  ]
+ },
+ {
+  "id": "v084",
+  "rank": 84,
+  "ka": "მეგობარი",
+  "en": "friend",
+  "pos": "noun",
+  "week": 7,
+  "tags": [
+   "family",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის ჩემი მეგობარია.",
+    "en": "He is my friend."
+   },
+   {
+    "ka": "ბევრი მეგობარი მყავს.",
+    "en": "I have many friends."
+   }
+  ]
+ },
+ {
+  "id": "v085",
+  "rank": 85,
+  "ka": "ბებია",
+  "en": "grandmother",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბებია სოფელში ცხოვრობს.",
+    "en": "Grandma lives in the village."
+   },
+   {
+    "ka": "ბებია გემრიელ სადილს აკეთებს.",
+    "en": "Grandma makes a delicious lunch."
+   }
+  ]
+ },
+ {
+  "id": "v086",
+  "rank": 86,
+  "ka": "ბაბუა",
+  "en": "grandfather",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": true,
+  "sentences": [
+   {
+    "ka": "ბაბუა ღვინოს აყენებს.",
+    "en": "Grandpa makes wine."
+   },
+   {
+    "ka": "ჩემი ბაბუა ოთხმოცი წლისაა.",
+    "en": "My grandfather is eighty years old."
+   }
+  ]
+ },
+ {
+  "id": "v087",
+  "rank": 87,
+  "ka": "კაცი",
+  "en": "man",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "family",
+   "core"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის კაცი ვინ არის?",
+    "en": "Who is that man?"
+   },
+   {
+    "ka": "მამაჩემი კარგი კაცია.",
+    "en": "My father is a good man."
+   }
+  ]
+ },
+ {
+  "id": "v088",
+  "rank": 88,
+  "ka": "ქალი",
+  "en": "woman",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "family",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის ქალი ვინ არის?",
+    "en": "Who is that woman?"
+   },
+   {
+    "ka": "ეს ქალი ქართულს ასწავლის.",
+    "en": "This woman teaches Georgian."
+   }
+  ]
+ },
+ {
+  "id": "v089",
+  "rank": 89,
+  "ka": "ბიჭი",
+  "en": "boy",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "family"
+  ],
+  "pron": "ჭ = ejective ch' (tight throat), unlike aspirated ჩ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ბიჭი ჩემი ძმაა.",
+    "en": "This boy is my brother."
+   },
+   {
+    "ka": "ბიჭები ეზოში თამაშობენ.",
+    "en": "The boys are playing in the yard."
+   }
+  ]
+ },
+ {
+  "id": "v090",
+  "rank": 90,
+  "ka": "გოგო",
+  "en": "girl",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "family"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის გოგო ჩემი მეგობარია.",
+    "en": "That girl is my friend."
+   },
+   {
+    "ka": "გოგოები კაფეში სხედან.",
+    "en": "The girls are sitting in the cafe."
+   }
+  ]
+ },
+ {
+  "id": "v091",
+  "rank": 91,
+  "ka": "ადამიანი",
+  "en": "person, human",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ის კარგი ადამიანია.",
+    "en": "She is a good person."
+   },
+   {
+    "ka": "ბევრი ადამიანი ცხოვრობს თბილისში.",
+    "en": "Many people live in Tbilisi."
+   }
+  ]
+ },
+ {
+  "id": "v092",
+  "rank": 92,
+  "ka": "სახელი",
+  "en": "name",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რა არის თქვენი სახელი?",
+    "en": "What is your name?"
+   },
+   {
+    "ka": "ლამაზი სახელი გაქვს.",
+    "en": "You have a beautiful name."
+   }
+  ]
+ },
+ {
+  "id": "v093",
+  "rank": 93,
+  "ka": "წყალი",
+  "en": "water",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "food",
+   "core"
+  ],
+  "pron": "წ = ejective ts' (tight throat); ყ = deep-throat uvular ejective q'",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "წყალი მინდა, გთხოვთ.",
+    "en": "I'd like water, please."
+   },
+   {
+    "ka": "ცივი წყალი გაქვთ?",
+    "en": "Do you have cold water?"
+   }
+  ]
+ },
+ {
+  "id": "v094",
+  "rank": 94,
+  "ka": "პური",
+  "en": "bread",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "food",
+   "core"
+  ],
+  "pron": "პ = ejective p' (tight throat), unlike aspirated ფ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "პური და ყველი მიყვარს.",
+    "en": "I love bread and cheese."
+   },
+   {
+    "ka": "თბილი პური ძალიან გემრიელია.",
+    "en": "Warm bread is very tasty."
+   }
+  ]
+ },
+ {
+  "id": "v095",
+  "rank": 95,
+  "ka": "ღვინო",
+  "en": "wine",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ქართული ღვინო ძალიან კარგია.",
+    "en": "Georgian wine is very good."
+   },
+   {
+    "ka": "ბაბუას კარგი ღვინო აქვს.",
+    "en": "Grandpa has good wine."
+   }
+  ]
+ },
+ {
+  "id": "v096",
+  "rank": 96,
+  "ka": "ყავა",
+  "en": "coffee",
+  "pos": "noun",
+  "week": 8,
+  "tags": [
+   "food",
+   "cafe"
+  ],
+  "pron": "ყ = uvular ejective q', made deep in the throat",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ყავა გინდა თუ ჩაი?",
+    "en": "Do you want coffee or tea?"
+   },
+   {
+    "ka": "დილას ყავას ვსვამ.",
+    "en": "I drink coffee in the morning."
+   }
+  ]
+ },
+ {
+  "id": "v097",
+  "rank": 97,
+  "ka": "ჩაი",
+  "en": "tea",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food",
+   "cafe"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცხელი ჩაი მინდა.",
+    "en": "I want hot tea."
+   },
+   {
+    "ka": "ჩაი შაქრით გინდა?",
+    "en": "Do you want tea with sugar?"
+   }
+  ]
+ },
+ {
+  "id": "v098",
+  "rank": 98,
+  "ka": "რძე",
+  "en": "milk",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რძე მაცივარშია.",
+    "en": "The milk is in the fridge."
+   },
+   {
+    "ka": "ყავას რძით ვსვამ.",
+    "en": "I drink coffee with milk."
+   }
+  ]
+ },
+ {
+  "id": "v099",
+  "rank": 99,
+  "ka": "ყველი",
+  "en": "cheese",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food"
+  ],
+  "pron": "ყ = uvular ejective q', made deep in the throat",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ქართული ყველი მიყვარს.",
+    "en": "I love Georgian cheese."
+   },
+   {
+    "ka": "პური და ყველი მაქვს.",
+    "en": "I have bread and cheese."
+   }
+  ]
+ },
+ {
+  "id": "v100",
+  "rank": 100,
+  "ka": "ხორცი",
+  "en": "meat",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ხორცს არ ვჭამ.",
+    "en": "I don't eat meat."
+   },
+   {
+    "ka": "ეს ხორცი გემრიელია.",
+    "en": "This meat is tasty."
+   }
+  ]
+ },
+ {
+  "id": "v101",
+  "rank": 101,
+  "ka": "თევზი",
+  "en": "fish",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თევზი ძალიან მიყვარს.",
+    "en": "I really love fish."
+   },
+   {
+    "ka": "ეს თევზი გემრიელია.",
+    "en": "This fish is tasty."
+   }
+  ]
+ },
+ {
+  "id": "v102",
+  "rank": 102,
+  "ka": "ხილი",
+  "en": "fruit",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food",
+   "bazaar"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ხილი ბაზარში იაფია.",
+    "en": "Fruit is cheap at the market."
+   },
+   {
+    "ka": "ბავშვს ხილი უყვარს.",
+    "en": "The child loves fruit."
+   }
+  ]
+ },
+ {
+  "id": "v103",
+  "rank": 103,
+  "ka": "ვაშლი",
+  "en": "apple",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food",
+   "bazaar"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ერთი ვაშლი მინდა.",
+    "en": "I want one apple."
+   },
+   {
+    "ka": "ეს ვაშლი ძალიან ტკბილია.",
+    "en": "This apple is very sweet."
+   }
+  ]
+ },
+ {
+  "id": "v104",
+  "rank": 104,
+  "ka": "ხაჭაპური",
+  "en": "khachapuri (cheese bread)",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food",
+   "cafe"
+  ],
+  "pron": "ჭ = ejective ch' (tight throat); პ = ejective p' (tight throat)",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ხაჭაპური ძალიან მიყვარს!",
+    "en": "I love khachapuri!"
+   },
+   {
+    "ka": "ორი ხაჭაპური, გთხოვთ.",
+    "en": "Two khachapuris, please."
+   }
+  ]
+ },
+ {
+  "id": "v105",
+  "rank": 105,
+  "ka": "საჭმელი",
+  "en": "food",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food",
+   "core"
+  ],
+  "pron": "ჭ = ejective ch' (tight throat), unlike aspirated ჩ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "საჭმელი უკვე მზადაა.",
+    "en": "The food is ready."
+   },
+   {
+    "ka": "ქართული საჭმელი ძალიან გემრიელია.",
+    "en": "Georgian food is very tasty."
+   }
+  ]
+ },
+ {
+  "id": "v106",
+  "rank": 106,
+  "ka": "სადილი",
+  "en": "lunch, midday meal",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სადილი მზადაა.",
+    "en": "Lunch is ready."
+   },
+   {
+    "ka": "სადილზე ხაჭაპური გვაქვს.",
+    "en": "We're having khachapuri for lunch."
+   }
+  ]
+ },
+ {
+  "id": "v107",
+  "rank": 107,
+  "ka": "ლუდი",
+  "en": "beer",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food",
+   "cafe"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცივი ლუდი გაქვთ?",
+    "en": "Do you have cold beer?"
+   },
+   {
+    "ka": "ლუდი არ მიყვარს.",
+    "en": "I don't like beer."
+   }
+  ]
+ },
+ {
+  "id": "v108",
+  "rank": 108,
+  "ka": "წვენი",
+  "en": "juice",
+  "pos": "noun",
+  "week": 9,
+  "tags": [
+   "food",
+   "cafe"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ვაშლის წვენი მინდა.",
+    "en": "I want apple juice."
+   },
+   {
+    "ka": "ეს წვენი ძალიან ტკბილია.",
+    "en": "This juice is very sweet."
+   }
+  ]
+ },
+ {
+  "id": "v109",
+  "rank": 109,
+  "ka": "შაქარი",
+  "en": "sugar",
+  "pos": "noun",
+  "week": 10,
+  "tags": [
+   "food",
+   "cafe"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "შაქარი გინდა ჩაიში?",
+    "en": "Do you want sugar in your tea?"
+   },
+   {
+    "ka": "ყავას შაქრით ვსვამ.",
+    "en": "I drink coffee with sugar."
+   }
+  ]
+ },
+ {
+  "id": "v110",
+  "rank": 110,
+  "ka": "მარილი",
+  "en": "salt",
+  "pos": "noun",
+  "week": 10,
+  "tags": [
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სუპს მარილი აკლია.",
+    "en": "The soup needs salt."
+   },
+   {
+    "ka": "მარილი მაგიდაზეა.",
+    "en": "The salt is on the table."
+   }
+  ]
+ },
+ {
+  "id": "v111",
+  "rank": 111,
+  "ka": "ვჭამ",
+  "en": "I eat",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "food"
+  ],
+  "pron": "ჭ = ejective ch' (tight throat), unlike aspirated ჩ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დილას ცოტას ვჭამ.",
+    "en": "I eat a little in the morning."
+   },
+   {
+    "ka": "ხაჭაპურს ხშირად ვჭამ.",
+    "en": "I often eat khachapuri."
+   }
+  ]
+ },
+ {
+  "id": "v112",
+  "rank": 112,
+  "ka": "ვსვამ",
+  "en": "I drink",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "food"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბევრ წყალს ვსვამ.",
+    "en": "I drink a lot of water."
+   },
+   {
+    "ka": "ღვინოს იშვიათად ვსვამ.",
+    "en": "I rarely drink wine."
+   }
+  ]
+ },
+ {
+  "id": "v113",
+  "rank": 113,
+  "ka": "მიყვარს",
+  "en": "I love",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": "ყ = uvular ejective q', made deep in the throat",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ძალიან მიყვარს თბილისი.",
+    "en": "I love Tbilisi very much."
+   },
+   {
+    "ka": "დედა ძალიან მიყვარს.",
+    "en": "I love my mom very much."
+   }
+  ]
+ },
+ {
+  "id": "v114",
+  "rank": 114,
+  "ka": "მომწონს",
+  "en": "I like",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს სიმღერა მომწონს.",
+    "en": "I like this song."
+   },
+   {
+    "ka": "შენი სახლი ძალიან მომწონს.",
+    "en": "I really like your house."
+   }
+  ]
+ },
+ {
+  "id": "v115",
+  "rank": 115,
+  "ka": "ვხედავ",
+  "en": "I see",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ვერ ვხედავ კარგად.",
+    "en": "I can't see well."
+   },
+   {
+    "ka": "ფანჯრიდან მთებს ვხედავ.",
+    "en": "I see mountains from the window."
+   }
+  ]
+ },
+ {
+  "id": "v116",
+  "rank": 116,
+  "ka": "მესმის",
+  "en": "I understand; I hear",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბოდიში, არ მესმის.",
+    "en": "Sorry, I don't understand."
+   },
+   {
+    "ka": "ქართული მესმის, მაგრამ ცუდად ვლაპარაკობ.",
+    "en": "I understand Georgian, but I speak poorly."
+   }
+  ]
+ },
+ {
+  "id": "v117",
+  "rank": 117,
+  "ka": "ვლაპარაკობ",
+  "en": "I speak, I talk",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "language"
+  ],
+  "pron": "პ = ejective p' (tight throat); კ = ejective k' (tight throat)",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ქართულად ცოტას ვლაპარაკობ.",
+    "en": "I speak a little Georgian."
+   },
+   {
+    "ka": "დედასთან ვლაპარაკობ ტელეფონზე.",
+    "en": "I'm talking to mom on the phone."
+   }
+  ]
+ },
+ {
+  "id": "v118",
+  "rank": 118,
+  "ka": "ვამბობ",
+  "en": "I say",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სიმართლეს ვამბობ.",
+    "en": "I'm telling the truth."
+   },
+   {
+    "ka": "ამას ხშირად ვამბობ.",
+    "en": "I say this often."
+   }
+  ]
+ },
+ {
+  "id": "v119",
+  "rank": 119,
+  "ka": "ვაკეთებ",
+  "en": "I do, I make",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რას აკეთებ ახლა?",
+    "en": "What are you doing now?"
+   },
+   {
+    "ka": "ვახშამს ვაკეთებ.",
+    "en": "I'm making dinner."
+   }
+  ]
+ },
+ {
+  "id": "v120",
+  "rank": 120,
+  "ka": "ვმუშაობ",
+  "en": "I work",
+  "pos": "verb",
+  "week": 10,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბანკში ვმუშაობ.",
+    "en": "I work at a bank."
+   },
+   {
+    "ka": "შაბათს არ ვმუშაობ.",
+    "en": "I don't work on Saturdays."
+   }
+  ]
+ },
+ {
+  "id": "v121",
+  "rank": 121,
+  "ka": "ვსწავლობ",
+  "en": "I study, I learn",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core",
+   "language"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ქართულს ვსწავლობ.",
+    "en": "I'm learning Georgian."
+   },
+   {
+    "ka": "ყოველდღე ცოტას ვსწავლობ.",
+    "en": "I study a little every day."
+   }
+  ]
+ },
+ {
+  "id": "v122",
+  "rank": 122,
+  "ka": "ვკითხულობ",
+  "en": "I read",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "წიგნს ვკითხულობ ახლა.",
+    "en": "I'm reading a book now."
+   },
+   {
+    "ka": "ყოველ საღამოს ვკითხულობ.",
+    "en": "I read every evening."
+   }
+  ]
+ },
+ {
+  "id": "v123",
+  "rank": 123,
+  "ka": "ვწერ",
+  "en": "I write",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "წერილს ვწერ.",
+    "en": "I'm writing a letter."
+   },
+   {
+    "ka": "ქართულად ჯერ ცუდად ვწერ.",
+    "en": "I still write poorly in Georgian."
+   }
+  ]
+ },
+ {
+  "id": "v124",
+  "rank": 124,
+  "ka": "მივდივარ",
+  "en": "I go, I am going",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core",
+   "travel"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სახლში მივდივარ.",
+    "en": "I'm going home."
+   },
+   {
+    "ka": "ხვალ ბათუმში მივდივარ.",
+    "en": "I'm going to Batumi tomorrow."
+   }
+  ]
+ },
+ {
+  "id": "v125",
+  "rank": 125,
+  "ka": "მოვდივარ",
+  "en": "I come, I am coming",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core",
+   "travel"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ახლავე მოვდივარ!",
+    "en": "I'm coming right now!"
+   },
+   {
+    "ka": "სამსახურიდან მოვდივარ.",
+    "en": "I'm coming from work."
+   }
+  ]
+ },
+ {
+  "id": "v126",
+  "rank": 126,
+  "ka": "ვცხოვრობ",
+  "en": "I live",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core",
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თბილისში ვცხოვრობ.",
+    "en": "I live in Tbilisi."
+   },
+   {
+    "ka": "დედასთან ერთად ვცხოვრობ.",
+    "en": "I live together with my mom."
+   }
+  ]
+ },
+ {
+  "id": "v127",
+  "rank": 127,
+  "ka": "მძინავს",
+  "en": "I am asleep, I sleep",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ღამით კარგად მძინავს.",
+    "en": "I sleep well at night."
+   },
+   {
+    "ka": "ბავშვს ჯერ სძინავს.",
+    "en": "The child is still asleep."
+   }
+  ]
+ },
+ {
+  "id": "v128",
+  "rank": 128,
+  "ka": "ვყიდულობ",
+  "en": "I buy",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core",
+   "bazaar"
+  ],
+  "pron": "ყ = uvular ejective q', made deep in the throat",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "პურს ვყიდულობ.",
+    "en": "I'm buying bread."
+   },
+   {
+    "ka": "ბაზარში ხილს ვყიდულობ.",
+    "en": "I buy fruit at the market."
+   }
+  ]
+ },
+ {
+  "id": "v129",
+  "rank": 129,
+  "ka": "ვუყურებ",
+  "en": "I watch, I look at",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": "ყ = uvular ejective q', made deep in the throat",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ტელევიზორს ვუყურებ.",
+    "en": "I'm watching TV."
+   },
+   {
+    "ka": "საღამოს ფილმს ვუყურებ.",
+    "en": "In the evening I watch a movie."
+   }
+  ]
+ },
+ {
+  "id": "v130",
+  "rank": 130,
+  "ka": "ვთამაშობ",
+  "en": "I play",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბავშვებთან ვთამაშობ.",
+    "en": "I'm playing with the kids."
+   },
+   {
+    "ka": "ფეხბურთს ხშირად ვთამაშობ.",
+    "en": "I often play football."
+   }
+  ]
+ },
+ {
+  "id": "v131",
+  "rank": 131,
+  "ka": "მჭირდება",
+  "en": "I need",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": "ჭ = ejective ch' (tight throat), unlike aspirated ჩ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დახმარება მჭირდება.",
+    "en": "I need help."
+   },
+   {
+    "ka": "ცოტა დრო მჭირდება.",
+    "en": "I need a little time."
+   }
+  ]
+ },
+ {
+  "id": "v132",
+  "rank": 132,
+  "ka": "შემიძლია",
+  "en": "I can",
+  "pos": "verb",
+  "week": 11,
+  "tags": [
+   "verb-core",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "დღეს არ შემიძლია.",
+    "en": "I can't today."
+   },
+   {
+    "ka": "ქართულად კითხვა შემიძლია.",
+    "en": "I can read in Georgian."
+   }
+  ]
+ },
+ {
+  "id": "v133",
+  "rank": 133,
+  "ka": "ვფიქრობ",
+  "en": "I think",
+  "pos": "verb",
+  "week": 12,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "შენზე ვფიქრობ.",
+    "en": "I'm thinking about you."
+   },
+   {
+    "ka": "ვფიქრობ, ეს კარგი იდეაა.",
+    "en": "I think this is a good idea."
+   }
+  ]
+ },
+ {
+  "id": "v134",
+  "rank": 134,
+  "ka": "ვიცნობ",
+  "en": "I know (a person)",
+  "pos": "verb",
+  "week": 12,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ამ კაცს ვიცნობ.",
+    "en": "I know this man."
+   },
+   {
+    "ka": "მას კარგად ვიცნობ.",
+    "en": "I know her well."
+   }
+  ]
+ },
+ {
+  "id": "v135",
+  "rank": 135,
+  "ka": "ვისვენებ",
+  "en": "I rest",
+  "pos": "verb",
+  "week": 12,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "შაბათს ვისვენებ.",
+    "en": "I rest on Saturdays."
+   },
+   {
+    "ka": "ახლა ცოტას ვისვენებ.",
+    "en": "I'm resting a little now."
+   }
+  ]
+ },
+ {
+  "id": "v136",
+  "rank": 136,
+  "ka": "ველოდები",
+  "en": "I wait, I am waiting",
+  "pos": "verb",
+  "week": 12,
+  "tags": [
+   "verb-core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ავტობუსს ველოდები.",
+    "en": "I'm waiting for the bus."
+   },
+   {
+    "ka": "მეგობარს ველოდები კაფესთან.",
+    "en": "I'm waiting for a friend by the cafe."
+   }
+  ]
+ },
+ {
+  "id": "v137",
+  "rank": 137,
+  "ka": "ცუდი",
+  "en": "bad",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ცუდი იდეაა.",
+    "en": "That's a bad idea."
+   },
+   {
+    "ka": "დღეს ცუდი ამინდია.",
+    "en": "The weather is bad today."
+   }
+  ]
+ },
+ {
+  "id": "v138",
+  "rank": 138,
+  "ka": "დიდი",
+  "en": "big, large",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თბილისი დიდი ქალაქია.",
+    "en": "Tbilisi is a big city."
+   },
+   {
+    "ka": "დიდი სახლი გვაქვს.",
+    "en": "We have a big house."
+   }
+  ]
+ },
+ {
+  "id": "v139",
+  "rank": 139,
+  "ka": "პატარა",
+  "en": "small, little",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "core"
+  ],
+  "pron": "პ = ejective p' (tight throat); ტ = ejective t' (tight throat)",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "პატარა სახლი მაქვს.",
+    "en": "I have a small house."
+   },
+   {
+    "ka": "ჩემი შვილი ჯერ პატარაა.",
+    "en": "My child is still little."
+   }
+  ]
+ },
+ {
+  "id": "v140",
+  "rank": 140,
+  "ka": "ახალი",
+  "en": "new",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ახალი კაფეა.",
+    "en": "This is a new cafe."
+   },
+   {
+    "ka": "ახალი წიგნი მინდა.",
+    "en": "I want a new book."
+   }
+  ]
+ },
+ {
+  "id": "v141",
+  "rank": 141,
+  "ka": "ძველი",
+  "en": "old (things)",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ძველი სახლია.",
+    "en": "This is an old house."
+   },
+   {
+    "ka": "ძველი თბილისი ძალიან ლამაზია.",
+    "en": "Old Tbilisi is very beautiful."
+   }
+  ]
+ },
+ {
+  "id": "v142",
+  "rank": 142,
+  "ka": "ლამაზი",
+  "en": "beautiful, pretty",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რა ლამაზი ხარ!",
+    "en": "How beautiful you are!"
+   },
+   {
+    "ka": "თბილისი ლამაზი ქალაქია.",
+    "en": "Tbilisi is a beautiful city."
+   }
+  ]
+ },
+ {
+  "id": "v143",
+  "rank": 143,
+  "ka": "გემრიელი",
+  "en": "tasty, delicious",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "food",
+   "cafe"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ძალიან გემრიელია!",
+    "en": "This is very tasty!"
+   },
+   {
+    "ka": "ბებია გემრიელ სადილს აკეთებს.",
+    "en": "Grandma makes a tasty lunch."
+   }
+  ]
+ },
+ {
+  "id": "v144",
+  "rank": 144,
+  "ka": "ცხელი",
+  "en": "hot",
+  "pos": "adj",
+  "week": 12,
+  "tags": [
+   "food",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცხელი ჩაი მინდა.",
+    "en": "I want hot tea."
+   },
+   {
+    "ka": "ხაჭაპური ჯერ ცხელია.",
+    "en": "The khachapuri is still hot."
+   }
+  ]
+ },
+ {
+  "id": "v145",
+  "rank": 145,
+  "ka": "გუშინ",
+  "en": "yesterday",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "გუშინ სად იყავი?",
+    "en": "Where were you yesterday?"
+   },
+   {
+    "ka": "გუშინ ბაზარში ვიყავი.",
+    "en": "I was at the market yesterday."
+   }
+  ]
+ },
+ {
+  "id": "v146",
+  "rank": 146,
+  "ka": "ძვირი",
+  "en": "expensive",
+  "pos": "adj",
+  "week": 13,
+  "tags": [
+   "bazaar",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს ძალიან ძვირია.",
+    "en": "This is very expensive."
+   },
+   {
+    "ka": "ტაქსი ძვირი არ არის.",
+    "en": "The taxi isn't expensive."
+   }
+  ]
+ },
+ {
+  "id": "v147",
+  "rank": 147,
+  "ka": "იაფი",
+  "en": "cheap",
+  "pos": "adj",
+  "week": 13,
+  "tags": [
+   "bazaar"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბაზარში ხილი იაფია.",
+    "en": "Fruit is cheap at the market."
+   },
+   {
+    "ka": "ეს სასტუმრო იაფი არ არის.",
+    "en": "This hotel isn't cheap."
+   }
+  ]
+ },
+ {
+  "id": "v148",
+  "rank": 148,
+  "ka": "ბევრი",
+  "en": "many, much, a lot",
+  "pos": "adj",
+  "week": 13,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბევრი საქმე მაქვს.",
+    "en": "I have a lot of work."
+   },
+   {
+    "ka": "ბევრი მეგობარი მყავს თბილისში.",
+    "en": "I have many friends in Tbilisi."
+   }
+  ]
+ },
+ {
+  "id": "v149",
+  "rank": 149,
+  "ka": "ცოტა",
+  "en": "a little, few",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "core"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ცოტა ქართული ვიცი.",
+    "en": "I know a little Georgian."
+   },
+   {
+    "ka": "ცოტა დრო მაქვს.",
+    "en": "I have a little time."
+   }
+  ]
+ },
+ {
+  "id": "v150",
+  "rank": 150,
+  "ka": "ძალიან",
+  "en": "very, very much",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ძალიან მიყვარს ეს ქალაქი.",
+    "en": "I love this city very much."
+   },
+   {
+    "ka": "დღეს ძალიან დაღლილი ვარ.",
+    "en": "I'm very tired today."
+   }
+  ]
+ },
+ {
+  "id": "v151",
+  "rank": 151,
+  "ka": "კიდევ",
+  "en": "more, again, still",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "core",
+   "cafe"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "კიდევ ერთი ყავა, გთხოვთ.",
+    "en": "One more coffee, please."
+   },
+   {
+    "ka": "კიდევ ჩაი გინდა?",
+    "en": "Do you want more tea?"
+   }
+  ]
+ },
+ {
+  "id": "v152",
+  "rank": 152,
+  "ka": "უკვე",
+  "en": "already",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "time",
+   "core"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "უკვე გვიანია.",
+    "en": "It's already late."
+   },
+   {
+    "ka": "უკვე სახლში ვარ.",
+    "en": "I'm already home."
+   }
+  ]
+ },
+ {
+  "id": "v153",
+  "rank": 153,
+  "ka": "მერე",
+  "en": "then, afterwards",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "time",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჯერ ვჭამთ, მერე მივდივართ.",
+    "en": "First we eat, then we go."
+   },
+   {
+    "ka": "მერე რა მოხდა?",
+    "en": "What happened then?"
+   }
+  ]
+ },
+ {
+  "id": "v154",
+  "rank": 154,
+  "ka": "მალე",
+  "en": "soon",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მალე მოვდივარ.",
+    "en": "I'm coming soon."
+   },
+   {
+    "ka": "მალე შევხვდებით!",
+    "en": "We'll meet soon!"
+   }
+  ]
+ },
+ {
+  "id": "v155",
+  "rank": 155,
+  "ka": "ნელა",
+  "en": "slowly",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "უფრო ნელა, გთხოვთ.",
+    "en": "Slower, please."
+   },
+   {
+    "ka": "ბებია ნელა დადის.",
+    "en": "Grandma walks slowly."
+   }
+  ]
+ },
+ {
+  "id": "v156",
+  "rank": 156,
+  "ka": "სწრაფად",
+  "en": "quickly, fast",
+  "pos": "adv",
+  "week": 13,
+  "tags": [
+   "core"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ძალიან სწრაფად ლაპარაკობ.",
+    "en": "You speak very fast."
+   },
+   {
+    "ka": "დრო სწრაფად გადის.",
+    "en": "Time passes quickly."
+   }
+  ]
+ },
+ {
+  "id": "v157",
+  "rank": 157,
+  "ka": "კარგად",
+  "en": "well",
+  "pos": "adv",
+  "week": 14,
+  "tags": [
+   "core",
+   "politeness"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "კარგად ხარ?",
+    "en": "Are you well?"
+   },
+   {
+    "ka": "კარგად იყავი!",
+    "en": "Take care! (be well)"
+   }
+  ]
+ },
+ {
+  "id": "v158",
+  "rank": 158,
+  "ka": "ერთად",
+  "en": "together",
+  "pos": "adv",
+  "week": 14,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩვენ ერთად ვმუშაობთ.",
+    "en": "We work together."
+   },
+   {
+    "ka": "ერთად ვისადილოთ?",
+    "en": "Shall we have lunch together?"
+   }
+  ]
+ },
+ {
+  "id": "v159",
+  "rank": 159,
+  "ka": "ხშირად",
+  "en": "often",
+  "pos": "adv",
+  "week": 14,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "აქ ხშირად მოვდივარ.",
+    "en": "I come here often."
+   },
+   {
+    "ka": "მას ხშირად ვხედავ.",
+    "en": "I see him often."
+   }
+  ]
+ },
+ {
+  "id": "v160",
+  "rank": 160,
+  "ka": "ყოველთვის",
+  "en": "always",
+  "pos": "adv",
+  "week": 14,
+  "tags": [
+   "time"
+  ],
+  "pron": "ყ = uvular ejective q', made deep in the throat",
+  "verify": true,
+  "sentences": [
+   {
+    "ka": "ყოველთვის მაგვიანდება.",
+    "en": "I'm always running late."
+   },
+   {
+    "ka": "ის ყოველთვის მეხმარება.",
+    "en": "She always helps me."
+   }
+  ]
+ },
+ {
+  "id": "v161",
+  "rank": 161,
+  "ka": "ზოგჯერ",
+  "en": "sometimes",
+  "pos": "adv",
+  "week": 14,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ზოგჯერ ღვინოს ვსვამ.",
+    "en": "Sometimes I drink wine."
+   },
+   {
+    "ka": "ზოგჯერ ფეხით მივდივარ სამსახურში.",
+    "en": "Sometimes I walk to work."
+   }
+  ]
+ },
+ {
+  "id": "v162",
+  "rank": 162,
+  "ka": "არასდროს",
+  "en": "never",
+  "pos": "adv",
+  "week": 14,
+  "tags": [
+   "time"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ხორცს არასდროს ვჭამ.",
+    "en": "I never eat meat."
+   },
+   {
+    "ka": "ის არასდროს აგვიანებს.",
+    "en": "He is never late."
+   }
+  ]
+ },
+ {
+  "id": "v163",
+  "rank": 163,
+  "ka": "ალბათ",
+  "en": "probably",
+  "pos": "adv",
+  "week": 14,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ალბათ მართალი ხარ.",
+    "en": "You're probably right."
+   },
+   {
+    "ka": "ის ალბათ სახლშია.",
+    "en": "She's probably at home."
+   }
+  ]
+ },
+ {
+  "id": "v164",
+  "rank": 164,
+  "ka": "რა თქმა უნდა",
+  "en": "of course",
+  "pos": "phrase",
+  "week": 14,
+  "tags": [
+   "politeness",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "რა თქმა უნდა, შეგიძლია!",
+    "en": "Of course you can!"
+   },
+   {
+    "ka": "რა თქმა უნდა, მოვდივარ.",
+    "en": "Of course I'm coming."
+   }
+  ]
+ },
+ {
+  "id": "v165",
+  "rank": 165,
+  "ka": "მაგრამ",
+  "en": "but",
+  "pos": "conj",
+  "week": 14,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მინდა, მაგრამ არ შემიძლია.",
+    "en": "I want to, but I can't."
+   },
+   {
+    "ka": "პატარაა, მაგრამ ლამაზი სახლია.",
+    "en": "It's small, but it's a beautiful house."
+   }
+  ]
+ },
+ {
+  "id": "v166",
+  "rank": 166,
+  "ka": "ან",
+  "en": "or",
+  "pos": "conj",
+  "week": 14,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "წყალი ან წვენი მინდა.",
+    "en": "I want water or juice."
+   },
+   {
+    "ka": "ხვალ ან ზეგ მოვდივარ.",
+    "en": "I'm coming tomorrow or the day after."
+   }
+  ]
+ },
+ {
+  "id": "v167",
+  "rank": 167,
+  "ka": "თუ",
+  "en": "if; or (in questions)",
+  "pos": "conj",
+  "week": 14,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თუ გინდა, წამოდი.",
+    "en": "If you want, come along."
+   },
+   {
+    "ka": "ჩაი გინდა თუ ყავა?",
+    "en": "Do you want tea or coffee?"
+   }
+  ]
+ },
+ {
+  "id": "v168",
+  "rank": 168,
+  "ka": "რომ",
+  "en": "that (conjunction)",
+  "pos": "conj",
+  "week": 14,
+  "tags": [
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ვიცი, რომ მართალი ხარ.",
+    "en": "I know that you're right."
+   },
+   {
+    "ka": "ვფიქრობ, რომ ეს კარგია.",
+    "en": "I think that this is good."
+   }
+  ]
+ },
+ {
+  "id": "v169",
+  "rank": 169,
+  "ka": "იმიტომ რომ",
+  "en": "because",
+  "pos": "conj",
+  "week": 15,
+  "tags": [
+   "core"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ვსწავლობ, იმიტომ რომ მინდა.",
+    "en": "I study because I want to."
+   },
+   {
+    "ka": "სახლში ვარ, იმიტომ რომ ცივა.",
+    "en": "I'm at home because it's cold."
+   }
+  ]
+ },
+ {
+  "id": "v170",
+  "rank": 170,
+  "ka": "წინ",
+  "en": "in front of; ahead",
+  "pos": "postp",
+  "week": 15,
+  "tags": [
+   "place"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მაღაზიის წინ გელოდები.",
+    "en": "I'm waiting for you in front of the store."
+   },
+   {
+    "ka": "სახლის წინ მანქანა დგას.",
+    "en": "A car is parked in front of the house."
+   }
+  ]
+ },
+ {
+  "id": "v171",
+  "rank": 171,
+  "ka": "უკან",
+  "en": "behind; back",
+  "pos": "postp",
+  "week": 15,
+  "tags": [
+   "place"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სახლის უკან ეზოა.",
+    "en": "There's a yard behind the house."
+   },
+   {
+    "ka": "სკოლის უკან პარკია.",
+    "en": "There's a park behind the school."
+   }
+  ]
+ },
+ {
+  "id": "v172",
+  "rank": 172,
+  "ka": "ახლოს",
+  "en": "near, close by",
+  "pos": "adv",
+  "week": 15,
+  "tags": [
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მეტრო აქ ახლოს არის?",
+    "en": "Is the metro close to here?"
+   },
+   {
+    "ka": "ჩემი სახლი ცენტრთან ახლოს არის.",
+    "en": "My house is near the center."
+   }
+  ]
+ },
+ {
+  "id": "v173",
+  "rank": 173,
+  "ka": "შორს",
+  "en": "far, far away",
+  "pos": "adv",
+  "week": 15,
+  "tags": [
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "აეროპორტი შორს არის?",
+    "en": "Is the airport far away?"
+   },
+   {
+    "ka": "სოფელი ქალაქიდან შორს არის.",
+    "en": "The village is far from the city."
+   }
+  ]
+ },
+ {
+  "id": "v174",
+  "rank": 174,
+  "ka": "სახლი",
+  "en": "house, home",
+  "pos": "noun",
+  "week": 15,
+  "tags": [
+   "place",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სახლში მივდივარ.",
+    "en": "I'm going home."
+   },
+   {
+    "ka": "ლამაზი სახლი გაქვს.",
+    "en": "You have a beautiful house."
+   }
+  ]
+ },
+ {
+  "id": "v175",
+  "rank": 175,
+  "ka": "ქალაქი",
+  "en": "city, town",
+  "pos": "noun",
+  "week": 15,
+  "tags": [
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თბილისი ჩემი საყვარელი ქალაქია.",
+    "en": "Tbilisi is my favorite city."
+   },
+   {
+    "ka": "ეს ქალაქი ღამით ლამაზია.",
+    "en": "This city is beautiful at night."
+   }
+  ]
+ },
+ {
+  "id": "v176",
+  "rank": 176,
+  "ka": "ქუჩა",
+  "en": "street",
+  "pos": "noun",
+  "week": 15,
+  "tags": [
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ამ ქუჩაზე ვცხოვრობ.",
+    "en": "I live on this street."
+   },
+   {
+    "ka": "ეს ქუჩა ძალიან ლამაზია.",
+    "en": "This street is very beautiful."
+   }
+  ]
+ },
+ {
+  "id": "v177",
+  "rank": 177,
+  "ka": "მაღაზია",
+  "en": "store, shop",
+  "pos": "noun",
+  "week": 15,
+  "tags": [
+   "place",
+   "bazaar"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მაღაზია ღიაა?",
+    "en": "Is the store open?"
+   },
+   {
+    "ka": "მაღაზიაში პურს ვყიდულობ.",
+    "en": "I buy bread at the store."
+   }
+  ]
+ },
+ {
+  "id": "v178",
+  "rank": 178,
+  "ka": "ბაზარი",
+  "en": "market, bazaar",
+  "pos": "noun",
+  "week": 15,
+  "tags": [
+   "place",
+   "bazaar"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბაზარში ხილი იაფია.",
+    "en": "Fruit is cheap at the bazaar."
+   },
+   {
+    "ka": "დილას ბაზარში მივდივარ.",
+    "en": "In the morning I go to the bazaar."
+   }
+  ]
+ },
+ {
+  "id": "v179",
+  "rank": 179,
+  "ka": "რესტორანი",
+  "en": "restaurant",
+  "pos": "noun",
+  "week": 15,
+  "tags": [
+   "place",
+   "cafe"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს რესტორანი ძალიან კარგია.",
+    "en": "This restaurant is very good."
+   },
+   {
+    "ka": "საღამოს რესტორანში მივდივართ.",
+    "en": "We're going to a restaurant this evening."
+   }
+  ]
+ },
+ {
+  "id": "v180",
+  "rank": 180,
+  "ka": "კაფე",
+  "en": "cafe",
+  "pos": "noun",
+  "week": 15,
+  "tags": [
+   "place",
+   "cafe"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ამ კაფეში კარგი ყავაა.",
+    "en": "This cafe has good coffee."
+   },
+   {
+    "ka": "კაფეში ვზივარ მეგობართან ერთად.",
+    "en": "I'm sitting in a cafe with a friend."
+   }
+  ]
+ },
+ {
+  "id": "v181",
+  "rank": 181,
+  "ka": "სკოლა",
+  "en": "school",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place"
+  ],
+  "pron": "კ = ejective k' (tight throat), unlike aspirated ქ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბავშვები სკოლაში არიან.",
+    "en": "The children are at school."
+   },
+   {
+    "ka": "სკოლა ცხრა საათზე იწყება.",
+    "en": "School starts at nine o'clock."
+   }
+  ]
+ },
+ {
+  "id": "v182",
+  "rank": 182,
+  "ka": "უნივერსიტეტი",
+  "en": "university",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "უნივერსიტეტში ვსწავლობ.",
+    "en": "I study at the university."
+   },
+   {
+    "ka": "უნივერსიტეტი ქალაქის ცენტრშია.",
+    "en": "The university is in the city center."
+   }
+  ]
+ },
+ {
+  "id": "v183",
+  "rank": 183,
+  "ka": "სამსახური",
+  "en": "job, work(place)",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ახალი სამსახური მაქვს.",
+    "en": "I have a new job."
+   },
+   {
+    "ka": "სამსახურში ავტობუსით მივდივარ.",
+    "en": "I go to work by bus."
+   }
+  ]
+ },
+ {
+  "id": "v184",
+  "rank": 184,
+  "ka": "საქართველო",
+  "en": "Georgia (the country)",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place",
+   "travel"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "საქართველო ლამაზი ქვეყანაა.",
+    "en": "Georgia is a beautiful country."
+   },
+   {
+    "ka": "ორი წელია საქართველოში ვცხოვრობ.",
+    "en": "I've lived in Georgia for two years."
+   }
+  ]
+ },
+ {
+  "id": "v185",
+  "rank": 185,
+  "ka": "თბილისი",
+  "en": "Tbilisi",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place",
+   "travel"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თბილისში ვცხოვრობ.",
+    "en": "I live in Tbilisi."
+   },
+   {
+    "ka": "თბილისი საქართველოს დედაქალაქია.",
+    "en": "Tbilisi is the capital of Georgia."
+   }
+  ]
+ },
+ {
+  "id": "v186",
+  "rank": 186,
+  "ka": "ზღვა",
+  "en": "sea",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place",
+   "travel"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ზღვა ძალიან მიყვარს.",
+    "en": "I love the sea very much."
+   },
+   {
+    "ka": "ბათუმში ზღვა თბილია.",
+    "en": "In Batumi the sea is warm."
+   }
+  ]
+ },
+ {
+  "id": "v187",
+  "rank": 187,
+  "ka": "მთა",
+  "en": "mountain",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place",
+   "travel"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "საქართველოში მთები ლამაზია.",
+    "en": "The mountains in Georgia are beautiful."
+   },
+   {
+    "ka": "ის მთა ძალიან მაღალია.",
+    "en": "That mountain is very high."
+   }
+  ]
+ },
+ {
+  "id": "v188",
+  "rank": 188,
+  "ka": "სოფელი",
+  "en": "village",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ბებია სოფელში ცხოვრობს.",
+    "en": "Grandma lives in the village."
+   },
+   {
+    "ka": "ზაფხულში სოფელში მივდივართ.",
+    "en": "In summer we go to the village."
+   }
+  ]
+ },
+ {
+  "id": "v189",
+  "rank": 189,
+  "ka": "პარკი",
+  "en": "park",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place"
+  ],
+  "pron": "პ = ejective p' (tight throat); კ = ejective k' (tight throat)",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "პარკში ბავშვები თამაშობენ.",
+    "en": "Children are playing in the park."
+   },
+   {
+    "ka": "საღამოს პარკში ვსეირნობ.",
+    "en": "In the evening I stroll in the park."
+   }
+  ]
+ },
+ {
+  "id": "v190",
+  "rank": 190,
+  "ka": "სასტუმრო",
+  "en": "hotel",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "place",
+   "travel"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "სასტუმრო ძვირი არ არის.",
+    "en": "The hotel isn't expensive."
+   },
+   {
+    "ka": "ეს სასტუმრო ზღვასთან ახლოს არის.",
+    "en": "This hotel is near the sea."
+   }
+  ]
+ },
+ {
+  "id": "v191",
+  "rank": 191,
+  "ka": "ფული",
+  "en": "money",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "core",
+   "bazaar"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ფული არ მაქვს.",
+    "en": "I don't have money."
+   },
+   {
+    "ka": "რამდენი ფული გჭირდება?",
+    "en": "How much money do you need?"
+   }
+  ]
+ },
+ {
+  "id": "v192",
+  "rank": 192,
+  "ka": "წიგნი",
+  "en": "book",
+  "pos": "noun",
+  "week": 16,
+  "tags": [
+   "core"
+  ],
+  "pron": "წ = ejective ts' (tight throat), unlike aspirated ც",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ეს წიგნი ძალიან საინტერესოა.",
+    "en": "This book is very interesting."
+   },
+   {
+    "ka": "წიგნები ძალიან მიყვარს.",
+    "en": "I love books very much."
+   }
+  ]
+ },
+ {
+  "id": "v193",
+  "rank": 193,
+  "ka": "ენა",
+  "en": "language; tongue",
+  "pos": "noun",
+  "week": 17,
+  "tags": [
+   "language"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ქართული ენა ლამაზია.",
+    "en": "The Georgian language is beautiful."
+   },
+   {
+    "ka": "რამდენი ენა იცი?",
+    "en": "How many languages do you know?"
+   }
+  ]
+ },
+ {
+  "id": "v194",
+  "rank": 194,
+  "ka": "ქართული",
+  "en": "Georgian (language; adjective)",
+  "pos": "adj",
+  "week": 17,
+  "tags": [
+   "language",
+   "core"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ქართულს ვსწავლობ.",
+    "en": "I'm learning Georgian."
+   },
+   {
+    "ka": "ქართული ღვინო მომწონს.",
+    "en": "I like Georgian wine."
+   }
+  ]
+ },
+ {
+  "id": "v195",
+  "rank": 195,
+  "ka": "ინგლისური",
+  "en": "English (language)",
+  "pos": "adj",
+  "week": 17,
+  "tags": [
+   "language"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ინგლისური იცი?",
+    "en": "Do you know English?"
+   },
+   {
+    "ka": "ინგლისურად ლაპარაკობ?",
+    "en": "Do you speak English?"
+   }
+  ]
+ },
+ {
+  "id": "v196",
+  "rank": 196,
+  "ka": "მანქანა",
+  "en": "car",
+  "pos": "noun",
+  "week": 17,
+  "tags": [
+   "travel"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "მანქანა არ მაქვს.",
+    "en": "I don't have a car."
+   },
+   {
+    "ka": "ეს მისი მანქანაა.",
+    "en": "This is her car."
+   }
+  ]
+ },
+ {
+  "id": "v197",
+  "rank": 197,
+  "ka": "ავტობუსი",
+  "en": "bus",
+  "pos": "noun",
+  "week": 17,
+  "tags": [
+   "travel"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ავტობუსი მოდის!",
+    "en": "The bus is coming!"
+   },
+   {
+    "ka": "ავტობუსით მივდივარ სამსახურში.",
+    "en": "I go to work by bus."
+   }
+  ]
+ },
+ {
+  "id": "v198",
+  "rank": 198,
+  "ka": "ტელეფონი",
+  "en": "telephone, phone",
+  "pos": "noun",
+  "week": 17,
+  "tags": [
+   "core"
+  ],
+  "pron": "ტ = ejective t' (tight throat), unlike aspirated თ",
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩემი ტელეფონი სად არის?",
+    "en": "Where is my phone?"
+   },
+   {
+    "ka": "ახალი ტელეფონი მინდა.",
+    "en": "I want a new phone."
+   }
+  ]
+ },
+ {
+  "id": "v199",
+  "rank": 199,
+  "ka": "ოთახი",
+  "en": "room",
+  "pos": "noun",
+  "week": 17,
+  "tags": [
+   "place"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "ჩემი ოთახი პატარაა.",
+    "en": "My room is small."
+   },
+   {
+    "ka": "ოთახში ორი ფანჯარაა.",
+    "en": "There are two windows in the room."
+   }
+  ]
+ },
+ {
+  "id": "v200",
+  "rank": 200,
+  "ka": "თავი",
+  "en": "head; self",
+  "pos": "noun",
+  "week": 17,
+  "tags": [
+   "body"
+  ],
+  "pron": null,
+  "verify": false,
+  "sentences": [
+   {
+    "ka": "თავი მტკივა.",
+    "en": "My head hurts."
+   },
+   {
+    "ka": "თავს კარგად ვგრძნობ.",
+    "en": "I feel well."
+   }
+  ]
+ }
+]

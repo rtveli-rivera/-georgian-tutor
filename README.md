@@ -17,6 +17,52 @@ checker suites run in the browser and show green/red.
 > text-to-speech. In other browsers, install a Georgian voice via
 > Windows Settings → Time & Language → Speech.
 
+## Install it on your phone (PWA)
+
+Same recipe as Plant Tracker: a phone can only install this as a real offline app
+over **HTTPS**, so host the folder on a free static host.
+
+**Recommended — GitHub Pages (push-to-deploy):**
+1. Create a repo (e.g. `georgian-tutor`) at github.com/new, push this folder.
+2. Repo **Settings → Pages → Deploy from branch** (main, root). You get
+   `https://<you>.github.io/georgian-tutor/`.
+3. Open that URL on your phone:
+   - **Android (Chrome):** ⋮ menu → **Install app** / Add to Home Screen.
+   - **iPhone (Safari):** Share → **Add to Home Screen**.
+
+It launches full-screen, works fully offline, and keeps working with your PC off.
+Netlify Drop (app.netlify.com/drop — drag the folder) works too, but Git hosting
+makes updates a one-line `git push`.
+
+**Your progress lives on each device** (cards, streak, recordings are in that
+browser's IndexedDB). Settings → Export/… gives you a JSON backup to move state.
+
+### Updating the installed app
+
+```
+py bump.py            # bumps APP_VERSION + the sw.js cache version (required!)
+git commit -am "release"
+git push              # GitHub Pages redeploys the same URL
+```
+
+The installed app checks for a new version on reopen/focus (and hourly) and shows
+a "🍇 new version ready — Update" banner; one tap swaps it in. Skipping `bump.py`
+means phones keep the old cached version.
+
+## Daily lesson reminders (no server)
+
+Turn them on in **Settings → Daily lesson reminder** (it asks for notification
+permission). The rules, identical to Plant Tracker's reminder engine:
+
+- **At most one nudge per calendar day**, and none once today's lesson is done.
+- The copy escalates: normal day → "Today's lesson is waiting"; active streak →
+  "Keep your 🔥 N-day streak alive"; streak at risk → a firmer nudge.
+- **Android, installed as an app:** Periodic Background Sync wakes the service
+  worker roughly daily, so the reminder arrives even with the app closed.
+- **iPhone / desktop:** reminders fire when the app is open or reopened (hourly
+  re-check while open). Apple doesn't allow background notifications without a
+  push server, and this app deliberately has no server.
+
 ## The daily lesson (~25 min)
 
 1. **2' warm-up** — shadow 3 sentences from yesterday (TTS model + record-and-compare).

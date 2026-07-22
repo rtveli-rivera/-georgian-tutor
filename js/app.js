@@ -1,5 +1,8 @@
 // app.js — shell: load data, init voice, route between views.
+const APP_VERSION = '1.0.0';
+export { APP_VERSION };
 import { loadData, DATA } from './data.js';
+import { initServiceWorker, startReminderLoop } from './reminders.js';
 import { voicesReady, hasKaVoice, NO_VOICE_MSG } from './tts.js';
 import { el, clear } from './ui.js';
 import { getStreak } from './lesson.js';
@@ -43,6 +46,16 @@ async function boot() {
 
   const streak = await getStreak();
   document.getElementById('streak-chip').textContent = `🔥 ${streak.count}`;
+
+  // PWA: offline cache + update banner + daily reminder loop.
+  initServiceWorker((apply) => {
+    const bar = document.getElementById('update-banner');
+    bar.classList.remove('hidden');
+    bar.append(
+      el('span', {}, '🍇 A new version is ready — '),
+      el('button', { class: 'btn small', onclick: apply }, 'Update'));
+  });
+  startReminderLoop();
 
   document.querySelectorAll('#nav button').forEach(btn => {
     btn.addEventListener('click', () => show(btn.dataset.view));

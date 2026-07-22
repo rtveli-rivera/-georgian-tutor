@@ -281,6 +281,8 @@ function rClusterLadder(c, spec, done) {
       el('span', { class: 'ka' }, s), audioBtn(s), slowBtn(s))),
     el('p', { class: 'en small' }, ladder.en),
     recordCompare(ladder.steps[ladder.steps.length - 1], () => done({ ok: true })),
+    el('div', { style: 'margin-top:10px' },
+      el('button', { class: 'btn green small', onclick: () => done({ ok: true }) }, '✓ Done climbing')),
     out);
 }
 

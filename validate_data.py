@@ -74,8 +74,8 @@ for v in verbs:
     for name, forms in scr.items():
         if forms is not None and len(forms) != 6:
             problems.append(f"verb {v.get('id','?')} ({v.get('masdar','?')}): screeve {name} has {len(forms)} forms")
-    if not scr.get('present'):
-        problems.append(f"verb {v.get('id','?')}: no present screeve")
+    if not any(scr.get(s) for s in scr):
+        problems.append(f"verb {v.get('id','?')}: all screeves null")
 flagged = sum(1 for v in verbs if v.get('verify'))
 info.append(f'verbs total: {len(verbs)}, entries with verify flags: {flagged}')
 

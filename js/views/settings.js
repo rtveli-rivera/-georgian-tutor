@@ -3,6 +3,8 @@ import { el, clear } from '../ui.js';
 import { getState, setState, getAll, openDB } from '../db.js';
 import { currentWeek } from '../lesson.js';
 import { hasKaVoice, speak, NO_VOICE_MSG } from '../tts.js';
+import { remindersEnabled, setRemindersEnabled } from '../reminders.js';
+import { APP_VERSION } from '../app.js';
 
 export async function renderSettingsView(container) {
   clear(container);
@@ -27,6 +29,11 @@ export async function renderSettingsView(container) {
         },
       }, 'Save week')),
     el('div', {},
+      el('h3', {}, 'Daily lesson reminder'),
+      el('p', { class: 'small muted' },
+        'One nudge a day (never more) until the lesson is done. Works while the app is open on any device; installed as an Android app it also fires in the background ~once a day. iPhones only remind when you open the app — Apple allows no more without a cloud server.'),
+      await reminderToggle()),
+    el('div', {},
       el('h3', {}, 'Georgian voice (TTS)'),
       hasKaVoice()
         ? el('p', { class: 'small', style: 'color:var(--green)' }, '✓ Georgian (ka-GE) voice found.')
@@ -44,7 +51,25 @@ export async function renderSettingsView(container) {
             location.reload();
           },
         }, '🗑 Reset progress'))),
+    el('p', { class: 'small muted' }, `Kartuli Coach v${APP_VERSION}`),
   ));
+
+  async function reminderToggle() {
+    const on = await remindersEnabled();
+    const msg = el('span', { class: 'small muted' });
+    const btn = el('button', {
+      class: 'btn small ' + (on ? 'green' : 'secondary'),
+      onclick: async () => {
+        const wasOn = await remindersEnabled();
+        const result = await setRemindersEnabled(!wasOn);
+        if (result === 'on') { btn.textContent = '🔔 Reminders on'; btn.className = 'btn small green'; msg.textContent = ''; }
+        if (result === 'off') { btn.textContent = '🔕 Reminders off'; btn.className = 'btn small secondary'; msg.textContent = ''; }
+        if (result === 'denied') msg.textContent = ' Notifications are blocked for this site — allow them in your browser/site settings, then try again.';
+        if (result === 'unsupported') msg.textContent = ' This browser does not support notifications.';
+      },
+    }, on ? '🔔 Reminders on' : '🔕 Reminders off');
+    return el('div', { class: 'row' }, btn, msg);
+  }
 
   async function exportData() {
     const dump = {};

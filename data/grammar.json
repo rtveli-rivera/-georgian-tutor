@@ -1,0 +1,2576 @@
+[
+  {
+    "id": "g01",
+    "week": 1,
+    "tag": "present-be",
+    "title": "To be: ვარ, ხარ, არის",
+    "explain_md": "Let's start with the single most useful verb in Georgian: **to be**. You'll use it in your very first sentence — მე ქართველი ვარ (\"I am Georgian\") — and notice something fun right away: the verb likes to sit at the **end** of the sentence.\n\nEach person gets their own form. Here's the full set:\n\n| | singular | plural |\n|---|---|---|\n| I / we | მე **ვარ** | ჩვენ **ვართ** |\n| you | შენ **ხარ** | თქვენ **ხართ** |\n| he/she/it / they | ის **არის** | ისინი **არიან** |\n\nA few patterns worth noticing:\n\n- The plural forms are just the singular ones plus **-თ** (ვარ → ვართ, ხარ → ხართ). Georgian loves this trick — you'll see it everywhere.\n- Because the verb already tells you who, the pronoun is optional: ქართველი ვარ works perfectly on its own.\n- In everyday speech, არის often shrinks to a little **-ა** glued onto the previous word: ის ექიმია = ის ექიმი არის (\"he is a doctor\"). You'll hear this constantly — ეს ჩემი მეგობარია, ის სახლში არისა? no — just ის სახლშია!\n\n**Politeness preview:** to be polite to one person, Georgians use თქვენ with the plural verb: თქვენ ექიმი ხართ? (\"Are you a doctor?\"). Same trick as French *vous*. We'll dig into when to use it in week 19 — for now, just recognize it.\n\nTry building tiny sentences: *I am tired*, *you are at home*, *they are friends*. Pronoun (optional) + the rest + the right form of \"to be\" at the end. That's your first Georgian sentence machine.",
+    "examples": [
+      {
+        "ka": "მე ამერიკელი ვარ.",
+        "en": "I am American."
+      },
+      {
+        "ka": "შენ სად ხარ?",
+        "en": "Where are you?"
+      },
+      {
+        "ka": "ეს ჩემი მეგობარია.",
+        "en": "This is my friend."
+      },
+      {
+        "ka": "ჩვენ სახლში ვართ.",
+        "en": "We are at home."
+      },
+      {
+        "ka": "თქვენ ექიმი ხართ?",
+        "en": "Are you a doctor?"
+      },
+      {
+        "ka": "ისინი ძალიან კარგები არიან.",
+        "en": "They are very nice."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე ___ ქართველი.",
+          "answer": "ვარ",
+          "choices": [
+            "ვარ",
+            "ხარ",
+            "არის"
+          ],
+          "en": "I am Georgian."
+        },
+        {
+          "prompt": "შენ სტუდენტი ___?",
+          "answer": "ხარ",
+          "choices": [
+            "ხარ",
+            "ვარ",
+            "არიან"
+          ],
+          "en": "Are you a student?"
+        },
+        {
+          "prompt": "ის ჩემი და ___.",
+          "answer": "არის",
+          "choices": [
+            "არის",
+            "ვარ",
+            "ხართ"
+          ],
+          "en": "She is my sister."
+        },
+        {
+          "prompt": "ჩვენ მეგობრები ___.",
+          "answer": "ვართ",
+          "choices": [
+            "ვართ",
+            "ვარ",
+            "არიან"
+          ],
+          "en": "We are friends."
+        },
+        {
+          "prompt": "თქვენ საიდან ___?",
+          "answer": "ხართ",
+          "choices": [
+            "ხართ",
+            "ხარ",
+            "არის"
+          ],
+          "en": "Where are you from? (polite)"
+        },
+        {
+          "prompt": "ისინი თბილისში ___.",
+          "answer": "არიან",
+          "choices": [
+            "არიან",
+            "არის",
+            "ვართ"
+          ],
+          "en": "They are in Tbilisi."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g02",
+    "week": 2,
+    "tag": "have",
+    "title": "მაქვს vs მყავს: things vs living beings",
+    "explain_md": "English has one verb for having everything — a book, a dog, a headache. Georgian splits the job in two, and the dividing line is wonderfully simple: **is it alive?**\n\n- **მაქვს** — for things: მაქვს წიგნი (\"I have a book\")\n- **მყავს** — for living beings: მყავს ძაღლი (\"I have a dog\")\n\nBoth verbs change for person the same way, so learn them as a pair:\n\n| | things | beings |\n|---|---|---|\n| I have | **მაქვს** | **მყავს** |\n| you have | **გაქვს** | **გყავს** |\n| he/she has | **აქვს** | **ჰყავს** |\n| we have | **გვაქვს** | **გვყავს** |\n| you all have | **გაქვთ** | **გყავთ** |\n| they have | **აქვთ** | **ჰყავთ** |\n\nLook at the left edge of each form: **მ-** for me, **გ-** for you, **გვ-** for us. Tuck that pattern away — it's going to come back in week 7 and unlock a huge part of Georgian.\n\nThe alive/not-alive line covers family too: მყავს ორი ძმა (\"I have two brothers\") — brothers are definitely alive. Questions are easy: გაქვს დრო? (\"Do you have time?\"), გყავს კატა? (\"Do you have a cat?\").\n\n**A beloved quirk:** many Georgians say მანქანა მყავს — \"I *have* (alive-style) a car\" — as if the car were a family pet. Cars, and sometimes phones, get honorary living-being status in casual speech. Locals will grin if you do it too.\n\nWhen in doubt, ask yourself: could it run away on its own legs? Then მყავს. Otherwise მაქვს.",
+    "examples": [
+      {
+        "ka": "მაქვს ახალი ტელეფონი.",
+        "en": "I have a new phone."
+      },
+      {
+        "ka": "მყავს ორი ძაღლი.",
+        "en": "I have two dogs."
+      },
+      {
+        "ka": "გაქვს დრო?",
+        "en": "Do you have time?"
+      },
+      {
+        "ka": "გყავს და?",
+        "en": "Do you have a sister?"
+      },
+      {
+        "ka": "მას ლამაზი სახლი აქვს.",
+        "en": "He has a beautiful house."
+      },
+      {
+        "ka": "ჩვენ კატა გვყავს.",
+        "en": "We have a cat."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე ___ წიგნი.",
+          "answer": "მაქვს",
+          "choices": [
+            "მაქვს",
+            "მყავს",
+            "გაქვს"
+          ],
+          "en": "I have a book."
+        },
+        {
+          "prompt": "მე ___ ძმა.",
+          "answer": "მყავს",
+          "choices": [
+            "მყავს",
+            "მაქვს",
+            "გყავს"
+          ],
+          "en": "I have a brother."
+        },
+        {
+          "prompt": "შენ ___ კატა?",
+          "answer": "გყავს",
+          "choices": [
+            "გყავს",
+            "გაქვს",
+            "მყავს"
+          ],
+          "en": "Do you have a cat?"
+        },
+        {
+          "prompt": "მას დიდი ბინა ___.",
+          "answer": "აქვს",
+          "choices": [
+            "აქვს",
+            "ჰყავს",
+            "გვაქვს"
+          ],
+          "en": "He has a big apartment."
+        },
+        {
+          "prompt": "ჩვენ სამი შვილი ___.",
+          "answer": "გვყავს",
+          "choices": [
+            "გვყავს",
+            "გვაქვს",
+            "ჰყავთ"
+          ],
+          "en": "We have three children."
+        },
+        {
+          "prompt": "მათ ფული ___.",
+          "answer": "აქვთ",
+          "choices": [
+            "აქვთ",
+            "აქვს",
+            "ჰყავთ"
+          ],
+          "en": "They have money."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g03",
+    "week": 3,
+    "tag": "want-know",
+    "title": "მინდა and ვიცი: wanting and knowing",
+    "explain_md": "Two verbs will carry half your early conversations: **მინდა** (\"I want\") and **ვიცი** (\"I know\"). They behave differently from each other, and that difference is a sneak preview of something big in Georgian.\n\n**ვიცი** works the way you'd expect — it belongs to the same family as ვარ:\n\n| | know |\n|---|---|\n| I | **ვიცი** |\n| you | **იცი** |\n| he/she | **იცის** |\n| we | **ვიცით** |\n| you all | **იცით** |\n| they | **იციან** |\n\nცოტა ქართული ვიცი — \"I know a little Georgian.\" (Say it early and often; it earns instant goodwill.)\n\n**მინდა** is different. Look at its front edge: **მ-**ინდა, **გ-**ინდა, **უ-**ნდა... those are the same მ-/გ- \"me/you\" markers from მაქვს! Wanting in Georgian feels less like \"I want it\" and more like \"it's wanted *to me*.\"\n\n| | want |\n|---|---|\n| I | **მინდა** |\n| you | **გინდა** |\n| he/she | **უნდა** |\n| we | **გვინდა** |\n| you all | **გინდათ** |\n| they | **უნდათ** |\n\nThe thing you want just sits there in its plain dictionary form: მინდა ყავა (\"I want coffee\"), გინდა ჩაი? (\"Do you want tea?\").\n\nDon't worry about *why* the two verbs differ — just get comfortable with both patterns. A whole family of feeling-verbs works like მინდა, and we'll meet them properly in week 23. For now: **ვ- verbs** say \"I do,\" **მ- verbs** say \"it happens to me.\" Both are equally normal Georgian.",
+    "examples": [
+      {
+        "ka": "მინდა ყავა.",
+        "en": "I want coffee."
+      },
+      {
+        "ka": "რა გინდა?",
+        "en": "What do you want?"
+      },
+      {
+        "ka": "ცოტა ქართული ვიცი.",
+        "en": "I know a little Georgian."
+      },
+      {
+        "ka": "იცი ინგლისური?",
+        "en": "Do you know English?"
+      },
+      {
+        "ka": "მას ცივი წყალი უნდა.",
+        "en": "He wants cold water."
+      },
+      {
+        "ka": "ჩვენ ვიცით პასუხი.",
+        "en": "We know the answer."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე ___ ჩაი.",
+          "answer": "მინდა",
+          "choices": [
+            "მინდა",
+            "გინდა",
+            "უნდათ"
+          ],
+          "en": "I want tea."
+        },
+        {
+          "prompt": "შენ რა ___?",
+          "answer": "გინდა",
+          "choices": [
+            "გინდა",
+            "მინდა",
+            "გვინდა"
+          ],
+          "en": "What do you want?"
+        },
+        {
+          "prompt": "მას დასვენება ___.",
+          "answer": "უნდა",
+          "choices": [
+            "უნდა",
+            "უნდათ",
+            "გინდა"
+          ],
+          "en": "He wants a rest."
+        },
+        {
+          "prompt": "მე ___ მისი სახელი.",
+          "answer": "ვიცი",
+          "choices": [
+            "ვიცი",
+            "იცი",
+            "იცის"
+          ],
+          "en": "I know his name."
+        },
+        {
+          "prompt": "შენ ___ ეს სიმღერა?",
+          "answer": "იცი",
+          "choices": [
+            "იცი",
+            "ვიცი",
+            "იციან"
+          ],
+          "en": "Do you know this song?"
+        },
+        {
+          "prompt": "ჩვენ ___ გზა.",
+          "answer": "ვიცით",
+          "choices": [
+            "ვიცით",
+            "ვიცი",
+            "იცით"
+          ],
+          "en": "We know the way."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g04",
+    "week": 4,
+    "tag": "questions",
+    "title": "Question words, numbers, and prices",
+    "explain_md": "Time to get things done at the market. First, your question-word toolkit:\n\n| Georgian | English |\n|---|---|\n| **ვინ** | who |\n| **რა** | what |\n| **სად** | where |\n| **როდის** | when |\n| **როგორ** | how |\n| **რატომ** | why |\n| **რამდენი** | how many / how much |\n\nQuestion words go right up front, and there's no extra \"do\" like English needs: სად არის ბაზარი? — \"Where is the market?\" Word for word: \"Where is market?\" Beautifully direct.\n\nNow numbers 1–10: ერთი, ორი, სამი, ოთხი, ხუთი, ექვსი, შვიდი, რვა, ცხრა, ათი. Pronunciation hint: the ტ in ოთხი is fine, but watch the sharp \"popped\" sounds — კ (k'), ტ (t'), წ (ts') — they're crisp, no puff of air.\n\nTwenty is ოცი, and here's the charming part: Georgian counts in twenties, like French. Thirty is ოცდაათი — literally \"twenty-and-ten.\" You don't need to master this today; just don't panic when 30 doesn't look like \"three-ten.\"\n\n**The money phrase** you'll use daily: **რა ღირს?** — \"How much does it cost?\" (literally \"what costs?\"). Point at anything and say ეს რა ღირს? The answer comes back as number + ლარი (the currency): ხუთი ლარი ღირს — \"it costs five lari.\" Small change is თეთრი.\n\nWant more precision? რამდენი ლარი ღირს? — \"how many lari does it cost?\" And when you hear the price and your eyebrows go up: ძვირია! (\"that's expensive!\") or, happily, იაფია! (\"that's cheap!\").",
+    "examples": [
+      {
+        "ka": "რა ღირს ეს?",
+        "en": "How much is this?"
+      },
+      {
+        "ka": "სად არის ბაზარი?",
+        "en": "Where is the market?"
+      },
+      {
+        "ka": "როდის მოდის ავტობუსი?",
+        "en": "When is the bus coming?"
+      },
+      {
+        "ka": "რამდენი ლარი ღირს?",
+        "en": "How many lari does it cost?"
+      },
+      {
+        "ka": "ხუთი ლარი ღირს.",
+        "en": "It costs five lari."
+      },
+      {
+        "ka": "ვინ არის ეს?",
+        "en": "Who is this?"
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "___ ღირს ეს ვაშლი?",
+          "answer": "რა",
+          "choices": [
+            "რა",
+            "ვინ",
+            "სად"
+          ],
+          "en": "How much is this apple?"
+        },
+        {
+          "prompt": "___ არის აფთიაქი?",
+          "answer": "სად",
+          "choices": [
+            "სად",
+            "როდის",
+            "რამდენი"
+          ],
+          "en": "Where is the pharmacy?"
+        },
+        {
+          "prompt": "___ მოდის მატარებელი?",
+          "answer": "როდის",
+          "choices": [
+            "როდის",
+            "ვინ",
+            "რა"
+          ],
+          "en": "When is the train coming?"
+        },
+        {
+          "prompt": "ეს ___ ლარი ღირს?",
+          "answer": "რამდენი",
+          "choices": [
+            "რამდენი",
+            "რატომ",
+            "როგორ"
+          ],
+          "en": "How many lari does this cost?"
+        },
+        {
+          "prompt": "ერთი ყავა სამი ლარია, ორი ყავა ___ ლარია.",
+          "answer": "ექვსი",
+          "choices": [
+            "ექვსი",
+            "ხუთი",
+            "სამი"
+          ],
+          "en": "One coffee is three lari, two coffees are ___ lari."
+        },
+        {
+          "prompt": "___ ხარ აქ?",
+          "answer": "რატომ",
+          "choices": [
+            "რატომ",
+            "რა",
+            "ვინ"
+          ],
+          "en": "Why are you here?"
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g05",
+    "week": 5,
+    "tag": "present-conj",
+    "title": "The ვ- team: present tense subject markers",
+    "explain_md": "Here's the secret that makes Georgian verbs click: the person doing the action is marked **on the verb itself**, with tiny pieces glued to the front and back. Meet the ვ- team, using აკეთებს (\"does/makes\") as our model:\n\n| | do/make |\n|---|---|\n| მე | **ვ**აკეთებ |\n| შენ | აკეთებ |\n| ის | აკეთებ**ს** |\n| ჩვენ | **ვ**აკეთებ**თ** |\n| თქვენ | აკეთებ**თ** |\n| ისინი | აკეთებ**ენ** |\n\nThe system in plain words:\n\n- **ვ- at the front = I.** See a ვ- on a verb, and \"I\" is in the room: ვმუშაობ (\"I work\"), ვცხოვრობ (\"I live\").\n- **Nothing at the front = you.** მუშაობ — \"you work.\" The bare form is the *you* form.\n- **-ს at the end = he/she.** მუშაობს — \"she works.\"\n- **Add -თ to make it plural.** ვმუშაობ + თ = ვმუშაობთ (\"we work\"); მუშაობ + თ = მუშაობთ (\"you all work\"). Recognize that -თ? It's the same one from ვართ and ხართ.\n- **They** gets its own ending: -ენ (sometimes -ან): მუშაობენ.\n\nThis is why pronouns are optional — ვსწავლობ can only ever mean \"*I* am learning.\" The verb has already told you.\n\nStart spotting the pattern on real verbs: ვსვამ / სვამ / სვამს (\"drink\"), ვჭამ / ჭამ / ჭამს (\"eat\" — that ჭ is a sharp ch'). Every present-tense verb you meet from now on runs on this exact engine. Learn the engine once, drive every verb.",
+    "examples": [
+      {
+        "ka": "ვმუშაობ ბანკში.",
+        "en": "I work at a bank."
+      },
+      {
+        "ka": "სად მუშაობ?",
+        "en": "Where do you work?"
+      },
+      {
+        "ka": "ის თბილისში ცხოვრობს.",
+        "en": "He lives in Tbilisi."
+      },
+      {
+        "ka": "ჩვენ ქართულს ვსწავლობთ.",
+        "en": "We are learning Georgian."
+      },
+      {
+        "ka": "თქვენ ბევრს მუშაობთ.",
+        "en": "You work a lot."
+      },
+      {
+        "ka": "ისინი ყავას სვამენ.",
+        "en": "They are drinking coffee."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე ___ თბილისში.",
+          "answer": "ვცხოვრობ",
+          "choices": [
+            "ვცხოვრობ",
+            "ცხოვრობ",
+            "ცხოვრობს"
+          ],
+          "en": "I live in Tbilisi."
+        },
+        {
+          "prompt": "შენ სად ___?",
+          "answer": "მუშაობ",
+          "choices": [
+            "მუშაობ",
+            "ვმუშაობ",
+            "მუშაობს"
+          ],
+          "en": "Where do you work?"
+        },
+        {
+          "prompt": "ის ქართულს ___.",
+          "answer": "სწავლობს",
+          "choices": [
+            "სწავლობს",
+            "ვსწავლობ",
+            "სწავლობენ"
+          ],
+          "en": "She is learning Georgian."
+        },
+        {
+          "prompt": "ჩვენ ერთად ___.",
+          "answer": "ვმუშაობთ",
+          "choices": [
+            "ვმუშაობთ",
+            "ვმუშაობ",
+            "მუშაობთ"
+          ],
+          "en": "We work together."
+        },
+        {
+          "prompt": "თქვენ რას ___?",
+          "answer": "აკეთებთ",
+          "choices": [
+            "აკეთებთ",
+            "აკეთებ",
+            "ვაკეთებთ"
+          ],
+          "en": "What are you doing? (polite)"
+        },
+        {
+          "prompt": "ისინი წყალს ___.",
+          "answer": "სვამენ",
+          "choices": [
+            "სვამენ",
+            "სვამს",
+            "ვსვამთ"
+          ],
+          "en": "They are drinking water."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g06",
+    "week": 6,
+    "tag": "present-conj",
+    "title": "Daily routine: more present verbs",
+    "explain_md": "Last week you learned the engine; this week we take it for a drive through a whole day. All of these run on the same ვ- / (nothing) / -ს system — no surprises, just new vocabulary.\n\n**Morning:** დილით შვიდ საათზე ვდგები — \"In the morning I get up at seven.\" (ვდგები / დგები / დგება). Then breakfast: ვსაუზმობ (\"I have breakfast\"), and the essentials — ვსვამ ყავას (\"I drink coffee\"), ვჭამ პურს (\"I eat bread\").\n\n**Daytime:** ვმუშაობ (\"I work\") and ვსწავლობ (\"I study\") you already know. Add ვკითხულობ (\"I read\") — a long word, but listen to it in rhythm: v-k'i-tkhu-lob. That კ is a crisp k'.\n\n**Evening:** ვუყურებ ტელევიზორს (\"I watch TV\"), and finally ვიძინებ (\"I go to sleep\"). ისინი გვიან იძინებენ — \"they go to bed late.\" Relatable.\n\nTwo small things to notice as you build sentences:\n\n1. **Time expressions** usually come early: დილით (\"in the morning\"), საღამოს (\"in the evening\"), ყოველ დღე (\"every day\"), გვიან (\"late\"). დილით ყავას ვსვამ — \"in the morning I drink coffee.\"\n2. **The thing you eat/drink/watch often wears a little -ს**: ყავა**ს** ვსვამ, პურ**ს** ვჭამ, ტელევიზორ**ს** ვუყურებ. For now, just copy it from the examples — treat it as part of the phrase. It'll get a proper explanation later.\n\nNow narrate your own day out loud, verb by verb: ვდგები... ვსაუზმობ... ვმუშაობ... ვჭამ... ვიძინებ. If you can talk yourself through a Tuesday, you own the present tense.",
+    "examples": [
+      {
+        "ka": "დილით შვიდ საათზე ვდგები.",
+        "en": "I get up at seven in the morning."
+      },
+      {
+        "ka": "ყავას ვსვამ და პურს ვჭამ.",
+        "en": "I drink coffee and eat bread."
+      },
+      {
+        "ka": "ის ყოველ დღე მუშაობს.",
+        "en": "He works every day."
+      },
+      {
+        "ka": "საღამოს წიგნს ვკითხულობ.",
+        "en": "In the evening I read a book."
+      },
+      {
+        "ka": "ჩვენ ფილმს ვუყურებთ.",
+        "en": "We are watching a movie."
+      },
+      {
+        "ka": "გვიან ვიძინებ.",
+        "en": "I go to sleep late."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "დილით ადრე ___.",
+          "answer": "ვდგები",
+          "choices": [
+            "ვდგები",
+            "დგები",
+            "დგება"
+          ],
+          "en": "I get up early in the morning."
+        },
+        {
+          "prompt": "შენ როდის ___?",
+          "answer": "დგები",
+          "choices": [
+            "დგები",
+            "ვდგები",
+            "დგება"
+          ],
+          "en": "When do you get up?"
+        },
+        {
+          "prompt": "ის ჩაის ___.",
+          "answer": "სვამს",
+          "choices": [
+            "სვამს",
+            "ვსვამ",
+            "სვამენ"
+          ],
+          "en": "He is drinking tea."
+        },
+        {
+          "prompt": "ჩვენ საღამოს ტელევიზორს ___.",
+          "answer": "ვუყურებთ",
+          "choices": [
+            "ვუყურებთ",
+            "უყურებთ",
+            "უყურებენ"
+          ],
+          "en": "We watch TV in the evening."
+        },
+        {
+          "prompt": "მე პურს ___.",
+          "answer": "ვჭამ",
+          "choices": [
+            "ვჭამ",
+            "ჭამ",
+            "ჭამს"
+          ],
+          "en": "I am eating bread."
+        },
+        {
+          "prompt": "ისინი გვიან ___.",
+          "answer": "იძინებენ",
+          "choices": [
+            "იძინებენ",
+            "იძინებს",
+            "ვიძინებთ"
+          ],
+          "en": "They go to sleep late."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g07",
+    "week": 7,
+    "tag": "object-markers",
+    "title": "მ-, გ-, გვ-: who it happens TO",
+    "explain_md": "Remember მაქვს and მინდა, where მ- meant \"me\" and გ- meant \"you\"? Those little markers aren't just for having and wanting — they work on ordinary verbs too, and they mark **who the action happens TO**.\n\nTake ლოდინი (\"waiting\"):\n\n- **გ**ელოდები — \"I'm waiting **for you**\" (გ- = you)\n- **მ**ელოდები? — \"Are you waiting **for me**?\" (მ- = me)\n\nSame verb, and the front edge tells you who's on the receiving end. The full set of receivers:\n\n| marker | who it happens to |\n|---|---|\n| **მ-** | to me |\n| **გ-** | to you |\n| **გვ-** | to us |\n\nMore everyday examples:\n\n- გირეკავ — \"I'm calling **you**\"; მირეკავ — \"you're calling **me**\"\n- გეხმარები — \"I'm helping **you**\"; მეხმარები — \"you're helping **me**\"\n- დედა გვეხმარება — \"Mom is helping **us**\"\n\nHere's the puzzle you might have spotted: where did the ვ- (\"I\") go in გელოდები? When გ- (\"to you\") steps onto the verb, the ვ- politely steps off — Georgian never says *ვგელოდები*. So a verb starting with გ- and ending in -ი is usually \"I ___ you\": გელოდები, გირეკავ, გეხმარები. A whole relationship in one word.\n\nAnd who's *doing* the action? The ending still tells you: მეხმარებ**ი** (\"you help me\") vs მეხმარებ**ა** (\"he helps me\"). Front = receiver, back = doer.\n\nThis is the heart of Georgian verbs: one word can carry \"I\", \"you\", and the action all at once. Sit with these six verbs this week — say them at people you know.",
+    "examples": [
+      {
+        "ka": "გელოდები კაფესთან.",
+        "en": "I'm waiting for you by the café."
+      },
+      {
+        "ka": "მელოდები?",
+        "en": "Are you waiting for me?"
+      },
+      {
+        "ka": "ახლა გირეკავ.",
+        "en": "I'm calling you now."
+      },
+      {
+        "ka": "რატომ არ მირეკავ?",
+        "en": "Why don't you call me?"
+      },
+      {
+        "ka": "დედა გვეხმარება.",
+        "en": "Mom helps us."
+      },
+      {
+        "ka": "მეხმარები?",
+        "en": "Are you helping me?"
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "სად ხარ? ___.",
+          "answer": "გელოდები",
+          "choices": [
+            "გელოდები",
+            "მელოდები",
+            "ველოდები"
+          ],
+          "en": "Where are you? I'm waiting for you."
+        },
+        {
+          "prompt": "___ თუ არა?",
+          "answer": "მელოდები",
+          "choices": [
+            "მელოდები",
+            "გელოდები",
+            "ელოდება"
+          ],
+          "en": "Are you waiting for me or not?"
+        },
+        {
+          "prompt": "ის ___.",
+          "answer": "მეხმარება",
+          "choices": [
+            "მეხმარება",
+            "გეხმარება",
+            "მეხმარები"
+          ],
+          "en": "He is helping me."
+        },
+        {
+          "prompt": "შენ ყოველთვის ___.",
+          "answer": "გვეხმარები",
+          "choices": [
+            "გვეხმარები",
+            "მეხმარები",
+            "გვეხმარება"
+          ],
+          "en": "You always help us."
+        },
+        {
+          "prompt": "ახლა ___.",
+          "answer": "გირეკავ",
+          "choices": [
+            "გირეკავ",
+            "მირეკავ",
+            "ვრეკავ"
+          ],
+          "en": "I'm calling you now."
+        },
+        {
+          "prompt": "რატომ არ ___?",
+          "answer": "მირეკავ",
+          "choices": [
+            "მირეკავ",
+            "გირეკავ",
+            "მირეკავს"
+          ],
+          "en": "Why don't you call me?"
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g08",
+    "week": 8,
+    "tag": "postpositions",
+    "title": "-ში and -ზე: in, at, on",
+    "explain_md": "Where English puts little words *before* a noun (in the house, on the table), Georgian glues little endings *after* it. Meet your two workhorses:\n\n- **-ში** = in / into / at: სახლ**ში** (\"in the house / home\"), თბილის**ში** (\"in Tbilisi\")\n- **-ზე** = on / onto: მაგიდა**ზე** (\"on the table\"), კედელ**ზე** (\"on the wall\")\n\nOne small mechanical rule: if the noun ends in **-ი**, that -ი drops before the ending: სახლი → სახლში, ბანკი → ბანკში, კედელი → კედელზე. Nouns ending in other vowels keep them: მაგიდა → მაგიდაზე, ეზო → ეზოში.\n\nNow the genuinely great news. English makes you choose between \"I'm **at** school\" and \"I'm going **to** school.\" Georgian doesn't care — **the same form covers both location and direction**:\n\n| | one form, two jobs |\n|---|---|\n| სკოლაში ვარ | I'm at school |\n| სკოლაში მივდივარ | I'm going to school |\n| მაგიდაზე დევს | it's lying on the table |\n| მაგიდაზე ვდებ | I put it onto the table |\n\nThe verb sorts out whether you're there or heading there. One less decision to make mid-sentence.\n\nWhich one to pick? -ში for enclosed spaces and places you're \"inside\" (cities, buildings, rooms, bags), -ზე for surfaces (tables, walls, floors) — plus a few idiomatic spots like კონცერტზე (\"at a concert\") and მთაზე (\"on the mountain\"). When Georgians surprise you with one, just steal the whole phrase.\n\nBuild five true sentences about your stuff right now: ტელეფონი მაგიდაზეა... წიგნი ჩანთაშია...",
+    "examples": [
+      {
+        "ka": "სახლში ვარ.",
+        "en": "I'm at home."
+      },
+      {
+        "ka": "თბილისში ვცხოვრობ.",
+        "en": "I live in Tbilisi."
+      },
+      {
+        "ka": "მაგიდაზე წიგნია.",
+        "en": "There's a book on the table."
+      },
+      {
+        "ka": "სკოლაში მივდივარ.",
+        "en": "I'm going to school."
+      },
+      {
+        "ka": "კონცერტზე მივდივართ.",
+        "en": "We're going to a concert."
+      },
+      {
+        "ka": "ჩანთა სკამზეა.",
+        "en": "The bag is on the chair."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ვმუშაობ ___.",
+          "answer": "ბანკში",
+          "choices": [
+            "ბანკში",
+            "ბანკზე",
+            "ბანკი"
+          ],
+          "en": "I work at a bank."
+        },
+        {
+          "prompt": "წიგნი ___ დევს.",
+          "answer": "მაგიდაზე",
+          "choices": [
+            "მაგიდაზე",
+            "მაგიდაში",
+            "მაგიდა"
+          ],
+          "en": "The book is lying on the table."
+        },
+        {
+          "prompt": "ხვალ ___ მივდივარ.",
+          "answer": "ბათუმში",
+          "choices": [
+            "ბათუმში",
+            "ბათუმზე",
+            "ბათუმი"
+          ],
+          "en": "Tomorrow I'm going to Batumi."
+        },
+        {
+          "prompt": "ბავშვები ___ თამაშობენ.",
+          "answer": "ეზოში",
+          "choices": [
+            "ეზოში",
+            "ეზოზე",
+            "ეზო"
+          ],
+          "en": "The children are playing in the yard."
+        },
+        {
+          "prompt": "სურათი ___ კიდია.",
+          "answer": "კედელზე",
+          "choices": [
+            "კედელზე",
+            "კედელში",
+            "კედელი"
+          ],
+          "en": "The picture hangs on the wall."
+        },
+        {
+          "prompt": "ის ___ ცხოვრობს.",
+          "answer": "სოფელში",
+          "choices": [
+            "სოფელში",
+            "სოფელზე",
+            "სოფელი"
+          ],
+          "en": "She lives in the village."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g09",
+    "week": 9,
+    "tag": "genitive",
+    "title": "Whose? -ის and being at someone's place: -თან",
+    "explain_md": "Two endings this week, and together they let you say things like \"at my friend's house\" — real, everyday Georgian.\n\n**First: -ის, the \"whose\" ending.** To say something belongs to someone, add **-ის** to the owner and put them *before* the thing:\n\n- ქალაქ**ის** ცენტრი — \"the city's center\"\n- დედ**ის** სახელი — \"mom's name\" (დედა drops its -ა first)\n- გიორგ**ის** მანქანა — \"Giorgi's car\" (names ending in -ი just add -ს)\n\nOne classic to memorize whole: მეგობარი (\"friend\") squeezes itself to **მეგობრის** (\"friend's\") — the -ა- pops out. Georgian does this squeeze with a handful of common nouns; when you meet one, just learn the squeezed form as vocabulary.\n\n**Second: -თან, the \"at/near/with\" ending.** Glue **-თან** onto a person or thing and you get \"by, near, at ___'s place\":\n\n- ფანჯარას**თან** ვზივარ — \"I'm sitting by the window\"\n- მეგობარ**თან** ვარ — \"I'm at my friend's\" (or simply \"with my friend\")\n- ექიმ**თან** მივდივარ — \"I'm going to the doctor\"\n\nThat last pattern is gold: going *to a person* uses -თან, not -ში. You go -ში to places, -თან to people.\n\n**Now combine them.** The owner takes -ის, the place takes -თან or -ში:\n\n- მეგობრ**ის** სახლ**თან** — \"near my friend's house\"\n- გიორგ**ის** სახლ**ში** ვართ — \"we're at Giorgi's house\"\n\nOwner first, thing second, ending last — like English \"'s\", just wearing Georgian clothes. Try it with the people in your life: your mom's name, your friend's dog, your neighbor's car.",
+    "examples": [
+      {
+        "ka": "ეს ჩემი მეგობრის სახლია.",
+        "en": "This is my friend's house."
+      },
+      {
+        "ka": "გიორგის მანქანა ახალია.",
+        "en": "Giorgi's car is new."
+      },
+      {
+        "ka": "მეგობართან ვარ.",
+        "en": "I'm at my friend's place."
+      },
+      {
+        "ka": "ხვალ ექიმთან მივდივარ.",
+        "en": "Tomorrow I'm going to the doctor."
+      },
+      {
+        "ka": "დედის სახელი ნინოა.",
+        "en": "Mom's name is Nino."
+      },
+      {
+        "ka": "ფანჯარასთან ვზივარ.",
+        "en": "I'm sitting by the window."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ეს ___ წიგნია.",
+          "answer": "ნინოს",
+          "choices": [
+            "ნინოს",
+            "ნინო",
+            "ნინოსთან"
+          ],
+          "en": "This is Nino's book."
+        },
+        {
+          "prompt": "___ სახლი დიდია.",
+          "answer": "მეგობრის",
+          "choices": [
+            "მეგობრის",
+            "მეგობარი",
+            "მეგობართან"
+          ],
+          "en": "My friend's house is big."
+        },
+        {
+          "prompt": "ვზივარ ___.",
+          "answer": "ფანჯარასთან",
+          "choices": [
+            "ფანჯარასთან",
+            "ფანჯრის",
+            "ფანჯარაში"
+          ],
+          "en": "I'm sitting by the window."
+        },
+        {
+          "prompt": "___ ვცხოვრობ.",
+          "answer": "მშობლებთან",
+          "choices": [
+            "მშობლებთან",
+            "მშობლების",
+            "მშობლები"
+          ],
+          "en": "I live with my parents."
+        },
+        {
+          "prompt": "___ ცენტრი ლამაზია.",
+          "answer": "ქალაქის",
+          "choices": [
+            "ქალაქის",
+            "ქალაქში",
+            "ქალაქთან"
+          ],
+          "en": "The city center is beautiful."
+        },
+        {
+          "prompt": "ბანკი ___ არის.",
+          "answer": "აფთიაქთან",
+          "choices": [
+            "აფთიაქთან",
+            "აფთიაქის",
+            "აფთიაქზე"
+          ],
+          "en": "The bank is next to the pharmacy."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g10",
+    "week": 10,
+    "tag": "review-1",
+    "title": "Checkpoint: shopping and money",
+    "explain_md": "Ten weeks in — time to cash in everything you've learned, literally. A trip to the market uses every tool in your kit. Watch how it all clicks together:\n\n**Getting there** (week 8): ბაზარ**ში** მივდივარ — \"I'm going to the market.\"\n\n**Asking prices** (week 4): რა ღირს ეს ყველი? — \"How much is this cheese?\" Answer: შვიდი ლარი ღირს.\n\n**Saying what you want** (week 3): ერთი კილო ვაშლი მინდა — \"I want a kilo of apples.\" Notice how მინდა just takes the thing, no fuss.\n\n**Having** (week 2): ხურდა გაქვთ? — \"Do you have change?\" That's გაქვთ, the polite plural — you're talking to a stranger, so week 1's politeness rule kicks in automatically.\n\n**Reacting**: ძალიან ძვირია! (\"very expensive!\") — there's week 1's little -ა hiding at the end of ძვირია. And when you cave and buy it anyway: კარგი, ეს მინდა.\n\nA mini-dialogue to practice out loud:\n\n| | |\n|---|---|\n| You | გამარჯობა! ეს რა ღირს? |\n| Seller | ხუთი ლარი ღირს. |\n| You | ორი მინდა. ხურდა გაქვთ? |\n| Seller | კი, მაქვს! |\n\nNo new grammar this week — that's the point. Instead, do this: walk through your kitchen and shop for it in Georgian. რა ღირს ეს? ეს ნინოს ჩაია. ყავა მაგიდაზეა. ფული არ მაქვს!\n\nIf the drill below feels easy, that's not boring — that's ten weeks of Georgian actually living in your head now. Enjoy it. Next week: the future.",
+    "examples": [
+      {
+        "ka": "ბაზარში მივდივარ.",
+        "en": "I'm going to the market."
+      },
+      {
+        "ka": "ერთი კილო ვაშლი მინდა.",
+        "en": "I want a kilo of apples."
+      },
+      {
+        "ka": "რა ღირს ეს ყველი?",
+        "en": "How much is this cheese?"
+      },
+      {
+        "ka": "შვიდი ლარი ღირს.",
+        "en": "It costs seven lari."
+      },
+      {
+        "ka": "ხურდა გაქვთ?",
+        "en": "Do you have change?"
+      },
+      {
+        "ka": "ეს ძალიან ძვირია!",
+        "en": "That's very expensive!"
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე ვაშლი ___.",
+          "answer": "მინდა",
+          "choices": [
+            "მინდა",
+            "გინდა",
+            "უნდა"
+          ],
+          "en": "I want an apple."
+        },
+        {
+          "prompt": "ხურდა ___?",
+          "answer": "გაქვთ",
+          "choices": [
+            "გაქვთ",
+            "გაქვს",
+            "მაქვს"
+          ],
+          "en": "Do you have change? (polite)"
+        },
+        {
+          "prompt": "___ მივდივარ.",
+          "answer": "მაღაზიაში",
+          "choices": [
+            "მაღაზიაში",
+            "მაღაზიაზე",
+            "მაღაზიის"
+          ],
+          "en": "I'm going to the store."
+        },
+        {
+          "prompt": "ორი ყავა ექვსი ლარია; ერთი ყავა ___ ლარია.",
+          "answer": "სამი",
+          "choices": [
+            "სამი",
+            "ორი",
+            "ექვსი"
+          ],
+          "en": "Two coffees are six lari; one coffee is ___ lari."
+        },
+        {
+          "prompt": "ეს ___ საჩუქარია.",
+          "answer": "გიორგის",
+          "choices": [
+            "გიორგის",
+            "გიორგი",
+            "გიორგისთან"
+          ],
+          "en": "This is Giorgi's gift."
+        },
+        {
+          "prompt": "ფული ___ დევს.",
+          "answer": "მაგიდაზე",
+          "choices": [
+            "მაგიდაზე",
+            "მაგიდაში",
+            "მაგიდის"
+          ],
+          "en": "The money is on the table."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g11",
+    "week": 11,
+    "tag": "future",
+    "title": "The future: preverb + present",
+    "explain_md": "Ready for some very good news? You already know 90% of the Georgian future tense. The recipe: **take the present, snap a little piece onto the front.**\n\n- ვწერ (\"I write\") → **და**ვწერ (\"I will write\")\n- ვაკეთებ (\"I do\") → **გა**ვაკეთებ (\"I will do\")\n- ვკითხულობ (\"I read\") → **წა**ვიკითხავ (\"I will read\")\n\nThose front pieces — და-, გა-, წა-, შე-, მო- and friends — are called preverbs. Each verb has its favorite, the way English verbs have favorite prepositions (you *rely on*, you don't *rely at*). So when you learn a new verb, grab its future partner at the same time: ვწერ/დავწერ, ვაკეთებ/გავაკეთებ.\n\nThe person markers don't change at all — the whole ვ- team comes along:\n\n| | do → will do |\n|---|---|\n| მე | ვაკეთებ → **გა**ვაკეთებ |\n| შენ | აკეთებ → **გა**აკეთებ |\n| ის | აკეთებს → **გა**აკეთებს |\n| ჩვენ | ვაკეთებთ → **გა**ვაკეთებთ |\n| ისინი | აკეთებენ → **გა**აკეთებენ |\n\nA couple of verbs get cheeky and swap more than the front. \"Buy\": ვყიდულობ becomes **ვიყიდი** (\"I'll buy\"). \"Drink\": ვსვამ becomes **დავლევ** (\"I'll drink\"). These are common enough that you'll absorb them fast — ხვალ ღვინოს დავლევ is highly memorable vocabulary.\n\nBonus meaning: the preverb adds a feeling of *completing* the action. დავწერ isn't just \"I'll be writing\" — it's \"I'll write it (and finish it).\" That flavor becomes important next month, so file it away.\n\nრას გააკეთებ ხვალ? — \"What will you do tomorrow?\" Go answer it in Georgian.",
+    "examples": [
+      {
+        "ka": "ხვალ წერილს დავწერ.",
+        "en": "Tomorrow I'll write a letter."
+      },
+      {
+        "ka": "ამას მე გავაკეთებ.",
+        "en": "I'll do this."
+      },
+      {
+        "ka": "ახალ ფეხსაცმელს ვიყიდი.",
+        "en": "I'll buy new shoes."
+      },
+      {
+        "ka": "ამ წიგნს წავიკითხავ.",
+        "en": "I'll read this book."
+      },
+      {
+        "ka": "რას გააკეთებ ხვალ?",
+        "en": "What will you do tomorrow?"
+      },
+      {
+        "ka": "ის სადილს მოამზადებს.",
+        "en": "She will prepare lunch."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ხვალ ამას ___.",
+          "answer": "გავაკეთებ",
+          "choices": [
+            "გავაკეთებ",
+            "ვაკეთებ",
+            "გააკეთებს"
+          ],
+          "en": "I'll do this tomorrow."
+        },
+        {
+          "prompt": "შენ რას ___?",
+          "answer": "იყიდი",
+          "choices": [
+            "იყიდი",
+            "ვიყიდი",
+            "ყიდულობ"
+          ],
+          "en": "What will you buy?"
+        },
+        {
+          "prompt": "ის წერილს ___.",
+          "answer": "დაწერს",
+          "choices": [
+            "დაწერს",
+            "წერს",
+            "დავწერ"
+          ],
+          "en": "He will write a letter."
+        },
+        {
+          "prompt": "ჩვენ ფილმს ___.",
+          "answer": "ვნახავთ",
+          "choices": [
+            "ვნახავთ",
+            "ვუყურებთ",
+            "ნახავენ"
+          ],
+          "en": "We'll see a film."
+        },
+        {
+          "prompt": "მე ჩაის ___.",
+          "answer": "დავლევ",
+          "choices": [
+            "დავლევ",
+            "ვსვამ",
+            "დალევს"
+          ],
+          "en": "I'll drink tea."
+        },
+        {
+          "prompt": "ისინი ხვალ ამას ___.",
+          "answer": "გააკეთებენ",
+          "choices": [
+            "გააკეთებენ",
+            "გააკეთებს",
+            "ვაკეთებთ"
+          ],
+          "en": "They'll do this tomorrow."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g12",
+    "week": 12,
+    "tag": "future",
+    "title": "Going places: წავალ and მოვალ",
+    "explain_md": "Last week you built futures by snapping a preverb onto the present. The two most-traveled verbs in the language — *go* and *come* — take the idea one step further: their future forms look like whole new words. Worth every minute of learning, because you'll use them daily.\n\n**წავალ — \"I will go\"** (future of მივდივარ):\n\n| | will go |\n|---|---|\n| მე | **წავალ** |\n| შენ | **წახვალ** |\n| ის | **წავა** |\n| ჩვენ | **წავალთ** |\n| თქვენ | **წახვალთ** |\n| ისინი | **წავლენ** |\n\n**მოვალ — \"I will come\"** (future of მოვდივარ) runs on the exact same rails: მოვალ, მოხვალ, მოვა, მოვალთ, მოხვალთ, მოვლენ.\n\nThe skeleton is the same in both: **-ვალ** for I, **-ხვალ** for you, **-ვა** for he/she. Learn one, get the other free. That წ, by the way, is the sharp ts' sound — *ts'aval*.\n\nNow combine with what you know:\n\n- Places (week 8): ხვალ ბათუმ**ში** წავალ — \"Tomorrow I'll go to Batumi.\"\n- People (week 9): შენ**თან** მოვალ საღამოს — \"I'll come to your place in the evening.\"\n- Questions (week 4): როდის მოხვალ? — \"When will you come?\"\n\nHandy time words to feed these verbs: ხვალ (\"tomorrow\"), ზეგ (\"the day after tomorrow\" — yes, one word!), მალე (\"soon\"), ზაფხულში (\"in summer\").\n\nNotice the pair-ness of წა- and მო-: going *away* vs coming *toward me*. That's not a coincidence — it's next week's whole lesson, and it runs deep through Georgian.",
+    "examples": [
+      {
+        "ka": "ხვალ ბათუმში წავალ.",
+        "en": "Tomorrow I'll go to Batumi."
+      },
+      {
+        "ka": "როდის მოხვალ?",
+        "en": "When will you come?"
+      },
+      {
+        "ka": "ის მალე მოვა.",
+        "en": "He'll come soon."
+      },
+      {
+        "ka": "ზაფხულში საქართველოში წავალთ.",
+        "en": "In summer we'll go to Georgia."
+      },
+      {
+        "ka": "შენთან მოვალ საღამოს.",
+        "en": "I'll come to your place in the evening."
+      },
+      {
+        "ka": "ისინი კინოში წავლენ.",
+        "en": "They will go to the movies."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ხვალ სოფელში ___.",
+          "answer": "წავალ",
+          "choices": [
+            "წავალ",
+            "წავა",
+            "მივდივარ"
+          ],
+          "en": "Tomorrow I'll go to the village."
+        },
+        {
+          "prompt": "როდის ___ ჩვენთან?",
+          "answer": "მოხვალ",
+          "choices": [
+            "მოხვალ",
+            "მოვალ",
+            "მოვა"
+          ],
+          "en": "When will you come to our place?"
+        },
+        {
+          "prompt": "ის ხვალ ___.",
+          "answer": "მოვა",
+          "choices": [
+            "მოვა",
+            "მოვალ",
+            "მოდის"
+          ],
+          "en": "He will come tomorrow."
+        },
+        {
+          "prompt": "ჩვენ ერთად ___.",
+          "answer": "წავალთ",
+          "choices": [
+            "წავალთ",
+            "წავალ",
+            "წავლენ"
+          ],
+          "en": "We'll go together."
+        },
+        {
+          "prompt": "მე ხუთ საათზე ___.",
+          "answer": "მოვალ",
+          "choices": [
+            "მოვალ",
+            "მოხვალ",
+            "მოვდივარ"
+          ],
+          "en": "I'll come at five o'clock."
+        },
+        {
+          "prompt": "ისინი ზღვაზე ___.",
+          "answer": "წავლენ",
+          "choices": [
+            "წავლენ",
+            "წავა",
+            "წავალთ"
+          ],
+          "en": "They will go to the seaside."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g13",
+    "week": 13,
+    "tag": "deixis",
+    "title": "მი- and მო-: away from me, toward me",
+    "explain_md": "Georgian verbs carry a built-in compass, and its two poles are **მი-** and **მო-**:\n\n- **მი-** = motion **away** from me (or from the person we're talking about)\n- **მო-** = motion **toward** me\n\nYou've been using this without knowing it:\n\n- **მი**ვდივარ — \"I'm going\" (away, somewhere else)\n- **მო**ვდივარ — \"I'm coming\" (here, toward where I am — say it on the phone when you're almost there!)\n- ავტობუსი **მო**დის! — \"The bus is coming!\" (toward us — good news)\n- ის ბაზარში **მი**დის — \"She's going to the market\" (away from here)\n\nAnd last week's წავალ/მოვალ pair? Same compass: წა- points away, მო- points home.\n\nThe compass also works on **carrying**:\n\n| | away | toward me |\n|---|---|---|\n| carrying a thing | **მი**აქვს (takes) | **მო**აქვს (brings) |\n| bringing a person/animal | **მი**ჰყავს | **მო**ჰყავს |\n\nმიმტანს ყავა **მო**აქვს — \"the waiter is bringing coffee\" (toward you, wonderful). მას წიგნები სკოლაში **მი**აქვს — \"he's taking the books to school\" (away). And yes — that აქვს/ჰყავს split is your old friend from week 2: things vs living beings, now with direction. Georgian recycles its best ideas.\n\nEnglish has a faint echo of this in *take* vs *bring*, *go* vs *come* — Georgian just makes it crisp and paints it right onto the verb. When you speak, pause for half a second and ask: is this heading toward me or away? Then pick მო- or მი-. Georgians feel this distinction strongly — getting it right makes you sound startlingly good.",
+    "examples": [
+      {
+        "ka": "სამსახურში მივდივარ.",
+        "en": "I'm going to work."
+      },
+      {
+        "ka": "სახლში მოვდივარ.",
+        "en": "I'm coming home."
+      },
+      {
+        "ka": "ავტობუსი მოდის!",
+        "en": "The bus is coming!"
+      },
+      {
+        "ka": "ის ბაზარში მიდის.",
+        "en": "She's going to the market."
+      },
+      {
+        "ka": "მიმტანს ყავა მოაქვს.",
+        "en": "The waiter is bringing coffee."
+      },
+      {
+        "ka": "მას წიგნები სკოლაში მიაქვს.",
+        "en": "He's taking the books to school."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "___ შენთან.",
+          "answer": "მოვდივარ",
+          "choices": [
+            "მოვდივარ",
+            "მივდივარ",
+            "მოდის"
+          ],
+          "en": "I'm coming to you."
+        },
+        {
+          "prompt": "ის აქედან ___.",
+          "answer": "მიდის",
+          "choices": [
+            "მიდის",
+            "მოდის",
+            "მივდივარ"
+          ],
+          "en": "He is going away from here."
+        },
+        {
+          "prompt": "ტაქსი ___.",
+          "answer": "მოდის",
+          "choices": [
+            "მოდის",
+            "მიდის",
+            "მოვდივარ"
+          ],
+          "en": "The taxi is coming (here)."
+        },
+        {
+          "prompt": "დედას ჩანთა ___.",
+          "answer": "მოაქვს",
+          "choices": [
+            "მოაქვს",
+            "მიაქვს",
+            "მოჰყავს"
+          ],
+          "en": "Mom is bringing a bag (here)."
+        },
+        {
+          "prompt": "მას ბავშვი სკოლაში ___.",
+          "answer": "მიჰყავს",
+          "choices": [
+            "მიჰყავს",
+            "მოჰყავს",
+            "მიაქვს"
+          ],
+          "en": "She is taking the child to school."
+        },
+        {
+          "prompt": "ჩვენ ზღვისკენ ___.",
+          "answer": "მივდივართ",
+          "choices": [
+            "მივდივართ",
+            "მოვდივართ",
+            "მივდივარ"
+          ],
+          "en": "We are heading toward the sea (away from here)."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g14",
+    "week": 14,
+    "tag": "aorist",
+    "title": "The past — and the -მა costume",
+    "explain_md": "Today you unlock yesterday. The simple past (\"I wrote\", \"she bought\") is built from the future form with new endings:\n\n| | write: future → past |\n|---|---|\n| მე | დავწერ → დავწერ**ე** |\n| შენ | დაწერ → დაწერ**ე** |\n| ის | დაწერს → დაწერ**ა** |\n| ჩვენ | დავწერთ → დავწერ**ეთ** |\n| თქვენ | დაწერთ → დაწერ**ეთ** |\n| ისინი | დაწერენ → დაწერ**ეს** |\n\nSame skeleton: ვ- for I, -ა for he/she, -თ for plural. გუშინ წერილი დავწერე — \"Yesterday I wrote a letter.\" Easy.\n\n**Now, THE BIG TWIST.** In the past tense, the *doer* of an action verb puts on a special costume: the ending **-მა**.\n\n- Present: გიორგი ყიდულობს პურს — \"Giorgi buys bread.\"\n- Past: გიორგი**მ** იყიდა პური — \"Giorgi bought bread.\"\n\nGiorgi did something, it's the past, so he wears -მა (after a vowel just **-მ**: ნინო → ნინომ, დედა → დედამ). \"He/she\" as a pronoun has its own costume: ის becomes **მან** — მან წაიკითხა (\"he read it\"). მე and შენ are lazy and don't change: მე დავწერე, შენ დაწერე.\n\nWho does NOT wear the costume? Someone who isn't *doing something to something* — just moving or being: ის მოვიდა (\"he came\"), ნინო იყო სახლში (\"Nino was home\"). No -მა. Rule of thumb: **past + action done to something = doer wears -მა.**\n\nThis feels alien for a week, then becomes your favorite party trick. Say გიორგიმ იყიდა ten times today and let the costume start feeling like normal clothes.",
+    "examples": [
+      {
+        "ka": "გუშინ წერილი დავწერე.",
+        "en": "Yesterday I wrote a letter."
+      },
+      {
+        "ka": "გიორგიმ პური იყიდა.",
+        "en": "Giorgi bought bread."
+      },
+      {
+        "ka": "რა გააკეთე გუშინ?",
+        "en": "What did you do yesterday?"
+      },
+      {
+        "ka": "დედამ გემრიელი სადილი მოამზადა.",
+        "en": "Mom made a delicious lunch."
+      },
+      {
+        "ka": "მან ეს წიგნი წაიკითხა.",
+        "en": "He read this book."
+      },
+      {
+        "ka": "ჩვენ ახალი ბინა ვიყიდეთ.",
+        "en": "We bought a new apartment."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე გუშინ პური ___.",
+          "answer": "ვიყიდე",
+          "choices": [
+            "ვიყიდე",
+            "ვიყიდი",
+            "იყიდა"
+          ],
+          "en": "Yesterday I bought bread."
+        },
+        {
+          "prompt": "___ ყავა დალია.",
+          "answer": "ნინომ",
+          "choices": [
+            "ნინომ",
+            "ნინო",
+            "ნინოს"
+          ],
+          "en": "Nino drank the coffee."
+        },
+        {
+          "prompt": "შენ ეს ___?",
+          "answer": "გააკეთე",
+          "choices": [
+            "გააკეთე",
+            "გავაკეთე",
+            "გააკეთა"
+          ],
+          "en": "Did you do this?"
+        },
+        {
+          "prompt": "___ წერილი დაწერა.",
+          "answer": "გიორგიმ",
+          "choices": [
+            "გიორგიმ",
+            "გიორგი",
+            "გიორგის"
+          ],
+          "en": "Giorgi wrote a letter."
+        },
+        {
+          "prompt": "ჩვენ ფილმი ___.",
+          "answer": "ვნახეთ",
+          "choices": [
+            "ვნახეთ",
+            "ვნახე",
+            "ნახეს"
+          ],
+          "en": "We watched a movie."
+        },
+        {
+          "prompt": "მათ სახლი ___.",
+          "answer": "ააშენეს",
+          "choices": [
+            "ააშენეს",
+            "ააშენა",
+            "ავაშენეთ"
+          ],
+          "en": "They built a house."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g15",
+    "week": 15,
+    "tag": "aorist",
+    "title": "Your daily verbs, in the past",
+    "explain_md": "Last week you learned the machinery; this week we load it with the verbs you actually use every day. Here are your greatest hits in \"I did\" form:\n\n| present (I ...) | past (I ...-ed) |\n|---|---|\n| ვჭამ (eat) | **ვჭამე** |\n| ვსვამ (drink) | **დავლიე** |\n| ვყიდულობ (buy) | **ვიყიდე** |\n| ვაკეთებ (do) | **გავაკეთე** |\n| ვწერ (write) | **დავწერე** |\n| ვსწავლობ (learn) | **ვისწავლე** |\n| ვმუშაობ (work) | **ვიმუშავე** |\n\nSpot the pattern: most end in **-ე** for \"I\", and the he/she form swaps it for **-ა**: ვჭამე / ჭამა, დავლიე / დალია, ვიყიდე / იყიდა. \"We\" adds the trusty -თ: ვჭამეთ, დავლიეთ.\n\nThe costume rule from last week applies to all of these — they're all actions done *to* something, so a third-person doer wears **-მა**:\n\n- ნინო**მ** ახალი კაბა იყიდა — \"Nino bought a new dress.\"\n- მამა**მ** მანქანა გარეცხა — \"Dad washed the car.\"\n- ბავშვ**მა** რძე დალია — \"The child drank the milk.\" (after a consonant it's the full -მა)\n\nMeanwhile მე and შენ stay in plain clothes: მე ხინკალი ვჭამე. შენ რა დალიე?\n\nOne heads-up: სვამს/დალია (\"drink\") is the same stem-swapper you met in the future (დავლევ), so its past runs on the ლი- stem: დავლიე, დალიე, დალია. Georgians drink toasts often enough that you'll get plenty of practice.\n\nYour homework is delicious: narrate yesterday's meals out loud. დილით ყავა დავლიე. პური ვჭამე. საღამოს ღვინო დავლიე... Past tense sticks fastest when it's about your own stomach.",
+    "examples": [
+      {
+        "ka": "დილით საუზმე ვჭამე.",
+        "en": "I ate breakfast in the morning."
+      },
+      {
+        "ka": "ორი ჭიქა ყავა დავლიე.",
+        "en": "I drank two cups of coffee."
+      },
+      {
+        "ka": "გუშინ ბევრი ვიმუშავე.",
+        "en": "Yesterday I worked a lot."
+      },
+      {
+        "ka": "ქართული სიტყვები ვისწავლე.",
+        "en": "I learned Georgian words."
+      },
+      {
+        "ka": "ნინომ ახალი კაბა იყიდა.",
+        "en": "Nino bought a new dress."
+      },
+      {
+        "ka": "მამამ მანქანა გარეცხა.",
+        "en": "Dad washed the car."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე ხინკალი ___.",
+          "answer": "ვჭამე",
+          "choices": [
+            "ვჭამე",
+            "ვჭამ",
+            "ჭამა"
+          ],
+          "en": "I ate khinkali."
+        },
+        {
+          "prompt": "შენ რა ___?",
+          "answer": "დალიე",
+          "choices": [
+            "დალიე",
+            "დავლიე",
+            "დალია"
+          ],
+          "en": "What did you drink?"
+        },
+        {
+          "prompt": "მან დიდხანს ___.",
+          "answer": "იმუშავა",
+          "choices": [
+            "იმუშავა",
+            "ვიმუშავე",
+            "მუშაობს"
+          ],
+          "en": "He worked for a long time."
+        },
+        {
+          "prompt": "ჩვენ ეს გუშინ ___.",
+          "answer": "გავაკეთეთ",
+          "choices": [
+            "გავაკეთეთ",
+            "გავაკეთე",
+            "გააკეთეს"
+          ],
+          "en": "We did this yesterday."
+        },
+        {
+          "prompt": "ბავშვმა რძე ___.",
+          "answer": "დალია",
+          "choices": [
+            "დალია",
+            "დალიე",
+            "სვამს"
+          ],
+          "en": "The child drank the milk."
+        },
+        {
+          "prompt": "მათ ბევრი ___.",
+          "answer": "ისწავლეს",
+          "choices": [
+            "ისწავლეს",
+            "ისწავლა",
+            "ვისწავლეთ"
+          ],
+          "en": "They learned a lot."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g16",
+    "week": 16,
+    "tag": "aorist",
+    "title": "Past questions and negatives: ვერ vs არ",
+    "explain_md": "Asking about the past is refreshingly easy: no helper words, no \"did.\" Take the past form, raise your voice at the end: ბილეთი იყიდე? — \"Did you buy the ticket?\" Add a question word if you like: სად იმუშავე? რა ჭამე? Done.\n\nSaying *no* is where Georgian gets delightfully precise. English \"didn't\" is vague — did you choose not to, or did life stop you? Georgian insists on telling the difference:\n\n- **არ** = didn't (it was up to you)\n- **ვერ** = couldn't (you tried, or wanted to, but something got in the way)\n\nFeel the difference:\n\n| | |\n|---|---|\n| **არ** წავედი. | I didn't go. (Chose not to. No regrets.) |\n| **ვერ** წავედი. | I couldn't go. (Wanted to! Something stopped me.) |\n\nThis tiny word carries real social weight. Your friend asks why you missed the party:\n\n- ვერ მოვედი, ავად ვიყავი — \"I couldn't come, I was sick.\" (You're forgiven.)\n- არ მოვედი — \"I didn't come.\" (You... just didn't. Ouch.)\n\nPicking the wrong one accidentally changes your story, so when in doubt about whether you're excusing yourself, reach for ვერ.\n\nMore examples: ვერ ვიპოვე ჩემი გასაღები (\"I couldn't find my key\" — you searched!), ის ხორცს არ ჭამს (\"he doesn't eat meat\" — his choice), ვერ ვიყიდე, ძვირი იყო (\"I couldn't buy it, it was expensive\").\n\nBoth words sit right before the verb, and both work in every tense. Practice by making excuses in Georgian — the more dramatic, the better it sticks.",
+    "examples": [
+      {
+        "ka": "გუშინ არ ვიმუშავე.",
+        "en": "Yesterday I didn't work."
+      },
+      {
+        "ka": "ვერ ვიპოვე ჩემი გასაღები.",
+        "en": "I couldn't find my key."
+      },
+      {
+        "ka": "რატომ არ მოხვედი?",
+        "en": "Why didn't you come?"
+      },
+      {
+        "ka": "ვერ მოვედი, ავად ვიყავი.",
+        "en": "I couldn't come, I was sick."
+      },
+      {
+        "ka": "ბილეთი იყიდე?",
+        "en": "Did you buy the ticket?"
+      },
+      {
+        "ka": "არა, ვერ ვიყიდე — ძალიან ძვირი იყო.",
+        "en": "No, I couldn't buy it — it was too expensive."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "___ წავედი — არ მინდოდა.",
+          "answer": "არ",
+          "choices": [
+            "არ",
+            "ვერ",
+            "არა"
+          ],
+          "en": "I didn't go — I didn't want to."
+        },
+        {
+          "prompt": "___ წავედი — დრო არ მქონდა.",
+          "answer": "ვერ",
+          "choices": [
+            "ვერ",
+            "არ",
+            "არა"
+          ],
+          "en": "I couldn't go — I had no time."
+        },
+        {
+          "prompt": "ბოდიში, ___ გავიგე.",
+          "answer": "ვერ",
+          "choices": [
+            "ვერ",
+            "არ",
+            "არც"
+          ],
+          "en": "Sorry, I couldn't catch that."
+        },
+        {
+          "prompt": "კარი ___ გავაღე — გასაღები არ მქონდა.",
+          "answer": "ვერ",
+          "choices": [
+            "ვერ",
+            "არ",
+            "ნუ"
+          ],
+          "en": "I couldn't open the door — I didn't have the key."
+        },
+        {
+          "prompt": "ის ხორცს ___ ჭამს.",
+          "answer": "არ",
+          "choices": [
+            "არ",
+            "ვერ",
+            "ნუ"
+          ],
+          "en": "He doesn't eat meat (by choice)."
+        },
+        {
+          "prompt": "შენ ეს ___ იყიდე?",
+          "answer": "არ",
+          "choices": [
+            "არ",
+            "ვერ",
+            "არც"
+          ],
+          "en": "You didn't buy this? (you chose not to)"
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g17",
+    "week": 17,
+    "tag": "aorist-irregular",
+    "title": "Irregular pasts: წავედი, ვთქვი, ვნახე, მივეცი",
+    "explain_md": "Every language keeps its wildest irregulars for its most-used verbs (think English *go/went*). Georgian is no exception. Here are the four rebels you can't live without:\n\n**წავედი — \"I went\"**\n\n| მე | **წავედი** |\n|---|---|\n| შენ | **წახვედი** |\n| ის | **წავიდა** |\n| ჩვენ | **წავედით** |\n| ისინი | **წავიდნენ** |\n\nNo -მა costume here — going isn't doing something *to* something, so: ის წავიდა, ნინო წავიდა. Plain clothes.\n\n**ვთქვი — \"I said\"**: ვთქვი, თქვი, თქვა. Saying something IS doing something to something, so third person wears the costume: მან თქვა, გიორგი**მ** თქვა (\"Giorgi said\"). The cluster თქვ looks scary; say it as one quick \"tkv\" — *vtkvi*.\n\n**ვნახე — \"I saw\"**: ვნახე, ნახე, ნახა. Costume applies: მან ნახა. ეს ფილმი კინოში ვნახე — \"I saw this film at the cinema.\"\n\n**მივეცი — \"I gave (to him/her)\"**: მივეცი, მიეცი, and third person goes rogue: **მისცა**. წიგნი მეგობარს მივეცი — \"I gave the book to a friend.\" ნინომ ბავშვს ვაშლი მისცა — \"Nino gave the child an apple\" (costume on ნინომ, and the receiver gets that little -ს you've seen before).\n\nDon't try to derive these — just sing them. წავედი-წახვედი-წავიდა has a rhythm; ვთქვი-თქვი-თქვა is practically percussion. Drill them into your muscle memory this week, because next to ვარ and მაქვს, these four carry more daily conversation than any others.",
+    "examples": [
+      {
+        "ka": "გუშინ სოფელში წავედი.",
+        "en": "Yesterday I went to the village."
+      },
+      {
+        "ka": "შენ სად წახვედი?",
+        "en": "Where did you go?"
+      },
+      {
+        "ka": "მან სიმართლე თქვა.",
+        "en": "He told the truth."
+      },
+      {
+        "ka": "ეს ფილმი კინოში ვნახე.",
+        "en": "I saw this film at the cinema."
+      },
+      {
+        "ka": "წიგნი მეგობარს მივეცი.",
+        "en": "I gave the book to a friend."
+      },
+      {
+        "ka": "ნინომ ბავშვს ვაშლი მისცა.",
+        "en": "Nino gave the child an apple."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე გუშინ სახლში ___.",
+          "answer": "წავედი",
+          "choices": [
+            "წავედი",
+            "წავიდა",
+            "წავალ"
+          ],
+          "en": "Yesterday I went home."
+        },
+        {
+          "prompt": "ის ადრე ___.",
+          "answer": "წავიდა",
+          "choices": [
+            "წავიდა",
+            "წავედი",
+            "წახვედი"
+          ],
+          "en": "He left early."
+        },
+        {
+          "prompt": "შენ რა ___?",
+          "answer": "თქვი",
+          "choices": [
+            "თქვი",
+            "ვთქვი",
+            "თქვა"
+          ],
+          "en": "What did you say?"
+        },
+        {
+          "prompt": "___ არაფერი თქვა.",
+          "answer": "გიორგიმ",
+          "choices": [
+            "გიორგიმ",
+            "გიორგი",
+            "გიორგის"
+          ],
+          "en": "Giorgi said nothing."
+        },
+        {
+          "prompt": "მე ის ფილმი ___.",
+          "answer": "ვნახე",
+          "choices": [
+            "ვნახე",
+            "ნახა",
+            "ვნახავ"
+          ],
+          "en": "I saw that film."
+        },
+        {
+          "prompt": "მან ფული ძმას ___.",
+          "answer": "მისცა",
+          "choices": [
+            "მისცა",
+            "მივეცი",
+            "მიეცი"
+          ],
+          "en": "He gave the money to his brother."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g18",
+    "week": 18,
+    "tag": "masdar",
+    "title": "Verb-nouns: ცურვა მიყვარს",
+    "explain_md": "How do you say you love *swimming*, hate *waiting*, or think *studying* is hard? English turns verbs into -ing nouns; Georgian has its own verb-noun for every verb, and they're wonderfully easy to use — they behave like any other noun.\n\nMeet some favorites:\n\n| verb-noun | meaning |\n|---|---|\n| **ცურვა** | swimming |\n| **კითხვა** | reading |\n| **წერა** | writing |\n| **სწავლა** | studying / learning |\n| **მუშაობა** | working |\n| **ჭამა** | eating |\n| **ძილი** | sleeping |\n| **ლაპარაკი** | speaking |\n| **ლოდინი** | waiting |\n| **სიარული** | walking |\n\nMost end in -ა, a few in -ი. You don't build them from scratch — you learn them as words, and dictionaries list verbs this way, so you've already met many.\n\nNow use them exactly like nouns:\n\n- **With feelings**: ცურვა მიყვარს — \"I love swimming.\" ლოდინი არ მიყვარს — \"I don't like waiting.\" (მიყვარს is a sneak preview of week 23 — notice that მ- again!)\n- **As a subject**: სწავლა ადვილი არ არის — \"Studying isn't easy.\" კითხვა ჩემი ჰობია — \"Reading is my hobby.\"\n- **With მინდა**: ქართულად ლაპარაკი მინდა — \"I want to speak Georgian.\"\n- **With noun endings**: ძილ**ის** დროა! — \"It's time to sleep!\" (there's week 9's -ის doing its job on a verb-noun).\n\nThat last point is the superpower: because they're real nouns, verb-nouns take all the endings you know — -ის, -ში, -ზე, -თან. One little word like ჭამა quietly plugs into your entire grammar toolkit.\n\nMake a list: three things you love, two you hate. All verb-nouns. ___ მიყვარს, ___ არ მიყვარს. Instant honesty, minimal grammar.",
+    "examples": [
+      {
+        "ka": "ცურვა მიყვარს.",
+        "en": "I love swimming."
+      },
+      {
+        "ka": "კითხვა ჩემი ჰობია.",
+        "en": "Reading is my hobby."
+      },
+      {
+        "ka": "ქართულად ლაპარაკი მინდა.",
+        "en": "I want to speak Georgian."
+      },
+      {
+        "ka": "სწავლა ადვილი არ არის.",
+        "en": "Studying isn't easy."
+      },
+      {
+        "ka": "ჭამის დროა!",
+        "en": "It's time to eat!"
+      },
+      {
+        "ka": "საღამოს მუშაობა არ მიყვარს.",
+        "en": "I don't like working in the evening."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "___ მიყვარს.",
+          "answer": "ცურვა",
+          "choices": [
+            "ცურვა",
+            "ვცურავ",
+            "ცურვას"
+          ],
+          "en": "I love swimming."
+        },
+        {
+          "prompt": "___ ჩემი ჰობია.",
+          "answer": "კითხვა",
+          "choices": [
+            "კითხვა",
+            "ვკითხულობ",
+            "კითხვის"
+          ],
+          "en": "Reading is my hobby."
+        },
+        {
+          "prompt": "ქართულად ___ მინდა.",
+          "answer": "ლაპარაკი",
+          "choices": [
+            "ლაპარაკი",
+            "ვლაპარაკობ",
+            "ლაპარაკში"
+          ],
+          "en": "I want to speak Georgian."
+        },
+        {
+          "prompt": "___ დროა!",
+          "answer": "ძილის",
+          "choices": [
+            "ძილის",
+            "ძილი",
+            "ძილში"
+          ],
+          "en": "It's time to sleep!"
+        },
+        {
+          "prompt": "___ სასარგებლოა.",
+          "answer": "სიარული",
+          "choices": [
+            "სიარული",
+            "დავდივარ",
+            "სიარულის"
+          ],
+          "en": "Walking is good for you."
+        },
+        {
+          "prompt": "___ არ მიყვარს.",
+          "answer": "ლოდინი",
+          "choices": [
+            "ლოდინი",
+            "ველოდები",
+            "ლოდინის"
+          ],
+          "en": "I don't like waiting."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g19",
+    "week": 19,
+    "tag": "register",
+    "title": "შენ vs თქვენ: reading the room",
+    "explain_md": "You've known the mechanics since week 1: თქვენ takes plural verbs even for one person. This week is about the social radar — *when* to use which. Georgians read a lot into this choice, and getting it right is a quiet superpower.\n\n**Use თქვენ (polite) with:**\n- strangers and anyone serving you — taxi drivers, shopkeepers, waiters\n- people clearly older than you\n- officials, doctors, your friend's grandmother (especially her)\n- anyone you'd call by title rather than first name\n\n**Use შენ (casual) with:**\n- friends and family\n- children, always\n- peers your age in relaxed settings — Georgians often slide into შენ quickly among the young\n\nThe grammar ripples through everything you've learned. Compare the same questions in both registers:\n\n| casual | polite |\n|---|---|\n| როგორ ხარ? | როგორ ხართ? |\n| რა გქვია? | რა გქვიათ? |\n| დრო გაქვს? | დრო გაქვთ? |\n| მოხვალ? | მოხვალთ? |\n\nSee the pattern? Politeness is mostly just that trusty **-თ** doing one more job.\n\nExtra credit: ბრძანდებით is a super-polite \"you are\" — საიდან ბრძანდებით? (\"Where are you from?\") delights older Georgians when it comes from a learner.\n\n**The switch moment:** relationships warm up, and someone says შეიძლება შენობაზე გადავიდეთ? — \"Shall we switch to შენ?\" That's a small ceremony of friendship; say კი, რა თქმა უნდა! and enjoy it.\n\nWhen unsure, start with თქვენ. Nobody was ever offended by too much respect, and Georgians will happily invite you down to შენ when it's time.",
+    "examples": [
+      {
+        "ka": "როგორ ხართ?",
+        "en": "How are you? (polite)"
+      },
+      {
+        "ka": "როგორ ხარ?",
+        "en": "How are you? (casual)"
+      },
+      {
+        "ka": "საიდან ბრძანდებით?",
+        "en": "Where are you from? (very polite)"
+      },
+      {
+        "ka": "რა გქვია?",
+        "en": "What's your name? (casual)"
+      },
+      {
+        "ka": "რა გქვიათ?",
+        "en": "What's your name? (polite)"
+      },
+      {
+        "ka": "შეიძლება შენობაზე გადავიდეთ?",
+        "en": "Can we switch to შენ?"
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "(to your friend's grandmother) როგორ ___?",
+          "answer": "ხართ",
+          "choices": [
+            "ხართ",
+            "ხარ",
+            "არის"
+          ],
+          "en": "How are you?"
+        },
+        {
+          "prompt": "(to a close friend) სად ___?",
+          "answer": "ხარ",
+          "choices": [
+            "ხარ",
+            "ხართ",
+            "არიან"
+          ],
+          "en": "Where are you?"
+        },
+        {
+          "prompt": "(to a new colleague, polite) რა ___?",
+          "answer": "გქვიათ",
+          "choices": [
+            "გქვიათ",
+            "გქვია",
+            "მქვია"
+          ],
+          "en": "What's your name?"
+        },
+        {
+          "prompt": "(to a taxi driver) დრო ___?",
+          "answer": "გაქვთ",
+          "choices": [
+            "გაქვთ",
+            "გაქვს",
+            "მაქვს"
+          ],
+          "en": "Do you have time?"
+        },
+        {
+          "prompt": "(to a child) რამდენი წლის ___?",
+          "answer": "ხარ",
+          "choices": [
+            "ხარ",
+            "ხართ",
+            "ვარ"
+          ],
+          "en": "How old are you?"
+        },
+        {
+          "prompt": "(polite, on the phone) ხვალ ___?",
+          "answer": "მოხვალთ",
+          "choices": [
+            "მოხვალთ",
+            "მოხვალ",
+            "მოვალ"
+          ],
+          "en": "Will you come tomorrow?"
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g20",
+    "week": 20,
+    "tag": "review-2",
+    "title": "Checkpoint: tell a simple story",
+    "explain_md": "Twenty weeks. Time to do the most human thing a language allows: tell a story about your day. You have every piece — this week we just line them up.\n\n**The glue words** that turn sentences into a story:\n\n| | |\n|---|---|\n| **ჯერ** | first |\n| **მერე / შემდეგ** | then / after that |\n| **ბოლოს** | finally |\n| **და** | and |\n| **მაგრამ** | but |\n\n**Now watch a whole day assemble itself** from things you know:\n\nგუშინ ადრე ავდექი. (\"Yesterday I got up early\" — ავდექი is the past of ვდგები, one more irregular for your collection.) ჯერ ყავა დავლიე, მერე ვიმუშავე. საღამოს მეგობარმა დამირეკა — \"in the evening a friend called me.\" Look at that sentence admiringly: მეგობარ**მა** wears the week-14 costume, and და**მი**რეკა carries week 7's მ- (\"called *me*\"). Two big ideas, one small word.\n\nერთად კაფეში წავედით. ბევრი ვილაპარაკეთ და ვიცინეთ. — \"We went to a café together. We talked a lot and laughed.\" ბოლოს გვიან დავბრუნდი სახლში — \"finally I got home late.\"\n\nThat's a real story, told entirely with your tools: past tense, the -მა costume where it belongs (და called, მეგობარმა rang — but წავედით and დავბრუნდი take no costume, they're just movement), places in -ში, and glue words holding it together.\n\n**Your turn.** Write five sentences about yesterday. Formula: time word + ჯერ/მერე/ბოლოს + past verbs. Then say it out loud to a mirror, a pet, or a very patient friend. If you stumble, good — stumbling out loud is exactly how the pieces fuse together.",
+    "examples": [
+      {
+        "ka": "გუშინ ადრე ავდექი.",
+        "en": "Yesterday I got up early."
+      },
+      {
+        "ka": "ჯერ ყავა დავლიე, მერე ვიმუშავე.",
+        "en": "First I drank coffee, then I worked."
+      },
+      {
+        "ka": "საღამოს მეგობარმა დამირეკა.",
+        "en": "In the evening a friend called me."
+      },
+      {
+        "ka": "ერთად კაფეში წავედით.",
+        "en": "We went to a café together."
+      },
+      {
+        "ka": "ბევრი ვილაპარაკეთ და ვიცინეთ.",
+        "en": "We talked a lot and laughed."
+      },
+      {
+        "ka": "ბოლოს გვიან დავბრუნდი სახლში.",
+        "en": "Finally I returned home late."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "გუშინ შვიდ საათზე ___.",
+          "answer": "ავდექი",
+          "choices": [
+            "ავდექი",
+            "ვდგები",
+            "ადგა"
+          ],
+          "en": "Yesterday I got up at seven."
+        },
+        {
+          "prompt": "___ ვისაუზმე, მერე გავედი.",
+          "answer": "ჯერ",
+          "choices": [
+            "ჯერ",
+            "მერე",
+            "ბოლოს"
+          ],
+          "en": "First I had breakfast, then I went out."
+        },
+        {
+          "prompt": "მეგობარმა ___.",
+          "answer": "დამირეკა",
+          "choices": [
+            "დამირეკა",
+            "დავურეკე",
+            "მირეკავს"
+          ],
+          "en": "A friend called me."
+        },
+        {
+          "prompt": "ჩვენ კაფეში ___.",
+          "answer": "წავედით",
+          "choices": [
+            "წავედით",
+            "წავედი",
+            "წავიდნენ"
+          ],
+          "en": "We went to a café."
+        },
+        {
+          "prompt": "___ პური იყიდა.",
+          "answer": "დედამ",
+          "choices": [
+            "დედამ",
+            "დედა",
+            "დედას"
+          ],
+          "en": "Mom bought bread."
+        },
+        {
+          "prompt": "საღამოს გვიან ___.",
+          "answer": "დავბრუნდი",
+          "choices": [
+            "დავბრუნდი",
+            "დაბრუნდა",
+            "ვბრუნდები"
+          ],
+          "en": "In the evening I returned late."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g21",
+    "week": 21,
+    "tag": "perfect",
+    "title": "The \"have done\" past: მინახავს",
+    "explain_md": "Georgian has a second past tense, and it's for a different job. Compare:\n\n- გუშინ ეს ფილმი ვნახე — \"I saw this film yesterday.\" (a specific event, week 14 style)\n- ეს ფილმი **მინახავს** — \"I've seen this film (at some point).\" (life experience, no particular day)\n\nEnglish makes the same split with \"saw\" vs \"have seen.\" But here's the Georgian twist, and it's a beautiful one: **in this tense, the construction flips.** The person who did it is marked like the *receiver* — with the მ-/გ- markers from week 7. It's as if the experience \"sits on you\":\n\n| | have seen |\n|---|---|\n| I | **მი**ნახავს |\n| you | **გი**ნახავს |\n| he/she | **უ**ნახავს |\n| we | **გვი**ნახავს |\n\nმინახავს feels like \"seeing-it is *on me*.\" And when the doer is a named person, they take that little -ს ending instead of -მა: **გიორგის** ეს წიგნი წაუკითხავს — \"Giorgi has read this book.\" No costume; the flip replaces it.\n\nMore of the family: ხინკალი ბევრჯერ **მიჭამია** (\"I've eaten khinkali many times\"), ეს სიმღერა **მომისმენია** (\"I've heard this song before\"), მას თბილისში **უმუშავია** (\"he has worked in Tbilisi\" — with a slight flavor of *apparently*, which this tense often carries).\n\nNegative is easy and very common: ეს ღვინო არ **დამილევია** — \"I've never drunk this wine.\"\n\nDon't panic at the flip — you already speak this pattern. მინდა, მაქვს, მიყვარს all work this way, and you've used them for months. Georgian just invited one more tense to the მ- party.",
+    "examples": [
+      {
+        "ka": "ეს ფილმი მინახავს.",
+        "en": "I've seen this film before."
+      },
+      {
+        "ka": "ხინკალი ბევრჯერ მიჭამია.",
+        "en": "I've eaten khinkali many times."
+      },
+      {
+        "ka": "გიორგის ეს წიგნი წაუკითხავს.",
+        "en": "Giorgi has read this book."
+      },
+      {
+        "ka": "ეს ღვინო არ დამილევია.",
+        "en": "I've never drunk this wine."
+      },
+      {
+        "ka": "მას თბილისში უმუშავია.",
+        "en": "He has worked in Tbilisi."
+      },
+      {
+        "ka": "ეს ამბავი მომისმენია.",
+        "en": "I've heard this story before."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ეს ფილმი ___.",
+          "answer": "მინახავს",
+          "choices": [
+            "მინახავს",
+            "ვნახე",
+            "გინახავს"
+          ],
+          "en": "I've seen this film before."
+        },
+        {
+          "prompt": "___ ეს ქალაქი უნახავს.",
+          "answer": "ნინოს",
+          "choices": [
+            "ნინოს",
+            "ნინომ",
+            "ნინო"
+          ],
+          "en": "Nino has seen this city."
+        },
+        {
+          "prompt": "მას ხაჭაპური ___.",
+          "answer": "უჭამია",
+          "choices": [
+            "უჭამია",
+            "მიჭამია",
+            "ჭამა"
+          ],
+          "en": "She has eaten khachapuri before."
+        },
+        {
+          "prompt": "ეს წიგნი არ ___.",
+          "answer": "წამიკითხავს",
+          "choices": [
+            "წამიკითხავს",
+            "წავიკითხე",
+            "წაუკითხავს"
+          ],
+          "en": "I haven't read this book."
+        },
+        {
+          "prompt": "შენ ეს სიმღერა ___.",
+          "answer": "მოგისმენია",
+          "choices": [
+            "მოგისმენია",
+            "მომისმენია",
+            "მოისმინე"
+          ],
+          "en": "You've heard this song before."
+        },
+        {
+          "prompt": "ჩვენ ეს ___.",
+          "answer": "გვინახავს",
+          "choices": [
+            "გვინახავს",
+            "მინახავს",
+            "ვნახეთ"
+          ],
+          "en": "We've seen this before."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g22",
+    "week": 22,
+    "tag": "perfect",
+    "title": "Have you ever...? გინახავს? გიჭამია?",
+    "explain_md": "Last week's flipped tense has a killer app: the \"have you ever\" conversation. It's one of the friendliest question types in any language, and in Georgia it usually leads directly to someone feeding you.\n\nThe recipe: **გი- form + ოდესმე (\"ever\")**\n\n- **გინახავს** ოდესმე ზღვა? — \"Have you ever seen the sea?\"\n- **გიჭამია** ოდესმე ხინკალი? — \"Have you ever eaten khinkali?\"\n- **დაგილევია** ოდესმე ქართული ღვინო? — \"Have you ever drunk Georgian wine?\"\n\n(ოდესმე can slide around the sentence; right after the verb is a safe home for it.)\n\n**Answering:**\n\n- Yes: კი, მინახავს! — \"Yes, I've seen it!\" Add enthusiasm with ბევრჯერ (\"many times\"): კი, ბევრჯერ მიჭამია!\n- No: არა, არ მინახავს — \"No, I haven't.\" Or with feeling: არასდროს! (\"never!\")\n\n**The champion verb of this game is \"to have been\":**\n\n| | |\n|---|---|\n| **ყოფილხარ** ოდესმე საქართველოში? | Have you ever been to Georgia? |\n| კი, **ვყოფილვარ**! | Yes, I have been! |\n| არა, ჯერ არ **ვყოფილვარ**. | No, I haven't been yet. |\n\nვყოფილვარ / ყოფილხარ / ყოფილა — \"I have been / you have been / he has been.\" That ჯერ არ (\"not yet\") is a lovely, hopeful little phrase: ჯერ არ ვყოფილვარ, მაგრამ მინდა! — \"I haven't been yet, but I want to!\"\n\nThis is prime small-talk machinery. Ask a Georgian გიჭამია ოდესმე...? about any regional dish and you will not remain unfed. Practice both directions this week — asking and answering — because the questions are coming your way too.",
+    "examples": [
+      {
+        "ka": "გინახავს ოდესმე ზღვა?",
+        "en": "Have you ever seen the sea?"
+      },
+      {
+        "ka": "გიჭამია ოდესმე ხინკალი?",
+        "en": "Have you ever eaten khinkali?"
+      },
+      {
+        "ka": "კი, ბევრჯერ მიჭამია!",
+        "en": "Yes, I've had it many times!"
+      },
+      {
+        "ka": "დაგილევია ოდესმე ქართული ღვინო?",
+        "en": "Have you ever drunk Georgian wine?"
+      },
+      {
+        "ka": "ყოფილხარ ოდესმე ბათუმში?",
+        "en": "Have you ever been to Batumi?"
+      },
+      {
+        "ka": "არა, ჯერ არ ვყოფილვარ.",
+        "en": "No, I haven't been yet."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "___ ოდესმე ეს ფილმი?",
+          "answer": "გინახავს",
+          "choices": [
+            "გინახავს",
+            "მინახავს",
+            "ნახე"
+          ],
+          "en": "Have you ever seen this film?"
+        },
+        {
+          "prompt": "___ ოდესმე მწვადი?",
+          "answer": "გიჭამია",
+          "choices": [
+            "გიჭამია",
+            "მიჭამია",
+            "ჭამე"
+          ],
+          "en": "Have you ever eaten mtsvadi?"
+        },
+        {
+          "prompt": "კი, ___.",
+          "answer": "მინახავს",
+          "choices": [
+            "მინახავს",
+            "გინახავს",
+            "ვნახავ"
+          ],
+          "en": "Yes, I've seen it."
+        },
+        {
+          "prompt": "___ ოდესმე თბილისში?",
+          "answer": "ყოფილხარ",
+          "choices": [
+            "ყოფილხარ",
+            "ვყოფილვარ",
+            "იყავი"
+          ],
+          "en": "Have you ever been to Tbilisi?"
+        },
+        {
+          "prompt": "არა, ჯერ არ ___.",
+          "answer": "ვყოფილვარ",
+          "choices": [
+            "ვყოფილვარ",
+            "ყოფილხარ",
+            "ვიყავი"
+          ],
+          "en": "No, I haven't been yet."
+        },
+        {
+          "prompt": "მას ეს სიმღერა ___?",
+          "answer": "მოუსმენია",
+          "choices": [
+            "მოუსმენია",
+            "მოგისმენია",
+            "მოისმინე"
+          ],
+          "en": "Has she heard this song?"
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g23",
+    "week": 23,
+    "tag": "indirect-verbs",
+    "title": "The \"to-me\" family: მიყვარს, მომწონს & friends",
+    "explain_md": "Time to formally meet a family you've been bumping into for months: the feeling verbs. In Georgian, feelings aren't things you *do* — they're things that *happen to you*. So they all wear the მ-/გ- \"to me / to you\" markers up front:\n\n| | love | like | remember | fear | hurt |\n|---|---|---|---|---|---|\n| I | **მი**ყვარს | **მო**მწონს | **მა**ხსოვს | **მე**შინია | **მ**ტკივა |\n| you | **გი**ყვარს | **მო**გწონს | **გა**ხსოვს | **გე**შინია | **გ**ტკივა |\n| he/she | **უ**ყვარს | **მო**სწონს | **ა**ხსოვს | **ე**შინია | **ს**ტკივა |\n\nRead the columns downward and you'll hear the music: მ-, გ-, then a third-person form. Same tune, five instruments.\n\nUsing them is simple — the felt thing sits in plain form:\n\n- საქართველო მიყვარს — \"I love Georgia.\"\n- ეს სიმღერა მომწონს — \"I like this song.\" (მიყვარს is deep love; მომწონს is \"I like/fancy it\" — for songs, cafés, and people you've just met, მომწონს is the safer compliment.)\n- შენი სახელი მახსოვს — \"I remember your name.\"\n- თავი მტკივა — \"my head hurts.\" (Literally \"head hurts-to-me\" — no \"my\" needed; the მ- already says whose head.)\n\nTwo small notes: fear takes -ის on the feared thing — ძაღლების მეშინია (\"I'm afraid of dogs\"); and a named feeler takes -ს: ნინო**ს** უყვარს თბილისი — \"Nino loves Tbilisi.\" Same pattern as გიორგის უნახავს last week — the მ- family and that -ს go hand in hand.\n\nThese five verbs carry an enormous share of real conversation: what you love, what hurts, what scares you, what you remember. Learn the whole grid — your Georgian suddenly gets a heart.",
+    "examples": [
+      {
+        "ka": "საქართველო მიყვარს.",
+        "en": "I love Georgia."
+      },
+      {
+        "ka": "ეს სიმღერა მომწონს.",
+        "en": "I like this song."
+      },
+      {
+        "ka": "შენი სახელი მახსოვს.",
+        "en": "I remember your name."
+      },
+      {
+        "ka": "ძაღლების არ მეშინია.",
+        "en": "I'm not afraid of dogs."
+      },
+      {
+        "ka": "თავი მტკივა.",
+        "en": "My head hurts."
+      },
+      {
+        "ka": "ნინოს თბილისი უყვარს.",
+        "en": "Nino loves Tbilisi."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ეს ქალაქი ___.",
+          "answer": "მიყვარს",
+          "choices": [
+            "მიყვარს",
+            "გიყვარს",
+            "უყვარს"
+          ],
+          "en": "I love this city."
+        },
+        {
+          "prompt": "შენ ეს ფილმი ___?",
+          "answer": "მოგწონს",
+          "choices": [
+            "მოგწონს",
+            "მომწონს",
+            "მოსწონს"
+          ],
+          "en": "Do you like this film?"
+        },
+        {
+          "prompt": "___ ზღვა უყვარს.",
+          "answer": "გიორგის",
+          "choices": [
+            "გიორგის",
+            "გიორგიმ",
+            "გიორგი"
+          ],
+          "en": "Giorgi loves the sea."
+        },
+        {
+          "prompt": "ის დღე კარგად ___.",
+          "answer": "მახსოვს",
+          "choices": [
+            "მახსოვს",
+            "გახსოვს",
+            "ახსოვს"
+          ],
+          "en": "I remember that day well."
+        },
+        {
+          "prompt": "ბავშვს სიბნელის ___.",
+          "answer": "ეშინია",
+          "choices": [
+            "ეშინია",
+            "მეშინია",
+            "გეშინია"
+          ],
+          "en": "The child is afraid of the dark."
+        },
+        {
+          "prompt": "კუჭი ___?",
+          "answer": "გტკივა",
+          "choices": [
+            "გტკივა",
+            "მტკივა",
+            "სტკივა"
+          ],
+          "en": "Does your stomach hurt?"
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g24",
+    "week": 24,
+    "tag": "conditional",
+    "title": "Would and could: the -დი daydream",
+    "explain_md": "Every language needs a daydream mode — \"I *would* travel... it *would* be nice...\" Georgian builds it with one elegant move: **take the future, add -დი** (or -და for he/she).\n\n| future | would |\n|---|---|\n| გავაკეთებ (I'll do) | გავაკეთებ**დი** (I would do) |\n| დავლევ (I'll drink) | დავლევ**დი** (I would drink) |\n| ვიყიდი (I'll buy) | ვიყიდ**დი** (I would buy) |\n| იქნება (it will be) | იქნებო**და** (it would be) |\n\nThe person endings: -დი for I *and* you (context sorts it out), -და for he/she, -დით for we and you-all, -დნენ for they: გააკეთებდი? — \"would you do it?\" მოვიდოდით — \"we would come.\"\n\nWhere you'll actually use it:\n\n- **Soft cravings**: ყავას დავლევდი — \"I could go for a coffee.\" Much gentler than ყავა მინდა; this is how you muse out loud.\n- **Polite enthusiasm**: ეს კარგი იქნებოდა! — \"that would be great!\" and the dreamy ვისურვებდი... — \"I would wish...\"\n- **Ifs and buts**: ამ სახლს ვიყიდდი, მაგრამ ძვირია — \"I'd buy this house, but it's expensive.\"\n- **Advice**: შენს ადგილას წავიდოდი — \"in your place, I would go.\" (\"Go\" and \"come\" build on their future stems with a twist: წავიდოდი, მოვიდოდა, მოხვიდოდი — \"you would come.\")\n\nInvitations get instantly warmer in this mode: ჩვენთან მოხვიდოდი? — \"would you come over to ours?\" — leaves the other person room to breathe.\n\nSpend the week daydreaming on purpose: what would you do with a free month in Georgia? ზღვაზე წავიდოდი... ღვინოს დავლევდი... ბევრს ვილაპარაკებდი ქართულად!",
+    "examples": [
+      {
+        "ka": "ყავას დავლევდი.",
+        "en": "I could go for a coffee."
+      },
+      {
+        "ka": "ეს კარგი იქნებოდა.",
+        "en": "That would be good."
+      },
+      {
+        "ka": "შენს ადგილას წავიდოდი.",
+        "en": "In your place, I would go."
+      },
+      {
+        "ka": "ამ სახლს ვიყიდდი, მაგრამ ძვირია.",
+        "en": "I would buy this house, but it's expensive."
+      },
+      {
+        "ka": "ვისურვებდი შენთან ერთად მოგზაურობას.",
+        "en": "I would love to travel with you."
+      },
+      {
+        "ka": "ხვალ მოხვიდოდი?",
+        "en": "Would you come tomorrow?"
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ჩაის ___.",
+          "answer": "დავლევდი",
+          "choices": [
+            "დავლევდი",
+            "დავლევ",
+            "დალევდა"
+          ],
+          "en": "I would drink tea."
+        },
+        {
+          "prompt": "ეს შესანიშნავი ___.",
+          "answer": "იქნებოდა",
+          "choices": [
+            "იქნებოდა",
+            "იქნება",
+            "იყო"
+          ],
+          "en": "That would be wonderful."
+        },
+        {
+          "prompt": "შენ ამას ___?",
+          "answer": "გააკეთებდი",
+          "choices": [
+            "გააკეთებდი",
+            "გავაკეთებდი",
+            "გააკეთებ"
+          ],
+          "en": "Would you do this?"
+        },
+        {
+          "prompt": "ის აქ ___.",
+          "answer": "იცხოვრებდა",
+          "choices": [
+            "იცხოვრებდა",
+            "ვიცხოვრებდი",
+            "ცხოვრობს"
+          ],
+          "en": "He would live here."
+        },
+        {
+          "prompt": "მე მანქანას ___.",
+          "answer": "ვიყიდდი",
+          "choices": [
+            "ვიყიდდი",
+            "ვიყიდი",
+            "იყიდდა"
+          ],
+          "en": "I would buy a car."
+        },
+        {
+          "prompt": "ჩვენ სიამოვნებით ___.",
+          "answer": "მოვიდოდით",
+          "choices": [
+            "მოვიდოდით",
+            "მოვალთ",
+            "მოვიდოდი"
+          ],
+          "en": "We would gladly come."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g25",
+    "week": 25,
+    "tag": "should",
+    "title": "უნდა: should and must",
+    "explain_md": "Remember უნდა from week 3, meaning \"he/she wants\"? That same little word has a second, even bigger job: **should / must / have to**. The recipe:\n\n**უნდა + a special verb form** (usually the future with its final vowel switched to **-ო**, or **-ე** for go/come verbs):\n\n| future | must |\n|---|---|\n| გავაკეთებ (I'll do) | უნდა გავაკეთ**ო** (I must do) |\n| ვიყიდი (I'll buy) | უნდა ვიყიდ**ო** (I need to buy) |\n| დავწერ (I'll write) | უნდა დავწერ**ო** (I have to write) |\n| წავალ (I'll go) | უნდა წავიდ**ე** (I have to go) |\n\nუნდა itself never changes — the verb after it carries the person, with all the usual markers: უნდა წავიდ**ე** (I must go), უნდა წახვიდ**ე** (you must go), უნდა წავიდ**ეს** (he must go). For he/she, the ending grows an -ს: უნდა გააკეთო**ს**, უნდა დალიო**ს**.\n\nThis structure is everywhere in daily life:\n\n- ახლა უნდა წავიდე — \"I have to go now\" (the universal polite exit line!)\n- პური უნდა ვიყიდო — \"I need to buy bread.\"\n- ხვალ უნდა ვიმუშაო — \"tomorrow I have to work.\"\n- შენ ეს უნდა ნახო! — \"you *have* to see this!\" (also how you rave about films)\n- მან წამალი უნდა დალიოს — \"he must take his medicine.\"\n\nHow do you know which უნდა you're hearing? Easy: \"want\" უნდა comes with a *thing* (მას ყავა უნდა — \"he wants coffee\"), \"must\" უნდა comes with a *verb* (მან ყავა უნდა დალიოს — \"he must drink the coffee\"). Context does the rest — Georgians never mix them up, and soon you won't either.",
+    "examples": [
+      {
+        "ka": "ახლა უნდა წავიდე.",
+        "en": "I have to go now."
+      },
+      {
+        "ka": "ხვალ უნდა ვიმუშაო.",
+        "en": "Tomorrow I have to work."
+      },
+      {
+        "ka": "შენ ეს უნდა ნახო.",
+        "en": "You should see this."
+      },
+      {
+        "ka": "მან წამალი უნდა დალიოს.",
+        "en": "He must take his medicine."
+      },
+      {
+        "ka": "პური უნდა ვიყიდო.",
+        "en": "I need to buy bread."
+      },
+      {
+        "ka": "ადრე უნდა დაიძინო.",
+        "en": "You should go to sleep early."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "მე ახლა უნდა ___.",
+          "answer": "წავიდე",
+          "choices": [
+            "წავიდე",
+            "წავალ",
+            "წახვიდე"
+          ],
+          "en": "I have to go now."
+        },
+        {
+          "prompt": "შენ ეს ფილმი უნდა ___.",
+          "answer": "ნახო",
+          "choices": [
+            "ნახო",
+            "ვნახო",
+            "ნახავ"
+          ],
+          "en": "You should see this film."
+        },
+        {
+          "prompt": "მან მეტი უნდა ___.",
+          "answer": "ისწავლოს",
+          "choices": [
+            "ისწავლოს",
+            "ვისწავლო",
+            "ისწავლის"
+          ],
+          "en": "He must study more."
+        },
+        {
+          "prompt": "ჩვენ ბილეთები უნდა ___.",
+          "answer": "ვიყიდოთ",
+          "choices": [
+            "ვიყიდოთ",
+            "ვიყიდო",
+            "იყიდონ"
+          ],
+          "en": "We need to buy tickets."
+        },
+        {
+          "prompt": "ხვალ ადრე უნდა ___.",
+          "answer": "ავდგე",
+          "choices": [
+            "ავდგე",
+            "ავდგები",
+            "ადგე"
+          ],
+          "en": "Tomorrow I must get up early."
+        },
+        {
+          "prompt": "შენ ექიმთან უნდა ___.",
+          "answer": "წახვიდე",
+          "choices": [
+            "წახვიდე",
+            "წავიდე",
+            "წახვალ"
+          ],
+          "en": "You should go to the doctor."
+        }
+      ]
+    },
+    "verify": false
+  },
+  {
+    "id": "g26",
+    "week": 26,
+    "tag": "connectors",
+    "title": "Connectors: რომ, თუ, როცა & flow",
+    "explain_md": "Week 26. You have tenses, feelings, obligations, and stories. The final upgrade is flow — the little words that weld short sentences into real speech.\n\n**რომ — \"that\".** Joins a thought to a verb of knowing, thinking, wanting: ვიცი, **რომ** ქართული ძნელია — \"I know that Georgian is hard.\" (You're allowed to disagree by now.) In writing, a comma sits before it.\n\nრომ has a power move: with wanting, the second verb goes into last week's უნდა-style form. მინდა, **რომ** ქართულად ვილაპარაკო — \"I want to speak Georgian.\" Want + რომ + the -ო form — you built that machinery last week; რომ just plugs into it.\n\n**თუ — \"if\".** **თუ** დრო გაქვს, მოდი — \"if you have time, come.\" **თუ** გინდა, ერთად წავიდეთ — \"if you want, let's go together\" (that წავიდეთ is a friendly \"let's go\" — the we-form of the -ე family).\n\n**როცა — \"when\".** **როცა** მოვალ, დაგირეკავ — \"when I come, I'll call you.\" Look at დაგირეკავ flexing week 7 and week 11 at once: გ- (\"you\") inside a future verb.\n\n**იმიტომ რომ — \"because\".** The answer to every რატომ: მიყვარს თბილისი, **იმიტომ რომ** ლამაზია — \"I love Tbilisi because it's beautiful.\"\n\nAnd your old friends **და** (\"and\") and **მაგრამ** (\"but\") tie off the seams: ვისწავლი, მაგრამ დრო მჭირდება — \"I'll learn, but I need time.\"\n\nThat sentence, by the way, is true — and look how far you've come: twenty-six weeks ago you learned ვარ. Now you can say what you did, what you'd do, what you must do, and *why*. გილოცავ — ეს შენ გააკეთე. Keep going: ეს მხოლოდ დასაწყისია!",
+    "examples": [
+      {
+        "ka": "ვიცი, რომ ქართული ძნელია.",
+        "en": "I know that Georgian is hard."
+      },
+      {
+        "ka": "თუ გინდა, ერთად წავიდეთ.",
+        "en": "If you want, let's go together."
+      },
+      {
+        "ka": "როცა მოვალ, დაგირეკავ.",
+        "en": "When I come, I'll call you."
+      },
+      {
+        "ka": "მიყვარს თბილისი, იმიტომ რომ ლამაზია.",
+        "en": "I love Tbilisi because it's beautiful."
+      },
+      {
+        "ka": "მინდა, რომ ქართულად ვილაპარაკო.",
+        "en": "I want to speak Georgian."
+      },
+      {
+        "ka": "ვისწავლი, მაგრამ დრო მჭირდება.",
+        "en": "I'll learn, but I need time."
+      }
+    ],
+    "drill": {
+      "type": "choice",
+      "items": [
+        {
+          "prompt": "ვიცი, ___ მართალი ხარ.",
+          "answer": "რომ",
+          "choices": [
+            "რომ",
+            "თუ",
+            "როცა"
+          ],
+          "en": "I know that you're right."
+        },
+        {
+          "prompt": "___ დრო გაქვს, მოდი.",
+          "answer": "თუ",
+          "choices": [
+            "თუ",
+            "რომ",
+            "მაგრამ"
+          ],
+          "en": "If you have time, come."
+        },
+        {
+          "prompt": "___ სახლში მოვალ, ვისადილებ.",
+          "answer": "როცა",
+          "choices": [
+            "როცა",
+            "თუ",
+            "რომ"
+          ],
+          "en": "When I come home, I'll have lunch."
+        },
+        {
+          "prompt": "ვსწავლობ ქართულს, ___ საქართველო მიყვარს.",
+          "answer": "იმიტომ რომ",
+          "choices": [
+            "იმიტომ რომ",
+            "რომ",
+            "თუ"
+          ],
+          "en": "I'm learning Georgian because I love Georgia."
+        },
+        {
+          "prompt": "მინდა, ___ ბევრი ვიმოგზაურო.",
+          "answer": "რომ",
+          "choices": [
+            "რომ",
+            "როცა",
+            "თუ"
+          ],
+          "en": "I want to travel a lot."
+        },
+        {
+          "prompt": "მოვალ, ___ გვიან.",
+          "answer": "მაგრამ",
+          "choices": [
+            "მაგრამ",
+            "და",
+            "თუ"
+          ],
+          "en": "I'll come, but late."
+        }
+      ]
+    },
+    "verify": false
+  }
+]
