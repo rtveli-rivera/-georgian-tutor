@@ -62,6 +62,55 @@ export function genScramble(week, rng) {
 
 // (Listen & type removed — TTS-dependent; see backup/pre-voice-removal/)
 
+// --- Fill the gap, WRITING it (workbook-style, à la Javakhidze) ---
+// Half the items come from the curated grammar drills (typed instead of
+// multiple-choice), half are vocab sentences with the headword blanked out.
+export function genGapFill(week, rng) {
+  const fromGrammar = rng() < 0.5 ? gapFromGrammar(week, rng) : null;
+  return fromGrammar || gapFromSentence(week, rng) || gapFromGrammar(week, rng);
+}
+
+function gapFromGrammar(week, rng) {
+  const items = [];
+  for (const g of DATA.grammar) {
+    if (g.week > week) continue;
+    for (const it of (g.drill && g.drill.items) || []) items.push({ ...it, lessonTag: g.tag });
+  }
+  if (!items.length) return null;
+  const it = pick(items, rng);
+  return {
+    type: 'gap-fill', skill: 'writing',
+    prompt: it.prompt, answers: it.answer.split('/').map(a => a.trim()),
+    en: it.en, hint: `grammar: ${it.lessonTag}`,
+  };
+}
+
+function gapFromSentence(week, rng) {
+  const pool = [];
+  for (const v of DATA.vocab) {
+    if ((v.week || 1) > week) continue;
+    const stem = v.ka.slice(0, Math.max(2, v.ka.length - 2));
+    for (const s of v.sentences || []) {
+      const words = s.ka.split(/\s+/);
+      const idx = words.findIndex(w => w.replace(/[.,!?]/g, '').startsWith(stem));
+      if (idx === -1 || words.length < 3) continue;
+      const answer = words[idx].replace(/[.,!?]/g, '');
+      pool.push({ prompt: words.map((w, i) => i === idx ? w.replace(answer, '___') : w).join(' '), answer, en: s.en, hint: v.en });
+    }
+  }
+  if (!pool.length) return null;
+  const it = pick(pool, rng);
+  return { type: 'gap-fill', skill: 'writing', prompt: it.prompt, answers: [it.answer], en: it.en, hint: it.hint };
+}
+
+// --- Answer the question in writing ---
+export function genQA(week, rng) {
+  const pool = (DATA.qa || []).filter(q => q.minWeek <= week);
+  if (!pool.length) return null;
+  const q = pick(pool, rng);
+  return { type: 'qa', skill: 'writing', ...q };
+}
+
 // --- Register switch შენ ↔ თქვენ ---
 export function genRegister(rng) {
   if (!DATA.register.length) return null;
@@ -151,6 +200,8 @@ export function generate(type, week, rng) {
     case 'translate': return genTranslate(week, rng);
     case 'conj-slot': return genConjSlot(week, rng);
     case 'scramble': return genScramble(week, rng);
+    case 'gap-fill': return genGapFill(week, rng);
+    case 'qa': return genQA(week, rng);
     case 'register': return genRegister(rng);
     case 'cloze': return genCloze(week, rng);
     case 'dialogue-completion': return genDialogueCompletion(week, rng);
@@ -161,6 +212,8 @@ export function generate(type, week, rng) {
 }
 
 export const EXERCISE_TYPES = [
+  { id: 'gap-fill', label: 'Fill the gap (write it)', skill: 'writing' },
+  { id: 'qa', label: 'Answer the question (write it)', skill: 'writing' },
   { id: 'cloze', label: 'Cloze: endings & markers', skill: 'grammar' },
   { id: 'conj-slot', label: 'Conjugation slot machine', skill: 'grammar' },
   { id: 'scramble', label: 'Unscramble the sentence', skill: 'grammar' },

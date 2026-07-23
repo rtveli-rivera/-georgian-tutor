@@ -13,6 +13,7 @@ export const DATA = {
   curriculum: [],
   speakerTasks: [],
   register: [],
+  qa: [],
   pronunciation: { contrasts: [], ladders: [], minimalPairs: [] },
   loadErrors: [],
 };
@@ -29,13 +30,13 @@ async function fetchJson(path) {
 }
 
 export async function loadData() {
-  const [v1, v2, v3, d1, d2, k1, k2, gram, curr, st, reg, pron] = await Promise.all([
+  const [v1, v2, v3, d1, d2, k1, k2, gram, curr, st, reg, pron, qa] = await Promise.all([
     fetchJson('data/vocab1.json'), fetchJson('data/vocab2.json'), fetchJson('data/vocab3.json'),
     fetchJson('data/dialogues1.json'), fetchJson('data/dialogues2.json'),
     fetchJson('data/verbs1.json'), fetchJson('data/verbs2.json'),
     fetchJson('data/grammar.json'), fetchJson('data/curriculum.json'),
     fetchJson('data/speaker_tasks.json'), fetchJson('data/register.json'),
-    fetchJson('data/pronunciation.json'),
+    fetchJson('data/pronunciation.json'), fetchJson('data/qa.json'),
   ]);
 
   // vocab: merge seed + custom, dedupe on headword+meaning (keep lowest rank).
@@ -65,6 +66,7 @@ export async function loadData() {
   DATA.speakerTasks = st || [];
   DATA.register = reg || [];
   if (pron) DATA.pronunciation = pron;
+  DATA.qa = qa || [];
   return DATA;
 }
 

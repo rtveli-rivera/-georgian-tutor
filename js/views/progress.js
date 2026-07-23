@@ -33,7 +33,7 @@ export async function renderProgressView(container) {
       stat(String(reviews.length), 'total reviews'))));
 
   // per-skill accuracy
-  const skills = ['pronunciation', 'grammar', 'listening', 'speaking'];
+  const skills = ['pronunciation', 'grammar', 'listening', 'speaking', 'writing'];
   container.append(el('div', { class: 'card' },
     el('h2', {}, 'Per-skill accuracy'),
     el('div', { class: 'statgrid' }, skills.map(s => {

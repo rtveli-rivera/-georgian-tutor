@@ -18,6 +18,8 @@ export function renderExercise(container, spec, onDone) {
     case 'translate': return rTranslate(container, spec, done);
     case 'conj-slot': return rConjSlot(container, spec, done);
     case 'scramble': return rScramble(container, spec, done);
+    case 'gap-fill': return rGapFill(container, spec, done);
+    case 'qa': return rQA(container, spec, done);
     case 'register': return rRegister(container, spec, done);
     case 'cloze': return rCloze(container, spec, done);
     case 'dialogue-completion': return rDialogueCompletion(container, spec, done);
@@ -128,6 +130,74 @@ function rScramble(c, spec, done) {
 }
 
 // (Listen & type removed — TTS-dependent; see backup/pre-voice-removal/)
+
+// --- Fill the gap, writing it (workbook-style) ---
+function rGapFill(c, spec, done) {
+  const input = answerBox('ჩაწერე გამოტოვებული სიტყვა…');
+  const out = el('div');
+  c.append(
+    el('p', { class: 'muted' }, '✍️ Write the missing word:'),
+    el('div', { class: 'ka-md' }, spec.prompt.replace('___', '＿＿＿')),
+    el('p', { class: 'en small' }, spec.en, spec.hint ? ` · hint: ${spec.hint}` : ''),
+    input,
+    el('div', { class: 'row', style: 'margin-top:10px' },
+      checkBtn('Check', check),
+      el('button', { class: 'btn secondary', onclick: reveal }, 'Show answer')),
+    out);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') check(); });
+  input.focus();
+  function full() { return spec.prompt.replace('___', spec.answers[0]); }
+  function check() {
+    const ok = spec.answers.some(a => normalize(a) === normalize(input.value));
+    clear(out);
+    out.append(ok ? feedback(true, `✓ ${full()}`) : feedback(false, `✗ ${full()}`),
+      el('div', { class: 'row', style: 'margin-top:6px' }, audioBtn(full())));
+    done({ ok });
+  }
+  function reveal() {
+    clear(out);
+    out.append(el('div', { class: 'ka-md' }, full(), ' ', audioBtn(full())));
+    done({ ok: false });
+  }
+}
+
+// --- Answer the question in writing ---
+function rQA(c, spec, done) {
+  const ta = el('textarea', { placeholder: 'დაწერე პასუხი ქართულად…', lang: 'ka', style: 'font-size:1.3rem;min-height:60px' });
+  const out = el('div');
+  c.append(
+    el('p', { class: 'muted' }, '✍️ Answer in writing — full sentence:'),
+    el('div', { class: 'ka-md' }, spec.q_ka, ' ', audioBtn(spec.q_ka)),
+    el('p', { class: 'en small' }, spec.q_en),
+    ta,
+    el('div', { class: 'row', style: 'margin-top:10px' }, checkBtn('Check', check)),
+    out);
+  ta.focus();
+  function modelList() {
+    return el('div', { style: 'margin:8px 0' },
+      el('p', { class: 'small muted' }, 'Model answer' + (spec.model.length > 1 ? 's' : '') + ':'),
+      ...spec.model.map(m => el('div', { class: 'ka-md' }, m, ' ', audioBtn(m))));
+  }
+  function check() {
+    const mine = normalize(ta.value);
+    clear(out);
+    if (!mine) { out.append(feedback(false, 'Write something first — even a short answer counts.')); return; }
+    if (spec.model.some(m => normalize(m) === mine)) {
+      out.append(feedback(true, '✓ Perfect — matches a model answer.'));
+      done({ ok: true });
+      return;
+    }
+    const hitKeyword = (spec.keywords || []).some(k => mine.includes(normalize(k)));
+    out.append(
+      hitKeyword
+        ? feedback(true, '✓ Key form is in there — compare with the model for polish:')
+        : feedback(false, 'Compare with the model — is your verb form right?'),
+      modelList(),
+      el('div', { class: 'row' },
+        el('button', { class: 'btn green small', onclick: () => done({ ok: true }) }, 'Mine was right'),
+        el('button', { class: 'btn secondary small', onclick: () => done({ ok: false }) }, 'Mine was wrong')));
+  }
+}
 
 // --- Register switch ---
 function rRegister(c, spec, done) {

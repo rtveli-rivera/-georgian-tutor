@@ -41,13 +41,13 @@ export async function currentWeek() {
 // Rotation of production exercises by weekday (Sun..Sat).
 // Wednesday = weekly cluster ladder; Saturday = weekly 60s free talk.
 const PRODUCTION_ROTATION = [
-  'translate',            // Sun
-  'conj-slot',            // Mon
-  'scramble',             // Tue
-  'cluster-ladder',       // Wed
-  'dialogue-completion',  // Thu
-  'register',             // Fri
-  'free-talk',            // Sat
+  'translate',      // Sun
+  'conj-slot',      // Mon
+  'gap-fill',       // Tue — write the missing word (workbook-style)
+  'cluster-ladder', // Wed
+  'qa',             // Thu — answer the question in writing
+  'register',       // Fri
+  'free-talk',      // Sat
 ];
 
 export async function generateToday() {
