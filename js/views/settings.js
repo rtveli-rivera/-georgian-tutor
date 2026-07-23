@@ -3,7 +3,7 @@ import { el, clear } from '../ui.js';
 import { getState, setState, getAll, openDB } from '../db.js';
 import { currentWeek } from '../lesson.js';
 import { hasKaVoice, speak, noVoiceMsg, voiceCount } from '../tts.js';
-import { remindersEnabled, setRemindersEnabled } from '../reminders.js';
+import { remindersEnabled, setRemindersEnabled, checkForUpdate } from '../reminders.js';
 import { APP_VERSION } from '../app.js';
 import { AZURE_VOICES, azureCfg, azureEnabled, saveAzureCfg, azureTest } from '../azuretts.js';
 import { playBlob } from '../recorder.js';
@@ -62,8 +62,26 @@ export async function renderSettingsView(container) {
             location.reload();
           },
         }, '🗑 Reset progress'))),
-    el('p', { class: 'small muted' }, `Kartuli Coach v${APP_VERSION}`),
+    el('div', { class: 'row' },
+      el('span', { class: 'small muted' }, `Kartuli Coach v${APP_VERSION}`),
+      updateChecker()),
   ));
+
+  function updateChecker() {
+    const msg = el('span', { class: 'small muted' });
+    const btn = el('button', {
+      class: 'btn secondary small', onclick: async () => {
+        btn.disabled = true;
+        msg.textContent = ' checking…';
+        const r = await checkForUpdate();
+        btn.disabled = false;
+        if (r === 'update-ready') msg.textContent = ' New version found — use the Update banner at the top ↑';
+        else if (r === 'latest') msg.textContent = ' ✓ You’re on the latest version.';
+        else msg.textContent = ' Updates unavailable here (no service worker — plain http?).';
+      },
+    }, '⟳ Check for updates');
+    return el('span', { class: 'row' }, btn, msg);
+  }
 
   function azureSection() {
     const cfg = azureCfg() || { enabled: false, region: '', key: '', voice: AZURE_VOICES[0].id };

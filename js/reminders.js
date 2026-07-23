@@ -26,8 +26,14 @@ export async function initServiceWorker(onUpdateReady) {
     return null;
   }
 
-  // Update flow: a new waiting worker → tell the app to show the banner.
-  const notifyIfWaiting = () => { if (_reg.waiting && onUpdateReady) onUpdateReady(applyUpdate); };
+  // Update flow: a new waiting worker → tell the app to show the banner (once).
+  let bannerShown = false;
+  const notifyIfWaiting = () => {
+    if (_reg.waiting && onUpdateReady && !bannerShown) {
+      bannerShown = true;
+      onUpdateReady(applyUpdate);
+    }
+  };
   notifyIfWaiting();
   _reg.addEventListener('updatefound', () => {
     const nw = _reg.installing;
@@ -43,15 +49,33 @@ export async function initServiceWorker(onUpdateReady) {
     location.reload();
   });
 
-  // Check for a new version on focus and hourly.
+  // Check for a new version whenever the app comes to the foreground and hourly.
+  // visibilitychange matters on mobile: an installed Android app usually
+  // RESUMES (no reload, no focus event), so it's the only signal that fires.
   const check = () => _reg.update().catch(() => {});
   window.addEventListener('focus', check);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') check();
+  });
   setInterval(check, 60 * 60 * 1000);
   return _reg;
 }
 
 function applyUpdate() {
   if (_reg && _reg.waiting) _reg.waiting.postMessage({ type: 'SKIP_WAITING' });
+}
+
+// Manual check from Settings. Returns 'update-ready' | 'latest' | 'no-sw'.
+export async function checkForUpdate() {
+  if (!_reg) return 'no-sw';
+  try { await _reg.update(); } catch { /* offline etc. */ }
+  // Give a found update a moment to reach the waiting state.
+  for (let i = 0; i < 20; i++) {
+    if (_reg.waiting) return 'update-ready';
+    if (!_reg.installing) break;
+    await new Promise(r => setTimeout(r, 250));
+  }
+  return _reg.waiting ? 'update-ready' : 'latest';
 }
 
 // ---- reminder preference -------------------------------------------------
