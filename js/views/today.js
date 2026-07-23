@@ -21,8 +21,18 @@ export async function renderTodayView(container) {
   const plan = await generateToday();
   const rng = seededRng(plan.date + ':prod');
   const doneLog = await getState('lessonLog', {});
-  let step = 0;
-  const stats = { reviews: null, production: null };
+
+  // Resume where you left off: the day's position survives closing the app,
+  // navigating away, or reloading. Card grades were always saved per swipe.
+  const saved = await getState('dayProgress', null);
+  const resume = !!(saved && saved.date === plan.date);
+  let step = resume ? Math.min(saved.step || 0, STEP_META.length) : 0;
+  let maxStep = resume ? Math.max(saved.maxStep || 0, step) : 0;
+  const stats = (resume && saved.stats) ? saved.stats : { reviews: null, production: null };
+
+  function persist() {
+    setState('dayProgress', { date: plan.date, step, maxStep, stats });
+  }
 
   const header = el('div', { class: 'card' });
   const body = el('div');
@@ -39,13 +49,20 @@ export async function renderTodayView(container) {
           el('div', { class: 'small muted' }, cw ? cw.focus : '')),
         doneLog[plan.date] ? el('span', { class: 'chip' }, '✅ done today') : null),
       el('div', { class: 'row', style: 'margin-top:10px;gap:6px' },
-        STEP_META.map((s, idx) => el('span', {
-          class: 'chip small',
-          style: idx === step ? 'background:var(--accent);color:#fff;border-color:var(--accent)' : (idx < step ? 'opacity:.5' : ''),
-        }, `${idx < step ? '✓' : s.mins + "'"} ${s.label}`))));
+        STEP_META.map((s, idx) => {
+          const done = idx < maxStep || (doneLog[plan.date] && doneLog[plan.date].completed);
+          return el('button', {
+            class: 'chip small step-chip',
+            style: idx === step ? 'background:var(--accent);color:#fff;border-color:var(--accent)' : (done ? 'opacity:.65' : ''),
+            title: 'Jump to this step',
+            onclick: () => { step = idx; persist(); renderStep(); },
+          }, `${done && idx !== step ? '✓ ' : s.mins + "' "}${s.label}`);
+        })),
+      el('div', { class: 'small muted', style: 'margin-top:6px' },
+        'Tap any step to jump around — your place is saved all day, even if you close the app.'));
   }
 
-  function next() { step++; renderStep(); }
+  function next() { step++; maxStep = Math.max(maxStep, step); persist(); renderStep(); }
 
   function renderStep() {
     renderHeader();
@@ -241,19 +258,29 @@ export async function renderTodayView(container) {
       reviews: stats.reviews, production: plan.production, productionResult: stats.production,
     };
     await setState('lessonLog', log);
+    doneLog[plan.date] = log[plan.date];
     const s = await bumpStreak();
     step = STEP_META.length;
+    maxStep = STEP_META.length;
+    persist();
+    renderDone(s);
+    document.getElementById('streak-chip').textContent = `🔥 ${s.count}`;
+  }
+
+  function renderDone(streak) {
     renderHeader();
     clear(body);
     body.append(el('div', { class: 'card', style: 'text-align:center' },
       el('h2', {}, 'გილოცავ! Lesson complete 🎉'),
-      el('p', { class: 'muted' }, `Streak: 🔥 ${s.count} day${s.count === 1 ? '' : 's'}`),
+      streak ? el('p', { class: 'muted' }, `Streak: 🔥 ${streak.count} day${streak.count === 1 ? '' : 's'}`) : null,
       el('p', { class: 'ka-md' }, 'ხვალამდე! ', audioBtn('ხვალამდე!')),
-      el('p', { class: 'en small' }, 'See you tomorrow!')));
-    document.getElementById('streak-chip').textContent = `🔥 ${s.count}`;
+      el('p', { class: 'en small' }, 'See you tomorrow! (You can still tap any step above to revisit it.)')));
   }
 
-  function stepDone(host) { finish(); }
+  function stepDone(host) {
+    if (doneLog[plan.date] && doneLog[plan.date].completed) return renderDone(null);
+    finish();
+  }
 
   renderStep();
 }

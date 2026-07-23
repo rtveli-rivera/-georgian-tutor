@@ -28,6 +28,8 @@ body { margin: 0; font-family: 'Segoe UI', system-ui, sans-serif; background: va
 .brand-ka { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
 .brand-en { color: var(--muted); font-size: .9rem; margin-left: 6px; }
 .chip { background: var(--panel); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px; font-size: .9rem; box-shadow: var(--shadow); }
+button.step-chip { cursor: pointer; font-family: inherit; color: var(--ink); }
+button.step-chip:hover { border-color: var(--accent); }
 
 #nav { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 14px; position: sticky; top: 0; background: var(--bg); padding: 6px 0; z-index: 5; }
 #nav button { border: 1px solid var(--border); background: var(--panel); color: var(--ink); padding: 7px 12px; border-radius: 999px; cursor: pointer; font-size: .88rem; }
