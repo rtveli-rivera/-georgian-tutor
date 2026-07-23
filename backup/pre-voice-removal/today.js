@@ -65,8 +65,8 @@ export async function renderTodayView(container) {
   // --- 1. Warm-up: shadow 3 sentences ---
   function stepWarmup(host) {
     host.append(
-      el('h2', {}, "2' · Warm-up: yesterday, out loud"),
-      el('p', { class: 'small muted' }, 'Read each sentence aloud three times — full speed, like you mean it — then record one take and listen back.'));
+      el('h2', {}, "2' · Warm-up: shadow yesterday"),
+      el('p', { class: 'small muted' }, 'Play each sentence, speak along with it (shadowing), then record yourself once and compare.'));
     for (const s of plan.warmup) {
       host.append(el('div', { style: 'margin:14px 0' },
         el('div', { class: 'ka-md' }, s, ' ', audioBtn(s), slowBtn(s)),

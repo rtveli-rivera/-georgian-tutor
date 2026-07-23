@@ -60,7 +60,13 @@ export function genScramble(week, rng) {
   return { type: 'scramble', skill: 'grammar', words, scrambled: scrambledWords, en: s.en, ka: s.ka };
 }
 
-// (Listen & type removed — TTS-dependent; see backup/pre-voice-removal/)
+// --- Listen and type ---
+export function genListenType(week, rng) {
+  const pool = goodSentences(week, 3, 7);
+  if (!pool.length) return null;
+  const s = pick(pool, rng);
+  return { type: 'listen-type', skill: 'listening', ka: s.ka, en: s.en };
+}
 
 // --- Register switch შენ ↔ თქვენ ---
 export function genRegister(rng) {
@@ -151,6 +157,7 @@ export function generate(type, week, rng) {
     case 'translate': return genTranslate(week, rng);
     case 'conj-slot': return genConjSlot(week, rng);
     case 'scramble': return genScramble(week, rng);
+    case 'listen-type': return genListenType(week, rng);
     case 'register': return genRegister(rng);
     case 'cloze': return genCloze(week, rng);
     case 'dialogue-completion': return genDialogueCompletion(week, rng);
@@ -164,6 +171,7 @@ export const EXERCISE_TYPES = [
   { id: 'cloze', label: 'Cloze: endings & markers', skill: 'grammar' },
   { id: 'conj-slot', label: 'Conjugation slot machine', skill: 'grammar' },
   { id: 'scramble', label: 'Unscramble the sentence', skill: 'grammar' },
+  { id: 'listen-type', label: 'Listen & type', skill: 'listening' },
   { id: 'translate', label: 'English → Georgian', skill: 'grammar' },
   { id: 'describe', label: 'Describe it (keyword coverage)', skill: 'speaking' },
   { id: 'dialogue-completion', label: 'Complete the dialogue', skill: 'listening' },

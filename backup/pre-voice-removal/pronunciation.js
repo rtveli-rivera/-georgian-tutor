@@ -1,9 +1,10 @@
 // views/pronunciation.js — ejective/aspirate discrimination, ყ, cluster ladders,
 // record-and-compare. Georgian's hard sounds, drilled.
-import { el, clear, audioBtn } from '../ui.js';
+import { el, clear, audioBtn, slowBtn, feedback } from '../ui.js';
 import { DATA } from '../data.js';
 import { speak } from '../tts.js';
 import { recordCompare } from './exercise.js';
+import { bumpSkill } from './practice.js';
 
 export function renderPronView(container) {
   clear(container);
@@ -15,8 +16,10 @@ export function renderPronView(container) {
       'Ejectives (წ ჭ კ პ ტ) pop from a closed throat with zero breath; their partners (ც ჩ ქ ფ თ) are breathy like English. ',
       'ყ is made even deeper. Train your ear first, then your mouth.')));
 
-  // (Ear-training discrimination game removed — TTS-dependent;
-  //  see backup/pre-voice-removal/pronunciation.js to restore.)
+  // --- discrimination game ---
+  const game = el('div', { class: 'card' });
+  container.append(game);
+  renderGame(game, pron);
 
   // --- browse contrasts ---
   for (const c of pron.contrasts) {
@@ -38,8 +41,8 @@ export function renderPronView(container) {
           el('span', { class: 'muted' }, ' vs '),
           el('span', { class: 'ka-md' }, m.b), audioBtn(m.b), el('span', { class: 'en small' }, m.enB))));
     }
-    card.append(el('h3', {}, 'Record yourself'),
-      el('p', { class: 'small muted' }, 'Say the tight-column words aloud, record, and listen back — then get your speakers to say them and compare by ear:'),
+    card.append(el('h3', {}, 'Record & compare'),
+      el('p', { class: 'small muted' }, 'Say the first tight word, then compare against the model:'),
       recordCompare(c.ejective[0]));
     container.append(card);
   }
@@ -64,5 +67,44 @@ function wordCell(w) {
   return el('div', { class: 'pron-word', onclick: () => speak(w, { rate: 0.8 }) }, w);
 }
 
-// (renderGame — the ear-training discrimination drill — removed with the
-//  voice exercises; restore from backup/pre-voice-removal/pronunciation.js.)
+// Minimal-pair listening discrimination: hear one word, click which column it was.
+function renderGame(host, pron) {
+  clear(host);
+  let round = 0, right = 0;
+  host.append(el('h2', {}, '🎯 Ear training: which did you hear?'),
+    el('p', { class: 'small muted' }, 'Press play, then pick the word. 10 rounds.'));
+  const arena = el('div');
+  host.append(arena);
+  nextRound();
+
+  function nextRound() {
+    clear(arena);
+    if (round >= 10) {
+      arena.append(feedback(right >= 7, `Score: ${right}/10 ${right >= 7 ? '— sharp ears! 🎉' : '— keep training, it comes.'}`),
+        el('button', { class: 'btn secondary small', style: 'margin-top:8px', onclick: () => renderGame(host, pron) }, 'Play again'));
+      bumpSkill('pronunciation', right >= 7);
+      return;
+    }
+    const c = pron.contrasts[Math.floor(Math.random() * pron.contrasts.length)];
+    const useEj = Math.random() < 0.5;
+    const i = Math.floor(Math.random() * Math.min(c.ejective.length, c.aspirate.length));
+    const target = useEj ? c.ejective[i] : c.aspirate[i];
+    const pair = [c.ejective[i], c.aspirate[i]];
+    arena.append(
+      el('p', {}, `Round ${round + 1}/10 · contrast ${c.pair}`),
+      el('div', { class: 'row' },
+        el('button', { class: 'btn', onclick: () => speak(target, { rate: 0.8 }) }, '🔊 Play'),
+        el('button', { class: 'btn secondary small', onclick: () => speak(target, { rate: 0.55 }) }, '🐢 Slow')),
+      el('div', { class: 'pair-col', style: 'margin-top:10px;max-width:420px' },
+        ...pair.map(w => el('div', {
+          class: 'pron-word', onclick: (e) => {
+            const ok = w === target;
+            if (ok) right++;
+            e.target.style.borderColor = ok ? 'var(--green)' : 'var(--accent)';
+            round++;
+            setTimeout(nextRound, 650);
+          },
+        }, w))));
+    setTimeout(() => speak(target, { rate: 0.8 }), 300);
+  }
+}

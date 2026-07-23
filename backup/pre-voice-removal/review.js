@@ -5,6 +5,7 @@ import { schedule } from '../srs.js';
 import { saveCard, logReview, allCards } from '../cards.js';
 import { buildQueue } from '../srs.js';
 import { DATA } from '../data.js';
+import { speak } from '../tts.js';
 
 const GRADE_LABELS = [null, 'Again', 'Hard', 'Good', 'Easy'];
 
@@ -52,6 +53,7 @@ export function reviewSession(container, queue, onFinish) {
       }, el('b', {}, String(g)), GRADE_LABELS[g])));
 
     container.append(bar, el('div', { class: 'small muted', style: 'margin-bottom:6px' }, `${pending} left`), face, flipped ? grades : el('div'));
+    if (!flipped && card.type === 'sentence') speak(card.front);
   }
 
   function flip() { flipped = !flipped; render(); }

@@ -3,6 +3,7 @@ import { el, clear, audioBtn, slowBtn, feedback } from '../ui.js';
 import { normalize, checkForm } from '../conjugation.js';
 import { DATA } from '../data.js';
 import { scoreKeywords } from '../exercises.js';
+import { speak } from '../tts.js';
 import { startRecording, stopRecording, isRecording, playBlob, saveRecording } from '../recorder.js';
 
 // onDone({ok: bool|null, score?: string}) — called once when the learner finishes.
@@ -18,6 +19,7 @@ export function renderExercise(container, spec, onDone) {
     case 'translate': return rTranslate(container, spec, done);
     case 'conj-slot': return rConjSlot(container, spec, done);
     case 'scramble': return rScramble(container, spec, done);
+    case 'listen-type': return rListenType(container, spec, done);
     case 'register': return rRegister(container, spec, done);
     case 'cloze': return rCloze(container, spec, done);
     case 'dialogue-completion': return rDialogueCompletion(container, spec, done);
@@ -127,7 +129,26 @@ function rScramble(c, spec, done) {
   }
 }
 
-// (Listen & type removed — TTS-dependent; see backup/pre-voice-removal/)
+// --- Listen & type ---
+function rListenType(c, spec, done) {
+  const input = answerBox('რა გაიგონე?');
+  const out = el('div');
+  c.append(
+    el('p', { class: 'muted' }, '🎧 Listen, then type what you hear:'),
+    el('div', { class: 'row' }, audioBtn(spec.ka), slowBtn(spec.ka)),
+    input,
+    el('div', { class: 'row', style: 'margin-top:10px' }, checkBtn('Check', check)),
+    out);
+  speak(spec.ka);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') check(); });
+  function check() {
+    const ok = normalize(input.value) === normalize(spec.ka);
+    clear(out);
+    out.append(ok ? feedback(true, `✓ ${spec.ka}`) : feedback(false, `✗ It was: ${spec.ka}`),
+      el('div', { class: 'en small' }, spec.en));
+    done({ ok });
+  }
+}
 
 // --- Register switch ---
 function rRegister(c, spec, done) {
@@ -265,14 +286,15 @@ function rClusterLadder(c, spec, done) {
     out);
 }
 
-// Shared record-and-listen-back widget. (The TTS "▶ Model" comparison was
-// removed with the voice exercises — see backup/pre-voice-removal/.)
+// Shared record-and-compare widget (model audio vs your recording).
 export function recordCompare(modelText, onRecorded = null) {
   const wrap = el('div', { class: 'row', style: 'margin-top:10px' });
   let myBlob = null;
   const recBtn = el('button', { class: 'btn secondary small', onclick: toggle }, '🎙 Record me');
-  const playMine = el('button', { class: 'btn secondary small', disabled: 'true', onclick: () => myBlob && playBlob(myBlob) }, '▶ Play back');
-  wrap.append(recBtn, playMine);
+  const playMine = el('button', { class: 'btn secondary small', disabled: 'true', onclick: () => myBlob && playBlob(myBlob) }, '▶ Me');
+  const playModel = el('button', { class: 'btn secondary small', onclick: () => speak(modelText, { rate: 0.85 }) }, '▶ Model');
+  const both = el('button', { class: 'btn secondary small', disabled: 'true', onclick: playBoth }, '▶ Model → Me');
+  wrap.append(playModel, recBtn, playMine, both);
   async function toggle() {
     if (!isRecording()) {
       try { await startRecording(); } catch (e) { alert('Microphone unavailable: ' + e.message); return; }
@@ -282,8 +304,12 @@ export function recordCompare(modelText, onRecorded = null) {
       myBlob = await stopRecording();
       recBtn.textContent = '🎙 Re-record';
       playMine.removeAttribute('disabled');
+      both.removeAttribute('disabled');
       if (onRecorded) onRecorded(myBlob);
     }
+  }
+  function playBoth() {
+    speak(modelText, { rate: 0.85, onend: () => setTimeout(() => myBlob && playBlob(myBlob), 250) });
   }
   return wrap;
 }
