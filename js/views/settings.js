@@ -2,7 +2,7 @@
 import { el, clear } from '../ui.js';
 import { getState, setState, getAll, openDB } from '../db.js';
 import { currentWeek } from '../lesson.js';
-import { hasKaVoice, speak, NO_VOICE_MSG } from '../tts.js';
+import { hasKaVoice, speak, noVoiceMsg, voiceCount } from '../tts.js';
 import { remindersEnabled, setRemindersEnabled } from '../reminders.js';
 import { APP_VERSION } from '../app.js';
 
@@ -37,7 +37,8 @@ export async function renderSettingsView(container) {
       el('h3', {}, 'Georgian voice (TTS)'),
       hasKaVoice()
         ? el('p', { class: 'small', style: 'color:var(--green)' }, '✓ Georgian (ka-GE) voice found.')
-        : el('p', { class: 'small muted' }, NO_VOICE_MSG),
+        : el('p', { class: 'small muted' }, noVoiceMsg()),
+      el('p', { class: 'small muted' }, `${voiceCount()} voice${voiceCount() === 1 ? '' : 's'} available in this browser in total. Installed a new voice? Fully close and reopen the app — browsers only refresh the voice list on restart.`),
       el('button', { class: 'btn secondary small', onclick: () => speak('გამარჯობა! მე შენი ქართული მასწავლებელი ვარ.') }, '🔊 Test voice')),
     el('div', {},
       el('h3', {}, 'Your data'),

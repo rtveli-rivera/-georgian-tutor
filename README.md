@@ -16,6 +16,12 @@ checker suites run in the browser and show green/red.
 > **Tip for audio:** use Microsoft Edge — it ships a Georgian (ka-GE) voice for
 > text-to-speech. In other browsers, install a Georgian voice via
 > Windows Settings → Time & Language → Speech.
+>
+> **Android:** Google's TTS engine has no Georgian. Install the free **RHVoice**
+> app (Play Store), download its Georgian voice (Natia), set it as the preferred
+> engine under Settings → Text-to-speech output, then fully close and reopen the
+> app. (eSpeak NG also works, more robotically.) **iPhone:** iOS ships no
+> Georgian voice at all — audio buttons stay silent there.
 
 ## Install it on your phone (PWA)
 
