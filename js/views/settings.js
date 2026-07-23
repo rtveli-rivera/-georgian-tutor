@@ -5,6 +5,8 @@ import { currentWeek } from '../lesson.js';
 import { hasKaVoice, speak, noVoiceMsg, voiceCount } from '../tts.js';
 import { remindersEnabled, setRemindersEnabled } from '../reminders.js';
 import { APP_VERSION } from '../app.js';
+import { AZURE_VOICES, azureCfg, azureEnabled, saveAzureCfg, azureTest } from '../azuretts.js';
+import { playBlob } from '../recorder.js';
 
 export async function renderSettingsView(container) {
   clear(container);
@@ -41,6 +43,14 @@ export async function renderSettingsView(container) {
       el('p', { class: 'small muted' }, `${voiceCount()} voice${voiceCount() === 1 ? '' : 's'} available in this browser in total. Installed a new voice? Fully close and reopen the app — browsers only refresh the voice list on restart.`),
       el('button', { class: 'btn secondary small', onclick: () => speak('გამარჯობა! მე შენი ქართული მასწავლებელი ვარ.') }, '🔊 Test voice')),
     el('div', {},
+      el('h3', {}, 'Natural Georgian voice (optional, free Azure key)'),
+      el('p', { class: 'small muted' },
+        'The same neural voices desktop Edge uses (ეკა & გიორგი), on any device. ',
+        'Get a free key: portal.azure.com → Create a resource → “Speech service” → Free F0 tier → copy Key 1 and the Region. ',
+        'The key stays in this browser only; each sentence is fetched from Microsoft once, then cached locally and works offline. ',
+        'Your daily use fits comfortably inside the free 500,000 characters/month.'),
+      azureSection()),
+    el('div', {},
       el('h3', {}, 'Your data'),
       el('p', { class: 'small muted' }, 'Everything is local: IndexedDB in this browser + the JSON seed files. Export your learning state as a backup.'),
       el('div', { class: 'row' },
@@ -54,6 +64,44 @@ export async function renderSettingsView(container) {
         }, '🗑 Reset progress'))),
     el('p', { class: 'small muted' }, `Kartuli Coach v${APP_VERSION}`),
   ));
+
+  function azureSection() {
+    const cfg = azureCfg() || { enabled: false, region: '', key: '', voice: AZURE_VOICES[0].id };
+    const region = el('input', { type: 'text', placeholder: 'Region (e.g. westeurope)', value: cfg.region || '', autocapitalize: 'off', spellcheck: 'false' });
+    const key = el('input', { type: 'password', placeholder: 'Azure Speech key', value: cfg.key || '', autocomplete: 'off' });
+    const voiceSel = el('select', {}, AZURE_VOICES.map(v =>
+      el('option', { value: v.id, selected: cfg.voice === v.id ? 'true' : null }, v.label)));
+    const msg = el('p', { class: 'small' });
+    const wrap = el('div', { class: 'stack' }, region, key, voiceSel,
+      el('div', { class: 'row' },
+        el('button', {
+          class: 'btn small', onclick: async (e) => {
+            e.target.disabled = true;
+            msg.textContent = 'Testing…';
+            await saveAzureCfg({ enabled: true, region: region.value.trim(), key: key.value.trim(), voice: voiceSel.value });
+            const r = await azureTest();
+            e.target.disabled = false;
+            if (r.ok) {
+              msg.textContent = '✓ Working — that’s ' + (voiceSel.value.includes('Eka') ? 'ეკა' : 'გიორგი') + ' you’re hearing. All audio buttons now use this voice.';
+              msg.style.color = 'var(--green)';
+              playBlob(r.blob);
+            } else {
+              await saveAzureCfg({ ...azureCfg(), enabled: false });
+              msg.textContent = '✗ ' + r.message + ' — check the key and region, then try again.';
+              msg.style.color = 'var(--accent)';
+            }
+          },
+        }, 'Save & test'),
+        azureEnabled() ? el('button', {
+          class: 'btn secondary small', onclick: async (e) => {
+            await saveAzureCfg({ ...azureCfg(), enabled: false });
+            msg.textContent = 'Natural voice off — using the device voice again.';
+            e.target.remove();
+          },
+        }, 'Turn off') : null),
+      msg);
+    return wrap;
+  }
 
   async function reminderToggle() {
     const on = await remindersEnabled();

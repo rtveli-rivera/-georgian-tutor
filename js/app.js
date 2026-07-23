@@ -1,8 +1,9 @@
 // app.js — shell: load data, init voice, route between views.
-const APP_VERSION = '1.0.3';
+const APP_VERSION = '1.0.4';
 export { APP_VERSION };
 import { loadData, DATA } from './data.js';
 import { initServiceWorker, startReminderLoop } from './reminders.js';
+import { initAzureTts, azureEnabled } from './azuretts.js';
 import { voicesReady, hasKaVoice, NO_VOICE_MSG } from './tts.js';
 import { el, clear } from './ui.js';
 import { getStreak } from './lesson.js';
@@ -30,10 +31,10 @@ const main = document.getElementById('view');
 
 async function boot() {
   main.append(el('div', { class: 'card' }, el('p', { class: 'muted' }, 'იტვირთება… loading…')));
-  await Promise.all([loadData(), voicesReady()]);
+  await Promise.all([loadData(), voicesReady(), initAzureTts()]);
 
   const banner = document.getElementById('tts-banner');
-  if (!hasKaVoice()) {
+  if (!hasKaVoice() && !azureEnabled()) {
     banner.textContent = '🔇 ' + NO_VOICE_MSG;
     banner.classList.remove('hidden');
   }

@@ -1,6 +1,11 @@
-// tts.js — Web Speech API text-to-speech with ka-GE voice discovery.
+// tts.js — Georgian text-to-speech.
+// Two engines: optional Azure neural voices (natural, cached; see azuretts.js)
+// with automatic fallback to the browser/system ka-GE voice via Web Speech API.
+import { azureEnabled, azureAudio } from './azuretts.js';
+
 let _voice = null;
 let _checked = false;
+let _audio = null; // current Azure playback element
 
 function findKaVoice() {
   const voices = window.speechSynthesis ? speechSynthesis.getVoices() : [];
@@ -29,6 +34,23 @@ export function voicesReady() {
 export function hasKaVoice() { return !!_voice; }
 
 export function speak(text, { rate = 0.9, onend = null } = {}) {
+  stopSpeaking();
+  if (azureEnabled()) {
+    // Fire-and-forget: fetch (or hit cache), play; fall back to system voice on error.
+    azureAudio(text, rate)
+      .then((blob) => {
+        const url = URL.createObjectURL(blob);
+        _audio = new Audio(url);
+        _audio.onended = () => { URL.revokeObjectURL(url); if (onend) onend(); };
+        return _audio.play();
+      })
+      .catch(() => systemSpeak(text, rate, onend));
+    return true;
+  }
+  return systemSpeak(text, rate, onend);
+}
+
+function systemSpeak(text, rate, onend) {
   if (!window.speechSynthesis) return false;
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'ka-GE';
@@ -42,6 +64,7 @@ export function speak(text, { rate = 0.9, onend = null } = {}) {
 
 export function stopSpeaking() {
   if (window.speechSynthesis) speechSynthesis.cancel();
+  if (_audio) { _audio.pause(); _audio = null; }
 }
 
 export function noVoiceMsg() {

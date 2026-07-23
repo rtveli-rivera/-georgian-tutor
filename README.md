@@ -22,6 +22,13 @@ checker suites run in the browser and show green/red.
 > engine under Settings → Text-to-speech output, then fully close and reopen the
 > app. (eSpeak NG also works, more robotically.) **iPhone:** iOS ships no
 > Georgian voice at all — audio buttons stay silent there.
+>
+> **Best quality anywhere — natural neural voices (optional):** Settings →
+> "Natural Georgian voice" lets you paste a free Azure Speech key (portal.azure.com
+> → Speech service → F0 free tier, 500K chars/month). The app then speaks with
+> ka-GE-EkaNeural / GiorgiNeural — the voices desktop Edge ships — on any device,
+> caching every sentence locally so repeats are instant and offline. The key
+> never leaves your browser.
 
 ## Install it on your phone (PWA)
 

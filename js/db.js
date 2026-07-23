@@ -1,6 +1,6 @@
 // db.js — thin promise wrapper around IndexedDB. Single local DB, no cloud.
 const DB_NAME = 'kartuli';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
 
 let _db = null;
 
@@ -37,6 +37,9 @@ export function openDB() {
       }
       if (!db.objectStoreNames.contains('verifyFlags')) {
         db.createObjectStore('verifyFlags', { keyPath: 'itemId' });
+      }
+      if (!db.objectStoreNames.contains('ttsCache')) {
+        db.createObjectStore('ttsCache', { keyPath: 'key' });
       }
     };
     req.onsuccess = () => { _db = req.result; resolve(_db); };

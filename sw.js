@@ -3,7 +3,7 @@
 // Cache strategy: cache-first for the app shell (fully static). Bump CACHE
 // (via bump.py) when files change so browsers notice a new release.
 
-const CACHE = 'kartuli-v4';
+const CACHE = 'kartuli-v5';
 
 const ASSETS = [
   './',
@@ -21,6 +21,8 @@ const ASSETS = [
   './js/tts.js',
   './js/recorder.js',
   './js/reminders.js',
+  './js/azuretts.js',
+  './vendor/speech-sdk.min.js',
   './js/ui.js',
   './js/views/today.js',
   './js/views/review.js',
