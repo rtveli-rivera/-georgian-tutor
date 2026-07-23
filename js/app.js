@@ -1,10 +1,10 @@
 // app.js — shell: load data, init voice, route between views.
-const APP_VERSION = '1.0.5';
+const APP_VERSION = '1.0.6';
 export { APP_VERSION };
 import { loadData, DATA } from './data.js';
 import { initServiceWorker, startReminderLoop } from './reminders.js';
-import { initAzureTts, azureEnabled } from './azuretts.js';
-import { voicesReady, hasKaVoice, NO_VOICE_MSG } from './tts.js';
+import { initAzureTts } from './azuretts.js';
+import { voicesReady } from './tts.js';
 import { el, clear } from './ui.js';
 import { getStreak } from './lesson.js';
 import { renderTodayView } from './views/today.js';
@@ -33,16 +33,12 @@ async function boot() {
   main.append(el('div', { class: 'card' }, el('p', { class: 'muted' }, 'იტვირთება… loading…')));
   await Promise.all([loadData(), voicesReady(), initAzureTts()]);
 
-  const banner = document.getElementById('tts-banner');
-  if (!hasKaVoice() && !azureEnabled()) {
-    banner.textContent = '🔇 ' + NO_VOICE_MSG;
-    banner.classList.remove('hidden');
-  }
+  // (No-voice warning banner removed by request — voice status now lives
+  //  only in Settings. The banner element still surfaces data-load errors.)
   if (DATA.loadErrors.length) {
     const b = document.getElementById('tts-banner');
     b.classList.remove('hidden');
-    b.textContent = (b.textContent ? b.textContent + '  ' : '') +
-      `⚠ Some seed files failed to load: ${DATA.loadErrors.join('; ')}`;
+    b.textContent = `⚠ Some seed files failed to load: ${DATA.loadErrors.join('; ')}`;
   }
 
   const streak = await getStreak();
