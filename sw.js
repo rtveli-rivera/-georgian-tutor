@@ -3,7 +3,7 @@
 // Cache strategy: cache-first for the app shell (fully static). Bump CACHE
 // (via bump.py) when files change so browsers notice a new release.
 
-const CACHE = 'kartuli-v10';
+const CACHE = 'kartuli-v11';
 
 const ASSETS = [
   './',
@@ -164,8 +164,6 @@ async function runDailyLessonCheck() {
   // Once per calendar day, shared with the in-app notifier.
   const notifyLog = (await idbGetState('notifyLog')) || {};
   if (notifyLog.lesson === today) return;
-  notifyLog.lesson = today;
-  await idbPutState('notifyLog', notifyLog);
 
   const streakRow = (await idbGetState('streak')) || { count: 0, lastDay: null };
   const y = new Date(); y.setDate(y.getDate() - 1);
@@ -178,6 +176,9 @@ async function runDailyLessonCheck() {
     icon: './icons/icon-192.png',
     badge: './icons/icon-192.png',
   });
+  // Stamp only after the notification actually showed, so a failure retries.
+  notifyLog.lesson = today;
+  await idbPutState('notifyLog', notifyLog);
 }
 
 self.addEventListener('periodicsync', (event) => {

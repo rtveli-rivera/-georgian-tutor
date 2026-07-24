@@ -100,7 +100,10 @@ export async function setRemindersEnabled(on) {
 }
 
 // Background wake-ups on installed Android/Chromium PWAs. Harmless no-op elsewhere.
-async function registerPeriodicSync() {
+// Called on EVERY app start (not just at toggle time): Chrome only grants the
+// periodic-background-sync permission once the app is installed and used, so
+// a toggle flipped too early would otherwise never get its registration.
+export async function registerPeriodicSync() {
   try {
     if (!_reg || !('periodicSync' in _reg)) return false;
     const status = await navigator.permissions.query({ name: 'periodic-background-sync' });
@@ -122,8 +125,6 @@ export async function inAppDailyCheck() {
 
   const notifyLog = await getState('notifyLog', {});
   if (notifyLog.lesson === today) return;
-  notifyLog.lesson = today;
-  await setState('notifyLog', notifyLog);
 
   const streak = await getState('streak', { count: 0, lastDay: null });
   const y = new Date(); y.setDate(y.getDate() - 1);
@@ -144,11 +145,53 @@ export async function inAppDailyCheck() {
   try {
     if (_reg) await _reg.showNotification(title, { body, tag: 'kartuli-daily', icon: './icons/icon-192.png', badge: './icons/icon-192.png' });
     else new Notification(title, { body });
-  } catch { /* notification blocked mid-flight; the in-app banner still shows */ }
+    // Stamp the once-per-day log only AFTER the notification actually showed,
+    // so a failed attempt doesn't burn the whole day.
+    notifyLog.lesson = today;
+    await setState('notifyLog', notifyLog);
+  } catch { /* notification blocked mid-flight; we'll retry on next check */ }
 }
 
-export function startReminderLoop() {
+export async function startReminderLoop() {
+  if (await remindersEnabled()) registerPeriodicSync(); // re-attempt every boot
   inAppDailyCheck();
   window.addEventListener('focus', inAppDailyCheck);
+  document.addEventListener('visibilitychange', () => {
+    if (document.visibilityState === 'visible') inAppDailyCheck();
+  });
   setInterval(inAppDailyCheck, 60 * 60 * 1000);
+}
+
+// --- Settings diagnostics ---------------------------------------------------
+
+export async function reminderDiagnostics() {
+  const d = {
+    enabled: await remindersEnabled(),
+    permission: ('Notification' in window) ? Notification.permission : 'unsupported',
+    swActive: !!(_reg && _reg.active),
+    periodicSync: 'unsupported',
+    lastNotified: (await getState('notifyLog', {})).lesson || 'never',
+  };
+  try {
+    if (_reg && 'periodicSync' in _reg) {
+      const tags = await _reg.periodicSync.getTags();
+      d.periodicSync = tags.includes('kartuli-daily-check') ? 'registered' : 'not registered';
+    }
+  } catch { d.periodicSync = 'unavailable'; }
+  return d;
+}
+
+export async function sendTestNotification() {
+  if (!('Notification' in window)) return 'unsupported';
+  if (Notification.permission !== 'granted') {
+    const p = await Notification.requestPermission();
+    if (p !== 'granted') return 'denied';
+  }
+  try {
+    if (_reg) await _reg.showNotification('🇬🇪 Test — kartuli coach', { body: 'Notifications work! ეს ტესტია.', tag: 'kartuli-test', icon: './icons/icon-192.png' });
+    else new Notification('🇬🇪 Test — kartuli coach', { body: 'Notifications work! ეს ტესტია.' });
+    return 'sent';
+  } catch (e) {
+    return 'failed: ' + e.message;
+  }
 }

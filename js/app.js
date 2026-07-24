@@ -1,5 +1,5 @@
 // app.js — shell: load data, init voice, route between views.
-const APP_VERSION = '1.0.9';
+const APP_VERSION = '1.0.10';
 export { APP_VERSION };
 import { loadData, DATA } from './data.js';
 import { initServiceWorker, startReminderLoop } from './reminders.js';

@@ -3,7 +3,7 @@ import { el, clear } from '../ui.js';
 import { getState, setState, getAll, openDB } from '../db.js';
 import { currentWeek } from '../lesson.js';
 import { hasKaVoice, speak, noVoiceMsg, voiceCount } from '../tts.js';
-import { remindersEnabled, setRemindersEnabled, checkForUpdate } from '../reminders.js';
+import { remindersEnabled, setRemindersEnabled, checkForUpdate, reminderDiagnostics, sendTestNotification } from '../reminders.js';
 import { APP_VERSION } from '../app.js';
 import { AZURE_VOICES, azureCfg, azureEnabled, saveAzureCfg, azureTest } from '../azuretts.js';
 import { playBlob } from '../recorder.js';
@@ -34,7 +34,8 @@ export async function renderSettingsView(container) {
       el('h3', {}, 'Daily lesson reminder'),
       el('p', { class: 'small muted' },
         'One nudge a day (never more) until the lesson is done. Works while the app is open on any device; installed as an Android app it also fires in the background ~once a day. iPhones only remind when you open the app — Apple allows no more without a cloud server.'),
-      await reminderToggle()),
+      await reminderToggle(),
+      await reminderStatus()),
     el('div', {},
       el('h3', {}, 'Georgian voice (TTS)'),
       hasKaVoice()
@@ -119,6 +120,32 @@ export async function renderSettingsView(container) {
         }, 'Turn off') : null),
       msg);
     return wrap;
+  }
+
+  async function reminderStatus() {
+    const d = await reminderDiagnostics();
+    const line = (label, value, good) => el('div', { class: 'small' },
+      el('span', { class: 'muted' }, label + ': '),
+      el('span', { style: good ? 'color:var(--green)' : 'color:var(--gold)' }, value));
+    const msg = el('span', { class: 'small muted' });
+    return el('div', { style: 'margin-top:10px' },
+      line('Notification permission', d.permission, d.permission === 'granted'),
+      line('Background daily check (Android, installed app)', d.periodicSync,
+        d.periodicSync === 'registered'),
+      line('Last reminder shown', d.lastNotified, d.lastNotified !== 'never'),
+      d.periodicSync !== 'registered'
+        ? el('p', { class: 'small muted' },
+          'Background checks register once the app is installed to the home screen and used a few times — Android grants them based on engagement, and decides the exact delivery moment (usually while charging or on Wi-Fi). Until then, reminders fire when you open the app.')
+        : null,
+      el('div', { class: 'row', style: 'margin-top:6px' },
+        el('button', {
+          class: 'btn secondary small', onclick: async () => {
+            const r = await sendTestNotification();
+            msg.textContent = r === 'sent' ? ' ✓ Sent — did it appear?'
+              : r === 'denied' ? ' Notifications are blocked for this app in Android settings.'
+              : ' ' + r;
+          },
+        }, '🔔 Send test notification'), msg));
   }
 
   async function reminderToggle() {
